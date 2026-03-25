@@ -1,0 +1,12 @@
+# Salmon HVAC Website - Static HTML site
+# No build step required
+
+[build]
+  publish = "."
+
+# Redirect for SPA-style navigation (if needed)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
