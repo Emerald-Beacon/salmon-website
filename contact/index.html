@@ -36,6 +36,62 @@
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css">
 
+  <!-- ContactPage Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Salmon HVAC",
+    "description": "Contact Salmon HVAC for AC repair, furnace service, and HVAC installation in Northern Utah. Call (801) 397-0030 or fill out our online form.",
+    "url": "https://salmonhvac.com/contact/",
+    "mainEntity": {
+      "@type": "HVACBusiness",
+      "@id": "https://salmonhvac.com/#organization",
+      "name": "Salmon HVAC",
+      "telephone": "+18013970030",
+      "email": "office@salmonhvac.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "105 S Main St",
+        "addressLocality": "Centerville",
+        "addressRegion": "UT",
+        "postalCode": "84014",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "07:00",
+          "closes": "18:00"
+        }
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+18013970030",
+          "contactType": "customer service",
+          "areaServed": ["Davis County", "Weber County", "Salt Lake County", "Morgan County"],
+          "availableLanguage": "English"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+18013970030",
+          "contactType": "emergency",
+          "areaServed": ["Davis County", "Weber County", "Salt Lake County", "Morgan County"],
+          "availableLanguage": "English",
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "00:00",
+            "closes": "23:59"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
   <!-- BreadcrumbList Schema -->
   <script type="application/ld+json">
   {

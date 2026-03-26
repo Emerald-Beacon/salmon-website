@@ -1,4 +1,14 @@
+# Salmon HVAC Robots.txt
+# https://salmonhvac.com
+
 User-agent: *
 Allow: /
 
+# Sitemap location
 Sitemap: https://salmonhvac.com/sitemap.xml
+
+# LLMs.txt for AI assistants
+# See: https://salmonhvac.com/llms.txt
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
