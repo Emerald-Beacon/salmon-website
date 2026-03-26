@@ -1,0 +1,14 @@
+# WordPress slug redirects (old Divi URLs → new structure)
+/services                              /services/                301
+/commercial-hvac-services-in-northern-utah*  /services/commercial-hvac/  301
+/residential-hvac-services*            /services/                 301
+
+# Old pages directory redirects
+/pages/about.html                      /about/                    301
+/pages/services.html                   /services/                 301
+/pages/locations.html                  /areas/                    301
+/pages/contact.html                    /contact/                  301
+/pages/blog.html                       /blog/                     301
+
+# Salmon Mechanical consolidation (configure at DNS level)
+# salmonmechanical.com → salmonhvac.com/services/commercial-hvac/
