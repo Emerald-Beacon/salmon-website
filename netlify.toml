@@ -1,3 +1,12 @@
+# ============================================
+# SALMON HVAC - NETLIFY CONFIGURATION
+# ============================================
+# IMPORTANT: This site MUST only deploy to:
+#   Site Name: salmon-hvac
+#   Site ID:   a9896567-7739-4354-be13-b04aad4e384f
+#   URL:       https://salmon-hvac.netlify.app
+# ============================================
+
 [build]
   publish = "."
   command = "node scripts/generate-sitemap.js"

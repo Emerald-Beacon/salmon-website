@@ -1,0 +1,7 @@
+# Salmon HVAC Netlify Site Configuration
+# This file ensures deployments only go to the correct Netlify site
+
+SITE_ID=a9896567-7739-4354-be13-b04aad4e384f
+SITE_NAME=salmon-hvac
+EXPECTED_URL=https://salmon-hvac.netlify.app
+REPO_NAME=salmon-website
