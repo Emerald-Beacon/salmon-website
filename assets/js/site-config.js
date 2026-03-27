@@ -57,6 +57,9 @@ const SITE_CONFIG = {
     { name: "Sandy", slug: "sandy-ut", county: "Salt Lake", tier: 2 },
     { name: "West Jordan", slug: "west-jordan-ut", county: "Salt Lake", tier: 2 },
     { name: "Draper", slug: "draper-ut", county: "Salt Lake", tier: 2 },
+    { name: "North Salt Lake", slug: "north-salt-lake-ut", county: "Davis", tier: 2 },
+    { name: "Woods Cross", slug: "woods-cross-ut", county: "Davis", tier: 2 },
+    { name: "West Bountiful", slug: "west-bountiful-ut", county: "Davis", tier: 2 },
   ],
 };
 
