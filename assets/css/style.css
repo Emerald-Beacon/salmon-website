@@ -1880,11 +1880,129 @@ a.service-card:hover .service-card-icon {
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 24px;
     margin-top: 60px;
 }
 
+/* Flip Card Styles */
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 380px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 20px;
+    box-sizing: border-box;
+}
+
+.flip-card-front {
+    background: linear-gradient(135deg, var(--brand-ice) 0%, var(--brand-magenta) 100%);
+    color: #fff;
+}
+
+.flip-card-back {
+    background: linear-gradient(135deg, var(--brand-magenta) 0%, var(--brand-ice) 100%);
+    color: #fff;
+    transform: rotateY(180deg);
+}
+
+.flip-card-front img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    margin-bottom: 16px;
+}
+
+.flip-card-avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.flip-card-front h3 {
+    font-size: 1.15rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 6px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.flip-card-front .flip-title {
+    font-size: 0.8rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.flip-card-back h3 {
+    font-size: 1.15rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.flip-card-back .flip-title {
+    font-size: 0.8rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 14px;
+}
+
+.flip-card-back p {
+    font-size: 0.85rem;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+/* Legacy static team card (kept for compatibility) */
 .team-card {
     text-align: center;
 }
