@@ -985,7 +985,7 @@ a.service-card:hover .service-card-icon {
 }
 
 .reviews-count {
-    color: var(--text-muted);
+    color: #b0b8c4;
     font-weight: 400;
 }
 
