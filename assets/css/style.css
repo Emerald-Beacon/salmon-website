@@ -2587,3 +2587,167 @@ a.service-card:hover .service-card-icon {
         padding: 140px 0 70px;
     }
 }
+
+/* ============================================
+   MOBILE FIXES — comprehensive pass
+   ============================================ */
+
+/* --- 768px: existing block additions --- */
+@media (max-width: 768px) {
+
+    /* Flip card team grid — allow full-width cards */
+    .flip-card {
+        flex: 0 1 calc(50% - 12px);
+        height: 320px;
+    }
+
+    /* Quote page sidebar stacks */
+    .quote-layout {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    /* Quote form container padding */
+    .quote-form-container {
+        padding: 32px 24px;
+    }
+
+    /* Reviews heading block spacing */
+    .reviews-heading-block {
+        margin-bottom: 36px;
+    }
+
+    /* Footer gap tighter */
+    .footer-grid {
+        gap: 24px;
+    }
+
+    /* Map reduced height on mobile */
+    .map-embed iframe {
+        height: 300px;
+    }
+}
+
+/* --- 540px: small tablets / large phones --- */
+@media (max-width: 540px) {
+
+    /* Trust badges wrap to 2x2 grid */
+    .trust-badges-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    /* Service cards go full width */
+    .service-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    /* About why grid stacks */
+    .about-why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Form rows stack earlier */
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    /* Testimonial cards full width */
+    .testimonial-card {
+        padding: 28px 20px;
+    }
+
+    /* Services photo grid 1 col sooner */
+    .services-photo-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --- 480px: phones --- */
+@media (max-width: 480px) {
+
+    /* Flip cards go single column on small phones */
+    .flip-card {
+        flex: 0 1 100%;
+        max-width: 280px;
+        height: 300px;
+    }
+
+    .team-grid {
+        gap: 16px;
+    }
+
+    /* Areas grid single column on very small screens */
+    .areas-grid {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    /* Area link full width */
+    .area-link {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    /* Trust badges stack to 1 col on tiny phones */
+    .trust-badges-row {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    /* Quote form container tight */
+    .quote-form-container {
+        padding: 24px 16px;
+    }
+
+    /* Quote sidebar cards */
+    .quote-sidebar-card {
+        padding: 20px 16px;
+    }
+
+    /* Contact form tighter */
+    .contact-form-container {
+        padding: 24px 16px;
+    }
+
+    /* Footer legal links stack */
+    .footer-legal-links {
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+    }
+
+    /* Hero CTA group full-width buttons */
+    .hero-cta-group .btn {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    /* Map reduced height on small phones */
+    .map-embed iframe {
+        height: 240px;
+    }
+
+    /* Section headings smaller on mobile */
+    .section-header h2 {
+        font-size: clamp(1.4rem, 6vw, 2rem);
+    }
+}
+
+/* Global overflow guard — prevents any element causing horizontal scroll */
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    max-width: 100%;
+}
