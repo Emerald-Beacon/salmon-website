@@ -1588,6 +1588,22 @@ a.service-card:hover .service-card-icon {
     color: var(--brand-magenta);
 }
 
+.footer-emergency-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+    padding: 3px 8px;
+    background: rgba(228, 87, 240, 0.15);
+    border: 1px solid var(--brand-magenta);
+    color: var(--brand-magenta);
+    font-size: 0.78rem;
+    font-weight: 700;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
 .footer-social {
     display: flex;
     gap: 10px;
