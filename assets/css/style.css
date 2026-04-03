@@ -1128,6 +1128,38 @@ a.service-card:hover .service-card-icon {
     opacity: 0.5;
 }
 
+.about-video {
+    background: var(--dark-bg);
+    min-height: 650px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Sharp frame accent — matches .about-image::after */
+.about-video::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    border: 3px solid var(--brand-ice);
+    pointer-events: none;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.about-video iframe {
+    width: 330px;
+    height: 587px;
+    border: none;
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
 .about-content {
     background: var(--light-bg);
     padding: 80px 60px;
@@ -2225,6 +2257,15 @@ a.service-card:hover .service-card-icon {
         min-height: 400px;
     }
 
+    .about-video {
+        min-height: 500px;
+    }
+
+    .about-video iframe {
+        width: 281px;
+        height: 500px;
+    }
+
     .services-photo-grid {
         grid-template-columns: 1fr 1fr;
     }
@@ -2595,6 +2636,15 @@ a.service-card:hover .service-card-icon {
 
     .form-row {
         grid-template-columns: 1fr;
+    }
+
+    .about-video {
+        min-height: 420px;
+    }
+
+    .about-video iframe {
+        width: 236px;
+        height: 420px;
     }
 
     .about-content {
