@@ -2681,7 +2681,7 @@ a.service-card:hover .service-card-icon {
     }
 
     .services-grid {
-        grid-template-columns: 1fr;
+        gap: 16px;
     }
 
     .trust-section::before,
@@ -2771,10 +2771,11 @@ a.service-card:hover .service-card-icon {
         gap: 20px;
     }
 
-    /* Service cards go full width */
+    /* Service cards — 2 columns on mobile */
     .service-card {
-        flex: 1 1 100%;
-        max-width: 100%;
+        flex: 1 1 calc(50% - 12px);
+        max-width: calc(50% - 12px);
+        padding: 28px 16px;
     }
 
     /* About why grid stacks */
