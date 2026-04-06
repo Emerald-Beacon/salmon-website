@@ -2,7 +2,7 @@
    SALMON HVAC - Premium Brand Stylesheet
 
    Brand Identity:
-   - Primary Magenta: #e457f0 (vibrant, energetic)
+   - Primary Magenta: #e56cc3 (vibrant, energetic)
    - Primary Ice Blue: #98f2ff (cool, technical)
    - Sharp, angular, boxy design (matches logo)
    - Modern tech-forward aesthetic
@@ -22,14 +22,14 @@
 
 :root {
     /* Brand Colors */
-    --brand-magenta: #e457f0;
-    --brand-magenta-light: #ed7ff5;
-    --brand-magenta-dark: #c93dd4;
+    --brand-magenta: #e56cc3;
+    --brand-magenta-light: #ed8fd5;
+    --brand-magenta-dark: #c257a4;
     --brand-ice: #98f2ff;
     --brand-ice-light: #b8f6ff;
     --brand-ice-dark: #6eeaff;
     --brand-ice-soft: rgba(152, 242, 255, 0.12);
-    --brand-magenta-soft: rgba(228, 87, 240, 0.12);
+    --brand-magenta-soft: rgba(229, 108, 195, 0.12);
 
     /* Dark Tones */
     --dark-bg: #0d0d0d;
@@ -50,19 +50,19 @@
     --text-inverse-muted: rgba(255, 255, 255, 0.7);
 
     /* Brand Gradients */
-    --gradient-brand: linear-gradient(135deg, #e457f0 0%, #98f2ff 100%);
-    --gradient-brand-reverse: linear-gradient(135deg, #98f2ff 0%, #e457f0 100%);
-    --gradient-brand-horizontal: linear-gradient(90deg, #e457f0 0%, #98f2ff 100%);
-    --gradient-brand-vertical: linear-gradient(180deg, #e457f0 0%, #98f2ff 100%);
+    --gradient-brand: linear-gradient(135deg, #e56cc3 0%, #98f2ff 100%);
+    --gradient-brand-reverse: linear-gradient(135deg, #98f2ff 0%, #e56cc3 100%);
+    --gradient-brand-horizontal: linear-gradient(90deg, #e56cc3 0%, #98f2ff 100%);
+    --gradient-brand-vertical: linear-gradient(180deg, #e56cc3 0%, #98f2ff 100%);
     --gradient-dark: linear-gradient(180deg, rgba(13, 13, 13, 0.95) 0%, rgba(26, 26, 26, 0.9) 100%);
 
     /* Shadows */
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
     --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.2);
     --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.25);
-    --shadow-brand-magenta: 0 8px 30px rgba(228, 87, 240, 0.3);
+    --shadow-brand-magenta: 0 8px 30px rgba(229, 108, 195, 0.3);
     --shadow-brand-ice: 0 8px 30px rgba(152, 242, 255, 0.3);
-    --shadow-glow-magenta: 0 0 30px rgba(228, 87, 240, 0.4);
+    --shadow-glow-magenta: 0 0 30px rgba(229, 108, 195, 0.4);
     --shadow-glow-ice: 0 0 30px rgba(152, 242, 255, 0.4);
 
     /* Spacing */
@@ -1658,7 +1658,7 @@ a.service-card:hover .service-card-icon {
     gap: 5px;
     margin-top: 5px;
     padding: 3px 8px;
-    background: rgba(228, 87, 240, 0.15);
+    background: rgba(229, 108, 195, 0.15);
     border: 1px solid var(--brand-magenta);
     color: var(--brand-magenta);
     font-size: 0.78rem;
