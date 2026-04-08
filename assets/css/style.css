@@ -3024,6 +3024,10 @@ a.service-card:hover .service-card-icon {
     margin-bottom: 40px;
 }
 
+.clients-section .section-header h2 {
+    color: var(--text-inverse);
+}
+
 .clients-section .section-header p {
     color: var(--text-light);
     font-size: 1rem;
