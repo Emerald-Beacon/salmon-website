@@ -3125,6 +3125,33 @@ a.service-card:hover .service-card-icon {
     max-width: none;
 }
 
+@media (max-width: 768px) {
+    .clients-section {
+        padding: 40px 0;
+    }
+
+    .client-logo-item {
+        padding: 0 28px;
+    }
+
+    .client-logo-item::after {
+        margin-left: 28px;
+    }
+
+    .client-logo-link img {
+        height: 28px;
+        max-width: 100px;
+        /* Re-assert filter in case mobile specificity knocks it out */
+        filter: brightness(0) invert(1) !important;
+        opacity: 0.55;
+    }
+
+    .client-logo-link img.logo-light-bg {
+        filter: invert(1) grayscale(1) brightness(1.4) !important;
+        mix-blend-mode: screen;
+    }
+}
+
 img, video {
     max-width: 100%;
     height: auto;
