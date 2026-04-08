@@ -186,7 +186,7 @@ ul { list-style: none; }
 
 .nav-menu {
     display: flex;
-    gap: 4px;
+    gap: 0;
     align-items: center;
 }
 
@@ -194,11 +194,11 @@ ul { list-style: none; }
     color: var(--text-inverse-muted);
     font-family: 'Rajdhani', sans-serif;
     font-weight: 600;
-    font-size: 0.95rem;
-    padding: 10px 16px;
+    font-size: 0.875rem;
+    padding: 8px 10px;
     position: relative;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.05em;
     transition: var(--transition-fast);
 }
 
@@ -226,8 +226,8 @@ ul { list-style: none; }
     background: var(--brand-magenta);
     color: var(--text-inverse) !important;
     font-weight: 700;
-    padding: 12px 28px;
-    margin-left: 16px;
+    padding: 10px 20px;
+    margin-left: 8px;
     position: relative;
     overflow: hidden;
     clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
