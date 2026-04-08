@@ -3057,7 +3057,7 @@ a.service-card:hover .service-card-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 36px;
+    padding: 0 48px;
     flex-shrink: 0;
 }
 
@@ -3065,35 +3065,34 @@ a.service-card:hover .service-card-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 14px 28px;
-    border: 1px solid var(--dark-border);
-    background: var(--dark-elevated);
-    color: var(--text-light);
     text-decoration: none;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    white-space: nowrap;
-    transition: border-color 0.25s ease, color 0.25s ease, background 0.25s ease;
-    clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+    transition: opacity 0.25s ease;
 }
 
-.client-logo-link:hover {
-    border-color: var(--brand-ice);
-    color: var(--brand-ice);
-    background: rgba(152, 242, 255, 0.06);
+.client-logo-link img {
+    height: 44px;
+    width: auto;
+    max-width: 160px;
+    object-fit: contain;
+    /* Force all logos white so they're visible on the dark background */
+    filter: brightness(0) invert(1);
+    opacity: 0.55;
+    transition: opacity 0.25s ease, filter 0.25s ease;
 }
 
-/* Divider dots between items */
+.client-logo-link:hover img {
+    opacity: 1;
+    filter: brightness(0) invert(1) sepia(1) saturate(2) hue-rotate(160deg);
+}
+
+/* Divider rule between items */
 .client-logo-item::after {
     content: '';
     display: block;
-    width: 4px;
-    height: 4px;
+    width: 1px;
+    height: 28px;
     background: var(--dark-border);
-    border-radius: 50%;
-    margin-left: 36px;
+    margin-left: 48px;
     flex-shrink: 0;
 }
 
