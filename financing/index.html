@@ -39,10 +39,105 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://salmonhvac.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Financing", "item": "https://salmonhvac.com/financing/"}
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/financing/#webpage",
+        "url": "https://salmonhvac.com/financing/",
+        "name": "HVAC Financing Options in Northern Utah | Salmon HVAC",
+        "description": "Flexible financing for AC installation, furnace replacement, heat pumps, and more. Apply online in minutes. Salmon HVAC serves Davis, Weber & Salt Lake County.",
+        "inLanguage": "en-US",
+        "isPartOf": {"@id": "https://salmonhvac.com/#website"},
+        "breadcrumb": {"@id": "https://salmonhvac.com/financing/#breadcrumb"},
+        "about": {"@id": "https://salmonhvac.com/#organization"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://salmonhvac.com/financing/#breadcrumb",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://salmonhvac.com/"},
+          {"@type": "ListItem", "position": 2, "name": "Financing", "item": "https://salmonhvac.com/financing/"}
+        ]
+      },
+      {
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/financing/#service",
+        "name": "HVAC Financing",
+        "serviceType": "HVAC Equipment Financing",
+        "description": "Flexible financing for HVAC installations and replacements including AC, furnaces, heat pumps, ductless mini-splits, and VRF systems. Apply online in minutes through our partner Optimus, administered by EGIA.",
+        "url": "https://salmonhvac.com/financing/",
+        "provider": {
+          "@type": "HVACBusiness",
+          "@id": "https://salmonhvac.com/#organization",
+          "name": "Salmon HVAC",
+          "telephone": "+18013970030",
+          "url": "https://salmonhvac.com"
+        },
+        "areaServed": [
+          {"@type": "AdministrativeArea", "name": "Davis County, UT"},
+          {"@type": "AdministrativeArea", "name": "Weber County, UT"},
+          {"@type": "AdministrativeArea", "name": "Salt Lake County, UT"},
+          {"@type": "AdministrativeArea", "name": "Morgan County, UT"}
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Financeable HVAC Services",
+          "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation Financing"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation Financing"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump System Financing"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ductless Mini-Split Financing"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "VRF System Financing"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Indoor Air Quality Equipment Financing"}}
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://salmonhvac.com/financing/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Who provides the HVAC financing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Salmon HVAC offers financing through Optimus, a financing program administered through EGIA (Electric & Gas Industries Association). It's designed specifically for HVAC contractors and their customers, with straightforward terms and a quick application process."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does the HVAC financing application take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The online application typically takes just a few minutes to complete. You'll receive your financing decision promptly after submitting."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does applying for HVAC financing affect my credit score?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Please review the terms presented during the application process for details on credit inquiry type. If you have questions before applying, call Salmon HVAC at (801) 397-0030."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use HVAC financing together with rebates or tax credits?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Financing and rebates are completely separate. You can apply for financing to cover your upfront costs and still receive Rocky Mountain Power Wattsmart rebates or federal tax credits for qualifying high-efficiency HVAC equipment. Salmon HVAC will help you identify what you're eligible for."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What HVAC equipment can be financed through Salmon HVAC?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Financing is available for most Salmon HVAC installation and replacement projects, including central AC installation and replacement, furnace installation and replacement, heat pump systems, ductless mini-split systems, VRF systems, indoor air quality equipment, and complete HVAC system replacements."
+            }
+          }
+        ]
+      }
     ]
   }
   </script>
