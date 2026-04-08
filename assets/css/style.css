@@ -3089,6 +3089,18 @@ a.service-card:hover .service-card-icon {
     filter: brightness(0) invert(1) sepia(1) saturate(2) hue-rotate(160deg);
 }
 
+/* For logos with a white/opaque background — invert makes bg black,
+   then screen blend mode dissolves the black into the dark surface */
+.client-logo-link img.logo-light-bg {
+    filter: invert(1) grayscale(1) brightness(1.4);
+    mix-blend-mode: screen;
+}
+
+.client-logo-link:hover img.logo-light-bg {
+    filter: invert(1) grayscale(1) brightness(2) sepia(1) saturate(2) hue-rotate(160deg);
+    mix-blend-mode: screen;
+}
+
 /* Divider rule between items */
 .client-logo-item::after {
     content: '';
