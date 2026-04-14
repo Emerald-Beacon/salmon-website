@@ -3160,3 +3160,112 @@ img, video {
 iframe {
     max-width: 100%;
 }
+
+/* ============================================
+   Blog Article Body Typography
+   Scoped to main article so it doesn't affect
+   service/area pages or the blog index grid.
+   ============================================ */
+
+main article p {
+    font-size: 1.05rem;
+    line-height: 1.9;
+    margin-bottom: 1.4rem;
+    color: var(--text-medium);
+}
+
+main article h2 {
+    font-size: clamp(1.35rem, 2.5vw, 1.65rem);
+    line-height: 1.25;
+    margin-top: 2.75rem;
+    margin-bottom: 0.85rem;
+}
+
+main article h3 {
+    font-size: clamp(1rem, 1.8vw, 1.15rem);
+    line-height: 1.35;
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+main article h4 {
+    font-size: 0.95rem;
+    line-height: 1.35;
+    margin-top: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+
+main article section {
+    margin-bottom: 0.5rem;
+}
+
+main article ul,
+main article ol {
+    margin-bottom: 1.4rem;
+    padding-left: 1.5rem;
+}
+
+main article li {
+    font-size: 1.05rem;
+    line-height: 1.85;
+    margin-bottom: 0.35rem;
+    color: var(--text-medium);
+}
+
+/* First h2 in the article body shouldn't have extra top margin */
+main article section:first-of-type h2 {
+    margin-top: 0;
+}
+
+/* Callout box and info box paragraphs — tighter inside styled divs */
+main article div[style*="border-left"] p,
+main article div[style*="background:#f9fafb"] p,
+main article div[style*="background:#fff3cd"] p {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+main article div[style*="border-left"] p:last-child,
+main article div[style*="background:#f9fafb"] p:last-child,
+main article div[style*="background:#fff3cd"] p:last-child {
+    margin-bottom: 0;
+}
+
+/* In-article CTA box — white text, tighter paragraph spacing */
+main article section[style*="background:#0f4c81"] p {
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+/* Related articles grid text */
+main article section[style*="margin:3rem"] p {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    margin-bottom: 0;
+}
+
+/* Article byline — don't inherit article p styles */
+.article-byline {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+    main article p,
+    main article li {
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+
+    main article h2 {
+        font-size: 1.25rem;
+        margin-top: 2.25rem;
+    }
+
+    main article h3 {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+}
