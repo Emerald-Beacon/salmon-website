@@ -537,40 +537,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h2 id="blog-heading">HVAC Resources for Utah Homeowners</h2>
         <div class="section-divider" style="background: #2a2a2a;"></div>
       </div>
-      <div class="blog-grid">
-        <article class="blog-card">
-          <div class="blog-card-image">
-            <img src="/assets/images/hvac-outdoor-unit.webp" alt="Heat pump installed outside Utah home — Utah heat pump rebates guide" width="400" height="250">
-          </div>
-          <div class="blog-card-content">
-            <h3><a href="/blog/utah-heat-pump-rebates-guide/">Utah Heat Pump Rebates &amp; Tax Credits: The Complete 2026 Guide</a></h3>
-            <p>Learn how to stack Rocky Mountain Power Wattsmart rebates, Dominion Energy ThermWise incentives, and federal IRA tax credits to save thousands on a heat pump installation.</p>
-            <a href="/blog/utah-heat-pump-rebates-guide/" class="read-more">Read More <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
-          </div>
-        </article>
-        <article class="blog-card">
-          <div class="blog-card-image">
-            <img src="/assets/images/maxresdefault.webp" alt="Heat pump vs furnace comparison for Utah winters" width="400" height="250">
-          </div>
-          <div class="blog-card-content">
-            <h3><a href="/blog/do-heat-pumps-work-utah-winters/">Do Heat Pumps Work in Utah's Cold Winters?</a></h3>
-            <p>Modern cold-climate heat pumps operate to -13°F. We break down how they perform across Utah's climate zones and when a dual-fuel system makes sense.</p>
-            <a href="/blog/do-heat-pumps-work-utah-winters/" class="read-more">Read More <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
-          </div>
-        </article>
-        <article class="blog-card">
-          <div class="blog-card-image">
-            <img src="/assets/images/istockphoto-hvac.webp" alt="Commercial VRF system installation for Utah office building" width="400" height="250">
-          </div>
-          <div class="blog-card-content">
-            <h3><a href="/blog/complete-guide-vrf-systems-utah/">The Complete Guide to VRF Systems for Utah Buildings</a></h3>
-            <p>Everything Utah building owners need to know about Variable Refrigerant Flow systems — how they work, ROI, and why they outperform traditional rooftop units.</p>
-            <a href="/blog/complete-guide-vrf-systems-utah/" class="read-more">Read More <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
-          </div>
-        </article>
+      <div class="blog-grid" id="homepage-blog-grid">
+        <!-- Populated dynamically from /blog/posts.json -->
+      </div>
+      <div style="text-align:center;margin-top:2rem;">
+        <a href="/blog/" class="btn btn-outline">View All Articles <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
       </div>
     </div>
   </section>
+
+  <script>
+    fetch('/blog/posts.json')
+      .then(function(r){ return r.json(); })
+      .then(function(posts){
+        var grid = document.getElementById('homepage-blog-grid');
+        if(!grid) return;
+        posts.slice(0,3).forEach(function(post){
+          var card = document.createElement('article');
+          card.className = 'blog-card';
+          card.innerHTML =
+            '<div class="blog-card-image">' +
+              '<img src="' + post.image + '" alt="' + post.imageAlt + '" width="400" height="250" loading="lazy">' +
+            '</div>' +
+            '<div class="blog-card-content">' +
+              '<div style="font-size:0.8rem;color:#6b7280;margin-bottom:0.4rem;">' + post.dateDisplay + ' &nbsp;&bull;&nbsp; ' + post.readTime + '</div>' +
+              '<h3><a href="' + post.url + '">' + post.title + '</a></h3>' +
+              '<p>' + post.excerpt + '</p>' +
+              '<a href="' + post.url + '" class="read-more">Read More <i class="fas fa-arrow-right" aria-hidden="true"></i></a>' +
+            '</div>';
+          grid.appendChild(card);
+        });
+      })
+      .catch(function(){
+        // Fallback: show link to blog index if fetch fails
+        var grid = document.getElementById('homepage-blog-grid');
+        if(grid) grid.innerHTML = '<p style="text-align:center;grid-column:1/-1;"><a href="/blog/">Read our latest HVAC guides &rarr;</a></p>';
+      });
+  </script>
 
   <!-- Commercial Clients Section -->
   <section class="clients-section" aria-labelledby="clients-heading">
