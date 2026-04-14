@@ -557,19 +557,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           card.className = 'blog-card';
           card.innerHTML =
             '<div class="blog-card-image">' +
-              '<img src="' + post.image + '" alt="' + post.imageAlt + '" width="400" height="250" loading="lazy">' +
+              '<img src="' + post.image + '" alt="' + post.imageAlt + '" width="400" height="250">' +
             '</div>' +
             '<div class="blog-card-content">' +
-              '<div style="font-size:0.8rem;color:#6b7280;margin-bottom:0.4rem;">' + post.dateDisplay + ' &nbsp;&bull;&nbsp; ' + post.readTime + '</div>' +
-              '<h3><a href="' + post.url + '">' + post.title + '</a></h3>' +
+              '<div style="font-size:0.85rem;color:#6b7280;margin-bottom:0.5rem;">' + post.dateDisplay + ' &nbsp;&bull;&nbsp; ' + post.readTime + '</div>' +
+              '<h2 style="font-size:1.15rem;"><a href="' + post.url + '">' + post.title + '</a></h2>' +
               '<p>' + post.excerpt + '</p>' +
-              '<a href="' + post.url + '" class="read-more">Read More <i class="fas fa-arrow-right" aria-hidden="true"></i></a>' +
+              '<a href="' + post.url + '" class="read-more">Read the Full Guide <i class="fas fa-arrow-right" aria-hidden="true"></i></a>' +
             '</div>';
           grid.appendChild(card);
         });
       })
       .catch(function(){
-        // Fallback: show link to blog index if fetch fails
         var grid = document.getElementById('homepage-blog-grid');
         if(grid) grid.innerHTML = '<p style="text-align:center;grid-column:1/-1;"><a href="/blog/">Read our latest HVAC guides &rarr;</a></p>';
       });
