@@ -72,7 +72,7 @@ function initNavDropdowns() {
         if (!toggle) return;
 
         toggle.addEventListener('click', function(e) {
-            if (window.innerWidth <= 768 || dropdown.classList.contains('nav-dropdown-click')) {
+            if (window.innerWidth <= 768) {
                 e.preventDefault();
                 const willOpen = !dropdown.classList.contains('open');
                 dropdowns.forEach(otherDropdown => {

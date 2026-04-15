@@ -284,10 +284,6 @@ ul { list-style: none; }
 
 .nav-dropdown:hover .dropdown-menu { display: block; }
 
-.nav-dropdown.nav-dropdown-click:hover .dropdown-menu {
-    display: none;
-}
-
 .nav-dropdown.open .dropdown-menu {
     display: block;
 }
