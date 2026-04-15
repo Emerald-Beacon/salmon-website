@@ -2378,6 +2378,38 @@ a.service-card:hover .service-card-icon {
     font-style: italic;
 }
 
+.form-consent {
+    margin: 8px 0 0;
+    padding: 18px 20px;
+    border: 1px solid var(--light-muted);
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.form-consent-text {
+    margin-bottom: 14px;
+    color: var(--text-medium);
+    font-size: 0.92rem;
+    line-height: 1.7;
+}
+
+.checkbox-row {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: 12px;
+    align-items: start;
+    color: var(--text-medium);
+    font-size: 0.9rem;
+    line-height: 1.7;
+    cursor: pointer;
+}
+
+.checkbox-row input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-top: 4px;
+    accent-color: var(--brand-magenta);
+}
+
 .form-disclaimer {
     margin-top: 14px;
     font-size: 0.88rem;

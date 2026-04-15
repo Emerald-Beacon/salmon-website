@@ -1,7 +1,14 @@
 #!/usr/bin/env node
 /**
  * Salmon HVAC - Static Build Script
- * Reads partials and inlines them into every index.html in the repo.
+ * Keeps shared partial regions in sync across every index.html in the repo.
+ * Supports both:
+ *   <!-- PARTIAL:name -->
+ * and region markers:
+ *   <!-- PARTIAL:name:start -->
+ *   ...existing content...
+ *   <!-- PARTIAL:name:end -->
+ *
  * Run: node scripts/build.js
  */
 
@@ -47,11 +54,24 @@ for (const file of unique) {
   let html = fs.readFileSync(file, "utf8");
   let changed = false;
 
-  // Replace placeholder comments with inlined partial content
+  // Replace legacy one-line placeholders with inlined partial content
   for (const [name, content] of Object.entries(partials)) {
     const placeholder = `<!-- PARTIAL:${name} -->`;
     if (html.includes(placeholder)) {
       html = html.replaceAll(placeholder, content.trim());
+      changed = true;
+    }
+  }
+
+  // Replace marker-delimited regions while preserving the markers in source
+  for (const [name, content] of Object.entries(partials)) {
+    const regionPattern = new RegExp(
+      `<!-- PARTIAL:${name}:start -->[\\s\\S]*?<!-- PARTIAL:${name}:end -->`,
+      "g"
+    );
+    const replacement = `<!-- PARTIAL:${name}:start -->\n${content.trim()}\n<!-- PARTIAL:${name}:end -->`;
+    if (regionPattern.test(html)) {
+      html = html.replace(regionPattern, replacement);
       changed = true;
     }
   }

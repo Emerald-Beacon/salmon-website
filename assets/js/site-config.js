@@ -19,7 +19,7 @@ const SITE_CONFIG = {
   emailWeb: "wmarriott@salmonhvac.com",
   website: "https://salmonhvac.com",
   founded: "1979",
-  yearsInBusiness: 46,
+  yearsInBusiness: 47,
   certifications: ["Daikin Comfort Pro Authorized Dealer"],
   serviceCounties: ["Davis", "Weber", "Morgan", "Salt Lake"],
   geo: { latitude: 40.918, longitude: -111.872 },
