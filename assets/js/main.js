@@ -5,7 +5,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     initHeader();
     initMobileMenu();
-    initMobileDropdowns();
+    initNavDropdowns();
     initContactForm();
     initAnimations();
     initSmoothScroll();
@@ -62,9 +62,9 @@ function initMobileMenu() {
 }
 
 /* ============================================
-   MOBILE DROPDOWN TOGGLES
+   NAV DROPDOWN TOGGLES
 ============================================ */
-function initMobileDropdowns() {
+function initNavDropdowns() {
     const dropdowns = document.querySelectorAll('.nav-dropdown');
 
     dropdowns.forEach(dropdown => {
@@ -72,10 +72,40 @@ function initMobileDropdowns() {
         if (!toggle) return;
 
         toggle.addEventListener('click', function(e) {
-            if (window.innerWidth <= 768) {
+            if (window.innerWidth <= 768 || dropdown.classList.contains('nav-dropdown-click')) {
                 e.preventDefault();
-                dropdown.classList.toggle('open');
+                const willOpen = !dropdown.classList.contains('open');
+                dropdowns.forEach(otherDropdown => {
+                    if (otherDropdown !== dropdown) {
+                        otherDropdown.classList.remove('open');
+                        otherDropdown.querySelector('.nav-dropdown-toggle')?.setAttribute('aria-expanded', 'false');
+                    }
+                });
+                dropdown.classList.toggle('open', willOpen);
+                toggle.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
             }
+        });
+    });
+
+    document.addEventListener('click', function(e) {
+        if (e.target.closest('.county-toggle')) return;
+        if (!e.target.closest('.nav-dropdown')) {
+            dropdowns.forEach(dropdown => {
+                dropdown.classList.remove('open');
+                dropdown.querySelector('.nav-dropdown-toggle')?.setAttribute('aria-expanded', 'false');
+            });
+        }
+    });
+
+    const countyToggles = document.querySelectorAll('.county-toggle');
+    countyToggles.forEach(toggle => {
+        toggle.addEventListener('click', function() {
+            const countyGroup = toggle.closest('.county-group');
+            if (!countyGroup) return;
+
+            const willOpen = !countyGroup.classList.contains('open');
+            countyGroup.classList.toggle('open', willOpen);
+            toggle.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
         });
     });
 }

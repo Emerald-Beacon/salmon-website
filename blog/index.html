@@ -105,29 +105,57 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
 
-      <div class="nav-dropdown">
-        <a href="/areas/" class="nav-link nav-dropdown-toggle">Service Areas <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+      <div class="nav-dropdown nav-dropdown-click" data-dropdown-type="service-areas">
+        <a href="/areas/" class="nav-link nav-dropdown-toggle" aria-expanded="false" aria-haspopup="true">Service Areas <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
         <div class="dropdown-menu">
-          <span class="dropdown-group-label">Davis County</span>
-          <a href="/areas/centerville-ut/">Centerville</a>
-          <a href="/areas/bountiful-ut/">Bountiful</a>
-          <a href="/areas/layton-ut/">Layton</a>
-          <a href="/areas/kaysville-ut/">Kaysville</a>
-          <a href="/areas/farmington-ut/">Farmington</a>
-          <a href="/areas/fruit-heights-ut/">Fruit Heights</a>
-          <span class="dropdown-group-label">Weber County</span>
-          <a href="/areas/ogden-ut/">Ogden</a>
-          <a href="/areas/clearfield-ut/">Clearfield</a>
-          <a href="/areas/roy-ut/">Roy</a>
-          <a href="/areas/west-haven-ut/">West Haven</a>
-          <a href="/areas/north-ogden-ut/">North Ogden</a>
-          <span class="dropdown-group-label">Salt Lake County</span>
-          <a href="/areas/salt-lake-city-ut/">Salt Lake City</a>
-          <a href="/areas/south-jordan-ut/">South Jordan</a>
-          <a href="/areas/sandy-ut/">Sandy</a>
-          <span class="dropdown-group-label">Morgan County</span>
-          <a href="/areas/morgan-ut/">Morgan</a>
-          <a href="/areas/ogden-valley-ut/">Ogden Valley</a>
+          <div class="county-group open">
+            <button class="county-toggle" type="button" aria-expanded="true">
+              <span>Davis County</span>
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="county-list">
+              <a href="/areas/centerville-ut/">Centerville</a>
+              <a href="/areas/bountiful-ut/">Bountiful</a>
+              <a href="/areas/layton-ut/">Layton</a>
+              <a href="/areas/kaysville-ut/">Kaysville</a>
+              <a href="/areas/farmington-ut/">Farmington</a>
+              <a href="/areas/fruit-heights-ut/">Fruit Heights</a>
+            </div>
+          </div>
+          <div class="county-group">
+            <button class="county-toggle" type="button" aria-expanded="false">
+              <span>Weber County</span>
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="county-list">
+              <a href="/areas/ogden-ut/">Ogden</a>
+              <a href="/areas/clearfield-ut/">Clearfield</a>
+              <a href="/areas/roy-ut/">Roy</a>
+              <a href="/areas/west-haven-ut/">West Haven</a>
+              <a href="/areas/north-ogden-ut/">North Ogden</a>
+            </div>
+          </div>
+          <div class="county-group">
+            <button class="county-toggle" type="button" aria-expanded="false">
+              <span>Salt Lake County</span>
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="county-list">
+              <a href="/areas/salt-lake-city-ut/">Salt Lake City</a>
+              <a href="/areas/south-jordan-ut/">South Jordan</a>
+              <a href="/areas/sandy-ut/">Sandy</a>
+            </div>
+          </div>
+          <div class="county-group">
+            <button class="county-toggle" type="button" aria-expanded="false">
+              <span>Morgan County</span>
+              <i class="fas fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="county-list">
+              <a href="/areas/morgan-ut/">Morgan</a>
+              <a href="/areas/ogden-valley-ut/">Ogden Valley</a>
+            </div>
+          </div>
           <a href="/areas/" class="dropdown-view-all">View All Areas →</a>
         </div>
       </div>
