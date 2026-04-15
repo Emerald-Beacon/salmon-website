@@ -1,10 +1,10 @@
 [
   {
     "title": "Spring AC Tune-Up Checklist for Utah Homeowners: What to Do Before Summer",
-    "excerpt": "Northern Utah's first 90°F day can arrive before Memorial Day. Here's what a professional spring tune-up covers, what you can do yourself, and what we find most often after a Utah winter.",
+    "excerpt": "Northern Utah's first 90\u00b0F day can arrive before Memorial Day. Here's what a professional spring tune-up covers, what you can do yourself, and what we find most often after a Utah winter.",
     "url": "/blog/spring-ac-tune-up-checklist-utah/",
     "image": "/assets/images/istockphoto-hvac.webp",
-    "imageAlt": "HVAC technician replacing a dirty air filter — spring AC maintenance in northern Utah",
+    "imageAlt": "HVAC technician replacing a dirty air filter \u2014 spring AC maintenance in northern Utah",
     "date": "2026-04-14",
     "dateDisplay": "April 14, 2026",
     "readTime": "7 min read"
@@ -14,7 +14,7 @@
     "excerpt": "Utah winter air is among the driest in the country. Learn why your home loses humidity, the signs of a dry air problem, and how a whole-home HVAC humidifier solves it permanently.",
     "url": "/blog/why-is-my-utah-home-so-dry-in-winter/",
     "image": "/assets/images/AdobeStock_201003996.jpeg",
-    "imageAlt": "HVAC technician with manifold gauge set — indoor air quality and humidifier service in northern Utah",
+    "imageAlt": "HVAC technician with manifold gauge set \u2014 indoor air quality and humidifier service in northern Utah",
     "date": "2026-03-27",
     "dateDisplay": "March 27, 2026",
     "readTime": "7 min read"
@@ -24,14 +24,24 @@
     "excerpt": "Stack Rocky Mountain Power Wattsmart rebates, Dominion Energy ThermWise incentives, and federal IRA tax credits to save thousands on a heat pump installation.",
     "url": "/blog/utah-heat-pump-rebates-guide/",
     "image": "/assets/images/AdobeStock_176883680.jpeg",
-    "imageAlt": "Heat pump installed outside Utah home — Utah heat pump rebates guide",
+    "imageAlt": "Heat pump installed outside Utah home \u2014 Utah heat pump rebates guide",
     "date": "2026-03-25",
     "dateDisplay": "March 25, 2026",
     "readTime": "8 min read"
   },
   {
+    "title": "The Complete Guide to VRF Systems for Utah Commercial Buildings",
+    "excerpt": "Everything Utah building owners need to know about Variable Refrigerant Flow systems \u2014 how they work, ROI, cold-climate performance, and which buildings benefit most.",
+    "url": "/blog/complete-guide-vrf-systems-utah/",
+    "image": "/assets/images/external-infrastructure-of-the-microclimate-suppor-2026-01-11-09-24-48-utc.jpg",
+    "imageAlt": "Commercial VRF rooftop units \u2014 Variable Refrigerant Flow system for Utah commercial buildings",
+    "date": "2026-03-25",
+    "dateDisplay": "March 25, 2026",
+    "readTime": "12 min read"
+  },
+  {
     "title": "Do Heat Pumps Work in Utah's Cold Winters?",
-    "excerpt": "Modern cold-climate heat pumps operate to -13°F. We break down how they perform across Utah's climate zones and when a dual-fuel system makes more sense.",
+    "excerpt": "Modern cold-climate heat pumps operate to -13\u00b0F. We break down how they perform across Utah's climate zones and when a dual-fuel system makes more sense.",
     "url": "/blog/do-heat-pumps-work-utah-winters/",
     "image": "/assets/images/maxresdefault.webp",
     "imageAlt": "Heat pump vs furnace comparison for Utah winters",
@@ -40,14 +50,374 @@
     "readTime": "7 min read"
   },
   {
-    "title": "The Complete Guide to VRF Systems for Utah Commercial Buildings",
-    "excerpt": "Everything Utah building owners need to know about Variable Refrigerant Flow systems — how they work, ROI, cold-climate performance, and which buildings benefit most.",
-    "url": "/blog/complete-guide-vrf-systems-utah/",
-    "image": "/assets/images/external-infrastructure-of-the-microclimate-suppor-2026-01-11-09-24-48-utc.jpg",
-    "imageAlt": "Commercial VRF rooftop units — Variable Refrigerant Flow system for Utah commercial buildings",
-    "date": "2026-03-25",
-    "dateDisplay": "March 25, 2026",
-    "readTime": "12 min read"
+    "title": "Utah Heat Pump Rebates & Tax Credits: The Complete 2026 Guide for Homeowners",
+    "excerpt": "Utah homeowners can still claim thousands in heat pump savings through Rocky Mountain Power Wattsmart and Enbridge Gas ThermWise rebates \u2014 even after the federal 25C credit expired. Here's exactly how to stack every available incentive in 2026.",
+    "url": "/blog/utah-heat-pump-rebates-tax-credits-the-complete-2026-guide-for-homeowners/",
+    "image": "/assets/images/blog/wordpress/2026/03/high-efficiency-hvac-outdoor-unit-logos-removed-2026-01-08-22-54-39-utc.webp",
+    "imageAlt": "Residential heat pump installed outside of a home.",
+    "date": "2026-03-18",
+    "dateDisplay": "March 18, 2026",
+    "readTime": "7 min read"
+  },
+  {
+    "title": "Utah HVAC Air Filter Replacement Guide",
+    "excerpt": "Did you know that Utah air quality can impact how long your HVAC air filter lasts?",
+    "url": "/blog/utah-hvac-air-filter-replacement-guide/",
+    "image": "/assets/images/blog/wordpress/2026/03/istockphoto-1437497917-170667a.webp",
+    "imageAlt": "Utah HVAC Air Filter Replacement Guide",
+    "date": "2026-03-17",
+    "dateDisplay": "March 17, 2026",
+    "readTime": "7 min read"
+  },
+  {
+    "title": "Should I Run My HVAC During a Utah Inversion?",
+    "excerpt": "Winter inversions in Utah cause pollution and other contaminants to build up near the ground, creating unhealthy air for days at a time. Whenever winter inversions occur in Utah...",
+    "url": "/blog/should-i-run-my-hvac-during-a-utah-inversion/",
+    "image": "/assets/images/blog/wordpress/2026/03/utah-generated-image-1-1.webp",
+    "imageAlt": "Should I Run My HVAC During a Utah Inversion?",
+    "date": "2026-03-12",
+    "dateDisplay": "March 12, 2026",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "When Should You Replace Your HVAC System?",
+    "excerpt": "Your HVAC system heats and cools your home and pushes air throughout your home. While your HVAC system can last for 10\u201315 years, sometimes it might be in your best interest to...",
+    "url": "/blog/when-should-you-replace-your-hvac-system/",
+    "image": "/assets/images/blog/wordpress/2026/03/types-of-hvac-systems.webp",
+    "imageAlt": "When Should You Replace Your HVAC System?",
+    "date": "2026-03-10",
+    "dateDisplay": "March 10, 2026",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "VRF System Maintenance & Repair in Utah",
+    "excerpt": "Keep your Variable Refrigerant Flow system running at peak efficiency with Salmon HVAC's expert service \u2014 trusted across Salt Lake City and northern Utah. Schedule a VRF Service...",
+    "url": "/blog/vrf-system-maintenance-repair-in-utah/",
+    "image": "/assets/images/blog/wordpress/2026/03/large-hvac-system-for-business-2026-01-05-23-25-49-utc.webp",
+    "imageAlt": "We specialize in VRF system repair and maintenance.",
+    "date": "2026-03-06",
+    "dateDisplay": "March 6, 2026",
+    "readTime": "8 min read"
+  },
+  {
+    "title": "Signs Your Furnace Costs More to Run Than It Should",
+    "excerpt": "Heating bills that won\u2019t go down or rooms that never seem to warm up evenly are both signs your furnace is operating way below peak efficiency. While some conditions develop...",
+    "url": "/blog/signs-your-furnace-costs-more-to-run-than-it-should/",
+    "image": "/assets/images/blog/wordpress/2026/03/222maxresdefault.webp",
+    "imageAlt": "Signs Your Furnace Costs More to Run Than It Should",
+    "date": "2026-03-05",
+    "dateDisplay": "March 5, 2026",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "A Guide to Energy Savings Through HVAC Preventive Maintenance",
+    "excerpt": "If you\u2019re looking for a low-cost way to combat energy waste, HVAC preventive maintenance should be at the top of your list. When your HVAC equipment is running clean, balanced, and...",
+    "url": "/blog/a-guide-to-energy-savings-through-hvac-preventive-maintenance/",
+    "image": "/assets/images/blog/wordpress/2026/03/1-3333.webp",
+    "imageAlt": "A Guide to Energy Savings Through HVAC Preventive Maintenance",
+    "date": "2026-03-03",
+    "dateDisplay": "March 3, 2026",
+    "readTime": "7 min read"
+  },
+  {
+    "title": "HVAC Not Cooling Evenly? Common Causes and Fixes",
+    "excerpt": "Your home is warm upstairs but comfortable downstairs. Or maybe your bedrooms aren\u2019t cooling at all. When rooms are unevenly conditioned, your HVAC isn\u2019t circulating cooling as it...",
+    "url": "/blog/hvac-not-cooling-evenly-common-causes-and-fixes/",
+    "image": "/assets/images/blog/wordpress/2026/02/2222maxresdefault.webp",
+    "imageAlt": "HVAC Not Cooling Evenly? Common Causes and Fixes",
+    "date": "2026-02-28",
+    "dateDisplay": "February 28, 2026",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "What You Need to Know Before Installing a New AC",
+    "excerpt": "You might be thinking about anything between ENERGY STAR\u00ae rated versus standard-efficiency brand names when choosing your new air conditioner. But there\u2019s a lot more to consider...",
+    "url": "/blog/what-you-need-to-know-before-installing-a-new-ac/",
+    "image": "/assets/images/blog/wordpress/2026/02/Common-HVAC-Problem-1024x819-1.webp",
+    "imageAlt": "What You Need to Know Before Installing a New AC",
+    "date": "2026-02-24",
+    "dateDisplay": "February 24, 2026",
+    "readTime": "7 min read"
+  },
+  {
+    "title": "Why Tune-Ups Improve HVAC Comfort and Reliability",
+    "excerpt": "Your heating and cooling system is not one piece of equipment. It\u2019s several pieces working together to create comfortable temperatures and clean indoor air. Your HVAC tune-up is...",
+    "url": "/blog/why-tune-ups-improve-hvac-comfort-and-reliability/",
+    "image": "/assets/images/blog/wordpress/2026/02/DSC_1132_retouched.webp",
+    "imageAlt": "Why Tune-Ups Improve HVAC Comfort and Reliability",
+    "date": "2026-02-20",
+    "dateDisplay": "February 20, 2026",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Heat Pump vs. Furnace: Which Is Right for Your Home?",
+    "excerpt": "There are many factors to consider when deciding between a heat pump and furnace. Cost is important, but you also want to think about efficiency, performance in your climate, ease...",
+    "url": "/blog/heat-pump-vs-furnace-which-is-right-for-your-home/",
+    "image": "/assets/images/logo-salmon.png",
+    "imageAlt": "Heat Pump vs. Furnace: Which Is Right for Your Home?",
+    "date": "2026-02-17",
+    "dateDisplay": "February 17, 2026",
+    "readTime": "7 min read"
+  },
+  {
+    "title": "Why Small Problems Turn Into Big, Expensive HVAC Repairs",
+    "excerpt": "The problem often starts small. A barely noticeable rattling sound. One room that just won\u2019t cool down. Equipment that runs for slightly longer cycles. These warning signs are easy...",
+    "url": "/blog/why-small-problems-turn-into-big-expensive-hvac-repairs/",
+    "image": "/assets/images/blog/wordpress/2026/02/Common-HVAC-Issue.webp",
+    "imageAlt": "Why Small Problems Turn Into Big, Expensive HVAC Repairs",
+    "date": "2026-02-12",
+    "dateDisplay": "February 12, 2026",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Extend the Life of Your Heating and Cooling System",
+    "excerpt": "Your heating and cooling system is likely one of the biggest investments that you make in your home. With proper maintenance and care, it\u2019s possible to squeeze years out of your...",
+    "url": "/blog/extend-the-life-of-your-heating-and-cooling-system/",
+    "image": "/assets/images/blog/wordpress/2026/02/Central-AC-Unit-Cost-Additional-Costs.webp",
+    "imageAlt": "Extend the Life of Your Heating and Cooling System",
+    "date": "2026-02-10",
+    "dateDisplay": "February 10, 2026",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "The real benefits of professional HVAC inspections",
+    "excerpt": "When you hire a technician to perform an HVAC inspection on your system, they do more than simply make sure it turns on. inspections provide actionable data about your comfort...",
+    "url": "/blog/the-real-benefits-of-professional-hvac-inspections/",
+    "image": "/assets/images/blog/wordpress/2026/02/46_07-AM.webp",
+    "imageAlt": "The real benefits of professional HVAC inspections",
+    "date": "2026-02-06",
+    "dateDisplay": "February 6, 2026",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Your HVAC Thermostat May Be Sabotaging Your Comfort",
+    "excerpt": "Your thermostat doesn\u2019t have to be fancy to get the job done. That being said, there are several ways thermostats sabotage your heating and cooling equipment. Performance issues...",
+    "url": "/blog/your-hvac-thermostat-may-be-sabotaging-your-comfort/",
+    "image": "/assets/images/blog/wordpress/2026/02/0000.jpg",
+    "imageAlt": "Your HVAC Thermostat May Be Sabotaging Your Comfort",
+    "date": "2026-02-03",
+    "dateDisplay": "February 3, 2026",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "How to Prevent Sudden HVAC Breakdowns",
+    "excerpt": "One day an HVAC system may seem to be operating smoothly, and the next it may malfunction. Although unexpected breakdowns are rare, the early warning indicators are frequently...",
+    "url": "/blog/how-to-prevent-sudden-hvac-breakdowns/",
+    "image": "/assets/images/blog/wordpress/2026/01/blog-detail-main-image-6-1.webp",
+    "imageAlt": "How to Prevent Sudden HVAC Breakdowns",
+    "date": "2026-01-30",
+    "dateDisplay": "January 30, 2026",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "How Proper HVAC Sizing Affects Comfort and Energy Consumption",
+    "excerpt": "HVAC systems perform quietly behind the scenes to create the comfortable temperature you want in your home. That means most homeowners don\u2019t know or realize the importance of...",
+    "url": "/blog/how-proper-hvac-sizing-affects-comfort-and-energy-consumption/",
+    "image": "/assets/images/blog/wordpress/2026/01/Sizing-your-airconditioner-1.webp",
+    "imageAlt": "How Proper HVAC Sizing Affects Comfort and Energy Consumption",
+    "date": "2026-01-27",
+    "dateDisplay": "January 27, 2026",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "HVAC Service Season Transition Timing Tips & Guide",
+    "excerpt": "Getting ahead of seasonal weather changes by scheduling preventive maintenance keeps homeowners comfortable and controls energy costs. No emergency break-downs, wasting energy, or...",
+    "url": "/blog/hvac-service-season-transition-timing-tips-guide/",
+    "image": "/assets/images/blog/wordpress/2026/01/0000.webp",
+    "imageAlt": "HVAC Service Season Transition Timing Tips & Guide",
+    "date": "2026-01-22",
+    "dateDisplay": "January 22, 2026",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "5 Common HVAC Myths That Drain Your Wallet",
+    "excerpt": "Your customers are probably following long-held beliefs when it comes to their home comfort systems. We repeat misinformation to ourselves and others all day long without knowing...",
+    "url": "/blog/5-common-hvac-myths-that-drain-your-wallet/",
+    "image": "/assets/images/blog/wordpress/2026/01/360_F_901788501_nVVGBbIPdkS7PQE3hIYlKzWFm2j6lXnY.webp",
+    "imageAlt": "5 Common HVAC Myths That Drain Your Wallet",
+    "date": "2026-01-20",
+    "dateDisplay": "January 20, 2026",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "4 Indoor Air Quality Problems Homeowners Often Overlook",
+    "excerpt": "Indoor air quality issues aren\u2019t always obvious. Many develop slowly and silently, affecting everything from your comfort to your family\u2019s health and the longevity of your home...",
+    "url": "/blog/4-indoor-air-quality-problems-homeowners-often-overlook/",
+    "image": "/assets/images/blog/wordpress/2026/01/Air-Duct-Cleaning-Hero-1-scaled.webp",
+    "imageAlt": "4 Indoor Air Quality Problems Homeowners Often Overlook",
+    "date": "2026-01-16",
+    "dateDisplay": "January 16, 2026",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "The Unseen Price of Not Maintaining Your HVAC",
+    "excerpt": "A lot of homeowners don't realize how much money they lose over time by not doing regular HVAC maintenance. A simple way to save money can often lead to higher energy bills, less...",
+    "url": "/blog/the-unseen-price-of-not-maintaining-your-hvac/",
+    "image": "/assets/images/blog/wordpress/2026/01/damage-unit-needed-troubleshooting.webp",
+    "imageAlt": "The Unseen Price of Not Maintaining Your HVAC",
+    "date": "2026-01-12",
+    "dateDisplay": "January 12, 2026",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Winter HVAC Planning for Businesses",
+    "excerpt": "Winter HVAC planning for commercial properties is often overlooked until the chill of the season puts sustained demand on heating systems. Too many businesses find chinks in their...",
+    "url": "/blog/winter-hvac-planning-for-businesses/",
+    "image": "/assets/images/blog/wordpress/2026/01/Air-conditioning2-scaled-1.webp",
+    "imageAlt": "Winter HVAC Planning for Businesses",
+    "date": "2026-01-09",
+    "dateDisplay": "January 9, 2026",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "HVAC Upgrades That Lower Energy Bills",
+    "excerpt": "As energy costs continue to rise, homeowners are becoming more aware of how their heating and cooling systems impact monthly utility bills. Aging HVAC equipment and inefficient...",
+    "url": "/blog/hvac-upgrades-that-lower-energy-bills/",
+    "image": "/assets/images/blog/wordpress/2026/01/Is-It-Too-Late-to-Install-a-New-AC.webp",
+    "imageAlt": "HVAC Upgrades That Lower Energy Bills",
+    "date": "2026-01-06",
+    "dateDisplay": "January 6, 2026",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Common Reasons Your HVAC System Isn\u2019t Cooling Your Home Properly",
+    "excerpt": "It is simple to recognize when your HVAC system is malfunctioning and causing you problems. It is running, but your house is still hot. Your heating and cooling system is...",
+    "url": "/blog/common-reasons-your-hvac-system-isnt-cooling-your-home-properly/",
+    "image": "/assets/images/blog/wordpress/2026/01/Image_haky27haky27haky-e1767296601929.png",
+    "imageAlt": "Common Reasons Your HVAC System Isn\u2019t Cooling Your Home Properly",
+    "date": "2026-01-01",
+    "dateDisplay": "January 1, 2026",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Best Furnaces for Cold Weather",
+    "excerpt": "Winter is coming. When the mercury dips, your furnace becomes one of the most critical systems in your home. Cold weather conditions require furnaces that can provide reliable...",
+    "url": "/blog/best-furnaces-for-cold-weather/",
+    "image": "/assets/images/blog/wordpress/2025/12/Your-Heat-Pump-and-Winter.webp",
+    "imageAlt": "Best Furnaces for Cold Weather",
+    "date": "2025-12-29",
+    "dateDisplay": "December 29, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Furnace Installation 101: What Homeowners Need to Know",
+    "excerpt": "Buying a new furnace is a big investment. The comfort, energy costs, and home value are all at stake. With proper equipment selection and professional installation, a furnace can...",
+    "url": "/blog/furnace-installation-101-what-homeowners-need-to-know/",
+    "image": "/assets/images/blog/wordpress/2025/12/furnace.webp",
+    "imageAlt": "Furnace Installation 101: What Homeowners Need to Know",
+    "date": "2025-12-26",
+    "dateDisplay": "December 26, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Improve Indoor Air Quality During Winter",
+    "excerpt": "Winter is a time of the year when most homeowners close windows, stay indoors for longer periods, and heat their homes for most of the day. All this to keep warm and comfortable in...",
+    "url": "/blog/improve-indoor-air-quality-during-winter/",
+    "image": "/assets/images/blog/wordpress/2025/12/unnamed-file.webp",
+    "imageAlt": "Improve Indoor Air Quality During Winter",
+    "date": "2025-12-22",
+    "dateDisplay": "December 22, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Winter HVAC Tune-Up Checklist",
+    "excerpt": "A winter HVAC tune-up is one of the best ways to protect the comfort of your home when winter temperatures arrive. Many people wait until their heating system breaks down to take...",
+    "url": "/blog/winter-hvac-tune-up-checklist/",
+    "image": "/assets/images/blog/wordpress/2025/12/hvacwinter.webp",
+    "imageAlt": "Winter HVAC Tune-Up Checklist",
+    "date": "2025-12-18",
+    "dateDisplay": "December 18, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Prevent Frozen Pipes This Winter",
+    "excerpt": "Frozen pipes are among the most common and expensive winter home emergencies. If unprotected pipes are exposed to freezing temperatures, they can freeze and burst within hours...",
+    "url": "/blog/prevent-frozen-pipes-this-winter/",
+    "image": "/assets/images/blog/wordpress/2025/12/shutterstock_1606494805-scaled-1.webp",
+    "imageAlt": "Prevent Frozen Pipes This Winter",
+    "date": "2025-12-15",
+    "dateDisplay": "December 15, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Winter HVAC Care Tips to Extend System Life",
+    "excerpt": "Winter is a time when heating systems need to run harder to keep the home comfortable. It is an opportunity to build on good habits that you practice all year round and use a few...",
+    "url": "/blog/winter-hvac-care-tips-to-extend-system-life/",
+    "image": "/assets/images/blog/wordpress/2025/12/winterhvac.webp",
+    "imageAlt": "Winter HVAC Care Tips to Extend System Life",
+    "date": "2025-12-11",
+    "dateDisplay": "December 11, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Improving Indoor Air Quality for Allergy Season",
+    "excerpt": "If you or your family members suffer from seasonal allergies, you know just how important indoor air quality can be to your comfort and well-being. Allergy season doesn\u2019t just...",
+    "url": "/blog/improving-indoor-air-quality-for-allergy-season/",
+    "image": "/assets/images/blog/wordpress/2025/12/G1384789033.webp",
+    "imageAlt": "Improving Indoor Air Quality for Allergy Season",
+    "date": "2025-12-08",
+    "dateDisplay": "December 8, 2025",
+    "readTime": "4 min read"
+  },
+  {
+    "title": "When You Should Call for HVAC Repairs in Winter",
+    "excerpt": "When winter arrives and temperatures start to drop, your heating system suddenly becomes the unsung hero of your home. It keeps your rooms comfortable, protects your family from...",
+    "url": "/blog/when-you-should-call-for-hvac-repairs-in-winter/",
+    "image": "/assets/images/blog/wordpress/2025/12/iStock-157279862.webp",
+    "imageAlt": "When You Should Call for HVAC Repairs in Winter",
+    "date": "2025-12-04",
+    "dateDisplay": "December 4, 2025",
+    "readTime": "4 min read"
+  },
+  {
+    "title": "Smart Thermostat Setup for a Cozy Winter",
+    "excerpt": "Winter comfort doesn\u2019t have to mean higher energy bills. A smart thermostat can help you stay warm while keeping costs under control. With a few smart setups and adjustments, you...",
+    "url": "/blog/smart-thermostat-setup-for-a-cozy-winter/",
+    "image": "/assets/images/blog/wordpress/2025/12/Daikin-One-Smart-Thermostat.webp",
+    "imageAlt": "Smart Thermostat Setup for a Cozy Winter",
+    "date": "2025-12-01",
+    "dateDisplay": "December 1, 2025",
+    "readTime": "4 min read"
+  },
+  {
+    "title": "Choosing the Right Heating and Cooling System for Year-Round Comfort",
+    "excerpt": "Are you in the market for a new heating and cooling system for your home? Choosing the right equipment for your home can be a daunting task with so many options and factors to...",
+    "url": "/blog/choosing-the-right-heating-and-cooling-system-for-year-round-comfort/",
+    "image": "/assets/images/blog/wordpress/2025/11/bigstock-209299159-scaled.webp",
+    "imageAlt": "Choosing the Right Heating and Cooling System for Year-Round Comfort",
+    "date": "2025-11-27",
+    "dateDisplay": "November 27, 2025",
+    "readTime": "7 min read"
+  },
+  {
+    "title": "What Makes an HVAC Company Worth Your Time",
+    "excerpt": "Is your HVAC system ready for summer? Unless you\u2019re lucky, that question is probably going to require some maintenance or repairs to fully answer. But the more important question...",
+    "url": "/blog/what-makes-an-hvac-company-worth-your-time/",
+    "image": "/assets/images/blog/wordpress/2025/11/coil-cleaning-13.webp",
+    "imageAlt": "What Makes an HVAC Company Worth Your Time",
+    "date": "2025-11-24",
+    "dateDisplay": "November 24, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Better Air at Home: Expert Tips for Indoor Air Quality",
+    "excerpt": "Did you know that the air inside your home can have a huge impact on your family\u2019s health and comfort? Chances are, you spend most of your time indoors. That makes the quality of...",
+    "url": "/blog/better-air-at-home-expert-tips-for-indoor-air-quality/",
+    "image": "/assets/images/blog/wordpress/2025/11/BB1l2taF.webp",
+    "imageAlt": "Better Air at Home: Expert Tips for Indoor Air Quality",
+    "date": "2025-11-21",
+    "dateDisplay": "November 21, 2025",
+    "readTime": "7 min read"
+  },
+  {
+    "title": "HVAC Maintenance 101",
+    "excerpt": "For most of us, the only time we think about our heating and cooling system is when it fails to do its job. You set the thermostat once and forget about it, and assume your home...",
+    "url": "/blog/hvac-maintenance-101/",
+    "image": "/assets/images/blog/wordpress/2025/11/hvac_1157039995-scaled.jpg",
+    "imageAlt": "HVAC Maintenance 101",
+    "date": "2025-11-17",
+    "dateDisplay": "November 17, 2025",
+    "readTime": "9 min read"
   },
   {
     "title": "Your First 30 Minutes: Heating Emergency Action Plan",
@@ -60,14 +430,674 @@
     "readTime": "7 min read"
   },
   {
+    "title": "Why Furnace Tune-Ups Actually Pay for Themselves",
+    "excerpt": "A furnace tune-up is just one of those chores homeowners tend to put off until the last minute. After all, you have a functioning furnace, so why would you pay someone to make sure...",
+    "url": "/blog/why-furnace-tune-ups-actually-pay-for-themselves/",
+    "image": "/assets/images/blog/wordpress/2025/11/Furnace-leak-detection-1-1024x683-1.webp",
+    "imageAlt": "Why Furnace Tune-Ups Actually Pay for Themselves",
+    "date": "2025-11-07",
+    "dateDisplay": "November 7, 2025",
+    "readTime": "7 min read"
+  },
+  {
+    "title": "Getting Your Furnace Ready for Winter",
+    "excerpt": "Nothing is more unpleasant on the first chilly day of the season than turning on your furnace only to be greeted by a blast of cool air. This is not a way to start a winter season...",
+    "url": "/blog/getting-your-furnace-ready-for-winter/",
+    "image": "/assets/images/blog/wordpress/2025/11/adobestock_314056578.webp",
+    "imageAlt": "Getting Your Furnace Ready for Winter",
+    "date": "2025-11-03",
+    "dateDisplay": "November 3, 2025",
+    "readTime": "7 min read"
+  },
+  {
+    "title": "Essential Winter HVAC Prep Steps",
+    "excerpt": "When cold weather arrives, your heating system becomes your home's most important asset. The last thing you want is a breakdown on the coldest night of the year. Taking time to...",
+    "url": "/blog/essential-winter-hvac-prep-steps/",
+    "image": "/assets/images/blog/wordpress/2025/10/360_F_415286283_LFQBl9jf7fr1SA00IUh5lCWHvOnseknp.webp",
+    "imageAlt": "Essential Winter HVAC Prep Steps",
+    "date": "2025-10-30",
+    "dateDisplay": "October 30, 2025",
+    "readTime": "4 min read"
+  },
+  {
+    "title": "Why Your Furnace Runs Constantly in Winter",
+    "excerpt": "There's something unnerving about a furnace that just keeps running and running. You wake up at 3 AM, and it's still humming away. You leave for work, come home eight hours later...",
+    "url": "/blog/why-your-furnace-runs-constantly-in-winter/",
+    "image": "/assets/images/blog/wordpress/2025/10/1__4GgEleTpcCQ4Egeor_Qig.webp",
+    "imageAlt": "Why Your Furnace Runs Constantly in Winter",
+    "date": "2025-10-27",
+    "dateDisplay": "October 27, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Cut Your Winter Heating Bills by 30%",
+    "excerpt": "Your heating bill doesn't have to be a source of dread every winter. With a few strategic moves and some basic furnace maintenance, you can actually slash those costs by up to 30%...",
+    "url": "/blog/cut-your-winter-heating-bills-by-30/",
+    "image": "/assets/images/blog/wordpress/2025/10/ways-to-lower-your-heating-bill-right-now-copy.webp",
+    "imageAlt": "Cut Your Winter Heating Bills by 30%",
+    "date": "2025-10-23",
+    "dateDisplay": "October 23, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Winter Furnace Tune-Up: What You Need to Know",
+    "excerpt": "Let's be honest nobody thinks about their furnace until it stops working. And that always seems to happen on the coldest night of the year, doesn't it?",
+    "url": "/blog/winter-furnace-tune-up-what-you-need-to-know/",
+    "image": "/assets/images/blog/wordpress/2025/10/l-intro-1668597179.webp",
+    "imageAlt": "Winter Furnace Tune-Up: What You Need to Know",
+    "date": "2025-10-20",
+    "dateDisplay": "October 20, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Why Regular AC Tune-Ups Boost Energy Efficiency",
+    "excerpt": "Just like any major appliance in your home, your air conditioning system needs regular attention to perform at its best. Scheduling routine AC tune-ups is one of the smartest...",
+    "url": "/blog/why-regular-ac-tune-ups-boost-energy-efficiency/",
+    "image": "/assets/images/blog/wordpress/2025/10/daikin.webp",
+    "imageAlt": "Why Regular AC Tune-Ups Boost Energy Efficiency",
+    "date": "2025-10-16",
+    "dateDisplay": "October 16, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Affordable HVAC Contractors: How to Get a Free Estimate Without Sacrificing Quality",
+    "excerpt": "Finding an affordable HVAC contractor can feel overwhelming, especially when you want to ensure quality service without overspending. The good news is that you can secure a free...",
+    "url": "/blog/affordable-hvac-contractors-how-to-get-a-free-estimate-without-sacrificing-quality/",
+    "image": "/assets/images/blog/wordpress/2025/10/hvaccontractor.webp",
+    "imageAlt": "Affordable HVAC Contractors: How to Get a Free Estimate Without Sacrificing Quality",
+    "date": "2025-10-13",
+    "dateDisplay": "October 13, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "AC Installation: Your Step-by-Step Guide to Staying Cool",
+    "excerpt": "When the summer heat arrives, a reliable air conditioning system is more than a luxury it\u2019s a necessity. Whether you\u2019re upgrading an old unit or installing a brand-new system...",
+    "url": "/blog/ac-installation-your-step-by-step-guide-to-staying-cool/",
+    "image": "/assets/images/logo-salmon.png",
+    "imageAlt": "AC Installation: Your Step-by-Step Guide to Staying Cool",
+    "date": "2025-10-09",
+    "dateDisplay": "October 9, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "The Benefits Of Duct Cleaning In Utah: Improving Indoor Air Quality For Your Family",
+    "excerpt": "When was the last time you thought about the air ducts in your home? For many homeowners in Utah, ductwork is out of sight and out of mind. Yet, the cleanliness of your air ducts...",
+    "url": "/blog/the-benefits-of-duct-cleaning-in-utah-improving-indoor-air-quality-for-your-family/",
+    "image": "/assets/images/logo-salmon.png",
+    "imageAlt": "The Benefits Of Duct Cleaning In Utah: Improving Indoor Air Quality For Your Family",
+    "date": "2025-10-06",
+    "dateDisplay": "October 6, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Why Professional HVAC Services Matter for Your Home Comfort in Utah",
+    "excerpt": "When the seasons change in Utah, your comfort depends on a reliable heating and cooling system. Whether you\u2019re sweating through a summer heatwave or bracing for a chilly winter...",
+    "url": "/blog/why-professional-hvac-services-matter-for-your-home-comfort-in-utah/",
+    "image": "/assets/images/blog/wordpress/2025/10/hvacservices.webp",
+    "imageAlt": "Why Professional HVAC Services Matter for Your Home Comfort in Utah",
+    "date": "2025-10-02",
+    "dateDisplay": "October 2, 2025",
+    "readTime": "4 min read"
+  },
+  {
+    "title": "Energy Efficient HVAC Solutions to Save Money and Stay Comfortable",
+    "excerpt": "Keeping your home comfortable year-round often comes with a high price tag if your HVAC system is outdated or inefficient. Heating and cooling can account for nearly half of a...",
+    "url": "/blog/energy-efficient-hvac-solutions-to-save-money-and-stay-comfortable/",
+    "image": "/assets/images/blog/wordpress/2025/09/energyefficient.webp",
+    "imageAlt": "Energy Efficient HVAC Solutions to Save Money and Stay Comfortable",
+    "date": "2025-09-29",
+    "dateDisplay": "September 29, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Do You Really Need an Air Purifier? What the Experts Recommend",
+    "excerpt": "Indoor air quality has become a growing concern for homeowners, especially as people spend more time inside. The air you breathe can impact everything from your sleep quality to...",
+    "url": "/blog/do-you-really-need-an-air-purifier-what-the-experts-recommend/",
+    "image": "/assets/images/blog/wordpress/2025/09/airpurifier.webp",
+    "imageAlt": "Do You Really Need an Air Purifier? What the Experts Recommend",
+    "date": "2025-09-25",
+    "dateDisplay": "September 25, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Mini-Split vs. Central Air: Choosing the Right Cooling System for Your Home",
+    "excerpt": "Homeowners often face the decision of whether to install a mini-split system or central air conditioning. Each option has clear advantages, and the best choice depends on your...",
+    "url": "/blog/mini-split-vs-central-air-choosing-the-right-cooling-system-for-your-home/",
+    "image": "/assets/images/blog/wordpress/2025/09/Screenshot-2025-09-23-at-12.17.36-AM.webp",
+    "imageAlt": "Mini-Split vs. Central Air: Choosing the Right Cooling System for Your Home",
+    "date": "2025-09-22",
+    "dateDisplay": "September 22, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Top Signs You Need Furnace Repair and How to Avoid Costly Breakdowns",
+    "excerpt": "Winter can be unforgiving when your furnace fails. Understanding the warning signs your heating system displays before complete failure can save homeowners thousands of dollars and...",
+    "url": "/blog/top-signs-you-need-furnace-repair-and-how-to-avoid-costly-breakdowns/",
+    "image": "/assets/images/blog/wordpress/2025/09/hvac999.webp",
+    "imageAlt": "Top Signs You Need Furnace Repair and How to Avoid Costly Breakdowns",
+    "date": "2025-09-18",
+    "dateDisplay": "September 18, 2025",
+    "readTime": "7 min read"
+  },
+  {
+    "title": "Complete Guide to HVAC Repair: Knowing When to Call the Professionals",
+    "excerpt": "When your HVAC system starts acting up, it can leave you wondering whether to try a quick fix on your own or bring in the professionals. This guide will walk you through how to...",
+    "url": "/blog/complete-guide-to-hvac-repair-knowing-when-to-call-the-professionals/",
+    "image": "/assets/images/blog/wordpress/2025/09/hvac1111.webp",
+    "imageAlt": "Complete Guide to HVAC Repair: Knowing When to Call the Professionals",
+    "date": "2025-09-15",
+    "dateDisplay": "September 15, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Essential HVAC Maintenance Checklist for a Reliable and Efficient System",
+    "excerpt": "Your HVAC system works tirelessly to keep your home comfortable year-round, but without proper care, it can become less efficient and more prone to costly breakdowns. Just like you...",
+    "url": "/blog/essential-hvac-maintenance-checklist-for-a-reliable-and-efficient-system/",
+    "image": "/assets/images/blog/wordpress/2025/09/HVAC-Maintenance-Checklist.webp",
+    "imageAlt": "Essential HVAC Maintenance Checklist for a Reliable and Efficient System",
+    "date": "2025-09-11",
+    "dateDisplay": "September 11, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Heat Pump Repair or Replacement: How to Decide What\u2019s Best for Your Home",
+    "excerpt": "A heat pump is one of the hardest-working systems in your home. It keeps you cool in the summer and warm in the winter, all while maintaining efficiency and comfort. Over time...",
+    "url": "/blog/heat-pump-repair-or-replacement-how-to-decide-whats-best-for-your-home/",
+    "image": "/assets/images/blog/wordpress/2025/09/hvacrepair9-8.webp",
+    "imageAlt": "Heat Pump Repair or Replacement: How to Decide What\u2019s Best for Your Home",
+    "date": "2025-09-08",
+    "dateDisplay": "September 8, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Should You Repair or Replace Your HVAC Unit? How to Make the Right Choice",
+    "excerpt": "Every homeowner eventually faces the big HVAC question: Should I repair my system, or is it finally time to replace it? The decision can feel overwhelming because it impacts your...",
+    "url": "/blog/should-you-repair-or-replace-your-hvac-unit-how-to-make-the-right-choice/",
+    "image": "/assets/images/blog/wordpress/2025/09/brokenhvac.webp",
+    "imageAlt": "Should You Repair or Replace Your HVAC Unit? How to Make the Right Choice",
+    "date": "2025-09-04",
+    "dateDisplay": "September 4, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Why Isn\u2019t My AC Cooling? 7 Common Problems and How to Fix Them",
+    "excerpt": "When the summer heat is at its peak, the last thing you want is an air conditioner that refuses to keep your home cool. If you\u2019ve ever asked yourself, \u201cWhy isn\u2019t my AC cooling?\u201d...",
+    "url": "/blog/why-isnt-my-ac-cooling-7-common-problems-and-how-to-fix-them/",
+    "image": "/assets/images/blog/wordpress/2025/09/13.webp",
+    "imageAlt": "Why Isn\u2019t My AC Cooling? 7 Common Problems and How to Fix Them",
+    "date": "2025-09-01",
+    "dateDisplay": "September 1, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Why Fall is the Perfect Time for Furnace Installation",
+    "excerpt": "When the seasons change, many homeowners shift their focus from air conditioning to heating. Fall provides a natural window of opportunity to ensure your furnace is ready before...",
+    "url": "/blog/why-fall-is-the-perfect-time-for-furnace-installation/",
+    "image": "/assets/images/blog/wordpress/2025/08/furnace.webp",
+    "imageAlt": "Why Fall is the Perfect Time for Furnace Installation",
+    "date": "2025-08-28",
+    "dateDisplay": "August 28, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Essential HVAC Maintenance Tips to Extend System Life",
+    "excerpt": "Many homeowners overlook just how much routine maintenance affects the health of their HVAC system. Small steps can make a big difference in how efficiently your unit operates and...",
+    "url": "/blog/essential-hvac-maintenance-tips-to-extend-system-life/",
+    "image": "/assets/images/blog/wordpress/2025/08/10.webp",
+    "imageAlt": "Essential HVAC Maintenance Tips to Extend System Life",
+    "date": "2025-08-25",
+    "dateDisplay": "August 25, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Best Air Filters for Homes with Pets or Allergies in Utah",
+    "excerpt": "If you have pets or suffer from allergies, the right air filter can transform your indoor air quality. Pet dander, dust mites, and seasonal pollen can circulate through your HVAC...",
+    "url": "/blog/best-air-filters-for-homes-with-pets-or-allergies-in-utah/",
+    "image": "/assets/images/blog/wordpress/2025/08/NewReplace-Air-Filter-stock-photo_-Image-of-furnace-basement-23561786.webp",
+    "imageAlt": "Best Air Filters for Homes with Pets or Allergies in Utah",
+    "date": "2025-08-22",
+    "dateDisplay": "August 22, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "10 Signs Your HVAC System Needs Immediate Repair",
+    "excerpt": "Even if your HVAC system appears to be running, it might be quietly heading toward a breakdown. Early detection of problems is the key to avoiding sudden outages, costly emergency...",
+    "url": "/blog/10-signs-your-hvac-system-needs-immediate-repair/",
+    "image": "/assets/images/blog/wordpress/2025/08/hvac-repair.webp",
+    "imageAlt": "10 Signs Your HVAC System Needs Immediate Repair",
+    "date": "2025-08-18",
+    "dateDisplay": "August 18, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Complete HVAC Solutions for Year-Round Home Comfort",
+    "excerpt": "Your HVAC system is one of the most important investments in your home. It regulates your indoor climate, ensures air quality, and helps maintain a comfortable living space no...",
+    "url": "/blog/complete-hvac-solutions-for-year-round-home-comfort/",
+    "image": "/assets/images/blog/wordpress/2025/08/hvacmaintenance.webp",
+    "imageAlt": "Complete HVAC Solutions for Year-Round Home Comfort",
+    "date": "2025-08-14",
+    "dateDisplay": "August 14, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Fast AC Repair \u2013 Emergency Cooling Services When You Need Them Most",
+    "excerpt": "When your air conditioner suddenly stops working on a scorching day, comfort can quickly turn into frustration. A malfunctioning AC disrupts your daily routine, impacts your sleep...",
+    "url": "/blog/fast-ac-repair-emergency-cooling-services-when-you-need-them-most/",
+    "image": "/assets/images/blog/wordpress/2025/08/hvactech.webp",
+    "imageAlt": "Fast AC Repair \u2013 Emergency Cooling Services When You Need Them Most",
+    "date": "2025-08-11",
+    "dateDisplay": "August 11, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Are Smart Thermostats Worth It?",
+    "excerpt": "Homeowners are constantly looking for ways to save on energy bills and increase home comfort and one of the most talked-about upgrades is the smart thermostat. These Wi-Fi-enabled...",
+    "url": "/blog/are-smart-thermostats-worth-it/",
+    "image": "/assets/images/blog/wordpress/2025/08/smartthermostat.webp",
+    "imageAlt": "Are Smart Thermostats Worth It?",
+    "date": "2025-08-07",
+    "dateDisplay": "August 7, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Top HVAC Tips Every Homeowner in Northern Utah Should Know",
+    "excerpt": "If you\u2019re a homeowner in Northern Utah, ensuring your HVAC system runs smoothly year-round is more than a convenience. It's essential. With the region\u2019s unpredictable winters and...",
+    "url": "/blog/top-hvac-tips-every-homeowner-in-northern-utah-should-know/",
+    "image": "/assets/images/blog/wordpress/2025/08/0111.webp",
+    "imageAlt": "Top HVAC Tips Every Homeowner in Northern Utah Should Know",
+    "date": "2025-08-04",
+    "dateDisplay": "August 4, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Essential HVAC Tips Every Homeowner Should Know",
+    "excerpt": "Your home\u2019s HVAC system is the unsung hero of indoor comfort. Whether you\u2019re staying cool in the summer or warm during winter, this complex system works year-round to keep your...",
+    "url": "/blog/essential-hvac-tips-every-homeowner-should-know/",
+    "image": "/assets/images/blog/wordpress/2025/07/hvactips.webp",
+    "imageAlt": "Essential HVAC Tips Every Homeowner Should Know",
+    "date": "2025-07-31",
+    "dateDisplay": "July 31, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "How to Save Money with Smart HVAC Solutions",
+    "excerpt": "Looking for ways to reduce your energy bills without sacrificing comfort? Smart HVAC solutions offer a practical path to long-term savings while keeping your home environment...",
+    "url": "/blog/how-to-save-money-with-smart-hvac-solutions/",
+    "image": "/assets/images/blog/wordpress/2025/07/0728-1.webp",
+    "imageAlt": "How to Save Money with Smart HVAC Solutions",
+    "date": "2025-07-28",
+    "dateDisplay": "July 28, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Seasonal HVAC Checklist: What to Do Before Summer and Winter",
+    "excerpt": "When temperatures swing between extremes, your HVAC system becomes the unsung hero of comfort. Preparing it for seasonal changes is essential not just for cozy winters or cool...",
+    "url": "/blog/seasonal-hvac-checklist-what-to-do-before-summer-and-winter/",
+    "image": "/assets/images/blog/wordpress/2025/07/hvac1.webp",
+    "imageAlt": "Seasonal HVAC Checklist: What to Do Before Summer and Winter",
+    "date": "2025-07-24",
+    "dateDisplay": "July 24, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Stay Cozy All Year: Essential Steps for Furnace Preparation Before Winter",
+    "excerpt": "When temperatures dip across Northern Utah, there\u2019s nothing better than stepping into a warm, comfortable home. But that comfort starts long before the first snowflake falls...",
+    "url": "/blog/stay-cozy-all-year-essential-steps-for-furnace-preparation-before-winter/",
+    "image": "/assets/images/logo-salmon.png",
+    "imageAlt": "Stay Cozy All Year: Essential Steps for Furnace Preparation Before Winter",
+    "date": "2025-07-21",
+    "dateDisplay": "July 21, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Top 7 HVAC Strategies for Effective Heating and Cooling in Utah\u2019s Climate",
+    "excerpt": "Utah\u2019s high-desert climate demands a smart, energy-efficient approach to indoor comfort. With temperatures swinging from freezing winter lows to triple-digit summer highs, the...",
+    "url": "/blog/top-7-hvac-strategies-for-effective-heating-and-cooling-in-utahs-climate/",
+    "image": "/assets/images/blog/wordpress/2025/07/salmonhvac-2.webp",
+    "imageAlt": "Top 7 HVAC Strategies for Effective Heating and Cooling in Utah\u2019s Climate",
+    "date": "2025-07-17",
+    "dateDisplay": "July 17, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Finding Reliable HVAC Near Me: 6 Steps to Ensure Quality Service",
+    "excerpt": "When your air conditioner quits in the middle of a sweltering Utah summer or your furnace fails during a frigid winter night, your first instinct is to search online for \u201creliable...",
+    "url": "/blog/finding-reliable-hvac-near-me-6-steps-to-ensure-quality-service/",
+    "image": "/assets/images/blog/wordpress/2025/07/714.webp",
+    "imageAlt": "Finding Reliable HVAC Near Me: 6 Steps to Ensure Quality Service",
+    "date": "2025-07-14",
+    "dateDisplay": "July 14, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "The Invisible Threat: Unpacking Indoor Air Quality and How HVAC Systems Can Protect Your Health in Salt Lake",
+    "excerpt": "Air quality in Salt Lake and surrounding areas isn\u2019t just a topic for environmental scientists\u2014it\u2019s a daily health concern for homeowners. Between mountain inversions, wildfire...",
+    "url": "/blog/the-invisible-threat-unpacking-indoor-air-quality-and-how-hvac-systems-can-protect-your-health-in-salt-lake/",
+    "image": "/assets/images/blog/wordpress/2025/07/5-Signs-Its-Time-to-Replace-Your-Air-Filter.webp",
+    "imageAlt": "The Invisible Threat: Unpacking Indoor Air Quality and How HVAC Systems Can Protect Your Health in Salt Lake",
+    "date": "2025-07-09",
+    "dateDisplay": "July 9, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "The Ultimate Guide: 8 Steps to Prepping Your HVAC System for Utah\u2019s Seasonality",
+    "excerpt": "Utah\u2019s weather is anything but predictable. One week it\u2019s sunny and 85\u00b0F, and the next you\u2019re scraping frost off your windshield. That\u2019s why your HVAC system\u2014your home\u2019s climate...",
+    "url": "/blog/the-ultimate-guide-8-steps-to-prepping-your-hvac-system-for-utahs-seasonality/",
+    "image": "/assets/images/blog/wordpress/2025/07/pexels-alteredsnaps-14982942-scaled.jpg",
+    "imageAlt": "The Ultimate Guide: 8 Steps to Prepping Your HVAC System for Utah\u2019s Seasonality",
+    "date": "2025-07-07",
+    "dateDisplay": "July 7, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Summer Air Conditioner Tips: 5 Steps for Optimal Performance in Utah\u2019s Heat",
+    "excerpt": "When Utah\u2019s summer heat rolls in, nothing feels better than stepping into a cool, refreshing home. But that comfort comes at a cost if your air conditioner isn\u2019t running...",
+    "url": "/blog/summer-air-conditioner-tips-5-steps-for-optimal-performance-in-utahs-heat/",
+    "image": "/assets/images/blog/wordpress/2025/07/hvac-technician-using-modern-technology-instruments-to-analyze-hvac-units-in-beach-condo-.webp",
+    "imageAlt": "HVAC technician using modern technology instruments to analyze HVAC units in beach condo.",
+    "date": "2025-07-03",
+    "dateDisplay": "July 3, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Efficient Heating and Cooling: 10 Crucial Steps for Utah Homeowners",
+    "excerpt": "Efficient Heating and Cooling: 10 Crucial Steps for Utah Homeowners",
+    "url": "/blog/efficient-heating-and-cooling-10-crucial-steps-for-utah-homeowners/",
+    "image": "/assets/images/blog/wordpress/2025/07/pexels-jenkin-shen-12165130-28492754-scaled.webp",
+    "imageAlt": "Efficient Heating and Cooling: 10 Crucial Steps for Utah Homeowners",
+    "date": "2025-07-01",
+    "dateDisplay": "July 1, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Steps to Combat Drought Conditions: HVAC Water Conservation Tips for Utah Residents",
+    "excerpt": "Drought conditions can significantly impact daily life in Utah, where water scarcity is increasingly common during the summer months. Adjusting your HVAC system and adopting...",
+    "url": "/blog/steps-to-combat-drought-conditions-hvac-water-conservation-tips-for-utah-residents/",
+    "image": "/assets/images/blog/wordpress/2025/06/drought-earth-background-climate-change-.webp",
+    "imageAlt": "Drought. Earth. Background. Climate change.",
+    "date": "2025-06-26",
+    "dateDisplay": "June 26, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Energy-Efficient HVAC Solutions for Utah\u2019s Extreme Climate",
+    "excerpt": "When it comes to home comfort, few regions face as unique a challenge as Utah. From the dry, scorching summers of Salt Lake City to the biting, snowy winters across Northern Utah...",
+    "url": "/blog/energy-efficient-hvac-solutions-for-utahs-extreme-climate/",
+    "image": "/assets/images/blog/wordpress/2025/06/salt-lake-city-utah-usa.webp",
+    "imageAlt": "Salt Lake City, Utah, USA",
+    "date": "2025-06-24",
+    "dateDisplay": "June 24, 2025",
+    "readTime": "4 min read"
+  },
+  {
+    "title": "5 Essential Air Conditioner Maintenance Tips for Utah Homes | HVAC Salt Lake Guide",
+    "excerpt": "Utah summers are no joke\u2014temperatures can soar, leaving your home feeling like an oven without a reliable cooling system. At Salmon HVAC, we know how critical proper maintenance is...",
+    "url": "/blog/5-essential-air-conditioner-maintenance-tips-for-utah-homes-hvac-salt-lake-guide/",
+    "image": "/assets/images/blog/wordpress/2025/06/air-conditioning-system-outside-installation-on-of-the-house-the-air-conditioner-with-freon.webp",
+    "imageAlt": "Air conditioning system outside installation on of the house the air conditioner with freon",
+    "date": "2025-06-23",
+    "dateDisplay": "June 23, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Commercial HVAC Services in Northern Utah: Why Businesses Trust Salmon HVAC",
+    "excerpt": "Managing a business in Northern Utah comes with enough challenges\u2014HVAC shouldn\u2019t be one of them. Whether you\u2019re operating a restaurant in Ogden, a warehouse in Layton, or a medical...",
+    "url": "/blog/commercial-hvac-services-in-northern-utah-why-businesses-trust-salmon-hvac/",
+    "image": "/assets/images/blog/wordpress/2025/06/inside-pet-store-shelves-with-accessories.webp",
+    "imageAlt": "Inside pet store, shelves with accessories",
+    "date": "2025-06-20",
+    "dateDisplay": "June 20, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Why Timely Water Heater Repair Matters for Northern Utah Homes and Businesses",
+    "excerpt": "When your water heater fails, it\u2019s not just an inconvenience\u2014it can disrupt your routine, inflate your energy bills, and even damage your property. In the unique climate and hard...",
+    "url": "/blog/why-timely-water-heater-repair-matters-for-northern-utah-homes-and-businesses/",
+    "image": "/assets/images/blog/wordpress/2025/06/adult-male-with-hand-on-newly-installed-hot-water-heater.webp",
+    "imageAlt": "Adult male with hand on newly installed hot water heater",
+    "date": "2025-06-18",
+    "dateDisplay": "June 18, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "The Real Cost of Postponing Air Conditioner Repairs in Utah\u2019s Summer Heat",
+    "excerpt": "Utah summers are known for their dry, sweltering heat and beautiful outdoor vistas, but inside your home, comfort should never be compromised. As temperatures rise, your air...",
+    "url": "/blog/the-real-cost-of-postponing-air-conditioner-repairs-in-utahs-summer-heat-2/",
+    "image": "/assets/images/blog/wordpress/2025/06/young-man-riding-wakeboard-on-a-summer-lake.webp",
+    "imageAlt": "Young man riding wakeboard on a summer lake",
+    "date": "2025-06-09",
+    "dateDisplay": "June 9, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "AC Maintenance Tips for Utah Homes: Stay Cool and Save Money in Summer",
+    "excerpt": "Summer in Utah isn\u2019t just hot\u2014it\u2019s relentless. The dry desert air, combined with intense sun and rising temperatures, makes air conditioning not a luxury, but a necessity. If...",
+    "url": "/blog/ac-maintenance-tips-for-utah-homes-stay-cool-and-save-money-in-summer/",
+    "image": "/assets/images/blog/wordpress/2025/06/installed-on-the-exterior-facade-of-the-house-is-an-outdoor-air-conditioning-system-unit.webp",
+    "imageAlt": "Installed on the exterior facade of the house is an outdoor air conditioning system unit",
+    "date": "2025-06-04",
+    "dateDisplay": "June 4, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Your Guide to HVAC Repairs in Salt Lake: What Utah Homeowners Should Know",
+    "excerpt": "When the scorching Utah summer hits or a bitter cold snap settles over Salt Lake City, your HVAC system quickly becomes your best friend\u2014or your worst enemy if it's not working...",
+    "url": "/blog/your-guide-to-hvac-repairs-in-salt-lake-what-utah-homeowners-should-know/",
+    "image": "/assets/images/blog/wordpress/2025/06/salt-lake.webp",
+    "imageAlt": "Salt lake",
+    "date": "2025-06-02",
+    "dateDisplay": "June 2, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "The Real Cost of Postponing Air Conditioner Repairs in Utah\u2019s Summer Heat",
+    "excerpt": "Utah summers bring stunning views and endless outdoor activities\u2014but inside, staying cool isn\u2019t just a luxury, it\u2019s a necessity. Without a reliable air conditioning system, the...",
+    "url": "/blog/the-real-cost-of-postponing-air-conditioner-repairs-in-utahs-summer-heat/",
+    "image": "/assets/images/blog/wordpress/2025/05/great-salt-lake.webp",
+    "imageAlt": "Great Salt Lake",
+    "date": "2025-05-29",
+    "dateDisplay": "May 29, 2025",
+    "readTime": "4 min read"
+  },
+  {
+    "title": "When the Heat Hits Hard: What You Need to Know About Summer AC Repair in Northern Utah",
+    "excerpt": "It\u2019s a scene far too many Northern Utah homeowners are familiar with. The sun is blazing, temperatures outside creep into the 90s, and the hum of your air conditioner becomes the...",
+    "url": "/blog/when-the-heat-hits-hard-what-you-need-to-know-about-summer-ac-repair-in-northern-utah/",
+    "image": "/assets/images/blog/wordpress/2025/05/zion-utah-road.webp",
+    "imageAlt": "Zion Utah Road",
+    "date": "2025-05-27",
+    "dateDisplay": "May 27, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Debunking Common HVAC Myths: What Utah Homeowners Need to Know",
+    "excerpt": "As a homeowner in Northern Utah, your HVAC system plays a vital role in maintaining indoor comfort, energy efficiency, and air quality\u2014especially with Utah\u2019s dry climate and...",
+    "url": "/blog/debunking-common-hvac-myths-what-utah-homeowners-need-to-know/",
+    "image": "/assets/images/blog/wordpress/2025/05/high-efficiency-quiet-outdoor-hvac-heating-and-cooling-unit-generic-logos-removed.webp",
+    "imageAlt": "High efficiency quiet outdoor HVAC heating and cooling unit. generic, logos removed",
+    "date": "2025-05-27",
+    "dateDisplay": "May 27, 2025",
+    "readTime": "4 min read"
+  },
+  {
+    "title": "The Ultimate Timeline: When to Schedule HVAC Services for Your Utah Home",
+    "excerpt": "Maintaining a reliable HVAC system in Utah isn\u2019t just about comfort\u2014it\u2019s about protecting your investment, improving energy efficiency, and ensuring clean indoor air. With the...",
+    "url": "/blog/the-ultimate-timeline-when-to-schedule-hvac-services-for-your-utah-home/",
+    "image": "/assets/images/blog/wordpress/2025/05/hvac-and-pipe-heading-into-house.webp",
+    "imageAlt": "HVAC and pipe heading into house",
+    "date": "2025-05-22",
+    "dateDisplay": "May 22, 2025",
+    "readTime": "4 min read"
+  },
+  {
+    "title": "Is Your Utah Home's Ventilation System Actually Making You Sick?",
+    "excerpt": "In Northern Utah\u2019s unique climate\u2014where snowy winters meet dusty summers\u2014homeowners often focus on heating and cooling. But one critical component is often overlooked: the...",
+    "url": "/blog/is-your-utah-homes-ventilation-system-actually-making-you-sick/",
+    "image": "/assets/images/blog/wordpress/2025/05/portrait-of-happy-family-on-sofa-at-home.webp",
+    "imageAlt": "Portrait of happy family on sofa at home",
+    "date": "2025-05-20",
+    "dateDisplay": "May 20, 2025",
+    "readTime": "3 min read"
+  },
+  {
+    "title": "Air Conditioner Not Cooling? Top Causes and Fixes for Utah Homes",
+    "excerpt": "If your air conditioner isn\u2019t cooling your Utah home, you\u2019re not alone. From low refrigerant to clogged filters and frozen coils, there are several common issues that can cause AC failure\u2014especially in Northern Utah\u2019s dry, dusty climate. In this guide, Salmon HVAC breaks down the top causes and what you can do to fix them before calling in the pros.",
+    "url": "/blog/air-conditioner-not-cooling-top-causes-and-fixes-for-utah-homes/",
+    "image": "/assets/images/blog/wordpress/2025/05/hvac-repairman-adjusts-pressure-levels.webp",
+    "imageAlt": "HVAC repairman adjusts pressure levels",
+    "date": "2025-05-15",
+    "dateDisplay": "May 15, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Why Regular HVAC Maintenance Matters More in Utah\u2019s Dry Climate",
+    "excerpt": "Utah\u2019s dry, dusty climate puts unique strain on HVAC systems, making regular maintenance essential\u2014not optional. From brittle components to clogged ductwork, neglecting routine service can lead to higher energy bills, poor air quality, and costly repairs. In this guide, Salmon HVAC explains why Utah homeowners need a customized maintenance approach to keep systems running efficiently year-round.",
+    "url": "/blog/why-regular-hvac-maintenance-matters-more-in-utahs-dry-climate/",
+    "image": "/assets/images/blog/wordpress/2025/05/utah-landscapes.webp",
+    "imageAlt": "Utah landscapes",
+    "date": "2025-05-13",
+    "dateDisplay": "May 13, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Indoor Air Quality in Utah: What Every Homeowner Needs to Know",
+    "excerpt": "Indoor air quality is a growing concern for Utah homeowners, especially with the state\u2019s dry climate, wildfire smoke, and winter inversions. Learn how your HVAC system influences the air you breathe\u2014and discover practical solutions from Salmon HVAC to improve comfort, health, and efficiency throughout your home.",
+    "url": "/blog/indoor-air-quality-in-utah-what-every-homeowner-needs-to-know/",
+    "image": "/assets/images/blog/wordpress/2025/05/hvac-worker-installing-air-ducts.webp",
+    "imageAlt": "HVAC Worker Installing Air Ducts",
+    "date": "2025-05-08",
+    "dateDisplay": "May 8, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Top HVAC Services in Salt Lake: Keeping Your Home Comfortable Year-Round",
+    "excerpt": "Staying comfortable year-round in Salt Lake\u2019s extreme climate requires a reliable, efficient HVAC system. This in-depth guide from Salmon HVAC explores the unique heating and cooling challenges in Utah, common system issues, smart upgrade trends, and expert maintenance tips to help homeowners get the most from their investment.",
+    "url": "/blog/top-hvac-services-in-salt-lake-keeping-your-home-comfortable-year-round/",
+    "image": "/assets/images/blog/wordpress/2025/05/salt-lake-city-utah-usa-downtown.webp",
+    "imageAlt": "Salt Lake City, Utah, USA Downtown",
+    "date": "2025-05-06",
+    "dateDisplay": "May 6, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Understanding Smart HVAC Technology: The Future of Utah Home Comfort Systems",
+    "excerpt": "As the world rapidly progresses toward a more connected and technologically advanced future, the integration of smart technology into home systems is becoming the new standard. One...",
+    "url": "/blog/understanding-smart-hvac-technology-the-future-of-utah-home-comfort-systems/",
+    "image": "/assets/images/logo-salmon.png",
+    "imageAlt": "Understanding Smart HVAC Technology: The Future of Utah Home Comfort Systems",
+    "date": "2025-05-02",
+    "dateDisplay": "May 2, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "How Salmon HVAC's Preventative Maintenance Plans Save Utah Homeowners Money",
+    "excerpt": "When it comes to maintaining a comfortable home environment, proactive care for your HVAC systems makes a world of difference. In Utah, where temperatures swing between hot summers...",
+    "url": "/blog/how-salmon-hvacs-preventative-maintenance-plans-save-utah-homeowners-money/",
+    "image": "/assets/images/blog/wordpress/2025/04/american-bison-grazing-grass-at-antelope-island-state-park-in-spring.webp",
+    "imageAlt": "American bison grazing grass at Antelope Island State Park in spring",
+    "date": "2025-04-30",
+    "dateDisplay": "April 30, 2025",
+    "readTime": "4 min read"
+  },
+  {
+    "title": "The Hidden Benefits of Professional Ventilation Services for Utah Homeowners",
+    "excerpt": "For homeowners in Utah\u2014especially those in areas like Centerville, Bountiful, and Salt Lake City\u2014achieving optimal indoor air quality and energy efficiency starts with a...",
+    "url": "/blog/the-hidden-benefits-of-professional-ventilation-services-for-utah-homeowners/",
+    "image": "/assets/images/blog/wordpress/2025/04/installation-of-ceiling-hvac-ventilation-hole-from-ventilation-skin-cover.webp",
+    "imageAlt": "Installation of ceiling HVAC ventilation hole from ventilation skin cover",
+    "date": "2025-04-25",
+    "dateDisplay": "April 25, 2025",
+    "readTime": "4 min read"
+  },
+  {
+    "title": "Utah's Altitude and Your HVAC System: What Every Homeowner Should Know",
+    "excerpt": "Living in Utah means breathtaking mountain views, skiing, and crisp high-altitude air. But have you ever considered how Utah\u2019s elevation\u2014from Salt Lake City at ~4,300 feet to Park...",
+    "url": "/blog/utahs-altitude-and-your-hvac-system-what-every-homeowner-should-know/",
+    "image": "/assets/images/blog/wordpress/2025/04/mountain-road-in-the-forest-of-big-cottonwood-canyon-in-utah-with-mountains-in-the-background.webp",
+    "imageAlt": "Mountain road, in the forest of Big Cottonwood Canyon in Utah, with mountains in the background",
+    "date": "2025-04-23",
+    "dateDisplay": "April 23, 2025",
+    "readTime": "4 min read"
+  },
+  {
+    "title": "How Can You Tell If Your Air Conditioner Needs Immediate Repair?",
+    "excerpt": "Is your air conditioner acting up? Learn how to spot the top warning signs\u2014like strange noises, inconsistent cooling, or rising energy bills\u2014that indicate your AC may need immediate repair. Don\u2019t wait for a breakdown; discover when it\u2019s time to call the pros at Salmon HVAC, proudly serving Salt Lake City, Centerville, and beyond.",
+    "url": "/blog/how-can-you-tell-if-your-air-conditioner-needs-immediate-repair/",
+    "image": "/assets/images/blog/wordpress/2025/04/managing-her-team-positively-well-2025-04-06-08-45-53-utc-scaled.webp",
+    "imageAlt": "How Can You Tell If Your Air Conditioner Needs Immediate Repair?",
+    "date": "2025-04-18",
+    "dateDisplay": "April 18, 2025",
+    "readTime": "4 min read"
+  },
+  {
+    "title": "What to Know Before Searching for HVAC Repair Services Near Me",
+    "excerpt": "When your heating or air conditioning system starts acting up, your first instinct might be to search online for HVAC repair services near me. But how do you ensure you\u2019re choosing...",
+    "url": "/blog/what-to-know-before-searching-for-hvac-repair-services-near-me/",
+    "image": "/assets/images/blog/wordpress/2025/04/man-using-screwdriver-for-repairing-ventilation-sy-2024-12-13-12-08-22-utc-scaled.webp",
+    "imageAlt": "HVAC repairman.",
+    "date": "2025-04-16",
+    "dateDisplay": "April 16, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "How Proper Ventilation Impacts Your Utah Home's Energy Efficiency",
+    "excerpt": "When Utah's weather swings from scorching summers to frigid winters, your home's ventilation system becomes more than just a comfort feature\u2014it's an essential component of your...",
+    "url": "/blog/how-proper-ventilation-impacts-your-utah-homes-energy-efficiency/",
+    "image": "/assets/images/logo-salmon.png",
+    "imageAlt": "How Proper Ventilation Impacts Your Utah Home's Energy Efficiency",
+    "date": "2025-04-11",
+    "dateDisplay": "April 11, 2025",
+    "readTime": "9 min read"
+  },
+  {
+    "title": "5 Warning Signs Your Utah Home Needs Professional Air Conditioner Repair",
+    "excerpt": "Discover the 5 critical warning signs that your Utah home needs professional air conditioner repair from Salmon HVAC's experts before a complete system breakdown occurs.",
+    "url": "/blog/5-warning-signs-your-utah-home-needs-professional-air-conditioner-repair/",
+    "image": "/assets/images/blog/wordpress/2025/04/hvac-fan-and-venting.webp",
+    "imageAlt": "HVAC fan and venting",
+    "date": "2025-04-09",
+    "dateDisplay": "April 9, 2025",
+    "readTime": "8 min read"
+  },
+  {
     "title": "Why Utah's Climate Demands Specialized HVAC Maintenance",
     "excerpt": "Utah's altitude, inversion air quality events, and humidity extremes require HVAC maintenance most contractors aren't trained for. Here's what makes our climate different.",
     "url": "/blog/why-utahs-climate-demands-specialized-hvac-maintenance/",
     "image": "/assets/images/hvac-tech.webp",
-    "imageAlt": "HVAC technician servicing rooftop units — specialized maintenance for Utah's altitude and inversion climate",
+    "imageAlt": "HVAC technician servicing rooftop units \u2014 specialized maintenance for Utah's altitude and inversion climate",
     "date": "2025-04-02",
     "dateDisplay": "April 2, 2025",
     "readTime": "8 min read"
+  },
+  {
+    "title": "Spring Into Comfort: Why Now Is the Time for Air Conditioning Service in Utah",
+    "excerpt": "As Utah transitions into spring, now is the perfect time to schedule your air conditioning service. Avoid summer breakdowns, lower your energy bills, and keep your home comfortable with a professional AC tune-up from Salmon HVAC. Learn why spring maintenance is essential for Utah homeowners and how it can save you money all season long.",
+    "url": "/blog/spring-into-comfort-why-now-is-the-time-for-air-conditioning-service-in-utah/",
+    "image": "/assets/images/blog/wordpress/2025/03/AdobeStock_614835846-scaled.jpeg",
+    "imageAlt": "utah mountains in the spring.",
+    "date": "2025-03-28",
+    "dateDisplay": "March 28, 2025",
+    "readTime": "4 min read"
+  },
+  {
+    "title": "Why Spring HVAC Tune-ups Are Crucial for Summer Comfort",
+    "excerpt": "The days are getting longer, birds are chirping again, and those heavy winter coats are finally being stored away. As spring breathes new life into the world around us, there's one...",
+    "url": "/blog/why-spring-hvac-tune-ups-are-crucial-for-summer-comfort/",
+    "image": "/assets/images/blog/wordpress/2025/03/mother-with-son-and-daughter-hiking-the-bonnevill-2024-10-18-12-24-35-utc-scaled.webp",
+    "imageAlt": "Mother and son hiking in the hills of Utah",
+    "date": "2025-03-27",
+    "dateDisplay": "March 27, 2025",
+    "readTime": "8 min read"
+  },
+  {
+    "title": "What Indoor Air Quality Solutions Are Available from Utah HVAC Experts?",
+    "excerpt": "Discover how Utah homeowners can improve indoor air quality with expert HVAC solutions. From HEPA filters and UV purifiers to whole-home humidifiers and smart ventilation systems, learn how to create a healthier, more comfortable home environment year-round.",
+    "url": "/blog/what-indoor-air-quality-solutions-are-available-from-utah-hvac-experts/",
+    "image": "/assets/images/blog/wordpress/2025/03/AdobeStock_996570859-1.jpeg",
+    "imageAlt": "HVAC technician servicing an AC unit.",
+    "date": "2025-03-26",
+    "dateDisplay": "March 26, 2025",
+    "readTime": "5 min read"
   },
   {
     "title": "Why Is Regular HVAC Maintenance Important for Long-Term Efficiency in Utah?",
@@ -80,13 +1110,233 @@
     "readTime": "7 min read"
   },
   {
+    "title": "How to Choose the Best HVAC Repair Service in Utah",
+    "excerpt": "Looking for the best HVAC repair service in Utah? Learn how to choose a reliable provider for your furnace and AC needs with expert tips on pricing, licensing, and customer reviews.",
+    "url": "/blog/how-to-choose-the-best-hvac-repair-service-in-utah/",
+    "image": "/assets/images/blog/wordpress/2025/03/image-4.png",
+    "imageAlt": "How to Choose the Best HVAC Repair Service in Utah",
+    "date": "2025-03-20",
+    "dateDisplay": "March 20, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "When Should You Call for Emergency HVAC Repair Services in Utah?",
+    "excerpt": "In Utah, recognizing when to seek emergency HVAC repair is crucial due to extreme weather challenges. Key indicators include unusual noises, lack of heating or cooling, and significant leaks. Immediate professional assistance is necessary to avoid severe damage and ensure safety. Regular maintenance can help prevent these emergencies.",
+    "url": "/blog/when-should-you-call-for-emergency-hvac-repair-services-in-utah/",
+    "image": "/assets/images/blog/wordpress/2025/03/pexels-photo-8293646.jpeg",
+    "imageAlt": "a contractor checking the socket",
+    "date": "2025-03-14",
+    "dateDisplay": "March 14, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "What Are the Benefits of Energy-Efficient HVAC System Installation in Utah?",
+    "excerpt": "Investing in an energy-efficient HVAC system is highly beneficial for Utah homeowners, offering reduced energy consumption, lower utility costs, enhanced indoor air quality, and increased property value. These systems are designed to handle extreme temperatures and promote environmental sustainability while providing financial incentives through rebates and tax credits.",
+    "url": "/blog/what-are-the-benefits-of-energy-efficient-hvac-system-installation-in-utah/",
+    "image": "/assets/images/blog/wordpress/2025/03/image-3.png",
+    "imageAlt": "What Are the Benefits of Energy-Efficient HVAC System Installation in Utah?",
+    "date": "2025-03-12",
+    "dateDisplay": "March 12, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "What Should You Look for in HVAC Maintenance Plans Offered by Salt Lake City HVAC Companies?",
+    "excerpt": "Choosing the right HVAC maintenance plan in Salt Lake City is essential for keeping your system running efficiently year-round. A quality plan should include regular inspections, system tune-ups, and filter replacements while offering priority service and repair discounts. With Utah\u2019s extreme seasonal temperatures, investing in a maintenance plan can help prevent costly breakdowns, improve energy efficiency, and extend the lifespan of your HVAC system. Learn what to look for in a comprehensive plan to ensure comfort and reliability in your home.",
+    "url": "/blog/what-should-you-look-for-in-hvac-maintenance-plans-offered-by-salt-lake-city-hvac-companies/",
+    "image": "/assets/images/blog/wordpress/2025/03/image-2.png",
+    "imageAlt": "What Should You Look for in HVAC Maintenance Plans Offered by Salt Lake City HVAC Companies?",
+    "date": "2025-03-06",
+    "dateDisplay": "March 6, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Why Is Duct Cleaning Essential for Your Utah HVAC System\u2019s Efficiency?",
+    "excerpt": "Regular duct cleaning is essential for maintaining the efficiency of your Utah HVAC system. With the state's extreme temperature shifts and dry climate, dust and debris can quickly accumulate in air ducts, restricting airflow and increasing energy costs. Clean ducts enhance indoor air quality, reduce strain on HVAC components, and help prevent costly repairs. Learn how professional duct cleaning can improve your system\u2019s performance, lower your utility bills, and create a healthier home environment.",
+    "url": "/blog/why-is-duct-cleaning-essential-for-your-utah-hvac-systems-efficiency/",
+    "image": "/assets/images/blog/wordpress/2025/03/image-1.png",
+    "imageAlt": "Why Is Duct Cleaning Essential for Your Utah HVAC System\u2019s Efficiency?",
+    "date": "2025-03-04",
+    "dateDisplay": "March 4, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "How Can Heat Pump Services From Salmon HVAC Improve Your Home Comfort?",
+    "excerpt": "In recent years, more homeowners have turned to heat pumps as a versatile and energy-efficient solution for heating and cooling. These systems provide sustainable temperature...",
+    "url": "/blog/how-can-heat-pump-services-from-salmon-hvac-improve-your-home-comfort/",
+    "image": "/assets/images/blog/wordpress/2025/02/image-3.png",
+    "imageAlt": "How Can Heat Pump Services From Salmon HVAC Improve Your Home Comfort?",
+    "date": "2025-02-27",
+    "dateDisplay": "February 27, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Understanding Your Furnace: How It Works, Common Issues, and When to Call for Repair",
+    "excerpt": "A furnace is a critical component of any home's heating system, providing warmth and comfort during the colder months. Whether powered by natural gas, propane, electricity, or oil...",
+    "url": "/blog/understanding-your-furnace-how-it-works-common-issues-and-when-to-call-for-repair/",
+    "image": "/assets/images/blog/wordpress/2025/02/image-2.png",
+    "imageAlt": "Understanding Your Furnace: How It Works, Common Issues, and When to Call for Repair",
+    "date": "2025-02-25",
+    "dateDisplay": "February 25, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "What You Should Know Before Installing Central Air in Utah\u2019s Unique Climate",
+    "excerpt": "Utah\u2019s unique climate demands an efficient cooling solution. Central air offers consistent comfort, improved air quality, and energy savings\u2014but is it right for your home? Learn about system types, energy efficiency, and key installation considerations. Need expert advice? Contact Salmon HVAC at (801) 397-0030 or visit salmonhvac.com today!",
+    "url": "/blog/what-you-should-know-before-installing-central-air-in-utahs-unique-climate/",
+    "image": "/assets/images/blog/wordpress/2025/02/image-1.png",
+    "imageAlt": "What You Should Know Before Installing Central Air in Utah\u2019s Unique Climate",
+    "date": "2025-02-21",
+    "dateDisplay": "February 21, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "How to Choose the Best Air Conditioning Service",
+    "excerpt": "Choosing the right air conditioning service ensures comfort, efficiency, and long-term savings. This guide covers key factors like certifications, customer reviews, pricing, and maintenance plans to help you make an informed decision. Need expert HVAC service in Centerville, UT? Contact Salmon HVAC at (801) 397-0030 or visit salmonhvac.com today!",
+    "url": "/blog/how-to-choose-the-best-air-conditioning-service/",
+    "image": "/assets/images/blog/wordpress/2025/02/image.png",
+    "imageAlt": "How to Choose the Best Air Conditioning Service",
+    "date": "2025-02-19",
+    "dateDisplay": "February 19, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Why Are Heat Pumps the Unsung Heroes of Energy Efficiency?",
+    "excerpt": "As the demand for sustainable energy solutions grows, more homeowners are discovering the significant role heat pumps play in energy efficiency. These versatile systems provide...",
+    "url": "/blog/why-are-heat-pumps-the-unsung-heroes-of-energy-efficiency/",
+    "image": "/assets/images/blog/wordpress/2025/02/heat-pumps-unsung-heroes-of-energy-efficiency-nnc.jpg",
+    "imageAlt": "Why Are Heat Pumps the Unsung Heroes of Energy Efficiency?",
+    "date": "2025-02-13",
+    "dateDisplay": "February 13, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "What Makes HVAC Service Essential for Utah Homes in Extreme Weather Conditions?",
+    "excerpt": "Utah residents know firsthand how unpredictable the weather can be, from freezing winters to scorching summers. A reliable HVAC system is not just a luxury\u2014it\u2019s a necessity...",
+    "url": "/blog/what-makes-hvac-service-essential-for-utah-homes-in-extreme-weather-conditions/",
+    "image": "/assets/images/blog/wordpress/2025/02/importance-of-hvac-service-for-utah-homes-jke.jpg",
+    "imageAlt": "What Makes HVAC Service Essential for Utah Homes in Extreme Weather Conditions?",
+    "date": "2025-02-11",
+    "dateDisplay": "February 11, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "How Can Regular HVAC Maintenance Save You From Costly Repairs?",
+    "excerpt": "Regular HVAC maintenance is one of the most effective ways to prevent unexpected breakdowns and costly repairs. By scheduling routine check-ups, homeowners can ensure their systems...",
+    "url": "/blog/how-can-regular-hvac-maintenance-save-you-from-costly-repairs/",
+    "image": "/assets/images/blog/wordpress/2025/02/how-regular-hvac-maintenance-saves-you-money-erh.jpg",
+    "imageAlt": "How Can Regular HVAC Maintenance Save You From Costly Repairs?",
+    "date": "2025-02-06",
+    "dateDisplay": "February 6, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Which HVAC Solutions Can Elevate Your Comfort?",
+    "excerpt": "Creating a comfortable home environment goes beyond just adjusting the thermostat. The right HVAC solutions can enhance indoor comfort, improve air quality, and reduce energy...",
+    "url": "/blog/which-hvac-solutions-can-elevate-your-comfort/",
+    "image": "/assets/images/blog/wordpress/2025/02/which-hvac-solutions-can-elevate-your-comfort-dsx.jpg",
+    "imageAlt": "Which HVAC Solutions Can Elevate Your Comfort?",
+    "date": "2025-02-04",
+    "dateDisplay": "February 4, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Spring HVAC Maintenance Checklist: Prepare for Warmer Weather",
+    "excerpt": "Over the winter months, your HVAC system may have gathered dust and debris, which can affect its efficiency as warmer weather approaches. To ensure your home stays comfortable...",
+    "url": "/blog/spring-hvac-maintenance-checklist-prepare-for-warmer-weather/",
+    "image": "/assets/images/blog/wordpress/2025/01/dan-lefebvre-mAwE-fqgDXc-unsplash-1.jpg",
+    "imageAlt": "Spring HVAC Maintenance Checklist: Prepare for Warmer Weather",
+    "date": "2025-01-23",
+    "dateDisplay": "January 23, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Why Professional Furnace Maintenance Can Save You Thousands",
+    "excerpt": "Over time, neglecting your furnace's maintenance can lead to costly repairs and even premature replacement. By investing in professional furnace maintenance, you ensure that your...",
+    "url": "/blog/why-professional-furnace-maintenance-can-save-you-thousands/",
+    "image": "/assets/images/blog/wordpress/2025/01/919f3f_5e19c327e9554e61904ce920a8aee45fmv2.webp",
+    "imageAlt": "Why Professional Furnace Maintenance Can Save You Thousands",
+    "date": "2025-01-21",
+    "dateDisplay": "January 21, 2025",
+    "readTime": "18 min read"
+  },
+  {
+    "title": "Why HVAC Maintenance Plans Are Worth It for Utah Homeowners",
+    "excerpt": "Utah homeowners know that the state\u2019s extreme temperature fluctuations can make reliable heating and cooling systems a necessity. At Salmon HVAC, we understand how important it is...",
+    "url": "/blog/why-hvac-maintenance-plans-are-worth-it-for-utah-homeowners/",
+    "image": "/assets/images/blog/wordpress/2024/12/Image-8-28-23-at-6.52-PM-2-scaled.jpg",
+    "imageAlt": "Why HVAC Maintenance Plans Are Worth It for Utah Homeowners",
+    "date": "2025-01-21",
+    "dateDisplay": "January 21, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Top-Rated HVAC Systems for Salt Lake City Homes",
+    "excerpt": "Finding the right HVAC system for your Salt Lake City home is crucial for year-round comfort and energy efficiency. With so many options on the market, it\u2019s essential to understand...",
+    "url": "/blog/top-rated-hvac-systems-for-salt-lake-city-homes/",
+    "image": "/assets/images/blog/wordpress/2024/11/IMG_6450.png",
+    "imageAlt": "Top-Rated HVAC Systems for Salt Lake City Homes",
+    "date": "2025-01-21",
+    "dateDisplay": "January 21, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "How to Improve Indoor Air Quality During Utah Winters",
+    "excerpt": "Winters in Utah are always bright and beautiful. Ensure that your air is staying fresh and clean with proper HVAC maintenance.",
+    "url": "/blog/how-to-improve-indoor-air-quality-during-utah-winters/",
+    "image": "/assets/images/blog/wordpress/2025/01/919f3f_8b93f90a40ea4b2a8d5e2c8fec6b9bacmv2.webp",
+    "imageAlt": "How to Improve Indoor Air Quality During Utah Winters",
+    "date": "2025-01-21",
+    "dateDisplay": "January 21, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "How to Choose the Right HVAC System for Your Utah Home",
+    "excerpt": "Choosing the right HVAC system for your Utah home is essential for ensuring year-round comfort, especially with the state\u2019s hot summers and freezing winters. At Salmon HVAC, we...",
+    "url": "/blog/how-to-choose-the-right-hvac-system-for-your-utah-home/",
+    "image": "/assets/images/blog/wordpress/2025/01/919f3f_a57d6e72ba2043eba48119087e11ae90mv2.webp",
+    "imageAlt": "How to Choose the Right HVAC System for Your Utah Home",
+    "date": "2025-01-21",
+    "dateDisplay": "January 21, 2025",
+    "readTime": "5 min read"
+  },
+  {
     "title": "Heating vs. Cooling: How Utah's Climate Affects Your HVAC System",
-    "excerpt": "Utah's extreme climate demands HVAC systems that handle 100°F summers and sub-zero winters. Learn how altitude, humidity, and seasonal swings affect your equipment choices.",
+    "excerpt": "Utah's extreme climate demands HVAC systems that handle 100\u00b0F summers and sub-zero winters. Learn how altitude, humidity, and seasonal swings affect your equipment choices.",
     "url": "/blog/heating-vs-cooling-how-utahs-climate-affects-your-hvac-system/",
     "image": "/assets/images/hvac-outdoor-unit.webp",
     "imageAlt": "HVAC outdoor unit serving a northern Utah home through extreme heating and cooling seasons",
     "date": "2025-01-21",
     "dateDisplay": "January 21, 2025",
     "readTime": "8 min read"
+  },
+  {
+    "title": "DIY Furnace Troubleshooting: When to Call a Pro",
+    "excerpt": "Keeping your furnace running efficiently is essential for a warm and comfortable home during the chilly months. While some furnace issues are simple enough for homeowners to...",
+    "url": "/blog/diy-furnace-troubleshooting-when-to-call-a-pro/",
+    "image": "/assets/images/blog/wordpress/2025/01/AdobeStock_65737788-1.jpeg",
+    "imageAlt": "DIY Furnace Troubleshooting: When to Call a Pro",
+    "date": "2025-01-21",
+    "dateDisplay": "January 21, 2025",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "Best Practices for Heating Efficiency in Utah's Winter",
+    "excerpt": "As temperatures plummet during Utah\u2019s winters, keeping your home warm without overspending becomes a priority. Efficiency in your heating system can significantly reduce energy...",
+    "url": "/blog/best-practices-for-heating-efficiency-in-utahs-winter/",
+    "image": "/assets/images/blog/wordpress/2025/01/919f3f_0d938193aa944fdab80a384045c637dcmv2.webp",
+    "imageAlt": "Best Practices for Heating Efficiency in Utah's Winter",
+    "date": "2025-01-21",
+    "dateDisplay": "January 21, 2025",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "10 Signs Your Furnace Needs Repair to Keep Your Home Warm This Winter",
+    "excerpt": "With winter just around the corner, ensuring your furnace is in optimal condition is important for maintaining a cozy home. You rely on your heating system to keep your living...",
+    "url": "/blog/10-signs-your-furnace-needs-repair-to-keep-your-home-warm-this-winter/",
+    "image": "/assets/images/blog/wordpress/2025/01/919f3f_e03cc67a6e4546d592d454ca23f81fa0mv2.webp",
+    "imageAlt": "10 Signs Your Furnace Needs Repair to Keep Your Home Warm This Winter",
+    "date": "2025-01-21",
+    "dateDisplay": "January 21, 2025",
+    "readTime": "17 min read"
   }
 ]
