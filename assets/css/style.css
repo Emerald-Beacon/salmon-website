@@ -1819,6 +1819,62 @@ a.service-card:hover .service-card-icon {
     margin-bottom: 52px;
 }
 
+.legal-section {
+    margin: 0;
+    padding: 72px 0 24px;
+}
+
+.legal-document {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: clamp(28px, 4vw, 56px);
+    background: var(--light-surface);
+    border-top: 4px solid var(--brand-ice);
+    box-shadow: var(--shadow-sm);
+}
+
+.legal-updated {
+    margin-bottom: 28px;
+    color: var(--text-medium);
+    font-size: 1rem;
+}
+
+.legal-document > p {
+    max-width: 52em;
+    margin: 0 0 22px;
+    color: var(--text-medium);
+    font-size: 1.08rem;
+    line-height: 1.95;
+    text-transform: none;
+}
+
+.legal-document > h2 {
+    margin: 44px 0 18px;
+    font-size: clamp(1.9rem, 3vw, 2.35rem);
+}
+
+.legal-document > h2:first-of-type {
+    margin-top: 34px;
+}
+
+.legal-document > p:last-child {
+    margin-bottom: 0;
+}
+
+.legal-document strong {
+    color: var(--dark-bg);
+}
+
+.legal-document a {
+    color: var(--brand-magenta-dark);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
+.legal-document a:hover {
+    color: var(--brand-magenta);
+}
+
 .page-content ol {
     padding-left: 28px;
     margin: 20px 0 32px;
@@ -3039,6 +3095,25 @@ a.service-card:hover .service-card-icon {
     /* Section headings smaller on mobile */
     .section-header h2 {
         font-size: clamp(1.4rem, 6vw, 2rem);
+    }
+
+    .legal-section {
+        padding: 44px 0 10px;
+    }
+
+    .legal-document {
+        padding: 24px 18px;
+    }
+
+    .legal-document > p {
+        font-size: 1rem;
+        line-height: 1.85;
+        margin-bottom: 18px;
+    }
+
+    .legal-document > h2 {
+        margin: 34px 0 14px;
+        font-size: clamp(1.55rem, 8vw, 1.95rem);
     }
 }
 
