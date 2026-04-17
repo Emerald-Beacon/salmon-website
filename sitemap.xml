@@ -1003,6 +1003,12 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://salmonhvac.com/services/hvac-repair/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://salmonhvac.com/services/ac-repair/</loc>
     <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -1058,6 +1064,12 @@
   </url>
   <url>
     <loc>https://salmonhvac.com/services/vrf-systems/</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://salmonhvac.com/services/water-heaters/</loc>
     <lastmod>2026-04-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
