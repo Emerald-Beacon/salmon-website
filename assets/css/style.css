@@ -1033,9 +1033,14 @@ a.service-card:hover .service-card-icon {
 
 .reviews-heading-block {
     text-align: center;
-    margin-bottom: 52px;
+    margin-bottom: 32px;
     position: relative;
     z-index: 1;
+}
+
+.trustindex-embed {
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .reviews-heading-block h2 {
