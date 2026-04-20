@@ -1325,7 +1325,11 @@ a.service-card:hover .service-card-icon {
 ============================================ */
 .services-photo-section {
     padding: var(--section-padding) 0;
-    background: var(--light-surface);
+    background: var(--dark-bg);
+}
+
+.services-photo-section .section-header h2 {
+    color: var(--light-surface);
 }
 
 .services-photo-grid {
