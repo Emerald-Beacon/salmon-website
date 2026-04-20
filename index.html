@@ -534,6 +534,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       .then(function(posts){
         var grid = document.getElementById('homepage-blog-grid');
         if(!grid) return;
+        posts.sort(function(a,b){ return new Date(b.date) - new Date(a.date); });
         posts.slice(0,3).forEach(function(post){
           var card = document.createElement('article');
           card.className = 'blog-card';
