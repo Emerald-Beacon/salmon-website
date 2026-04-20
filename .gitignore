@@ -3,6 +3,7 @@
 
 # Extracted WordPress backup (large files)
 extracted/
+tmp/
 
 # Dependencies
 node_modules/

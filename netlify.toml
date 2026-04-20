@@ -16,6 +16,71 @@
   to = "/our-team/"
   status = 301
 
+[[redirects]]
+  from = "/indoor-air-quality-in-utah-what-every-homeowner-needs-to-know/"
+  to = "/blog/indoor-air-quality-in-utah-what-every-homeowner-needs-to-know/"
+  status = 301
+
+[[redirects]]
+  from = "/mini-split-vs-central-air-choosing-the-right-cooling-system-for-your-home/"
+  to = "/blog/mini-split-vs-central-air-choosing-the-right-cooling-system-for-your-home/"
+  status = 301
+
+[[redirects]]
+  from = "/efficient-heating-and-cooling-10-crucial-steps-for-utah-homeowners/"
+  to = "/blog/efficient-heating-and-cooling-10-crucial-steps-for-utah-homeowners/"
+  status = 301
+
+[[redirects]]
+  from = "/are-smart-thermostats-worth-it/"
+  to = "/blog/are-smart-thermostats-worth-it/"
+  status = 301
+
+[[redirects]]
+  from = "/heating-vs-cooling-how-utahs-climate-affects-your-hvac-system/"
+  to = "/blog/heating-vs-cooling-how-utahs-climate-affects-your-hvac-system/"
+  status = 301
+
+[[redirects]]
+  from = "/best-air-filters-for-homes-with-pets-or-allergies-in-utah/"
+  to = "/blog/best-air-filters-for-homes-with-pets-or-allergies-in-utah/"
+  status = 301
+
+[[redirects]]
+  from = "/why-professional-furnace-maintenance-can-save-you-thousands/"
+  to = "/blog/why-professional-furnace-maintenance-can-save-you-thousands/"
+  status = 301
+
+[[redirects]]
+  from = "/finding-reliable-hvac-near-me-6-steps-to-ensure-quality-service/"
+  to = "/blog/finding-reliable-hvac-near-me-6-steps-to-ensure-quality-service/"
+  status = 301
+
+[[redirects]]
+  from = "/utahs-altitude-and-your-hvac-system-what-every-homeowner-should-know/"
+  to = "/blog/utahs-altitude-and-your-hvac-system-what-every-homeowner-should-know/"
+  status = 301
+
+[[redirects]]
+  from = "/why-your-furnace-runs-constantly-in-winter/"
+  to = "/blog/why-your-furnace-runs-constantly-in-winter/"
+  status = 301
+
+[[redirects]]
+  from = "/ac-maintenance-tips-for-utah-homes-stay-cool-and-save-money-in-summer/"
+  to = "/blog/ac-maintenance-tips-for-utah-homes-stay-cool-and-save-money-in-summer/"
+  status = 301
+
+[[redirects]]
+  from = "/instant-quote/"
+  to = "/get-quote/"
+  status = 301
+
+[[redirects]]
+  from = "/divi_bars/*"
+  to = "/"
+  status = 301
+
 [[headers]]
   for = "/*"
   [headers.values]
