@@ -2490,6 +2490,13 @@ a.service-card:hover .service-card-icon {
     font-style: italic;
 }
 
+.form-optional {
+    font-size: 0.85rem;
+    color: var(--text-medium);
+    font-weight: 400;
+    font-style: italic;
+}
+
 .form-consent {
     margin: 8px 0 0;
     padding: 18px 20px;
