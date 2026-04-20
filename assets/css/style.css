@@ -1406,6 +1406,17 @@ a.service-card:hover .service-card-icon {
     background: var(--light-bg);
 }
 
+.blog-section .btn-outline {
+    color: var(--dark-bg);
+    border-color: var(--dark-bg);
+}
+
+.blog-section .btn-outline:hover {
+    background: var(--dark-bg);
+    color: var(--text-inverse);
+    box-shadow: none;
+}
+
 .blog-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
