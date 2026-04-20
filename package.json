@@ -1,0 +1,24 @@
+{
+  "name": "salmon-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emerald-Beacon/salmon-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Emerald-Beacon/salmon-website/issues"
+  },
+  "homepage": "https://github.com/Emerald-Beacon/salmon-website#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.90.0"
+  }
+}
