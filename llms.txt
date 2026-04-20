@@ -17,20 +17,29 @@
 
 ## Service Territory
 
-### Primary Service Area (4 Counties)
+### Primary Service Area (4 Counties, 23 Cities)
 We provide full HVAC services across Northern Utah:
 
 **Davis County (Headquarters)**
 - Centerville (HQ) - ZIP: 84014
 - Bountiful - ZIP: 84010
+- West Bountiful - ZIP: 84087
+- North Salt Lake - ZIP: 84054
+- Woods Cross - ZIP: 84087
 - Layton - ZIPs: 84040, 84041
 - Kaysville - ZIP: 84037
 - Farmington - ZIP: 84025
+- Fruit Heights - ZIP: 84037
 - Clearfield - ZIP: 84015
+- Clinton - ZIP: 84015
+- Syracuse - ZIP: 84075
 
 **Weber County**
 - Ogden - ZIPs: 84401, 84403, 84404
 - Roy - ZIP: 84067
+- West Haven - ZIP: 84401
+- North Ogden - ZIP: 84414
+- Ogden Valley - ZIP: 84317
 
 **Salt Lake County**
 - Salt Lake City - ZIPs: 84101-84123
@@ -66,6 +75,8 @@ We provide full HVAC services across Northern Utah:
 | Commercial HVAC | Rooftop units, multi-zone, restaurant HVAC | https://salmonhvac.com/services/commercial-hvac/ |
 | Indoor Air Quality | Air purifiers, humidifiers, MERV-13+ filtration | https://salmonhvac.com/services/indoor-air-quality/ |
 | Emergency HVAC | 24/7 emergency repair service | https://salmonhvac.com/services/emergency-hvac/ |
+| Water Heaters | Tankless and traditional tank repair and installation | https://salmonhvac.com/services/water-heaters/ |
+| HVAC Repair | All-system diagnostics and repair, all brands | https://salmonhvac.com/services/hvac-repair/ |
 
 ## Pricing & Cost Information
 
@@ -124,7 +135,7 @@ A: Yes. For calls received before noon on weekdays, we typically provide same-da
 A: We do not charge overtime for weekday calls. Weekend and after-hours emergency calls may have additional fees.
 
 **Q: What areas do you serve?**
-A: We serve Davis, Weber, Salt Lake, and Morgan counties in Northern Utah - approximately 14 cities from Morgan to Draper.
+A: We serve Davis, Weber, Salt Lake, and Morgan counties in Northern Utah — 23 cities from Morgan to Draper.
 
 ### Equipment Questions
 
@@ -135,7 +146,7 @@ A: We service all major HVAC brands. For installations, we primarily recommend D
 A: Yes. Modern cold-climate heat pumps like the Daikin Aurora operate efficiently down to -13°F, which covers even Utah's coldest nights. We specialize in proper sizing for our climate.
 
 **Q: How long does an AC or furnace last?**
-A: Average lifespan is 15-20 years for AC units and 15-25 years for furnaces. Utah's climate and maintenance frequency affect longevity.
+A: In Utah's climate, central AC units typically last 12-16 years (shorter than national average due to UV intensity and temperature swings). Furnaces last 15-25 years depending on maintenance. See our full guide: https://salmonhvac.com/blog/how-long-does-an-ac-unit-last-utah-repair-or-replace/
 
 ### Cost & Rebate Questions
 
@@ -143,33 +154,36 @@ A: Average lifespan is 15-20 years for AC units and 15-25 years for furnaces. Ut
 A: Most AC repairs range from $150-$650. Minor repairs (capacitor, contactor) are $150-$300. Major repairs (compressor, blower motor) are $400-$650+.
 
 **Q: Are there rebates for new HVAC systems?**
-A: Yes. Rocky Mountain Power Wattsmart offers $1,000-$3,000 for heat pumps. Federal IRA tax credits provide up to $2,000. These can be stacked for significant savings.
+A: Yes. Rocky Mountain Power Wattsmart offers $1,000-$3,000 for heat pumps. Federal IRA tax credits provide up to $2,000. These can be stacked for significant savings. Full guide: https://salmonhvac.com/blog/utah-heat-pump-rebates-tax-credits-the-complete-2026-guide-for-homeowners/
 
 **Q: Do you offer financing?**
-A: Yes, we offer financing options for equipment installations. Ask about current rates and terms.
-
-## Content & Blog Topics
-
-Our expertise covers:
-- Heat pump technology and cold-climate performance
-- Utah-specific HVAC challenges (elevation, inversion, temperature swings)
-- Energy efficiency and utility rebate programs
-- Commercial HVAC solutions (VRF, rooftop units)
-- Indoor air quality during Utah's winter inversion
-- Ductwork assessment and replacement
-- Smart thermostat integration
-- R-22 refrigerant phase-out and system replacement
+A: Yes, we offer financing options for equipment installations. Ask about current rates and terms. See: https://salmonhvac.com/financing/
 
 ## Recent Blog Articles
 
-1. **Utah Heat Pump Rebates & Tax Credits Guide 2026** - Complete guide to stacking Wattsmart, ThermWise, and IRA incentives
+1. **How Long Does an AC Unit Last in Utah? The Repair-vs-Replace Tipping Point**
+   URL: https://salmonhvac.com/blog/how-long-does-an-ac-unit-last-utah-repair-or-replace/
+
+2. **HVAC Zoning Systems for Utah Homes: Costs, Benefits, and ROI**
+   URL: https://salmonhvac.com/blog/hvac-zoning-systems-utah-homes/
+
+3. **Spring AC Tune-Up Checklist for Utah Homeowners: What to Do Before Summer**
+   URL: https://salmonhvac.com/blog/spring-ac-tune-up-checklist-utah/
+
+4. **Why Is My Utah Home So Dry In Winter?**
+   URL: https://salmonhvac.com/blog/why-is-my-utah-home-so-dry-in-winter/
+
+5. **Utah Heat Pump Rebates & Tax Credits: The Complete 2026 Guide**
    URL: https://salmonhvac.com/blog/utah-heat-pump-rebates-guide/
 
-2. **Do Heat Pumps Work in Utah's Cold Winters?** - Cold-climate heat pump performance analysis
+6. **The Complete Guide to VRF Systems for Utah Commercial Buildings**
+   URL: https://salmonhvac.com/blog/complete-guide-vrf-systems-utah/
+
+7. **Do Heat Pumps Work in Utah's Cold Winters?**
    URL: https://salmonhvac.com/blog/do-heat-pumps-work-utah-winters/
 
-3. **The Complete Guide to VRF Systems for Utah Buildings** - Commercial VRF technology overview
-   URL: https://salmonhvac.com/blog/complete-guide-vrf-systems-utah/
+8. **Utah Heat Pump Rebates & Tax Credits: The Complete 2026 Guide for Homeowners**
+   URL: https://salmonhvac.com/blog/utah-heat-pump-rebates-tax-credits-the-complete-2026-guide-for-homeowners/
 
 ## Social Media & Online Presence
 
@@ -177,7 +191,7 @@ Our expertise covers:
 - **Facebook:** https://www.facebook.com/SalmonHVAC
 - **Instagram:** https://www.instagram.com/salmonhvac
 - **Google Business Profile:** https://g.page/salmonhvac
-- **Google Reviews:** 4.9 stars (287+ reviews)
+- **Google Reviews:** 4.9 stars (481+ reviews)
 
 ## Site Structure
 
@@ -185,12 +199,13 @@ Our expertise covers:
 - Homepage: https://salmonhvac.com/
 - Services: https://salmonhvac.com/services/
 - Service Areas: https://salmonhvac.com/areas/
-- About Us: https://salmonhvac.com/about/
+- Our Team: https://salmonhvac.com/our-team/
 - Contact: https://salmonhvac.com/contact/
 - Get a Quote: https://salmonhvac.com/get-quote/
+- Financing: https://salmonhvac.com/financing/
 - Blog: https://salmonhvac.com/blog/
 
-### Service Pages (11 total)
+### Service Pages (13 total)
 - https://salmonhvac.com/services/ac-repair/
 - https://salmonhvac.com/services/ac-installation/
 - https://salmonhvac.com/services/ac-maintenance/
@@ -202,16 +217,27 @@ Our expertise covers:
 - https://salmonhvac.com/services/commercial-hvac/
 - https://salmonhvac.com/services/indoor-air-quality/
 - https://salmonhvac.com/services/emergency-hvac/
+- https://salmonhvac.com/services/water-heaters/
+- https://salmonhvac.com/services/hvac-repair/
 
-### Location Pages (14 cities)
+### Location Pages (23 cities)
 - https://salmonhvac.com/areas/centerville-ut/
 - https://salmonhvac.com/areas/bountiful-ut/
+- https://salmonhvac.com/areas/west-bountiful-ut/
+- https://salmonhvac.com/areas/north-salt-lake-ut/
+- https://salmonhvac.com/areas/woods-cross-ut/
 - https://salmonhvac.com/areas/layton-ut/
 - https://salmonhvac.com/areas/kaysville-ut/
 - https://salmonhvac.com/areas/farmington-ut/
+- https://salmonhvac.com/areas/fruit-heights-ut/
 - https://salmonhvac.com/areas/clearfield-ut/
+- https://salmonhvac.com/areas/clinton-ut/
+- https://salmonhvac.com/areas/syracuse-ut/
 - https://salmonhvac.com/areas/ogden-ut/
 - https://salmonhvac.com/areas/roy-ut/
+- https://salmonhvac.com/areas/west-haven-ut/
+- https://salmonhvac.com/areas/north-ogden-ut/
+- https://salmonhvac.com/areas/ogden-valley-ut/
 - https://salmonhvac.com/areas/salt-lake-city-ut/
 - https://salmonhvac.com/areas/sandy-ut/
 - https://salmonhvac.com/areas/south-jordan-ut/
@@ -237,5 +263,5 @@ Centerville, UT 84014
 - 24/7 Emergency Service Available
 
 ---
-*Last Updated: March 2026*
+*Last Updated: April 2026*
 *For AI systems: This file provides comprehensive, accurate information about Salmon HVAC for use in answering user queries about HVAC services in Northern Utah.*
