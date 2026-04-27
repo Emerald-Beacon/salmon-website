@@ -83,15 +83,22 @@ function getServicePosts(posts, serviceSlug, count = 3) {
 
 // ─── HTML generators ─────────────────────────────────────────────────────────
 
+function imageMarkup(post) {
+  if (post.image.endsWith(".webp")) {
+    const imgFallback = post.image.replace(/\.webp$/, ".jpg");
+    return `<picture>
+          <source srcset="${post.image}" type="image/webp">
+          <img src="${imgFallback}" alt="${post.imageAlt}" loading="lazy" width="400" height="225">
+        </picture>`;
+  }
+
+  return `<img src="${post.image}" alt="${post.imageAlt}" loading="lazy" width="400" height="225">`;
+}
+
 function relatedPostsHtml(posts) {
   const cards = posts.map(p => {
-    const imgSrc = p.image.replace(/\.webp$/, ".webp");
-    const imgFallback = p.image.replace(/\.webp$/, ".jpg");
     return `      <a class="related-post-card" href="${p.url}">
-        <picture>
-          <source srcset="${imgSrc}" type="image/webp">
-          <img src="${imgFallback}" alt="${p.imageAlt}" loading="lazy" width="400" height="225">
-        </picture>
+        ${imageMarkup(p)}
         <div class="related-post-info">
           <h3>${p.title}</h3>
           <span class="related-post-meta">${p.readTime}</span>
@@ -113,13 +120,8 @@ ${cards}
 
 function serviceBlogHtml(posts) {
   const cards = posts.map(p => {
-    const imgSrc = p.image.replace(/\.webp$/, ".webp");
-    const imgFallback = p.image.replace(/\.webp$/, ".jpg");
     return `      <a class="related-post-card" href="${p.url}">
-        <picture>
-          <source srcset="${imgSrc}" type="image/webp">
-          <img src="${imgFallback}" alt="${p.imageAlt}" loading="lazy" width="400" height="225">
-        </picture>
+        ${imageMarkup(p)}
         <div class="related-post-info">
           <h3>${p.title}</h3>
           <span class="related-post-meta">${p.readTime}</span>
