@@ -3457,89 +3457,101 @@ main article section[style*="margin:3rem"] p {
 
 .related-posts,
 .service-blog-posts {
-    padding: 4rem 0;
+    padding: 2rem 0;
     background: #f9fafb;
     border-top: 1px solid #e5e7eb;
 }
 
 .related-posts-heading {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
-    color: var(--text-dark);
-    margin-bottom: 2rem;
-    text-align: center;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 1rem;
 }
 
 .related-posts-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .related-post-card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
     background: #fff;
-    border-radius: 0.75rem;
+    border-radius: 0.5rem;
     overflow: hidden;
-    box-shadow: 0 1px 4px rgba(0,0,0,.07);
+    border: 1px solid #e5e7eb;
     text-decoration: none;
     color: inherit;
-    transition: box-shadow 0.2s, transform 0.2s;
+    padding: 0.625rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .related-post-card:hover {
-    box-shadow: 0 6px 20px rgba(0,0,0,.12);
-    transform: translateY(-2px);
+    border-color: var(--primary, #2563eb);
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
 }
 
-.related-post-card picture,
-.related-post-card img {
-    width: 100%;
-    aspect-ratio: 16 / 9;
+.related-post-card picture {
+    flex-shrink: 0;
+    width: 72px;
+    height: 54px;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.related-post-card picture img {
+    width: 72px;
+    height: 54px;
     object-fit: cover;
     display: block;
 }
 
 .related-post-info {
-    padding: 1rem 1.25rem 1.25rem;
     display: flex;
     flex-direction: column;
-    flex: 1;
+    min-width: 0;
 }
 
 .related-post-info h3 {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     font-weight: 600;
-    line-height: 1.45;
+    line-height: 1.35;
     color: var(--text-dark);
-    margin: 0 0 0.5rem;
-    flex: 1;
+    margin: 0 0 0.2rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .related-post-meta {
-    font-size: 0.8rem;
-    color: #6b7280;
-    margin-top: auto;
+    font-size: 0.7rem;
+    color: #9ca3af;
 }
 
 .related-posts-cta {
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1.25rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .related-posts-grid {
         grid-template-columns: 1fr;
     }
 
     .related-posts,
     .service-blog-posts {
-        padding: 2.5rem 0;
+        padding: 1.5rem 0;
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 900px) {
     .related-posts-grid {
         grid-template-columns: repeat(2, 1fr);
     }
