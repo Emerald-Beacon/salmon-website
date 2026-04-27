@@ -9,7 +9,7 @@
 
 [build]
   publish = "."
-  command = "node scripts/build.mjs && node scripts/generate-sitemap.mjs"
+  command = "node scripts/build.mjs && node scripts/generate-related-posts.mjs && node scripts/generate-sitemap.mjs"
 
 [[redirects]]
   from = "/about/"
