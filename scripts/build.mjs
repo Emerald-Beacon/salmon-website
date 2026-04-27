@@ -29,13 +29,15 @@ for (const file of fs.readdirSync(PARTIALS_DIR)) {
 }
 
 /**
- * Find all index.html files recursively, excluding node_modules and assets/partials.
+ * Find all index.html files recursively, excluding private/generated folders.
  */
+const SKIP_DIRS = new Set(["node_modules", ".git", ".netlify", "assets", "dist", "extracted", "tmp"]);
+
 function findHtmlFiles(dir, results = []) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const fullPath = path.join(dir, entry.name);
     if (entry.isDirectory()) {
-      if (["node_modules", ".git", "assets"].includes(entry.name)) continue;
+      if (SKIP_DIRS.has(entry.name)) continue;
       findHtmlFiles(fullPath, results);
     } else if (entry.name === "index.html") {
       results.push(fullPath);

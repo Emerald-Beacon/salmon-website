@@ -9,6 +9,9 @@ tmp/
 node_modules/
 package-lock.json
 
+# Generated deploy output
+dist/
+
 # Environment files
 .env
 .env.local

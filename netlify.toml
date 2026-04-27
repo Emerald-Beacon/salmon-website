@@ -8,8 +8,8 @@
 # ============================================
 
 [build]
-  publish = "."
-  command = "node scripts/build.mjs && node scripts/generate-related-posts.mjs && node scripts/generate-sitemap.mjs"
+  publish = "dist"
+  command = "node scripts/build.mjs && node scripts/generate-related-posts.mjs && node scripts/generate-redirects.mjs && node scripts/generate-sitemap.mjs && node scripts/stage-public.mjs"
 
 [[redirects]]
   from = "/about/"
