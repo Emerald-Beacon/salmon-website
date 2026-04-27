@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initMobileMenu();
     initNavDropdowns();
     initContactForm();
+    initQuoteFormTracking();
     initAnimations();
     initSmoothScroll();
     setActiveNavLink();
@@ -174,6 +175,24 @@ function setActiveNavLink() {
         if (!href) return;
         if (href === currentPath || (href !== '/' && currentPath.startsWith(href))) {
             link.classList.add('active');
+        }
+    });
+}
+
+/* ============================================
+   GA4 QUOTE FORM TRACKING
+============================================ */
+function initQuoteFormTracking() {
+    const form = document.querySelector('form[data-netlify]');
+    if (!form) return;
+
+    form.addEventListener('submit', function() {
+        if (typeof gtag === 'function') {
+            gtag('event', 'generate_lead', {
+                event_category: 'form',
+                event_label: 'get_quote_submission',
+                page_location: window.location.href
+            });
         }
     });
 }

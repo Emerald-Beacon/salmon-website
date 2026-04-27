@@ -76,6 +76,15 @@ for (const file of unique) {
     }
   }
 
+  // Inject head-scripts partial before </head> if not already present
+  if (partials["head-scripts"] && html.includes("</head>")) {
+    const marker = partials["head-scripts"].trim().split("\n")[0];
+    if (!html.includes(marker)) {
+      html = html.replace("</head>", `${partials["head-scripts"].trim()}\n</head>`);
+      changed = true;
+    }
+  }
+
   if (changed) {
     fs.writeFileSync(file, html, "utf8");
     console.log(`Built: ${path.relative(ROOT, file)}`);
