@@ -30,149 +30,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - Bountiful HVAC Services",
-    "description": "Family-owned HVAC contractor serving Bountiful, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and indoor air quality services.",
-    "url": "https://salmonhvac.com/areas/bountiful-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 40.8893,
-      "longitude": -111.8808
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/bountiful-ut/#service",
+        "name": "HVAC Services in Bountiful, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Bountiful",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Davis County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/bountiful-ut/",
+        "description": "Family-owned HVAC contractor serving Bountiful, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and indoor air quality services."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "Bountiful",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Davis County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump Services", "url": "https://salmonhvac.com/services/heat-pump-services/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ductless Mini-Split", "url": "https://salmonhvac.com/services/ductless-mini-split/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Abe Salmon"
-    },
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Many Bountiful homes don't have central AC — what are my options?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This is one of the most common situations we encounter in Bountiful. Homes built before 1970 often went up with a furnace but no central air. Your best options depend on whether you have existing ductwork. If the duct system is in decent shape, we can add a central AC coil to your existing furnace plenum — this is often the most cost-effective path. If the ductwork is inadequate or doesn't exist, a ductless mini-split system lets us add cooling to individual rooms or zones without any major duct work. For many older Bountiful homes, mini-splits are actually the better long-term solution."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the elevation change affect HVAC performance in Bountiful?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bountiful has significant elevation variation — homes on the valley floor sit around 4,200 feet while bench neighborhoods near Mueller Park push closer to 5,000 feet. Those bench areas typically run 5 to 10 degrees colder on winter nights than the valley, and wind exposure is greater. If you're in a bench neighborhood, heat pump sizing needs to account for those colder temperatures, and we'd lean toward a dual-fuel system or a cold-climate heat pump rated to lower operating temperatures."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are older Bountiful homes energy efficient?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Honestly, most are not. Homes built in the 1940s through 1960s were constructed before energy codes required much insulation, and original ductwork — where it exists — often leaks significantly. That's actually an opportunity: a comprehensive upgrade combining new high-efficiency equipment, duct sealing, and smart thermostat control can dramatically cut energy bills. We see 20-35% energy reductions in Bountiful homes that go through a full system overhaul."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the most popular HVAC system for Bountiful's older homes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For homes without existing central AC, the ductless mini-split is increasingly the go-to solution. You keep the existing gas furnace for winter heating — which is often still in good shape — and add mini-split heads in the main living areas for cooling. It avoids the cost and disruption of ductwork modification, and the individual zone control means you're not cooling rooms that aren't occupied. For heating upgrades, a 96% AFUE gas furnace is the most common replacement choice given Bountiful's cold winters."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/bountiful-ut/#faqpage"
+      },
       {
-        "@type": "Question",
-        "name": "Many Bountiful homes don't have central AC — what are my options?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "This is one of the most common situations we encounter in Bountiful. Homes built before 1970 often went up with a furnace but no central air. Your best options depend on whether you have existing ductwork. If the duct system is in decent shape, we can add a central AC coil to your existing furnace plenum — this is often the most cost-effective path. If the ductwork is inadequate or doesn't exist, a ductless mini-split system lets us add cooling to individual rooms or zones without any major duct work. For many older Bountiful homes, mini-splits are actually the better long-term solution."
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Bountiful, UT",
+            "item": "https://salmonhvac.com/areas/bountiful-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/bountiful-ut/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/bountiful-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/bountiful-ut/",
+        "name": "HVAC Repair & Service in Bountiful, UT | Salmon HVAC",
+        "description": "AC & furnace repair in Bountiful, UT. Davis County",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/bountiful-ut/#breadcrumb"
         }
-      },
-      {
-        "@type": "Question",
-        "name": "How does the elevation change affect HVAC performance in Bountiful?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Bountiful has significant elevation variation — homes on the valley floor sit around 4,200 feet while bench neighborhoods near Mueller Park push closer to 5,000 feet. Those bench areas typically run 5 to 10 degrees colder on winter nights than the valley, and wind exposure is greater. If you're in a bench neighborhood, heat pump sizing needs to account for those colder temperatures, and we'd lean toward a dual-fuel system or a cold-climate heat pump rated to lower operating temperatures."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Are older Bountiful homes energy efficient?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Honestly, most are not. Homes built in the 1940s through 1960s were constructed before energy codes required much insulation, and original ductwork — where it exists — often leaks significantly. That's actually an opportunity: a comprehensive upgrade combining new high-efficiency equipment, duct sealing, and smart thermostat control can dramatically cut energy bills. We see 20-35% energy reductions in Bountiful homes that go through a full system overhaul."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What's the most popular HVAC system for Bountiful's older homes?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "For homes without existing central AC, the ductless mini-split is increasingly the go-to solution. You keep the existing gas furnace for winter heating — which is often still in good shape — and add mini-split heads in the main living areas for cooling. It avoids the cost and disruption of ductwork modification, and the individual zone control means you're not cooling rooms that aren't occupied. For heating upgrades, a 96% AFUE gas furnace is the most common replacement choice given Bountiful's cold winters."
-        }
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://salmonhvac.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Service Areas",
-        "item": "https://salmonhvac.com/areas/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Bountiful, UT",
-        "item": "https://salmonhvac.com/areas/bountiful-ut/"
       }
     ]
   }

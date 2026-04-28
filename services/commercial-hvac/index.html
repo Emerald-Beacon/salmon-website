@@ -32,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
@@ -41,23 +41,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         "name": "Commercial HVAC",
         "serviceType": "Commercial HVAC Installation and Service",
         "provider": {
-          "@type": "HVACBusiness",
-          "name": "Salmon HVAC",
-          "legalName": "Salmon HVAC LLC",
-          "telephone": "+18013970030",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "1265 W 1275 N #7",
-            "addressLocality": "Centerville",
-            "addressRegion": "UT",
-            "postalCode": "84014",
-            "addressCountry": "US"
-          },
-          "url": "https://salmonhvac.com"
+          "@id": "https://salmonhvac.com/#organization"
         },
-        "areaServed": ["Davis County, UT", "Weber County, UT", "Salt Lake County, UT", "Morgan County, UT"],
+        "areaServed": [
+          "Davis County, UT",
+          "Weber County, UT",
+          "Salt Lake County, UT",
+          "Morgan County, UT"
+        ],
         "description": "Full-service commercial HVAC installation, repair, and preventive maintenance for businesses in Northern Utah.",
-        "url": "https://salmonhvac.com/services/commercial-hvac/"
+        "url": "https://salmonhvac.com/services/commercial-hvac/",
+        "@id": "https://salmonhvac.com/services/commercial-hvac/#service"
       },
       {
         "@type": "FAQPage",
@@ -94,15 +88,51 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               "text": "We install Daikin (including VRV systems), Mitsubishi Electric, Carrier, and Trane commercial equipment. As a Daikin Comfort Pro authorized dealer with VRV certification, Daikin is our primary commercial brand recommendation, but we work with architects and building owners to specify the best equipment for each project's requirements."
             }
           }
-        ]
+        ],
+        "@id": "https://salmonhvac.com/services/commercial-hvac/#faqpage"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://salmonhvac.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://salmonhvac.com/services/"},
-          {"@type": "ListItem", "position": 3, "name": "Commercial HVAC", "item": "https://salmonhvac.com/services/commercial-hvac/"}
-        ]
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://salmonhvac.com/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Commercial HVAC",
+            "item": "https://salmonhvac.com/services/commercial-hvac/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/services/commercial-hvac/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/services/commercial-hvac/#webpage",
+        "url": "https://salmonhvac.com/services/commercial-hvac/",
+        "name": "Commercial HVAC Contractor | Northern Utah | Salmon HVAC",
+        "description": "Northern Utah",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/services/commercial-hvac/#service"
+        },
+        "mainEntity": {
+          "@id": "https://salmonhvac.com/services/commercial-hvac/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/services/commercial-hvac/#breadcrumb"
+        }
       }
     ]
   }

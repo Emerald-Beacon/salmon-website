@@ -32,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
@@ -41,23 +41,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         "name": "Emergency HVAC Repair",
         "serviceType": "Emergency HVAC Repair",
         "provider": {
-          "@type": "HVACBusiness",
-          "name": "Salmon HVAC",
-          "legalName": "Salmon HVAC LLC",
-          "telephone": "+18013970030",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "1265 W 1275 N #7",
-            "addressLocality": "Centerville",
-            "addressRegion": "UT",
-            "postalCode": "84014",
-            "addressCountry": "US"
-          },
-          "url": "https://salmonhvac.com"
+          "@id": "https://salmonhvac.com/#organization"
         },
-        "areaServed": ["Davis County, UT", "Weber County, UT", "Salt Lake County, UT", "Morgan County, UT"],
+        "areaServed": [
+          "Davis County, UT",
+          "Weber County, UT",
+          "Salt Lake County, UT",
+          "Morgan County, UT"
+        ],
         "description": "24/7 emergency HVAC repair in Northern Utah. No overtime on weekdays. Fast response for heating and cooling failures.",
-        "url": "https://salmonhvac.com/services/emergency-hvac/"
+        "url": "https://salmonhvac.com/services/emergency-hvac/",
+        "@id": "https://salmonhvac.com/services/emergency-hvac/#service"
       },
       {
         "@type": "FAQPage",
@@ -94,15 +88,51 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               "text": "For heating failures: dress in warm layers, close off unused rooms to concentrate warmth, and use space heaters safely (keep away from combustibles, don't overload circuits). Check your thermostat batteries and settings first, and check your furnace circuit breaker. For CO alarms or gas smells: leave the home immediately, leave the door open behind you, and call 911 before calling us. For cooling failures in extreme heat: move to the coolest room, use fans, keep curtains drawn on sun-facing windows, and check your AC circuit breaker and thermostat settings."
             }
           }
-        ]
+        ],
+        "@id": "https://salmonhvac.com/services/emergency-hvac/#faqpage"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://salmonhvac.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://salmonhvac.com/services/"},
-          {"@type": "ListItem", "position": 3, "name": "Emergency HVAC", "item": "https://salmonhvac.com/services/emergency-hvac/"}
-        ]
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://salmonhvac.com/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Emergency HVAC",
+            "item": "https://salmonhvac.com/services/emergency-hvac/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/services/emergency-hvac/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/services/emergency-hvac/#webpage",
+        "url": "https://salmonhvac.com/services/emergency-hvac/",
+        "name": "24/7 Emergency HVAC Repair Utah | Salmon HVAC",
+        "description": "24/7 emergency HVAC repair in Davis, Weber & Salt Lake County. No heat in winter? AC out in summer? Call Salmon HVAC at (801) 397-0030 for fast response.",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/services/emergency-hvac/#service"
+        },
+        "mainEntity": {
+          "@id": "https://salmonhvac.com/services/emergency-hvac/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/services/emergency-hvac/#breadcrumb"
+        }
       }
     ]
   }

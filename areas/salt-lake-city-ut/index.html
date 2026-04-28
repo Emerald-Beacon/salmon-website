@@ -30,149 +30,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - Salt Lake City HVAC Services",
-    "description": "Family-owned HVAC contractor serving Salt Lake City, UT since 1979. Daikin Comfort Pro Authorized Dealer providing commercial and residential AC repair, furnace installation, VRF systems. Inversion season indoor air quality specialists.",
-    "url": "https://salmonhvac.com/areas/salt-lake-city-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 40.7608,
-      "longitude": -111.8910
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/salt-lake-city-ut/#service",
+        "name": "HVAC Services in Salt Lake City, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Salt Lake City",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Salt Lake County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/salt-lake-city-ut/",
+        "description": "Family-owned HVAC contractor serving Salt Lake City, UT since 1979. Daikin Comfort Pro Authorized Dealer providing commercial and residential AC repair, furnace installation, VRF systems. Inversion season indoor air quality specialists."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "Salt Lake City",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Salt Lake County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "VRF Systems", "url": "https://salmonhvac.com/services/vrf-systems/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Indoor Air Quality", "url": "https://salmonhvac.com/services/indoor-air-quality/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Abe Salmon"
-    },
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do you service commercial buildings in downtown Salt Lake City?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Downtown SLC commercial HVAC is a significant part of our Salt Lake work. We handle VRF system installations for office tenant improvements, rooftop unit maintenance and replacement for multi-story commercial buildings, and emergency repair for commercial customers who can't afford extended downtime. If you manage a commercial building downtown and need a reliable HVAC service partner, contact us to discuss a maintenance agreement."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How bad is Salt Lake's winter inversion air quality, and what can HVAC do about it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "During inversion events — typically December through February — Salt Lake Valley's PM2.5 concentrations regularly exceed EPA standards. This is a genuine health concern, particularly for children, the elderly, and anyone with respiratory conditions. Your HVAC system is your primary tool for protecting indoor air quality during inversions. We recommend upgrading to MERV 13 filtration (which captures fine particles down to 1 micron), adding a whole-home air purifier with activated carbon, and keeping your system in good condition so it's actually moving air through those filters. Running your HVAC fan continuously during inversion events — even without heating or cooling demand — circulates air through filtration and can significantly reduce indoor PM2.5 concentrations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the most common HVAC service call in Salt Lake City?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In summer, the most common residential call is AC repair — compressor capacitor failure, refrigerant leak, or condenser coil issues in older systems struggling to handle 95-100°F afternoons. The Avenues and Capitol Hill neighborhoods have a high concentration of older homes with aging AC systems that were never designed for modern cooling loads. In older commercial buildings, we see a lot of rooftop unit failures during heat waves. Preventive maintenance in spring is the best way to avoid becoming one of those emergency calls."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you install VRF systems for Salt Lake City office buildings?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, VRF installation is a specialty service we offer for SLC commercial buildings. Variable Refrigerant Flow systems are particularly well-suited to SLC's office market because they handle simultaneous heating and cooling demands — useful in a building where some zones need heat and others need cooling — and they offer significant energy savings versus conventional rooftop units. For tenant improvements and building retrofits in downtown SLC, VRF is often the most cost-effective path to zone-level comfort control."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/salt-lake-city-ut/#faqpage"
+      },
       {
-        "@type": "Question",
-        "name": "Do you service commercial buildings in downtown Salt Lake City?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Downtown SLC commercial HVAC is a significant part of our Salt Lake work. We handle VRF system installations for office tenant improvements, rooftop unit maintenance and replacement for multi-story commercial buildings, and emergency repair for commercial customers who can't afford extended downtime. If you manage a commercial building downtown and need a reliable HVAC service partner, contact us to discuss a maintenance agreement."
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Salt Lake City, UT",
+            "item": "https://salmonhvac.com/areas/salt-lake-city-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/salt-lake-city-ut/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/salt-lake-city-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/salt-lake-city-ut/",
+        "name": "HVAC Repair & Service in Salt Lake City, UT | Salmon HVAC",
+        "description": "AC & furnace repair in Salt Lake City, UT. Commercial and residential HVAC — inversion season specialists. VRF, rooftop units, all brands. Call (801) 397-0030.",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/salt-lake-city-ut/#breadcrumb"
         }
-      },
-      {
-        "@type": "Question",
-        "name": "How bad is Salt Lake's winter inversion air quality, and what can HVAC do about it?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "During inversion events — typically December through February — Salt Lake Valley's PM2.5 concentrations regularly exceed EPA standards. This is a genuine health concern, particularly for children, the elderly, and anyone with respiratory conditions. Your HVAC system is your primary tool for protecting indoor air quality during inversions. We recommend upgrading to MERV 13 filtration (which captures fine particles down to 1 micron), adding a whole-home air purifier with activated carbon, and keeping your system in good condition so it's actually moving air through those filters. Running your HVAC fan continuously during inversion events — even without heating or cooling demand — circulates air through filtration and can significantly reduce indoor PM2.5 concentrations."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What's the most common HVAC service call in Salt Lake City?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "In summer, the most common residential call is AC repair — compressor capacitor failure, refrigerant leak, or condenser coil issues in older systems struggling to handle 95-100°F afternoons. The Avenues and Capitol Hill neighborhoods have a high concentration of older homes with aging AC systems that were never designed for modern cooling loads. In older commercial buildings, we see a lot of rooftop unit failures during heat waves. Preventive maintenance in spring is the best way to avoid becoming one of those emergency calls."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you install VRF systems for Salt Lake City office buildings?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, VRF installation is a specialty service we offer for SLC commercial buildings. Variable Refrigerant Flow systems are particularly well-suited to SLC's office market because they handle simultaneous heating and cooling demands — useful in a building where some zones need heat and others need cooling — and they offer significant energy savings versus conventional rooftop units. For tenant improvements and building retrofits in downtown SLC, VRF is often the most cost-effective path to zone-level comfort control."
-        }
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://salmonhvac.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Service Areas",
-        "item": "https://salmonhvac.com/areas/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Salt Lake City, UT",
-        "item": "https://salmonhvac.com/areas/salt-lake-city-ut/"
       }
     ]
   }

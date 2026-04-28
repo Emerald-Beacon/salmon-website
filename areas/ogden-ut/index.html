@@ -30,149 +30,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - Ogden HVAC Services",
-    "description": "Family-owned HVAC contractor serving Ogden, UT and Weber County since 1979. Daikin Comfort Pro Authorized Dealer providing commercial and residential HVAC from Historic 25th Street to Weber State area.",
-    "url": "https://salmonhvac.com/areas/ogden-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 41.2230,
-      "longitude": -111.9738
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/ogden-ut/#service",
+        "name": "HVAC Services in Ogden, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Ogden",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Weber County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/ogden-ut/",
+        "description": "Family-owned HVAC contractor serving Ogden, UT and Weber County since 1979. Daikin Comfort Pro Authorized Dealer providing commercial and residential HVAC from Historic 25th Street to Weber State area."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "Ogden",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Weber County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump Services", "url": "https://salmonhvac.com/services/heat-pump-services/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Commercial HVAC", "url": "https://salmonhvac.com/services/commercial-hvac/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Abe Salmon"
-    },
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do you service commercial buildings in downtown Ogden?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Downtown Ogden and the Historic 25th Street district have a significant inventory of older commercial buildings — many of them repurposed industrial and railroad-era structures — with HVAC systems that present unique challenges. These buildings often have non-standard layouts, limited mechanical room space, and systems that have been modified piecemeal over decades. We have experience working in this type of environment and can assess what the building actually needs versus what a templated approach would suggest."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How cold does it get in Ogden, and does that affect heat pump selection?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ogden sits closer to the Wasatch peaks than Davis County cities, and the mountain exposure is real. The east bench and Ogden Valley areas regularly see temperatures below 0°F in January and February, and single-digit nights are not unusual even in the valley. For heat pump selection, this means we recommend cold-climate units specifically rated to operate effectively at -13°F — standard heat pumps designed for milder climates lose efficiency and heating capacity rapidly below 20°F. Cold-climate heat pumps, or dual-fuel systems pairing a heat pump with a gas furnace backup, are the appropriate choice for most Ogden locations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's different about HVAC in older Ogden homes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ogden has a significant inventory of homes built in the 1920s through 1950s — older than most of what we see in Davis County. These homes sometimes have remnants of original gravity-feed heating systems that were later converted to forced air. Knob-and-tube electrical wiring in the oldest homes can create limitations on what equipment can be installed and how it can be controlled. Non-standard ductwork geometries, cramped mechanical spaces, and asbestos-wrapped older duct insulation (in some cases) are all things we've encountered in Ogden's older housing stock. We do thorough pre-installation assessments before quoting work in older homes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you work with Weber State University or other Ogden institutions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We work with commercial and institutional customers throughout Ogden. For large institutional projects at Weber State or similar facilities, we'd conduct a site assessment and determine whether the scale and scope fits our commercial capabilities. Contact us at (801) 397-0030 to discuss your specific situation."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/ogden-ut/#faqpage"
+      },
       {
-        "@type": "Question",
-        "name": "Do you service commercial buildings in downtown Ogden?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Downtown Ogden and the Historic 25th Street district have a significant inventory of older commercial buildings — many of them repurposed industrial and railroad-era structures — with HVAC systems that present unique challenges. These buildings often have non-standard layouts, limited mechanical room space, and systems that have been modified piecemeal over decades. We have experience working in this type of environment and can assess what the building actually needs versus what a templated approach would suggest."
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Ogden, UT",
+            "item": "https://salmonhvac.com/areas/ogden-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/ogden-ut/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/ogden-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/ogden-ut/",
+        "name": "HVAC Repair & Service in Ogden, UT | Salmon HVAC",
+        "description": "AC & furnace repair in Ogden, UT. Weber County",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/ogden-ut/#breadcrumb"
         }
-      },
-      {
-        "@type": "Question",
-        "name": "How cold does it get in Ogden, and does that affect heat pump selection?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Ogden sits closer to the Wasatch peaks than Davis County cities, and the mountain exposure is real. The east bench and Ogden Valley areas regularly see temperatures below 0°F in January and February, and single-digit nights are not unusual even in the valley. For heat pump selection, this means we recommend cold-climate units specifically rated to operate effectively at -13°F — standard heat pumps designed for milder climates lose efficiency and heating capacity rapidly below 20°F. Cold-climate heat pumps, or dual-fuel systems pairing a heat pump with a gas furnace backup, are the appropriate choice for most Ogden locations."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What's different about HVAC in older Ogden homes?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Ogden has a significant inventory of homes built in the 1920s through 1950s — older than most of what we see in Davis County. These homes sometimes have remnants of original gravity-feed heating systems that were later converted to forced air. Knob-and-tube electrical wiring in the oldest homes can create limitations on what equipment can be installed and how it can be controlled. Non-standard ductwork geometries, cramped mechanical spaces, and asbestos-wrapped older duct insulation (in some cases) are all things we've encountered in Ogden's older housing stock. We do thorough pre-installation assessments before quoting work in older homes."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you work with Weber State University or other Ogden institutions?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We work with commercial and institutional customers throughout Ogden. For large institutional projects at Weber State or similar facilities, we'd conduct a site assessment and determine whether the scale and scope fits our commercial capabilities. Contact us at (801) 397-0030 to discuss your specific situation."
-        }
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://salmonhvac.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Service Areas",
-        "item": "https://salmonhvac.com/areas/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Ogden, UT",
-        "item": "https://salmonhvac.com/areas/ogden-ut/"
       }
     ]
   }

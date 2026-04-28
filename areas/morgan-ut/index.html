@@ -30,149 +30,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - Morgan HVAC Services",
-    "description": "Family-owned HVAC contractor serving Morgan, UT at 5,060ft elevation since 1979. Extreme winter specialist. Daikin Comfort Pro Authorized Dealer providing cold-climate heat pumps and furnace services.",
-    "url": "https://salmonhvac.com/areas/morgan-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 41.0361,
-      "longitude": -111.6769
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/morgan-ut/#service",
+        "name": "HVAC Services in Morgan, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Morgan",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Morgan County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/morgan-ut/",
+        "description": "Family-owned HVAC contractor serving Morgan, UT at 5,060ft elevation since 1979. Extreme winter specialist. Daikin Comfort Pro Authorized Dealer providing cold-climate heat pumps and furnace services."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "Morgan",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Morgan County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump Services", "url": "https://salmonhvac.com/services/heat-pump-services/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Emergency HVAC", "url": "https://salmonhvac.com/services/emergency-hvac/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Abe Salmon"
-    },
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why do most HVAC companies not service Morgan County?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Distance and terrain. Morgan County sits over the mountain range east of Davis County, accessible via I-84 through the gorge. For many Wasatch Front HVAC companies based in Salt Lake or Davis County, Morgan is simply outside the radius they're willing to run. We've made the trip to Morgan County for over 40 years. At about 35 minutes from our Centerville shop via I-84, it's within our regular service area — and we understand that Morgan residents shouldn't have to go without reliable HVAC service because of geography."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do cold-climate heat pumps work at Morgan's elevation?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes — with the right equipment selection. Morgan sits at 5,060 feet, and temperatures regularly drop to -5°F to -10°F in midwinter, with colder nights possible. Standard heat pumps are not appropriate for this environment — they lose heating capacity rapidly below 20°F and can fail to maintain setpoint on Morgan's coldest nights. However, modern cold-climate heat pumps — such as Daikin's cold-climate series — are rated to operate effectively at -13°F, which covers virtually all of Morgan's winter temperature range. For maximum security in an extreme-cold location, we often recommend a dual-fuel system: a cold-climate heat pump handles the majority of heating days efficiently, with a gas or propane furnace as backup for the coldest nights."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What heating system is best for Morgan's extreme winters?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "At Morgan's elevation with its temperature extremes, we most commonly recommend two configurations: a high-efficiency gas or propane furnace (96% AFUE) for homeowners who want straightforward, proven heating without complexity; or a dual-fuel system pairing a cold-climate heat pump with a gas or propane furnace backup. The dual-fuel approach gives you the efficiency advantages of a heat pump for the majority of heating hours while the furnace handles the coldest periods when heat pump efficiency drops. Either way, the heating system at Morgan's elevation is not optional comfort — it's a life-safety consideration, and we approach it accordingly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you service propane HVAC systems in Morgan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Many Morgan County properties use propane rather than natural gas, since natural gas infrastructure doesn't extend to all rural areas. We're experienced with propane furnace service, installation, and conversion work. Propane furnaces operate on the same principles as natural gas units but require different orifices and pressure settings — work that must be done correctly to ensure safe and efficient operation. We have the equipment and training to handle propane systems."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/morgan-ut/#faqpage"
+      },
       {
-        "@type": "Question",
-        "name": "Why do most HVAC companies not service Morgan County?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Distance and terrain. Morgan County sits over the mountain range east of Davis County, accessible via I-84 through the gorge. For many Wasatch Front HVAC companies based in Salt Lake or Davis County, Morgan is simply outside the radius they're willing to run. We've made the trip to Morgan County for over 40 years. At about 35 minutes from our Centerville shop via I-84, it's within our regular service area — and we understand that Morgan residents shouldn't have to go without reliable HVAC service because of geography."
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Morgan, UT",
+            "item": "https://salmonhvac.com/areas/morgan-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/morgan-ut/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/morgan-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/morgan-ut/",
+        "name": "HVAC Repair in Morgan, UT | Salmon HVAC",
+        "description": "AC & furnace repair in Morgan, UT at 5,060 ft. Most contractors won",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/morgan-ut/#breadcrumb"
         }
-      },
-      {
-        "@type": "Question",
-        "name": "Do cold-climate heat pumps work at Morgan's elevation?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes — with the right equipment selection. Morgan sits at 5,060 feet, and temperatures regularly drop to -5°F to -10°F in midwinter, with colder nights possible. Standard heat pumps are not appropriate for this environment — they lose heating capacity rapidly below 20°F and can fail to maintain setpoint on Morgan's coldest nights. However, modern cold-climate heat pumps — such as Daikin's cold-climate series — are rated to operate effectively at -13°F, which covers virtually all of Morgan's winter temperature range. For maximum security in an extreme-cold location, we often recommend a dual-fuel system: a cold-climate heat pump handles the majority of heating days efficiently, with a gas or propane furnace as backup for the coldest nights."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What heating system is best for Morgan's extreme winters?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "At Morgan's elevation with its temperature extremes, we most commonly recommend two configurations: a high-efficiency gas or propane furnace (96% AFUE) for homeowners who want straightforward, proven heating without complexity; or a dual-fuel system pairing a cold-climate heat pump with a gas or propane furnace backup. The dual-fuel approach gives you the efficiency advantages of a heat pump for the majority of heating hours while the furnace handles the coldest periods when heat pump efficiency drops. Either way, the heating system at Morgan's elevation is not optional comfort — it's a life-safety consideration, and we approach it accordingly."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you service propane HVAC systems in Morgan?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Many Morgan County properties use propane rather than natural gas, since natural gas infrastructure doesn't extend to all rural areas. We're experienced with propane furnace service, installation, and conversion work. Propane furnaces operate on the same principles as natural gas units but require different orifices and pressure settings — work that must be done correctly to ensure safe and efficient operation. We have the equipment and training to handle propane systems."
-        }
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://salmonhvac.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Service Areas",
-        "item": "https://salmonhvac.com/areas/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Morgan, UT",
-        "item": "https://salmonhvac.com/areas/morgan-ut/"
       }
     ]
   }

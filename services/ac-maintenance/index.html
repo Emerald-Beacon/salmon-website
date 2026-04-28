@@ -32,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
@@ -41,23 +41,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         "name": "AC Maintenance",
         "serviceType": "Air Conditioning Maintenance",
         "provider": {
-          "@type": "HVACBusiness",
-          "name": "Salmon HVAC",
-          "legalName": "Salmon HVAC LLC",
-          "telephone": "+18013970030",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "1265 W 1275 N #7",
-            "addressLocality": "Centerville",
-            "addressRegion": "UT",
-            "postalCode": "84014",
-            "addressCountry": "US"
-          },
-          "url": "https://salmonhvac.com"
+          "@id": "https://salmonhvac.com/#organization"
         },
-        "areaServed": ["Davis County, UT", "Weber County, UT", "Salt Lake County, UT", "Morgan County, UT"],
+        "areaServed": [
+          "Davis County, UT",
+          "Weber County, UT",
+          "Salt Lake County, UT",
+          "Morgan County, UT"
+        ],
         "description": "Annual AC tune-up and preventive maintenance in Northern Utah. Extends equipment life and prevents mid-summer breakdowns.",
-        "url": "https://salmonhvac.com/services/ac-maintenance/"
+        "url": "https://salmonhvac.com/services/ac-maintenance/",
+        "@id": "https://salmonhvac.com/services/ac-maintenance/#service"
       },
       {
         "@type": "FAQPage",
@@ -94,15 +88,51 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               "text": "Late March through May is ideal — after the last cold snap and before temperatures climb into the 80s and 90s. Scheduling in spring means we can catch any issues before you actually need the system, and our schedule is more flexible than in peak summer when emergency calls fill our days. That said, we perform tune-ups year-round."
             }
           }
-        ]
+        ],
+        "@id": "https://salmonhvac.com/services/ac-maintenance/#faqpage"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://salmonhvac.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://salmonhvac.com/services/"},
-          {"@type": "ListItem", "position": 3, "name": "AC Maintenance", "item": "https://salmonhvac.com/services/ac-maintenance/"}
-        ]
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://salmonhvac.com/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "AC Maintenance",
+            "item": "https://salmonhvac.com/services/ac-maintenance/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/services/ac-maintenance/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/services/ac-maintenance/#webpage",
+        "url": "https://salmonhvac.com/services/ac-maintenance/",
+        "name": "AC Tune-Up & Maintenance in Northern Utah | Salmon HVAC",
+        "description": "Annual AC maintenance and tune-up service in Davis, Weber & Salt Lake County. Prevent costly breakdowns. Daikin Comfort Pro dealer. Call (801) 397-0030.",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/services/ac-maintenance/#service"
+        },
+        "mainEntity": {
+          "@id": "https://salmonhvac.com/services/ac-maintenance/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/services/ac-maintenance/#breadcrumb"
+        }
       }
     ]
   }

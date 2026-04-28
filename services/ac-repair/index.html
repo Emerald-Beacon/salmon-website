@@ -32,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
@@ -41,23 +41,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         "name": "AC Repair",
         "serviceType": "Air Conditioning Repair",
         "provider": {
-          "@type": "HVACBusiness",
-          "name": "Salmon HVAC",
-          "legalName": "Salmon HVAC LLC",
-          "telephone": "+18013970030",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "1265 W 1275 N #7",
-            "addressLocality": "Centerville",
-            "addressRegion": "UT",
-            "postalCode": "84014",
-            "addressCountry": "US"
-          },
-          "url": "https://salmonhvac.com"
+          "@id": "https://salmonhvac.com/#organization"
         },
-        "areaServed": ["Davis County, UT", "Weber County, UT", "Salt Lake County, UT", "Morgan County, UT"],
+        "areaServed": [
+          "Davis County, UT",
+          "Weber County, UT",
+          "Salt Lake County, UT",
+          "Morgan County, UT"
+        ],
         "description": "Expert air conditioning repair service in Northern Utah. Same-day service available. All brands serviced.",
-        "url": "https://salmonhvac.com/services/ac-repair/"
+        "url": "https://salmonhvac.com/services/ac-repair/",
+        "@id": "https://salmonhvac.com/services/ac-repair/#service"
       },
       {
         "@type": "FAQPage",
@@ -94,15 +88,51 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               "text": "A good rule of thumb: if your AC is more than 12 years old and the repair cost exceeds 50% of what a new system would cost, replacement usually makes more financial sense. Newer systems also qualify for rebates and are significantly more efficient, cutting your summer utility bills."
             }
           }
-        ]
+        ],
+        "@id": "https://salmonhvac.com/services/ac-repair/#faqpage"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://salmonhvac.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://salmonhvac.com/services/"},
-          {"@type": "ListItem", "position": 3, "name": "AC Repair", "item": "https://salmonhvac.com/services/ac-repair/"}
-        ]
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://salmonhvac.com/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "AC Repair",
+            "item": "https://salmonhvac.com/services/ac-repair/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/services/ac-repair/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/services/ac-repair/#webpage",
+        "url": "https://salmonhvac.com/services/ac-repair/",
+        "name": "AC Repair Northern Utah | Same-Day Service | Salmon HVAC",
+        "description": "AC not cooling? Salmon HVAC offers same-day AC repair across Davis, Weber & Salt Lake County. All brands serviced. 47 years of local experience. Call (801) 397-0030.",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/services/ac-repair/#service"
+        },
+        "mainEntity": {
+          "@id": "https://salmonhvac.com/services/ac-repair/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/services/ac-repair/#breadcrumb"
+        }
       }
     ]
   }

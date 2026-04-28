@@ -30,149 +30,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - West Haven HVAC Services",
-    "description": "Family-owned HVAC contractor serving West Haven, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and indoor air quality services for Weber County families.",
-    "url": "https://salmonhvac.com/areas/west-haven-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 41.2041,
-      "longitude": -112.0513
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/west-haven-ut/#service",
+        "name": "HVAC Services in West Haven, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "West Haven",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Weber County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/west-haven-ut/",
+        "description": "Family-owned HVAC contractor serving West Haven, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and indoor air quality services for Weber County families."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "West Haven",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Weber County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump Services", "url": "https://salmonhvac.com/services/heat-pump-services/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ductless Mini-Split", "url": "https://salmonhvac.com/services/ductless-mini-split/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Abe Salmon"
-    },
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "I have a newer home in West Haven — when should I start thinking about HVAC replacement?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For homes built between 2005 and 2015, HVAC systems are now 10 to 20 years old — a range where planning matters. Builder-grade equipment installed in West Haven's subdivisions during this period was specified for minimum upfront cost, not longevity. By year 12 to 15, you're typically seeing increased repair frequency and declining efficiency. The smart approach is to have the system evaluated before it fails: understanding its current condition lets you plan a replacement on your schedule rather than in an emergency, when lead times and pricing work against you. We offer honest system assessments without any obligation to replace."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What HVAC systems work best for West Haven's climate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "West Haven experiences the full Northern Utah four-season climate — cold winters regularly dipping below 10°F, and summers reaching into the upper 90s. A high-efficiency gas furnace (96% AFUE) paired with a 17 to 19 SEER2 central air conditioner is the most common and cost-effective configuration for the area. Dual-fuel heat pump systems — a cold-climate heat pump paired with a gas furnace backup — are an increasingly popular option that provides excellent efficiency across the entire temperature range and qualifies for both federal tax credits and Rocky Mountain Power Wattsmart rebates. We'll help you choose the right system for your home's size and your family's priorities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you handle propane HVAC systems in West Haven's more rural properties?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. West Haven's character shifts as you move west — some properties in the more rural, semi-agricultural areas of the city are not connected to natural gas and rely on propane for heating. We service and install propane furnaces and can advise on propane-to-electric conversion options where that makes financial sense. For propane customers, the economics of switching to a heat pump (using electricity rather than propane) often pencil out very favorably, as heat pumps produce more heat energy per dollar spent than propane combustion. We can run the numbers for your specific situation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are heat pumps a good fit for West Haven's winters?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Modern cold-climate heat pumps — like those in the Daikin FIT and similar product lines — are rated to operate efficiently at outdoor temperatures as low as -13°F, which covers the vast majority of West Haven's winter conditions. The key is specifying the right equipment: an older-generation heat pump or an undersized unit will struggle in the coldest weeks, but a properly sized cold-climate heat pump with a gas or propane backup (dual-fuel configuration) provides reliable, efficient heating throughout the Northern Utah winter. As a Daikin Comfort Pro Authorized Dealer, we have direct access to heat pump equipment specifically engineered for climates like West Haven's."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/west-haven-ut/#faqpage"
+      },
       {
-        "@type": "Question",
-        "name": "I have a newer home in West Haven — when should I start thinking about HVAC replacement?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "For homes built between 2005 and 2015, HVAC systems are now 10 to 20 years old — a range where planning matters. Builder-grade equipment installed in West Haven's subdivisions during this period was specified for minimum upfront cost, not longevity. By year 12 to 15, you're typically seeing increased repair frequency and declining efficiency. The smart approach is to have the system evaluated before it fails: understanding its current condition lets you plan a replacement on your schedule rather than in an emergency, when lead times and pricing work against you. We offer honest system assessments without any obligation to replace."
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "West Haven, UT",
+            "item": "https://salmonhvac.com/areas/west-haven-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/west-haven-ut/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/west-haven-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/west-haven-ut/",
+        "name": "HVAC Repair & Service in West Haven, UT | Salmon HVAC",
+        "description": "AC & furnace repair in West Haven, UT. Reliable service for Weber County",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/west-haven-ut/#breadcrumb"
         }
-      },
-      {
-        "@type": "Question",
-        "name": "What HVAC systems work best for West Haven's climate?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "West Haven experiences the full Northern Utah four-season climate — cold winters regularly dipping below 10°F, and summers reaching into the upper 90s. A high-efficiency gas furnace (96% AFUE) paired with a 17 to 19 SEER2 central air conditioner is the most common and cost-effective configuration for the area. Dual-fuel heat pump systems — a cold-climate heat pump paired with a gas furnace backup — are an increasingly popular option that provides excellent efficiency across the entire temperature range and qualifies for both federal tax credits and Rocky Mountain Power Wattsmart rebates. We'll help you choose the right system for your home's size and your family's priorities."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you handle propane HVAC systems in West Haven's more rural properties?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. West Haven's character shifts as you move west — some properties in the more rural, semi-agricultural areas of the city are not connected to natural gas and rely on propane for heating. We service and install propane furnaces and can advise on propane-to-electric conversion options where that makes financial sense. For propane customers, the economics of switching to a heat pump (using electricity rather than propane) often pencil out very favorably, as heat pumps produce more heat energy per dollar spent than propane combustion. We can run the numbers for your specific situation."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Are heat pumps a good fit for West Haven's winters?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Modern cold-climate heat pumps — like those in the Daikin FIT and similar product lines — are rated to operate efficiently at outdoor temperatures as low as -13°F, which covers the vast majority of West Haven's winter conditions. The key is specifying the right equipment: an older-generation heat pump or an undersized unit will struggle in the coldest weeks, but a properly sized cold-climate heat pump with a gas or propane backup (dual-fuel configuration) provides reliable, efficient heating throughout the Northern Utah winter. As a Daikin Comfort Pro Authorized Dealer, we have direct access to heat pump equipment specifically engineered for climates like West Haven's."
-        }
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://salmonhvac.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Service Areas",
-        "item": "https://salmonhvac.com/areas/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "West Haven, UT",
-        "item": "https://salmonhvac.com/areas/west-haven-ut/"
       }
     ]
   }

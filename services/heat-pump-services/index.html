@@ -32,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
@@ -41,23 +41,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         "name": "Heat Pump Services",
         "serviceType": "Heat Pump Installation and Repair",
         "provider": {
-          "@type": "HVACBusiness",
-          "name": "Salmon HVAC",
-          "legalName": "Salmon HVAC LLC",
-          "telephone": "+18013970030",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "1265 W 1275 N #7",
-            "addressLocality": "Centerville",
-            "addressRegion": "UT",
-            "postalCode": "84014",
-            "addressCountry": "US"
-          },
-          "url": "https://salmonhvac.com"
+          "@id": "https://salmonhvac.com/#organization"
         },
-        "areaServed": ["Davis County, UT", "Weber County, UT", "Salt Lake County, UT", "Morgan County, UT"],
+        "areaServed": [
+          "Davis County, UT",
+          "Weber County, UT",
+          "Salt Lake County, UT",
+          "Morgan County, UT"
+        ],
         "description": "Heat pump installation, repair, and maintenance in Northern Utah. Daikin Comfort Pro authorized dealer. Cold-climate units operate to -13°F.",
-        "url": "https://salmonhvac.com/services/heat-pump-services/"
+        "url": "https://salmonhvac.com/services/heat-pump-services/",
+        "@id": "https://salmonhvac.com/services/heat-pump-services/#service"
       },
       {
         "@type": "FAQPage",
@@ -94,15 +88,51 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               "text": "At temperatures above 30°F, a heat pump is typically 2–4 times more energy-efficient than a gas furnace. A 300% efficient heat pump (COP of 3) delivers three units of heat for every unit of electricity consumed. The comparison depends on local utility rates — at typical Rocky Mountain Power and Questar rates, heat pumps are cost-competitive with 96% AFUE furnaces and more efficient at moderate temperatures."
             }
           }
-        ]
+        ],
+        "@id": "https://salmonhvac.com/services/heat-pump-services/#faqpage"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://salmonhvac.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://salmonhvac.com/services/"},
-          {"@type": "ListItem", "position": 3, "name": "Heat Pump Services", "item": "https://salmonhvac.com/services/heat-pump-services/"}
-        ]
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://salmonhvac.com/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Heat Pump Services",
+            "item": "https://salmonhvac.com/services/heat-pump-services/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/services/heat-pump-services/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/services/heat-pump-services/#webpage",
+        "url": "https://salmonhvac.com/services/heat-pump-services/",
+        "name": "Heat Pump Installation & Repair Utah | Salmon HVAC",
+        "description": "Heat pump installation, repair & maintenance in Northern Utah. Cold-climate systems rated to -13°F. Rocky Mountain Power rebates available. Free estimates. Call (801) 397-0030.",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/services/heat-pump-services/#service"
+        },
+        "mainEntity": {
+          "@id": "https://salmonhvac.com/services/heat-pump-services/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/services/heat-pump-services/#breadcrumb"
+        }
       }
     ]
   }

@@ -30,149 +30,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - Syracuse HVAC Services",
-    "description": "Family-owned HVAC contractor serving Syracuse, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and indoor air quality services for Davis County families.",
-    "url": "https://salmonhvac.com/areas/syracuse-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 41.0894,
-      "longitude": -112.0652
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/syracuse-ut/#service",
+        "name": "HVAC Services in Syracuse, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Syracuse",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Davis County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/syracuse-ut/",
+        "description": "Family-owned HVAC contractor serving Syracuse, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and indoor air quality services for Davis County families."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "Syracuse",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Davis County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump Services", "url": "https://salmonhvac.com/services/heat-pump-services/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ductless Mini-Split", "url": "https://salmonhvac.com/services/ductless-mini-split/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Abe Salmon"
-    },
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "My Syracuse home was built around 2008–2015 — is it time to replace the HVAC?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Systems installed in that window are now 10 to 17 years old, which puts them squarely in the zone where decision-making matters most. Builder-grade equipment — common in Syracuse's large subdivision builds — is typically designed for a 15-year lifespan under normal conditions. By years 10 to 12, you're likely seeing the first significant repair needs: capacitors, contactors, and coils. The question isn't always 'is it broken' but rather 'what's the cost trajectory over the next three to five years versus the cost of replacement now?' We can evaluate your existing system, estimate its remaining useful life, and help you make the most financially rational decision."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "We're building new in Syracuse — what HVAC system should we specify?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "New construction in Syracuse gives you a genuine opportunity to get the system right from day one rather than inheriting builder-grade decisions made to minimize initial cost. We recommend requiring a Manual J load calculation before any equipment is specified — this determines actual system size based on your floor plan, insulation, and window placement. We also recommend high-efficiency equipment (96% AFUE furnace, 18+ SEER2 AC or heat pump), properly designed ductwork with sealed and balanced distribution, and at minimum a two-stage or variable-speed system for better humidity control and comfort. Coordinating with us early in the build process gives you the best outcome."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does proximity to the Great Salt Lake affect indoor air quality in Syracuse?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Syracuse's location near the Great Salt Lake marshlands does create some indoor air quality considerations worth addressing. The area experiences periodic dust events — particularly from the exposed lakebed during dry periods — and the marshland environment can introduce elevated moisture and biological particulates. For Syracuse homes, we commonly recommend higher-MERV filtration (MERV 11 to 13), whole-home air purifiers with UV or ionization capability, and where appropriate, fresh-air ventilation systems that filter incoming air. Humidity management is also relevant: the flat terrain and proximity to wetlands can create periods of elevated indoor humidity that encourage mold and dust mite growth if not actively managed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the best HVAC system for a newer Syracuse home?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For most Syracuse homes built in the 2000s through present, a high-efficiency gas furnace paired with a 17 to 19 SEER2 central air conditioner is the most common and cost-effective configuration. For newer builds or homeowners interested in electrification, a cold-climate heat pump paired with a gas backup (dual-fuel system) offers excellent year-round efficiency and qualifies for federal tax credits and Rocky Mountain Power Wattsmart rebates. Variable-speed equipment in either configuration significantly improves humidity control compared to single-stage systems — which matters in Syracuse given the moisture considerations of the area. We'll recommend what actually makes sense for your home and budget, not the most expensive option."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/syracuse-ut/#faqpage"
+      },
       {
-        "@type": "Question",
-        "name": "My Syracuse home was built around 2008–2015 — is it time to replace the HVAC?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Systems installed in that window are now 10 to 17 years old, which puts them squarely in the zone where decision-making matters most. Builder-grade equipment — common in Syracuse's large subdivision builds — is typically designed for a 15-year lifespan under normal conditions. By years 10 to 12, you're likely seeing the first significant repair needs: capacitors, contactors, and coils. The question isn't always 'is it broken' but rather 'what's the cost trajectory over the next three to five years versus the cost of replacement now?' We can evaluate your existing system, estimate its remaining useful life, and help you make the most financially rational decision."
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Syracuse, UT",
+            "item": "https://salmonhvac.com/areas/syracuse-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/syracuse-ut/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/syracuse-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/syracuse-ut/",
+        "name": "HVAC Repair & Service in Syracuse, UT | Salmon HVAC",
+        "description": "AC & furnace repair in Syracuse, UT. Trusted Davis County HVAC contractor since 1979. Same-day service for all brands and system types. Call (801) 397-0030.",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/syracuse-ut/#breadcrumb"
         }
-      },
-      {
-        "@type": "Question",
-        "name": "We're building new in Syracuse — what HVAC system should we specify?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "New construction in Syracuse gives you a genuine opportunity to get the system right from day one rather than inheriting builder-grade decisions made to minimize initial cost. We recommend requiring a Manual J load calculation before any equipment is specified — this determines actual system size based on your floor plan, insulation, and window placement. We also recommend high-efficiency equipment (96% AFUE furnace, 18+ SEER2 AC or heat pump), properly designed ductwork with sealed and balanced distribution, and at minimum a two-stage or variable-speed system for better humidity control and comfort. Coordinating with us early in the build process gives you the best outcome."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Does proximity to the Great Salt Lake affect indoor air quality in Syracuse?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Syracuse's location near the Great Salt Lake marshlands does create some indoor air quality considerations worth addressing. The area experiences periodic dust events — particularly from the exposed lakebed during dry periods — and the marshland environment can introduce elevated moisture and biological particulates. For Syracuse homes, we commonly recommend higher-MERV filtration (MERV 11 to 13), whole-home air purifiers with UV or ionization capability, and where appropriate, fresh-air ventilation systems that filter incoming air. Humidity management is also relevant: the flat terrain and proximity to wetlands can create periods of elevated indoor humidity that encourage mold and dust mite growth if not actively managed."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What's the best HVAC system for a newer Syracuse home?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "For most Syracuse homes built in the 2000s through present, a high-efficiency gas furnace paired with a 17 to 19 SEER2 central air conditioner is the most common and cost-effective configuration. For newer builds or homeowners interested in electrification, a cold-climate heat pump paired with a gas backup (dual-fuel system) offers excellent year-round efficiency and qualifies for federal tax credits and Rocky Mountain Power Wattsmart rebates. Variable-speed equipment in either configuration significantly improves humidity control compared to single-stage systems — which matters in Syracuse given the moisture considerations of the area. We'll recommend what actually makes sense for your home and budget, not the most expensive option."
-        }
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://salmonhvac.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Service Areas",
-        "item": "https://salmonhvac.com/areas/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Syracuse, UT",
-        "item": "https://salmonhvac.com/areas/syracuse-ut/"
       }
     ]
   }

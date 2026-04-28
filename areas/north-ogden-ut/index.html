@@ -30,132 +30,107 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - North Ogden HVAC Services",
-    "description": "Family-owned HVAC contractor serving North Ogden, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and indoor air quality services for Weber County families.",
-    "url": "https://salmonhvac.com/areas/north-ogden-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 41.3100,
-      "longitude": -111.9630
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/north-ogden-ut/#service",
+        "name": "HVAC Services in North Ogden, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "North Ogden",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Weber County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/north-ogden-ut/",
+        "description": "Family-owned HVAC contractor serving North Ogden, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and indoor air quality services for Weber County families."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "North Ogden",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Weber County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump Services", "url": "https://salmonhvac.com/services/heat-pump-services/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ductless Mini-Split", "url": "https://salmonhvac.com/services/ductless-mini-split/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {"@type": "Person", "name": "Abe Salmon"},
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Does the elevation in North Ogden affect my heating and cooling needs?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. North Ogden sits on the eastern bench of Weber County at a higher elevation than Ogden proper. Bench communities experience colder overnight lows in winter and more wind exposure from the Wasatch foothills. When we size a heating system for a North Ogden home, we use Manual J calculations that account for local elevation — preventing undersized systems that run continuously on the coldest nights without reaching your setpoint."
-        }
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does the elevation in North Ogden affect my heating and cooling needs?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. North Ogden sits on the eastern bench of Weber County at a higher elevation than Ogden proper. Bench communities experience colder overnight lows in winter and more wind exposure from the Wasatch foothills. When we size a heating system for a North Ogden home, we use Manual J calculations that account for local elevation — preventing undersized systems that run continuously on the coldest nights without reaching your setpoint."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is a heat pump practical for North Ogden winters?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Modern cold-climate heat pumps work well in North Ogden. Daikin's inverter-driven systems maintain full heating capacity well below 0 degrees F. North Ogden sees colder temperatures than the valley floor, but a properly specified cold-climate heat pump handles those conditions reliably. We can assess your home's heat load and give you an honest recommendation on whether a heat pump alone or a dual-fuel hybrid system makes more sense for your situation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What HVAC brands do you service in North Ogden?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We service all major brands including Carrier, Lennox, Bryant, Rheem, Trane, and American Standard — all common in North Ogden's range of housing eras. We carry parts for most brands and can often complete a repair on the first visit. For new installations, we are a Daikin Comfort Pro Authorized Dealer."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How far is your shop from North Ogden?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our shop is in Centerville, about 20 to 25 minutes south of North Ogden via I-15. We schedule regular service calls in North Ogden and can typically accommodate next-day appointments for non-emergency work. Our on-call technicians serve all of Weber County including North Ogden for after-hours emergencies."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/north-ogden-ut/#faqpage"
       },
       {
-        "@type": "Question",
-        "name": "Is a heat pump practical for North Ogden winters?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Modern cold-climate heat pumps work well in North Ogden. Daikin's inverter-driven systems maintain full heating capacity well below 0 degrees F. North Ogden sees colder temperatures than the valley floor, but a properly specified cold-climate heat pump handles those conditions reliably. We can assess your home's heat load and give you an honest recommendation on whether a heat pump alone or a dual-fuel hybrid system makes more sense for your situation."
-        }
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "North Ogden, UT",
+            "item": "https://salmonhvac.com/areas/north-ogden-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/north-ogden-ut/#breadcrumb"
       },
       {
-        "@type": "Question",
-        "name": "What HVAC brands do you service in North Ogden?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We service all major brands including Carrier, Lennox, Bryant, Rheem, Trane, and American Standard — all common in North Ogden's range of housing eras. We carry parts for most brands and can often complete a repair on the first visit. For new installations, we are a Daikin Comfort Pro Authorized Dealer."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How far is your shop from North Ogden?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Our shop is in Centerville, about 20 to 25 minutes south of North Ogden via I-15. We schedule regular service calls in North Ogden and can typically accommodate next-day appointments for non-emergency work. Our on-call technicians serve all of Weber County including North Ogden for after-hours emergencies."
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/north-ogden-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/north-ogden-ut/",
+        "name": "HVAC Repair & Service in North Ogden, UT | Salmon HVAC",
+        "description": "AC & furnace repair in North Ogden, UT. Weber County",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/north-ogden-ut/#breadcrumb"
         }
       }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://salmonhvac.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Service Areas", "item": "https://salmonhvac.com/areas/"},
-      {"@type": "ListItem", "position": 3, "name": "North Ogden, UT", "item": "https://salmonhvac.com/areas/north-ogden-ut/"}
     ]
   }
   </script>

@@ -30,154 +30,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - West Bountiful HVAC Services",
-    "description": "Family-owned HVAC contractor serving West Bountiful, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and corrosion-resistant equipment for lakeside properties.",
-    "url": "https://salmonhvac.com/areas/west-bountiful-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 40.9180,
-      "longitude": -111.8722
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/west-bountiful-ut/#service",
+        "name": "HVAC Services in West Bountiful, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "West Bountiful",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Davis County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/west-bountiful-ut/",
+        "description": "Family-owned HVAC contractor serving West Bountiful, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and corrosion-resistant equipment for lakeside properties."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "West Bountiful",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Davis County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Maintenance", "url": "https://salmonhvac.com/services/ac-maintenance/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump Services", "url": "https://salmonhvac.com/services/heat-pump-services/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ductless Mini-Split", "url": "https://salmonhvac.com/services/ductless-mini-split/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "VRF Systems", "url": "https://salmonhvac.com/services/vrf-systems/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Commercial HVAC", "url": "https://salmonhvac.com/services/commercial-hvac/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Indoor Air Quality", "url": "https://salmonhvac.com/services/indoor-air-quality/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Emergency HVAC", "url": "https://salmonhvac.com/services/emergency-hvac/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Abe Salmon"
-    },
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does the Great Salt Lake affect HVAC systems in West Bountiful?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, meaningfully. West Bountiful's proximity to the Great Salt Lake creates a humidity and moisture exposure that inland Davis County communities don't experience to the same degree. That moisture accelerates corrosion on outdoor HVAC equipment — particularly condenser coils on air conditioners and the outdoor units of heat pumps. We see coil degradation in West Bountiful that happens noticeably faster than in comparable inland homes. Annual coil cleaning is especially important here, and when we install new equipment in West Bountiful we strongly recommend corrosion-resistant coil coatings. Equipment with factory-applied protective coatings will outlast standard equipment in this environment."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "I have an evaporative cooler — should I switch to refrigerated AC?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For most West Bountiful homes, yes. Evaporative coolers work by evaporating water into warm, dry air — which is why they perform well in arid climates. But West Bountiful's lake-adjacent microclimate introduces more summer humidity than inland Utah communities. When outdoor humidity rises, an evaporative cooler loses efficiency rapidly and can actually add uncomfortable moisture to your home rather than cool it. Refrigerated air conditioning (central split systems or ductless mini-splits) works independently of outdoor humidity and provides consistent, dehumidified cooling regardless of what the lake is doing. Homeowners who switch from evaporative to refrigerated cooling in West Bountiful consistently report that their most oppressive summer days become manageable."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does West Bountiful's microclimate affect heating?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lake-effect weather patterns can bring more intense cold and snow to West Bountiful compared to inland communities at similar elevation. Lake-effect snow events, while less dramatic here than in Great Lakes regions, can produce localized heavy snowfall and persist longer than standard storm systems. This means heating systems in West Bountiful need to be sized for reliable performance in demanding winter conditions. We pay close attention to equipment cold-weather ratings during installations here, and we don't recommend undersizing to save on upfront cost when reliable heating is at stake."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you service heat pumps near the lake?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We service and install heat pumps throughout West Bountiful, with specific attention to the conditions lakeside properties face. For new heat pump installations near the lake, we recommend cold-climate models with corrosion-resistant coil coatings — the combination of moisture exposure and low winter temperatures makes equipment selection more important here than in a typical inland location. We also recommend more frequent preventive maintenance (annual coil cleaning at minimum) to catch corrosion before it causes premature equipment failure. Our technicians know what to look for on lakeside equipment and can advise on protective measures that extend equipment life."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/west-bountiful-ut/#faqpage"
+      },
       {
-        "@type": "Question",
-        "name": "Does the Great Salt Lake affect HVAC systems in West Bountiful?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, meaningfully. West Bountiful's proximity to the Great Salt Lake creates a humidity and moisture exposure that inland Davis County communities don't experience to the same degree. That moisture accelerates corrosion on outdoor HVAC equipment — particularly condenser coils on air conditioners and the outdoor units of heat pumps. We see coil degradation in West Bountiful that happens noticeably faster than in comparable inland homes. Annual coil cleaning is especially important here, and when we install new equipment in West Bountiful we strongly recommend corrosion-resistant coil coatings. Equipment with factory-applied protective coatings will outlast standard equipment in this environment."
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "West Bountiful, UT",
+            "item": "https://salmonhvac.com/areas/west-bountiful-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/west-bountiful-ut/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/west-bountiful-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/west-bountiful-ut/",
+        "name": "HVAC Repair & Service in West Bountiful, UT | Salmon HVAC",
+        "description": "AC & furnace repair in West Bountiful, UT. Davis County HVAC experts just minutes from our Centerville HQ. Same-day service, all brands. Call (801) 397-0030.",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/west-bountiful-ut/#breadcrumb"
         }
-      },
-      {
-        "@type": "Question",
-        "name": "I have an evaporative cooler — should I switch to refrigerated AC?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "For most West Bountiful homes, yes. Evaporative coolers work by evaporating water into warm, dry air — which is why they perform well in arid climates. But West Bountiful's lake-adjacent microclimate introduces more summer humidity than inland Utah communities. When outdoor humidity rises, an evaporative cooler loses efficiency rapidly and can actually add uncomfortable moisture to your home rather than cool it. Refrigerated air conditioning (central split systems or ductless mini-splits) works independently of outdoor humidity and provides consistent, dehumidified cooling regardless of what the lake is doing. Homeowners who switch from evaporative to refrigerated cooling in West Bountiful consistently report that their most oppressive summer days become manageable."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How does West Bountiful's microclimate affect heating?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Lake-effect weather patterns can bring more intense cold and snow to West Bountiful compared to inland communities at similar elevation. Lake-effect snow events, while less dramatic here than in Great Lakes regions, can produce localized heavy snowfall and persist longer than standard storm systems. This means heating systems in West Bountiful need to be sized for reliable performance in demanding winter conditions. We pay close attention to equipment cold-weather ratings during installations here, and we don't recommend undersizing to save on upfront cost when reliable heating is at stake."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you service heat pumps near the lake?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. We service and install heat pumps throughout West Bountiful, with specific attention to the conditions lakeside properties face. For new heat pump installations near the lake, we recommend cold-climate models with corrosion-resistant coil coatings — the combination of moisture exposure and low winter temperatures makes equipment selection more important here than in a typical inland location. We also recommend more frequent preventive maintenance (annual coil cleaning at minimum) to catch corrosion before it causes premature equipment failure. Our technicians know what to look for on lakeside equipment and can advise on protective measures that extend equipment life."
-        }
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://salmonhvac.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Service Areas",
-        "item": "https://salmonhvac.com/areas/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "West Bountiful, UT",
-        "item": "https://salmonhvac.com/areas/west-bountiful-ut/"
       }
     ]
   }

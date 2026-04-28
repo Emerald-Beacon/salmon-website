@@ -32,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
@@ -41,23 +41,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         "name": "Indoor Air Quality",
         "serviceType": "Indoor Air Quality Solutions",
         "provider": {
-          "@type": "HVACBusiness",
-          "name": "Salmon HVAC",
-          "legalName": "Salmon HVAC LLC",
-          "telephone": "+18013970030",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "1265 W 1275 N #7",
-            "addressLocality": "Centerville",
-            "addressRegion": "UT",
-            "postalCode": "84014",
-            "addressCountry": "US"
-          },
-          "url": "https://salmonhvac.com"
+          "@id": "https://salmonhvac.com/#organization"
         },
-        "areaServed": ["Davis County, UT", "Weber County, UT", "Salt Lake County, UT", "Morgan County, UT"],
+        "areaServed": [
+          "Davis County, UT",
+          "Weber County, UT",
+          "Salt Lake County, UT",
+          "Morgan County, UT"
+        ],
         "description": "Indoor air quality solutions for Utah homes and businesses — air purifiers, whole-home humidifiers, filtration upgrades, and ERV/HRV systems.",
-        "url": "https://salmonhvac.com/services/indoor-air-quality/"
+        "url": "https://salmonhvac.com/services/indoor-air-quality/",
+        "@id": "https://salmonhvac.com/services/indoor-air-quality/#service"
       },
       {
         "@type": "FAQPage",
@@ -94,15 +88,51 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               "text": "UV air purifiers installed in the HVAC system can be a valuable addition for Utah households, particularly those with members who have allergies, asthma, or compromised immune systems. UV-C light neutralizes bacteria, viruses, mold spores, and some volatile organic compounds as air passes through the system. They're most effective when combined with good filtration rather than used alone."
             }
           }
-        ]
+        ],
+        "@id": "https://salmonhvac.com/services/indoor-air-quality/#faqpage"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://salmonhvac.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://salmonhvac.com/services/"},
-          {"@type": "ListItem", "position": 3, "name": "Indoor Air Quality", "item": "https://salmonhvac.com/services/indoor-air-quality/"}
-        ]
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://salmonhvac.com/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Indoor Air Quality",
+            "item": "https://salmonhvac.com/services/indoor-air-quality/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/services/indoor-air-quality/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/services/indoor-air-quality/#webpage",
+        "url": "https://salmonhvac.com/services/indoor-air-quality/",
+        "name": "Indoor Air Quality Services Utah | Salmon HVAC",
+        "description": "Air purifiers, UV lights & whole-home filtration built for Utah",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/services/indoor-air-quality/#service"
+        },
+        "mainEntity": {
+          "@id": "https://salmonhvac.com/services/indoor-air-quality/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/services/indoor-air-quality/#breadcrumb"
+        }
       }
     ]
   }

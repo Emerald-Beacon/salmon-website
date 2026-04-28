@@ -30,132 +30,107 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - Ogden Valley HVAC Services",
-    "description": "Family-owned HVAC contractor serving Ogden Valley, UT since 1979. Cold-climate heating specialists serving Huntsville, Eden, Liberty, and the Powder Mountain and Snowbasin resort communities.",
-    "url": "https://salmonhvac.com/areas/ogden-valley-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 41.2633,
-      "longitude": -111.7799
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/ogden-valley-ut/#service",
+        "name": "HVAC Services in Ogden Valley, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Place",
+          "name": "Ogden Valley",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Weber County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/ogden-valley-ut/",
+        "description": "Family-owned HVAC contractor serving Ogden Valley, UT since 1979. Cold-climate heating specialists serving Huntsville, Eden, Liberty, and the Powder Mountain and Snowbasin resort communities."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "Place",
-      "name": "Ogden Valley",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Weber County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump Services", "url": "https://salmonhvac.com/services/heat-pump-services/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ductless Mini-Split", "url": "https://salmonhvac.com/services/ductless-mini-split/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {"@type": "Person", "name": "Abe Salmon"},
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What makes HVAC in Ogden Valley different from the Ogden valley floor?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Ogden Valley sits at roughly 4,900 to 5,100 feet elevation, well above the Ogden valley floor. Winters here are significantly colder — temperatures regularly drop to -10 to -20 degrees F on the coldest nights, far below what most standard heat pumps were designed to handle. Heating load calculations for Ogden Valley homes must account for this extreme cold, plus the heavy snow loads that affect equipment placement and clearance requirements. Propane is common as the primary fuel source since natural gas doesn't reach all areas of the valley. We size and specify systems specifically for Ogden Valley's elevation and climate rather than using lowland assumptions."
-        }
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What makes HVAC in Ogden Valley different from the Ogden valley floor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ogden Valley sits at roughly 4,900 to 5,100 feet elevation, well above the Ogden valley floor. Winters here are significantly colder — temperatures regularly drop to -10 to -20 degrees F on the coldest nights, far below what most standard heat pumps were designed to handle. Heating load calculations for Ogden Valley homes must account for this extreme cold, plus the heavy snow loads that affect equipment placement and clearance requirements. Propane is common as the primary fuel source since natural gas doesn't reach all areas of the valley. We size and specify systems specifically for Ogden Valley's elevation and climate rather than using lowland assumptions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you service propane HVAC systems in Ogden Valley?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Propane is the primary heating fuel for many Ogden Valley homes, particularly in Eden, Liberty, and the more remote areas above Huntsville. We service propane furnaces, propane boilers, and propane-fired air handlers. We also install dual-fuel systems that combine an electric cold-climate heat pump with a propane furnace backup — a combination well suited to Ogden Valley's extreme winters, as it captures heat pump efficiency during moderate cold while relying on propane only when temperatures drop to the point where it's more economical."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can you work on HVAC systems in remote or difficult-access properties in Ogden Valley?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We've been making the drive to Ogden Valley properties for decades and understand the access challenges involved. Properties above Huntsville, on the slopes below Powder Mountain, and in the Eden bench areas all have their own logistical considerations — narrow roads, steep driveways, and limited staging area for equipment delivery. We plan installations around these constraints rather than treating them as surprises."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is a ductless mini-split a good option for an Ogden Valley cabin or second home?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For cabins and seasonal properties, a cold-climate ductless mini-split is often the most practical solution. It avoids the ductwork requirements of a central system, handles both heating and cooling from a single unit, and modern inverter-driven systems maintain efficiency well into negative temperatures. For a property that may sit unoccupied for weeks at a time in winter, a heat pump with a setback setting keeps pipes from freezing without running propane or electric baseboards continuously. We size and install mini-splits for Ogden Valley properties with full knowledge of the local winter temperature range."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/ogden-valley-ut/#faqpage"
       },
       {
-        "@type": "Question",
-        "name": "Do you service propane HVAC systems in Ogden Valley?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Propane is the primary heating fuel for many Ogden Valley homes, particularly in Eden, Liberty, and the more remote areas above Huntsville. We service propane furnaces, propane boilers, and propane-fired air handlers. We also install dual-fuel systems that combine an electric cold-climate heat pump with a propane furnace backup — a combination well suited to Ogden Valley's extreme winters, as it captures heat pump efficiency during moderate cold while relying on propane only when temperatures drop to the point where it's more economical."
-        }
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Ogden Valley, UT",
+            "item": "https://salmonhvac.com/areas/ogden-valley-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/ogden-valley-ut/#breadcrumb"
       },
       {
-        "@type": "Question",
-        "name": "Can you work on HVAC systems in remote or difficult-access properties in Ogden Valley?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. We've been making the drive to Ogden Valley properties for decades and understand the access challenges involved. Properties above Huntsville, on the slopes below Powder Mountain, and in the Eden bench areas all have their own logistical considerations — narrow roads, steep driveways, and limited staging area for equipment delivery. We plan installations around these constraints rather than treating them as surprises."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is a ductless mini-split a good option for an Ogden Valley cabin or second home?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "For cabins and seasonal properties, a cold-climate ductless mini-split is often the most practical solution. It avoids the ductwork requirements of a central system, handles both heating and cooling from a single unit, and modern inverter-driven systems maintain efficiency well into negative temperatures. For a property that may sit unoccupied for weeks at a time in winter, a heat pump with a setback setting keeps pipes from freezing without running propane or electric baseboards continuously. We size and install mini-splits for Ogden Valley properties with full knowledge of the local winter temperature range."
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/ogden-valley-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/ogden-valley-ut/",
+        "name": "HVAC Repair in Ogden Valley, UT | Salmon HVAC",
+        "description": "HVAC repair in Ogden Valley, UT — Huntsville, Eden & Liberty. Cold-climate specialists for Powder Mountain & Snowbasin communities. Call (801) 397-0030.",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/ogden-valley-ut/#breadcrumb"
         }
       }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://salmonhvac.com/"},
-      {"@type": "ListItem", "position": 2, "name": "Service Areas", "item": "https://salmonhvac.com/areas/"},
-      {"@type": "ListItem", "position": 3, "name": "Ogden Valley, UT", "item": "https://salmonhvac.com/areas/ogden-valley-ut/"}
     ]
   }
   </script>

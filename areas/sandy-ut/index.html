@@ -30,149 +30,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - Sandy HVAC Services",
-    "description": "Family-owned HVAC contractor serving Sandy, UT near Snowbird and Alta ski resorts since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, and heat pump services.",
-    "url": "https://salmonhvac.com/areas/sandy-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 40.5649,
-      "longitude": -111.8389
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/sandy-ut/#service",
+        "name": "HVAC Services in Sandy, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Sandy",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Salt Lake County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/sandy-ut/",
+        "description": "Family-owned HVAC contractor serving Sandy, UT near Snowbird and Alta ski resorts since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, and heat pump services."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "Sandy",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Salt Lake County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump Services", "url": "https://salmonhvac.com/services/heat-pump-services/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ductless Mini-Split", "url": "https://salmonhvac.com/services/ductless-mini-split/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Abe Salmon"
-    },
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do canyon winds affect outdoor HVAC units in Sandy?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Sandy's position at the mouth of Little Cottonwood Canyon means canyon wind events — particularly fall and winter outflows — can be substantial. Strong sustained winds put stress on outdoor condenser and heat pump units, particularly on debris accumulation and coil damage. We factor outdoor unit placement into installations to reduce wind exposure where possible. We also recommend keeping the area around your outdoor unit clear of debris, particularly after wind events, since leaf and debris accumulation on the coil significantly reduces efficiency."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much colder is Sandy compared to the valley floor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sandy's valley portion sits at roughly 4,500 feet — similar to much of the Salt Lake Valley. However, the bench neighborhoods and areas climbing toward Bell Canyon push to 4,700-5,000 feet, and those areas can run 5-10°F colder than the valley floor on winter nights. For heat pump selection in Sandy's upper neighborhoods, we account for these colder temperature ranges to ensure the system maintains adequate heating output on the coldest nights."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you service commercial HVAC for businesses in the Snowbird corridor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The commercial corridor along Wasatch Boulevard and in the Sandy/Cottonwood Heights area includes hotels, restaurants, and retail businesses that serve the ski resort traffic. These facilities have specific HVAC demands — high occupancy loads in winter, off-season maintenance windows — and we work with commercial customers in this corridor on service contracts and emergency response."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the most common HVAC issue in Sandy's 1980s homes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Two things: original R-22 air conditioning systems and original ductwork. Sandy has a large inventory of 1980s-era homes where the AC systems have now been in service for 35-40 years. These systems used R-22, which is phased out and expensive, and are approaching — or past — the end of any reasonable service life. Original ductwork from the same era often has separation issues, inadequate return air, and insulation failure. When we replace equipment in a Sandy 1980s home, we almost always recommend a duct inspection alongside the installation."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/sandy-ut/#faqpage"
+      },
       {
-        "@type": "Question",
-        "name": "Do canyon winds affect outdoor HVAC units in Sandy?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Sandy's position at the mouth of Little Cottonwood Canyon means canyon wind events — particularly fall and winter outflows — can be substantial. Strong sustained winds put stress on outdoor condenser and heat pump units, particularly on debris accumulation and coil damage. We factor outdoor unit placement into installations to reduce wind exposure where possible. We also recommend keeping the area around your outdoor unit clear of debris, particularly after wind events, since leaf and debris accumulation on the coil significantly reduces efficiency."
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Sandy, UT",
+            "item": "https://salmonhvac.com/areas/sandy-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/sandy-ut/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/sandy-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/sandy-ut/",
+        "name": "HVAC Repair & Service in Sandy, UT | Salmon HVAC",
+        "description": "AC & furnace repair in Sandy, UT. Near Snowbird & Alta — built for Utah",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/sandy-ut/#breadcrumb"
         }
-      },
-      {
-        "@type": "Question",
-        "name": "How much colder is Sandy compared to the valley floor?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sandy's valley portion sits at roughly 4,500 feet — similar to much of the Salt Lake Valley. However, the bench neighborhoods and areas climbing toward Bell Canyon push to 4,700-5,000 feet, and those areas can run 5-10°F colder than the valley floor on winter nights. For heat pump selection in Sandy's upper neighborhoods, we account for these colder temperature ranges to ensure the system maintains adequate heating output on the coldest nights."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you service commercial HVAC for businesses in the Snowbird corridor?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. The commercial corridor along Wasatch Boulevard and in the Sandy/Cottonwood Heights area includes hotels, restaurants, and retail businesses that serve the ski resort traffic. These facilities have specific HVAC demands — high occupancy loads in winter, off-season maintenance windows — and we work with commercial customers in this corridor on service contracts and emergency response."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What's the most common HVAC issue in Sandy's 1980s homes?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Two things: original R-22 air conditioning systems and original ductwork. Sandy has a large inventory of 1980s-era homes where the AC systems have now been in service for 35-40 years. These systems used R-22, which is phased out and expensive, and are approaching — or past — the end of any reasonable service life. Original ductwork from the same era often has separation issues, inadequate return air, and insulation failure. When we replace equipment in a Sandy 1980s home, we almost always recommend a duct inspection alongside the installation."
-        }
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://salmonhvac.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Service Areas",
-        "item": "https://salmonhvac.com/areas/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Sandy, UT",
-        "item": "https://salmonhvac.com/areas/sandy-ut/"
       }
     ]
   }

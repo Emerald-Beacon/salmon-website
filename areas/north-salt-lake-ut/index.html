@@ -30,154 +30,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - North Salt Lake HVAC Services",
-    "description": "Family-owned HVAC contractor serving North Salt Lake, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and indoor air quality services.",
-    "url": "https://salmonhvac.com/areas/north-salt-lake-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 40.9180,
-      "longitude": -111.8722
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/north-salt-lake-ut/#service",
+        "name": "HVAC Services in North Salt Lake, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "North Salt Lake",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Davis County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/north-salt-lake-ut/",
+        "description": "Family-owned HVAC contractor serving North Salt Lake, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and indoor air quality services."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "North Salt Lake",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Davis County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Maintenance", "url": "https://salmonhvac.com/services/ac-maintenance/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump Services", "url": "https://salmonhvac.com/services/heat-pump-services/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ductless Mini-Split", "url": "https://salmonhvac.com/services/ductless-mini-split/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "VRF Systems", "url": "https://salmonhvac.com/services/vrf-systems/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Commercial HVAC", "url": "https://salmonhvac.com/services/commercial-hvac/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Indoor Air Quality", "url": "https://salmonhvac.com/services/indoor-air-quality/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Emergency HVAC", "url": "https://salmonhvac.com/services/emergency-hvac/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Abe Salmon"
-    },
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How quickly can Salmon HVAC respond in North Salt Lake?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "North Salt Lake is one of the closest cities we serve — typically just 5 minutes from our Centerville headquarters. For urgent HVAC calls in North Salt Lake, we can generally have a technician on-site within 1 to 2 hours on weekdays. We do not charge overtime on weekday calls, so there's no penalty for calling during regular business hours."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What HVAC issues are common in North Salt Lake's older homes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "North Salt Lake has a significant stock of homes built in the 1970s and 1980s, and we regularly encounter two recurring problems in these properties. First, aging ductwork — original duct systems from that era were not designed for today's high-efficiency equipment, and the joints, insulation, and return capacity often need attention before a new system can perform properly. Second, R-22 refrigerant systems — equipment from that era used R-22 (Freon), which is now phased out and extremely expensive to recharge. Homes still running R-22 systems are overdue for a refrigerant-compliant replacement."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you service commercial buildings along the Beck Street corridor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The Beck Street industrial corridor and the commercial and light-industrial properties along the I-15 interchange are well within our service area. We handle rooftop unit service and replacement, commercial maintenance contracts, warehouse climate control, and industrial HVAC for the full range of businesses operating in North Salt Lake's commercial zones."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is North Salt Lake affected by Salt Lake's inversion air quality issues?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. North Salt Lake sits at the northern edge of the Salt Lake Valley and experiences the same winter temperature inversions that trap particulates and degrade air quality across the Wasatch Front. During inversion season — typically December through February — outdoor air quality can reach unhealthy levels for days at a time. We strongly recommend whole-home air purification systems, MERV-13 or better filtration, and ERV/HRV ventilation for North Salt Lake homes. Keeping your family breathing clean air during inversion months is one of the most impactful upgrades we can offer."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/north-salt-lake-ut/#faqpage"
+      },
       {
-        "@type": "Question",
-        "name": "How quickly can Salmon HVAC respond in North Salt Lake?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "North Salt Lake is one of the closest cities we serve — typically just 5 minutes from our Centerville headquarters. For urgent HVAC calls in North Salt Lake, we can generally have a technician on-site within 1 to 2 hours on weekdays. We do not charge overtime on weekday calls, so there's no penalty for calling during regular business hours."
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "North Salt Lake, UT",
+            "item": "https://salmonhvac.com/areas/north-salt-lake-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/north-salt-lake-ut/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/north-salt-lake-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/north-salt-lake-ut/",
+        "name": "HVAC Repair & Service in North Salt Lake, UT | Salmon HVAC",
+        "description": "AC & furnace repair in North Salt Lake, UT. Minutes from our Centerville HQ — fast response for Davis County residents. Same-day service, all brands. Call (801) 397-0030.",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/north-salt-lake-ut/#breadcrumb"
         }
-      },
-      {
-        "@type": "Question",
-        "name": "What HVAC issues are common in North Salt Lake's older homes?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "North Salt Lake has a significant stock of homes built in the 1970s and 1980s, and we regularly encounter two recurring problems in these properties. First, aging ductwork — original duct systems from that era were not designed for today's high-efficiency equipment, and the joints, insulation, and return capacity often need attention before a new system can perform properly. Second, R-22 refrigerant systems — equipment from that era used R-22 (Freon), which is now phased out and extremely expensive to recharge. Homes still running R-22 systems are overdue for a refrigerant-compliant replacement."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you service commercial buildings along the Beck Street corridor?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. The Beck Street industrial corridor and the commercial and light-industrial properties along the I-15 interchange are well within our service area. We handle rooftop unit service and replacement, commercial maintenance contracts, warehouse climate control, and industrial HVAC for the full range of businesses operating in North Salt Lake's commercial zones."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is North Salt Lake affected by Salt Lake's inversion air quality issues?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. North Salt Lake sits at the northern edge of the Salt Lake Valley and experiences the same winter temperature inversions that trap particulates and degrade air quality across the Wasatch Front. During inversion season — typically December through February — outdoor air quality can reach unhealthy levels for days at a time. We strongly recommend whole-home air purification systems, MERV-13 or better filtration, and ERV/HRV ventilation for North Salt Lake homes. Keeping your family breathing clean air during inversion months is one of the most impactful upgrades we can offer."
-        }
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://salmonhvac.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Service Areas",
-        "item": "https://salmonhvac.com/areas/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "North Salt Lake, UT",
-        "item": "https://salmonhvac.com/areas/north-salt-lake-ut/"
       }
     ]
   }

@@ -30,149 +30,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - Farmington HVAC Services",
-    "description": "Family-owned HVAC contractor serving Farmington, UT and Station Park area since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and commercial HVAC services.",
-    "url": "https://salmonhvac.com/areas/farmington-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 40.9805,
-      "longitude": -111.8874
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/farmington-ut/#service",
+        "name": "HVAC Services in Farmington, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Farmington",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Davis County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/farmington-ut/",
+        "description": "Family-owned HVAC contractor serving Farmington, UT and Station Park area since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and commercial HVAC services."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "Farmington",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Davis County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump Services", "url": "https://salmonhvac.com/services/heat-pump-services/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Commercial HVAC", "url": "https://salmonhvac.com/services/commercial-hvac/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Abe Salmon"
-    },
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do you service commercial HVAC at Station Park in Farmington?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Station Park is the most significant commercial development in northern Davis County, and we work with tenants and property managers in the complex on HVAC installation, maintenance, and emergency repair. Restaurant HVAC, retail rooftop units, and office suites all have different requirements, and we have experience with each type. If you're a new tenant fitting out a commercial space at Station Park, contact us early in the build-out process — getting the HVAC right from the start saves significant headaches later."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are new Farmington residential developments energy code compliant?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "New construction in Farmington must meet Utah's current energy code, which requires minimum system efficiency levels and proper duct sealing. That said, meeting code is a floor, not a ceiling. Builder-installed equipment often hits code minimums but doesn't take advantage of the most efficient options available. If you've moved into a new Farmington home in the last few years, there may be meaningful efficiency upgrades available — particularly around thermostat control and equipment variable-speed operation — that code-minimum systems don't include."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What HVAC brands are standard in new Farmington construction?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Farmington builders use a range of brands — Carrier, Lennox, and Daikin are all common in recent construction, with Trane appearing in some higher-end builds. We service all of them. As a Daikin Comfort Pro Authorized Dealer, we install Daikin equipment for replacements and upgrades, but our technicians are trained and equipped to service whatever brand is already in your home."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I know if my new Farmington home's HVAC has a warranty?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Builder warranties on HVAC typically cover one year from close of escrow. After that, you're relying on the manufacturer's equipment warranty, which requires that the system has been professionally maintained. We recommend scheduling a comprehensive inspection in year one of a new home to document the system's baseline condition, register any manufacturer warranties, and identify any installation issues that should be addressed under builder warranty before it expires."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/farmington-ut/#faqpage"
+      },
       {
-        "@type": "Question",
-        "name": "Do you service commercial HVAC at Station Park in Farmington?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Station Park is the most significant commercial development in northern Davis County, and we work with tenants and property managers in the complex on HVAC installation, maintenance, and emergency repair. Restaurant HVAC, retail rooftop units, and office suites all have different requirements, and we have experience with each type. If you're a new tenant fitting out a commercial space at Station Park, contact us early in the build-out process — getting the HVAC right from the start saves significant headaches later."
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Farmington, UT",
+            "item": "https://salmonhvac.com/areas/farmington-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/farmington-ut/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/farmington-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/farmington-ut/",
+        "name": "HVAC Repair & Service in Farmington, UT | Salmon HVAC",
+        "description": "AC & furnace repair in Farmington, UT near Station Park. Residential and commercial HVAC serving Davis County since 1979. Free estimates. Call (801) 397-0030.",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/farmington-ut/#breadcrumb"
         }
-      },
-      {
-        "@type": "Question",
-        "name": "Are new Farmington residential developments energy code compliant?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "New construction in Farmington must meet Utah's current energy code, which requires minimum system efficiency levels and proper duct sealing. That said, meeting code is a floor, not a ceiling. Builder-installed equipment often hits code minimums but doesn't take advantage of the most efficient options available. If you've moved into a new Farmington home in the last few years, there may be meaningful efficiency upgrades available — particularly around thermostat control and equipment variable-speed operation — that code-minimum systems don't include."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What HVAC brands are standard in new Farmington construction?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Farmington builders use a range of brands — Carrier, Lennox, and Daikin are all common in recent construction, with Trane appearing in some higher-end builds. We service all of them. As a Daikin Comfort Pro Authorized Dealer, we install Daikin equipment for replacements and upgrades, but our technicians are trained and equipped to service whatever brand is already in your home."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I know if my new Farmington home's HVAC has a warranty?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Builder warranties on HVAC typically cover one year from close of escrow. After that, you're relying on the manufacturer's equipment warranty, which requires that the system has been professionally maintained. We recommend scheduling a comprehensive inspection in year one of a new home to document the system's baseline condition, register any manufacturer warranties, and identify any installation issues that should be addressed under builder warranty before it expires."
-        }
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://salmonhvac.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Service Areas",
-        "item": "https://salmonhvac.com/areas/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Farmington, UT",
-        "item": "https://salmonhvac.com/areas/farmington-ut/"
       }
     ]
   }

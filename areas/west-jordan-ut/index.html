@@ -30,149 +30,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - West Jordan HVAC Services",
-    "description": "Family-owned HVAC contractor serving West Jordan, UT since 1979. Daikin Comfort Pro Authorized Dealer providing affordable HVAC repair and installation for Salt Lake County's west-side communities.",
-    "url": "https://salmonhvac.com/areas/west-jordan-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 40.6097,
-      "longitude": -111.9391
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/west-jordan-ut/#service",
+        "name": "HVAC Services in West Jordan, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "West Jordan",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Salt Lake County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/west-jordan-ut/",
+        "description": "Family-owned HVAC contractor serving West Jordan, UT since 1979. Daikin Comfort Pro Authorized Dealer providing affordable HVAC repair and installation for Salt Lake County's west-side communities."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "West Jordan",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Salt Lake County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump Services", "url": "https://salmonhvac.com/services/heat-pump-services/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ductless Mini-Split", "url": "https://salmonhvac.com/services/ductless-mini-split/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Abe Salmon"
-    },
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is HVAC service more affordable in West Jordan than other cities?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We charge the same rates regardless of which city we're working in — fair pricing that reflects the actual cost of the work, not the zip code. We don't apply any neighborhood premium, and we don't discount service in areas with less competition. Our pricing reflects our actual costs, our technician experience, and the quality of the work we do. What you can expect from us is transparency: we tell you what we found, what it costs, and why — before we do the work."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the most common AC issue in newer West Jordan homes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In West Jordan's 8-to-15-year-old homes, we most frequently see capacitor failures and refrigerant leaks. Capacitors are the most common failure point in AC systems in this age range — they're a relatively inexpensive part, but their failure prevents the compressor and fan motors from starting, which means the system simply doesn't run. Refrigerant leaks, particularly at the evaporator coil, become more common as systems age past 10 years. Both of these are typically repairable, and a well-maintained system in this age range should have many more years of service ahead of it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you work with West Jordan property managers and landlords?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. West Jordan has a significant rental market and we work with property managers who need reliable HVAC service across multiple properties. We can set up direct billing with property management companies, maintain service records by property, and prioritize calls for managed properties. If you're a property manager with West Jordan units in your portfolio, contact us to discuss how we can support your maintenance needs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What commercial HVAC services do you offer along Redwood Road in West Jordan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We provide commercial HVAC installation, maintenance contracts, and emergency repair for businesses along the Redwood Road and Jordan Landing commercial corridors. Retail stores, restaurants, office spaces, and industrial facilities in West Jordan all fall within our commercial service scope. For larger commercial properties, we offer maintenance contracts that include scheduled preventive service and priority response for emergency calls."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/west-jordan-ut/#faqpage"
+      },
       {
-        "@type": "Question",
-        "name": "Is HVAC service more affordable in West Jordan than other cities?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We charge the same rates regardless of which city we're working in — fair pricing that reflects the actual cost of the work, not the zip code. We don't apply any neighborhood premium, and we don't discount service in areas with less competition. Our pricing reflects our actual costs, our technician experience, and the quality of the work we do. What you can expect from us is transparency: we tell you what we found, what it costs, and why — before we do the work."
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "West Jordan, UT",
+            "item": "https://salmonhvac.com/areas/west-jordan-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/west-jordan-ut/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/west-jordan-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/west-jordan-ut/",
+        "name": "HVAC Repair & Service in West Jordan, UT | Salmon HVAC",
+        "description": "AC & furnace repair in West Jordan, UT. Reliable HVAC for Salt Lake County",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/west-jordan-ut/#breadcrumb"
         }
-      },
-      {
-        "@type": "Question",
-        "name": "What's the most common AC issue in newer West Jordan homes?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "In West Jordan's 8-to-15-year-old homes, we most frequently see capacitor failures and refrigerant leaks. Capacitors are the most common failure point in AC systems in this age range — they're a relatively inexpensive part, but their failure prevents the compressor and fan motors from starting, which means the system simply doesn't run. Refrigerant leaks, particularly at the evaporator coil, become more common as systems age past 10 years. Both of these are typically repairable, and a well-maintained system in this age range should have many more years of service ahead of it."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you work with West Jordan property managers and landlords?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. West Jordan has a significant rental market and we work with property managers who need reliable HVAC service across multiple properties. We can set up direct billing with property management companies, maintain service records by property, and prioritize calls for managed properties. If you're a property manager with West Jordan units in your portfolio, contact us to discuss how we can support your maintenance needs."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What commercial HVAC services do you offer along Redwood Road in West Jordan?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We provide commercial HVAC installation, maintenance contracts, and emergency repair for businesses along the Redwood Road and Jordan Landing commercial corridors. Retail stores, restaurants, office spaces, and industrial facilities in West Jordan all fall within our commercial service scope. For larger commercial properties, we offer maintenance contracts that include scheduled preventive service and priority response for emergency calls."
-        }
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://salmonhvac.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Service Areas",
-        "item": "https://salmonhvac.com/areas/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "West Jordan, UT",
-        "item": "https://salmonhvac.com/areas/west-jordan-ut/"
       }
     ]
   }

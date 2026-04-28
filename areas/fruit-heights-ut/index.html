@@ -30,149 +30,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - Fruit Heights HVAC Services",
-    "description": "Family-owned HVAC contractor serving Fruit Heights, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and indoor air quality services for Davis County families.",
-    "url": "https://salmonhvac.com/areas/fruit-heights-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 40.9938,
-      "longitude": -111.8896
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/fruit-heights-ut/#service",
+        "name": "HVAC Services in Fruit Heights, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Fruit Heights",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Davis County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/fruit-heights-ut/",
+        "description": "Family-owned HVAC contractor serving Fruit Heights, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and indoor air quality services for Davis County families."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "Fruit Heights",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Davis County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump Services", "url": "https://salmonhvac.com/services/heat-pump-services/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ductless Mini-Split", "url": "https://salmonhvac.com/services/ductless-mini-split/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Abe Salmon"
-    },
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does elevation affect my HVAC system in Fruit Heights?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, in meaningful ways. Fruit Heights sits on Davis County's eastern bench at a noticeably higher elevation than the valley floor communities nearby. That elevation translates to colder ambient temperatures in winter — sometimes 3 to 5 degrees colder than Bountiful or Centerville on the same day. For heating system sizing, this matters: a home at bench elevation has a higher design heating load than an identical home on the valley floor. When we perform a Manual J load calculation for a Fruit Heights home, we account for the local elevation and wind exposure, which prevents undersizing a furnace or heat pump that then struggles on the coldest days of the year."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "My 1980s Fruit Heights home still has the original furnace — should I replace it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A furnace from the 1980s is now 40-plus years old, which is well beyond the expected service life of any residential HVAC equipment. If it's still running, it's an exception rather than the rule — and it is almost certainly an 80% AFUE or lower unit burning significantly more fuel than a modern 96% AFUE high-efficiency furnace. Beyond the efficiency gap, parts for equipment this old are often discontinued, and a mid-winter failure becomes a difficult repair. We'll give you an honest assessment: sometimes an older furnace still has a season or two left, sometimes the right call is to replace before it forces the issue. We can evaluate yours and tell you exactly where it stands."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What should I expect for HVAC costs in a Fruit Heights home?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Fruit Heights homes tend to be larger than the Davis County average, and many sit on bigger lots with more exterior wall exposure — both factors that increase heating and cooling loads. A full system replacement (furnace and central AC) for a typical Fruit Heights home generally runs in the $6,000 to $13,000 range installed, depending on square footage, efficiency tier, and whether any ductwork modifications are needed. Older homes with original ductwork from the 1970s or 1980s sometimes require duct sealing or partial replacement alongside the equipment, which adds to the project cost but significantly improves comfort and efficiency. We provide detailed, itemized quotes before any work begins."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you service older Carrier and Lennox equipment in Fruit Heights?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Carrier and Lennox were among the most commonly installed brands in the Davis County bench communities during the 1980s and 1990s, and we have extensive experience servicing both. We carry parts for the major brands and can often complete a repair on the first visit. That said, for systems more than 15 to 20 years old, we'll always give you an honest comparison between the repair cost and the cost of replacement — especially if the existing system uses R-22 refrigerant, which is now phased out and very expensive when available."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/fruit-heights-ut/#faqpage"
+      },
       {
-        "@type": "Question",
-        "name": "Does elevation affect my HVAC system in Fruit Heights?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, in meaningful ways. Fruit Heights sits on Davis County's eastern bench at a noticeably higher elevation than the valley floor communities nearby. That elevation translates to colder ambient temperatures in winter — sometimes 3 to 5 degrees colder than Bountiful or Centerville on the same day. For heating system sizing, this matters: a home at bench elevation has a higher design heating load than an identical home on the valley floor. When we perform a Manual J load calculation for a Fruit Heights home, we account for the local elevation and wind exposure, which prevents undersizing a furnace or heat pump that then struggles on the coldest days of the year."
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Fruit Heights, UT",
+            "item": "https://salmonhvac.com/areas/fruit-heights-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/fruit-heights-ut/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/fruit-heights-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/fruit-heights-ut/",
+        "name": "HVAC Repair & Service in Fruit Heights, UT | Salmon HVAC",
+        "description": "AC & furnace repair in Fruit Heights, UT. Davis County",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/fruit-heights-ut/#breadcrumb"
         }
-      },
-      {
-        "@type": "Question",
-        "name": "My 1980s Fruit Heights home still has the original furnace — should I replace it?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "A furnace from the 1980s is now 40-plus years old, which is well beyond the expected service life of any residential HVAC equipment. If it's still running, it's an exception rather than the rule — and it is almost certainly an 80% AFUE or lower unit burning significantly more fuel than a modern 96% AFUE high-efficiency furnace. Beyond the efficiency gap, parts for equipment this old are often discontinued, and a mid-winter failure becomes a difficult repair. We'll give you an honest assessment: sometimes an older furnace still has a season or two left, sometimes the right call is to replace before it forces the issue. We can evaluate yours and tell you exactly where it stands."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What should I expect for HVAC costs in a Fruit Heights home?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Fruit Heights homes tend to be larger than the Davis County average, and many sit on bigger lots with more exterior wall exposure — both factors that increase heating and cooling loads. A full system replacement (furnace and central AC) for a typical Fruit Heights home generally runs in the $6,000 to $13,000 range installed, depending on square footage, efficiency tier, and whether any ductwork modifications are needed. Older homes with original ductwork from the 1970s or 1980s sometimes require duct sealing or partial replacement alongside the equipment, which adds to the project cost but significantly improves comfort and efficiency. We provide detailed, itemized quotes before any work begins."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you service older Carrier and Lennox equipment in Fruit Heights?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Carrier and Lennox were among the most commonly installed brands in the Davis County bench communities during the 1980s and 1990s, and we have extensive experience servicing both. We carry parts for the major brands and can often complete a repair on the first visit. That said, for systems more than 15 to 20 years old, we'll always give you an honest comparison between the repair cost and the cost of replacement — especially if the existing system uses R-22 refrigerant, which is now phased out and very expensive when available."
-        }
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://salmonhvac.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Service Areas",
-        "item": "https://salmonhvac.com/areas/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Fruit Heights, UT",
-        "item": "https://salmonhvac.com/areas/fruit-heights-ut/"
       }
     ]
   }

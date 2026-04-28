@@ -30,149 +30,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - Clinton HVAC Services",
-    "description": "Family-owned HVAC contractor serving Clinton, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and indoor air quality services for Davis County families and property managers.",
-    "url": "https://salmonhvac.com/areas/clinton-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 41.1391,
-      "longitude": -112.0624
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/clinton-ut/#service",
+        "name": "HVAC Services in Clinton, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Clinton",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Davis County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/clinton-ut/",
+        "description": "Family-owned HVAC contractor serving Clinton, UT since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, heat pumps, and indoor air quality services for Davis County families and property managers."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "Clinton",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Davis County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump Services", "url": "https://salmonhvac.com/services/heat-pump-services/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ductless Mini-Split", "url": "https://salmonhvac.com/services/ductless-mini-split/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Abe Salmon"
-    },
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "I own a rental property in Clinton near Hill AFB — what's the best way to manage HVAC for renters?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Rental property HVAC management in a high-turnover community like Clinton requires a different approach than owner-occupied homes. Our recommendations for landlords: First, establish a maintenance schedule and stick to it — annual furnace and AC tune-ups prevent the kind of failures that generate emergency calls at 11 PM and angry tenants. Second, if your properties have older equipment, plan proactively for replacement rather than waiting for failure. A system that fails during a lease period creates more cost and friction than a planned replacement during a vacancy. Third, work with a contractor you trust to call when tenants report issues — quick response protects your property and your tenant relationship. We work with multiple landlords in the Clinton area and can discuss priority scheduling arrangements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I know if my 1970s Clinton home's ductwork needs replacement?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ductwork from the 1970s is now 50-plus years old, and most of it has developed significant leakage over time. Signs that your ductwork is compromised include: rooms that are noticeably harder to heat or cool than others, high utility bills despite a functional heating and cooling system, excessive dust accumulation throughout the home, and a system that runs longer than expected to reach setpoint. The most reliable assessment is a duct leakage test, which we can perform during an evaluation visit. In 1970s homes with original galvanized steel or early flex duct, leakage rates of 30 to 40 percent are common — meaning nearly half your conditioned air never reaches the living space. Replacing aging equipment without addressing that leakage leaves most of the efficiency benefit untapped."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the typical lifespan of HVAC equipment in Clinton's climate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Under normal conditions with annual maintenance, a gas furnace in Northern Utah should last 18 to 25 years, and a central air conditioning system 15 to 20 years. Clinton's climate is consistent with the rest of Davis County — cold winters and hot summers put meaningful demand on both heating and cooling systems. Equipment that has been maintained regularly through its life tends toward the upper end of these ranges; equipment that has run without maintenance often fails earlier. For homes near Hill AFB, we also see that rental and high-occupancy properties tend to have shorter system lifespans due to higher usage and sometimes deferred maintenance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you offer priority scheduling for landlords with multiple Clinton properties?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We work with property managers and landlords who own multiple units in the Clinton and Clearfield area and understand that a quick response to a tenant HVAC complaint is important for keeping occupancy stable and avoiding lease disputes. If you manage multiple properties in Clinton, reach out to discuss how we can set up a working relationship that keeps your tenants comfortable and your properties well-maintained. We can also help you build a replacement schedule for aging equipment across your portfolio so replacements happen on your timeline, not in response to an emergency."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/clinton-ut/#faqpage"
+      },
       {
-        "@type": "Question",
-        "name": "I own a rental property in Clinton near Hill AFB — what's the best way to manage HVAC for renters?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Rental property HVAC management in a high-turnover community like Clinton requires a different approach than owner-occupied homes. Our recommendations for landlords: First, establish a maintenance schedule and stick to it — annual furnace and AC tune-ups prevent the kind of failures that generate emergency calls at 11 PM and angry tenants. Second, if your properties have older equipment, plan proactively for replacement rather than waiting for failure. A system that fails during a lease period creates more cost and friction than a planned replacement during a vacancy. Third, work with a contractor you trust to call when tenants report issues — quick response protects your property and your tenant relationship. We work with multiple landlords in the Clinton area and can discuss priority scheduling arrangements."
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Clinton, UT",
+            "item": "https://salmonhvac.com/areas/clinton-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/clinton-ut/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/clinton-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/clinton-ut/",
+        "name": "HVAC Repair & Service in Clinton, UT | Salmon HVAC",
+        "description": "AC & furnace repair in Clinton, UT. Reliable service for growing residential and rental communities in Davis County. Same-day availability. Call (801) 397-0030.",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/clinton-ut/#breadcrumb"
         }
-      },
-      {
-        "@type": "Question",
-        "name": "How do I know if my 1970s Clinton home's ductwork needs replacement?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Ductwork from the 1970s is now 50-plus years old, and most of it has developed significant leakage over time. Signs that your ductwork is compromised include: rooms that are noticeably harder to heat or cool than others, high utility bills despite a functional heating and cooling system, excessive dust accumulation throughout the home, and a system that runs longer than expected to reach setpoint. The most reliable assessment is a duct leakage test, which we can perform during an evaluation visit. In 1970s homes with original galvanized steel or early flex duct, leakage rates of 30 to 40 percent are common — meaning nearly half your conditioned air never reaches the living space. Replacing aging equipment without addressing that leakage leaves most of the efficiency benefit untapped."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What's the typical lifespan of HVAC equipment in Clinton's climate?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Under normal conditions with annual maintenance, a gas furnace in Northern Utah should last 18 to 25 years, and a central air conditioning system 15 to 20 years. Clinton's climate is consistent with the rest of Davis County — cold winters and hot summers put meaningful demand on both heating and cooling systems. Equipment that has been maintained regularly through its life tends toward the upper end of these ranges; equipment that has run without maintenance often fails earlier. For homes near Hill AFB, we also see that rental and high-occupancy properties tend to have shorter system lifespans due to higher usage and sometimes deferred maintenance."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you offer priority scheduling for landlords with multiple Clinton properties?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. We work with property managers and landlords who own multiple units in the Clinton and Clearfield area and understand that a quick response to a tenant HVAC complaint is important for keeping occupancy stable and avoiding lease disputes. If you manage multiple properties in Clinton, reach out to discuss how we can set up a working relationship that keeps your tenants comfortable and your properties well-maintained. We can also help you build a replacement schedule for aging equipment across your portfolio so replacements happen on your timeline, not in response to an emergency."
-        }
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://salmonhvac.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Service Areas",
-        "item": "https://salmonhvac.com/areas/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Clinton, UT",
-        "item": "https://salmonhvac.com/areas/clinton-ut/"
       }
     ]
   }

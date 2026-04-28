@@ -30,149 +30,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - Draper HVAC Services",
-    "description": "Family-owned HVAC contractor serving Draper, UT and Silicon Slopes tech corridor since 1979. Daikin Comfort Pro Authorized Dealer providing upscale residential and commercial HVAC services.",
-    "url": "https://salmonhvac.com/areas/draper-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 40.5246,
-      "longitude": -111.8638
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/draper-ut/#service",
+        "name": "HVAC Services in Draper, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Draper",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Salt Lake County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/draper-ut/",
+        "description": "Family-owned HVAC contractor serving Draper, UT and Silicon Slopes tech corridor since 1979. Daikin Comfort Pro Authorized Dealer providing upscale residential and commercial HVAC services."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "Draper",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Salt Lake County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Commercial HVAC", "url": "https://salmonhvac.com/services/commercial-hvac/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "VRF Systems", "url": "https://salmonhvac.com/services/vrf-systems/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Abe Salmon"
-    },
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What HVAC systems are popular in Draper's newer homes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Draper's newer construction — the majority of the housing stock, given how recently most of the city was developed — typically has high-efficiency gas furnaces paired with central air conditioning. Heat pump adoption is growing rapidly in Draper, particularly in the higher price-point homes and in buyers who are interested in maximizing efficiency. Variable-speed systems are standard in Draper's upper-tier construction and make a noticeable difference in both comfort and energy bills compared to single-stage equipment."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you install smart thermostats in Draper?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Smart thermostat installation is a regular part of our Draper work. We install and configure Ecobee and Nest thermostats as part of equipment replacements and as standalone upgrades. Both platforms offer excellent scheduling capabilities, remote control via smartphone, and integration with voice assistants. Ecobee has the edge for multi-stage and multi-zone systems due to its more robust staging logic; Nest tends to be simpler and more intuitive for homeowners who want a clean, minimal interface. We'll recommend what fits best for your specific system and usage patterns."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What commercial HVAC do you offer for Silicon Slopes tech companies?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Tech company offices have specific HVAC demands: high internal heat loads from server infrastructure, open-plan offices with high occupant density, conference rooms that alternate between full and empty, and often tight energy efficiency requirements from sustainability-conscious management. VRF systems are well-suited to these environments — they handle simultaneous heating and cooling across multiple zones, which is typical in a modern office building, and they offer excellent energy efficiency. We install and service VRF systems for commercial customers in Draper's I-15 office corridor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Draper's elevation a factor in heat pump selection?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, particularly for Corner Canyon and Suncrest area homes. Valley-floor Draper sits at roughly 4,500 feet, but Corner Canyon climbs toward 5,000 feet and above. Those upper neighborhoods are meaningfully colder in winter than the valley floor — 5-10°F colder on the coldest nights. For heat pump selection in upper Draper, we specify cold-climate systems with performance ratings verified at the actual temperatures those locations experience, rather than applying valley-floor numbers to a bench or foothills location."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/draper-ut/#faqpage"
+      },
       {
-        "@type": "Question",
-        "name": "What HVAC systems are popular in Draper's newer homes?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Draper's newer construction — the majority of the housing stock, given how recently most of the city was developed — typically has high-efficiency gas furnaces paired with central air conditioning. Heat pump adoption is growing rapidly in Draper, particularly in the higher price-point homes and in buyers who are interested in maximizing efficiency. Variable-speed systems are standard in Draper's upper-tier construction and make a noticeable difference in both comfort and energy bills compared to single-stage equipment."
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Draper, UT",
+            "item": "https://salmonhvac.com/areas/draper-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/draper-ut/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/draper-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/draper-ut/",
+        "name": "HVAC Repair & Service in Draper, UT | Salmon HVAC",
+        "description": "AC & furnace repair in Draper, UT. Silicon Slopes corridor — upscale residential and commercial HVAC since 1979. Free estimates. Call (801) 397-0030.",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/draper-ut/#breadcrumb"
         }
-      },
-      {
-        "@type": "Question",
-        "name": "Do you install smart thermostats in Draper?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Smart thermostat installation is a regular part of our Draper work. We install and configure Ecobee and Nest thermostats as part of equipment replacements and as standalone upgrades. Both platforms offer excellent scheduling capabilities, remote control via smartphone, and integration with voice assistants. Ecobee has the edge for multi-stage and multi-zone systems due to its more robust staging logic; Nest tends to be simpler and more intuitive for homeowners who want a clean, minimal interface. We'll recommend what fits best for your specific system and usage patterns."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What commercial HVAC do you offer for Silicon Slopes tech companies?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Tech company offices have specific HVAC demands: high internal heat loads from server infrastructure, open-plan offices with high occupant density, conference rooms that alternate between full and empty, and often tight energy efficiency requirements from sustainability-conscious management. VRF systems are well-suited to these environments — they handle simultaneous heating and cooling across multiple zones, which is typical in a modern office building, and they offer excellent energy efficiency. We install and service VRF systems for commercial customers in Draper's I-15 office corridor."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is Draper's elevation a factor in heat pump selection?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, particularly for Corner Canyon and Suncrest area homes. Valley-floor Draper sits at roughly 4,500 feet, but Corner Canyon climbs toward 5,000 feet and above. Those upper neighborhoods are meaningfully colder in winter than the valley floor — 5-10°F colder on the coldest nights. For heat pump selection in upper Draper, we specify cold-climate systems with performance ratings verified at the actual temperatures those locations experience, rather than applying valley-floor numbers to a bench or foothills location."
-        }
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://salmonhvac.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Service Areas",
-        "item": "https://salmonhvac.com/areas/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Draper, UT",
-        "item": "https://salmonhvac.com/areas/draper-ut/"
       }
     ]
   }

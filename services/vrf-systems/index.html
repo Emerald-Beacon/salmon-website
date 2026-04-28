@@ -32,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
@@ -41,23 +41,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         "name": "VRF System Installation",
         "serviceType": "VRF/VRV Commercial HVAC Installation",
         "provider": {
-          "@type": "HVACBusiness",
-          "name": "Salmon HVAC",
-          "legalName": "Salmon HVAC LLC",
-          "telephone": "+18013970030",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "1265 W 1275 N #7",
-            "addressLocality": "Centerville",
-            "addressRegion": "UT",
-            "postalCode": "84014",
-            "addressCountry": "US"
-          },
-          "url": "https://salmonhvac.com"
+          "@id": "https://salmonhvac.com/#organization"
         },
-        "areaServed": ["Davis County, UT", "Weber County, UT", "Salt Lake County, UT", "Morgan County, UT"],
+        "areaServed": [
+          "Davis County, UT",
+          "Weber County, UT",
+          "Salt Lake County, UT",
+          "Morgan County, UT"
+        ],
         "description": "Variable Refrigerant Flow (VRF) system installation and service for commercial buildings in Northern Utah. Daikin VRV IV authorized dealer.",
-        "url": "https://salmonhvac.com/services/vrf-systems/"
+        "url": "https://salmonhvac.com/services/vrf-systems/",
+        "@id": "https://salmonhvac.com/services/vrf-systems/#service"
       },
       {
         "@type": "FAQPage",
@@ -94,15 +88,51 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               "text": "VRF systems are most cost-effective in buildings from 5,000 to 150,000+ square feet, particularly those with multiple zones requiring independent temperature control. They're ideal for medical offices, dental practices, professional offices, hotels, retail centers, and schools. Smaller buildings under 3,000 square feet are often better served by split systems or ductless mini-splits."
             }
           }
-        ]
+        ],
+        "@id": "https://salmonhvac.com/services/vrf-systems/#faqpage"
       },
       {
         "@type": "BreadcrumbList",
         "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://salmonhvac.com/"},
-          {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://salmonhvac.com/services/"},
-          {"@type": "ListItem", "position": 3, "name": "VRF Systems", "item": "https://salmonhvac.com/services/vrf-systems/"}
-        ]
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://salmonhvac.com/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "VRF Systems",
+            "item": "https://salmonhvac.com/services/vrf-systems/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/services/vrf-systems/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/services/vrf-systems/#webpage",
+        "url": "https://salmonhvac.com/services/vrf-systems/",
+        "name": "VRF System Installation Utah | Commercial HVAC | Salmon HVAC",
+        "description": "Variable Refrigerant Flow (VRF) system installation and service in Northern Utah. Expert commercial HVAC. Daikin VRV systems. Call (801) 397-0030.",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/services/vrf-systems/#service"
+        },
+        "mainEntity": {
+          "@id": "https://salmonhvac.com/services/vrf-systems/#service"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/services/vrf-systems/#breadcrumb"
+        }
       }
     ]
   }

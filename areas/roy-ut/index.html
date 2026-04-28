@@ -30,149 +30,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
 
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "Salmon HVAC - Roy HVAC Services",
-    "description": "Family-owned HVAC contractor serving Roy, UT and Weber County since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, and maintenance for established Roy neighborhoods.",
-    "url": "https://salmonhvac.com/areas/roy-ut/",
-    "telephone": "+18013970030",
-    "email": "office@salmonhvac.com",
-    "image": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "logo": "https://salmonhvac.com/assets/images/logo-salmon.png",
-    "priceRange": "$$",
-    "currenciesAccepted": "USD",
-    "paymentAccepted": "Cash, Credit Card, Check, Financing",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "1265 W 1275 N #7",
-      "addressLocality": "Centerville",
-      "addressRegion": "UT",
-      "postalCode": "84014",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 41.1616,
-      "longitude": -112.0263
-    },
-    "openingHoursSpecification": [
+    "@graph": [
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "18:00"
+        "@type": "Service",
+        "@id": "https://salmonhvac.com/areas/roy-ut/#service",
+        "name": "HVAC Services in Roy, UT",
+        "serviceType": "HVAC Services",
+        "provider": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Roy",
+          "containedInPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Weber County, Utah"
+          }
+        },
+        "url": "https://salmonhvac.com/areas/roy-ut/",
+        "description": "Family-owned HVAC contractor serving Roy, UT and Weber County since 1979. Daikin Comfort Pro Authorized Dealer providing AC repair, furnace installation, and maintenance for established Roy neighborhoods."
       },
       {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Saturday", "Sunday"],
-        "description": "Emergency service only"
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "483",
-      "bestRating": "5"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "Roy",
-      "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Weber County, Utah"
-      }
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "HVAC Services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair", "url": "https://salmonhvac.com/services/ac-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Installation", "url": "https://salmonhvac.com/services/ac-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Repair", "url": "https://salmonhvac.com/services/furnace-repair/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Furnace Installation", "url": "https://salmonhvac.com/services/furnace-installation/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Heat Pump Services", "url": "https://salmonhvac.com/services/heat-pump-services/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ductless Mini-Split", "url": "https://salmonhvac.com/services/ductless-mini-split/"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.facebook.com/SalmonHVAC",
-      "https://www.instagram.com/salmonhvac",
-      "https://g.page/salmonhvac"
-    ],
-    "founder": {
-      "@type": "Person",
-      "name": "Abe Salmon"
-    },
-    "foundingDate": "1979",
-    "slogan": "Northern Utah's Trusted HVAC Professionals Since 1979"
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Many Roy homes have R-22 refrigerant systems — what should I do?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "R-22 (Freon) was phased out of production in 2020, and the remaining supply commands very high prices — often $100 or more per pound. A system that needs even a small refrigerant recharge can become expensive quickly, and the underlying leak that caused the loss will likely recur. For most R-22 systems in Roy, the honest recommendation is replacement rather than repair. A new R-410A or R-454B system will be more efficient, more reliable, and won't face the refrigerant availability problem that R-22 systems do. We'll give you an honest comparison of repair cost versus replacement cost so you can make the right decision for your situation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the typical age of HVAC systems in Roy?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Roy's housing stock is predominantly from the 1960s through 1980s, which means many original systems have already been replaced — but the replacement systems in homes that were upgraded in the 1990s and early 2000s are now themselves 20-25 years old. That's a prime replacement window. Systems in this age range are typically still running but at reduced efficiency and with increasing repair frequency. We see a lot of Roy homeowners making the decision between one more repair on a 20-year-old system versus a replacement that will serve them reliably for the next 15-20 years."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do 1970s Roy homes have adequate ductwork for modern HVAC systems?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Often not. Ductwork installed in the 1970s was designed for the equipment of that era — typically single-speed, lower-efficiency systems that moved less air. Modern high-efficiency furnaces, especially variable-speed models, require properly sized and sealed duct systems to operate correctly. We see undersized return air ducts, disconnected duct joints in attics and crawl spaces, and inadequate insulation in older Roy homes. A duct inspection as part of any equipment replacement is essential — installing new equipment on a leaky, undersized duct system guarantees disappointing performance and higher-than-expected energy bills."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's a fair price range for HVAC replacement in Roy?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For a typical Roy home in the 1,400-2,200 square foot range, a full system replacement — high-efficiency furnace and central AC — typically runs $4,000 to $9,000 installed. The range reflects differences in system efficiency, brand, and whether ductwork modifications are needed. We provide itemized quotes so you can see exactly what's included. If a quote comes in significantly below this range, ask what's been left out."
+            }
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/roy-ut/#faqpage"
+      },
       {
-        "@type": "Question",
-        "name": "Many Roy homes have R-22 refrigerant systems — what should I do?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "R-22 (Freon) was phased out of production in 2020, and the remaining supply commands very high prices — often $100 or more per pound. A system that needs even a small refrigerant recharge can become expensive quickly, and the underlying leak that caused the loss will likely recur. For most R-22 systems in Roy, the honest recommendation is replacement rather than repair. A new R-410A or R-454B system will be more efficient, more reliable, and won't face the refrigerant availability problem that R-22 systems do. We'll give you an honest comparison of repair cost versus replacement cost so you can make the right decision for your situation."
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://salmonhvac.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Service Areas",
+            "item": "https://salmonhvac.com/areas/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Roy, UT",
+            "item": "https://salmonhvac.com/areas/roy-ut/"
+          }
+        ],
+        "@id": "https://salmonhvac.com/areas/roy-ut/#breadcrumb"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://salmonhvac.com/areas/roy-ut/#webpage",
+        "url": "https://salmonhvac.com/areas/roy-ut/",
+        "name": "HVAC Repair & Service in Roy, UT | Salmon HVAC",
+        "description": "AC & furnace repair in Roy, UT. Trusted for Weber County",
+        "isPartOf": {
+          "@id": "https://salmonhvac.com/#website"
+        },
+        "about": {
+          "@id": "https://salmonhvac.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://salmonhvac.com/areas/roy-ut/#breadcrumb"
         }
-      },
-      {
-        "@type": "Question",
-        "name": "What's the typical age of HVAC systems in Roy?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Roy's housing stock is predominantly from the 1960s through 1980s, which means many original systems have already been replaced — but the replacement systems in homes that were upgraded in the 1990s and early 2000s are now themselves 20-25 years old. That's a prime replacement window. Systems in this age range are typically still running but at reduced efficiency and with increasing repair frequency. We see a lot of Roy homeowners making the decision between one more repair on a 20-year-old system versus a replacement that will serve them reliably for the next 15-20 years."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Do 1970s Roy homes have adequate ductwork for modern HVAC systems?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Often not. Ductwork installed in the 1970s was designed for the equipment of that era — typically single-speed, lower-efficiency systems that moved less air. Modern high-efficiency furnaces, especially variable-speed models, require properly sized and sealed duct systems to operate correctly. We see undersized return air ducts, disconnected duct joints in attics and crawl spaces, and inadequate insulation in older Roy homes. A duct inspection as part of any equipment replacement is essential — installing new equipment on a leaky, undersized duct system guarantees disappointing performance and higher-than-expected energy bills."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What's a fair price range for HVAC replacement in Roy?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "For a typical Roy home in the 1,400-2,200 square foot range, a full system replacement — high-efficiency furnace and central AC — typically runs $4,000 to $9,000 installed. The range reflects differences in system efficiency, brand, and whether ductwork modifications are needed. We provide itemized quotes so you can see exactly what's included. If a quote comes in significantly below this range, ask what's been left out."
-        }
-      }
-    ]
-  }
-  </script>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://salmonhvac.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Service Areas",
-        "item": "https://salmonhvac.com/areas/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Roy, UT",
-        "item": "https://salmonhvac.com/areas/roy-ut/"
       }
     ]
   }
