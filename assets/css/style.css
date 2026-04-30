@@ -547,7 +547,7 @@ ul { list-style: none; }
 }
 
 .hero-content {
-    background: var(--gradient-dark), url('/assets/images/IMG_6408.png') center/cover no-repeat;
+    background: linear-gradient(to right, rgba(13, 13, 13, 0.82) 0%, rgba(13, 13, 13, 0.55) 50%, rgba(13, 13, 13, 0.35) 100%), url('/assets/images/IMG_6408.png') center/cover no-repeat;
     width: 100%;
     min-height: 100vh;
     padding: 160px 8vw 100px;
