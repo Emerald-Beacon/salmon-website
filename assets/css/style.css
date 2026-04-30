@@ -2908,6 +2908,7 @@ a.service-card:hover .service-card-icon {
 
     .hero-content {
         padding: 130px 24px 70px;
+        background: linear-gradient(180deg, rgba(13, 13, 13, 0.78) 0%, rgba(13, 13, 13, 0.68) 100%), url('/assets/images/IMG_6408.png') center/cover no-repeat;
     }
 
     .hero-content h1::before {
