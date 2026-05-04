@@ -3498,7 +3498,8 @@ main article section[style*="margin:3rem"] p {
     box-shadow: 0 2px 8px rgba(0,0,0,.08);
 }
 
-.related-post-card picture {
+.related-post-card picture,
+.related-post-card > img {
     flex-shrink: 0;
     width: 72px;
     height: 54px;
@@ -3506,7 +3507,8 @@ main article section[style*="margin:3rem"] p {
     overflow: hidden;
 }
 
-.related-post-card picture img {
+.related-post-card picture img,
+.related-post-card > img {
     width: 72px;
     height: 54px;
     object-fit: cover;
