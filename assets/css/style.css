@@ -544,10 +544,33 @@ ul { list-style: none; }
     display: flex;
     align-items: center;
     position: relative;
+    overflow: hidden;
+}
+
+.hero-img-wrapper {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(13, 13, 13, 0.82) 0%, rgba(13, 13, 13, 0.55) 50%, rgba(13, 13, 13, 0.35) 100%);
 }
 
 .hero-content {
-    background: linear-gradient(to right, rgba(13, 13, 13, 0.82) 0%, rgba(13, 13, 13, 0.55) 50%, rgba(13, 13, 13, 0.35) 100%), url('/assets/images/IMG_6408.png') center/cover no-repeat;
+    background: none;
     width: 100%;
     min-height: 100vh;
     padding: 160px 8vw 100px;
@@ -556,6 +579,7 @@ ul { list-style: none; }
     justify-content: center;
     color: var(--text-inverse);
     position: relative;
+    z-index: 1;
 }
 
 /* Brand accent frame - matching logo style */
@@ -1163,7 +1187,7 @@ a.service-card:hover .service-card-icon {
 }
 
 .about-image {
-    background: url('/assets/images/IMG_6403.png') center/cover no-repeat;
+    background: url('/assets/images/about-team.webp') center/cover no-repeat;
     min-height: 650px;
     position: relative;
 }
@@ -1783,7 +1807,7 @@ a.service-card:hover .service-card-icon {
    PAGE HERO (inner pages) - Sharp
 ============================================ */
 .page-hero {
-    background: var(--gradient-dark), url('/assets/images/IMG_6408.png') center/cover no-repeat;
+    background: var(--gradient-dark), url('/assets/images/hero-home.webp') center/cover no-repeat;
     padding: 180px 0 100px;
     text-align: center;
     color: var(--text-inverse);
@@ -2908,7 +2932,10 @@ a.service-card:hover .service-card-icon {
 
     .hero-content {
         padding: 130px 24px 70px;
-        background: linear-gradient(180deg, rgba(13, 13, 13, 0.78) 0%, rgba(13, 13, 13, 0.68) 100%), url('/assets/images/IMG_6408.png') center/cover no-repeat;
+    }
+
+    .hero-overlay {
+        background: linear-gradient(180deg, rgba(13, 13, 13, 0.78) 0%, rgba(13, 13, 13, 0.68) 100%);
     }
 
     .hero-content h1::before {

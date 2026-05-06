@@ -34,15 +34,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="apple-touch-icon" href="/assets/images/logo-salmon.png">
 
   <!-- Preload hero image -->
-  <link rel="preload" as="image" href="/assets/images/hero-bg.png">
+  <link rel="preload" as="image" href="/assets/images/hero-home.webp" type="image/webp" imagesrcset="/assets/images/hero-home-mobile.webp 768w, /assets/images/hero-home.webp 1920w" imagesizes="100vw">
 
-  <!-- Google Fonts - Premium Typography -->
+  <!-- Google Fonts - Non-render-blocking -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@700;800;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@700;800;900&family=Rajdhani:wght@500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@700;800;900&family=Rajdhani:wght@500;600;700&display=swap"></noscript>
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Font Awesome - Non-render-blocking -->
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css?v=3">
@@ -444,6 +446,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- Hero Section -->
   <section class="hero" aria-label="Hero">
+    <picture class="hero-img-wrapper">
+      <source media="(max-width: 767px)" srcset="/assets/images/hero-home-mobile.webp" type="image/webp">
+      <source srcset="/assets/images/hero-home.webp" type="image/webp">
+      <img src="/assets/images/hero-home.jpg" alt="Salmon HVAC service van in Northern Utah" width="1920" height="1440" fetchpriority="high" loading="eager" class="hero-img">
+    </picture>
+    <div class="hero-overlay"></div>
     <div class="hero-content">
       <h1>Northern Utah's Most Trusted HVAC Contractor Since <span class="gradient-text">1979</span></h1>
       <p>Salmon HVAC delivers residential and commercial heating, cooling, and air quality solutions across Davis, Weber, Salt Lake, and Morgan counties. As a <a href="https://daikincomfort.com/" target="_blank" rel="noopener" class="daikin-link">Daikin</a> Comfort Pro Authorized Dealer, we bring the best equipment and 47 years of local expertise to every job.</p>
