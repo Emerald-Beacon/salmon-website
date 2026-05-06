@@ -606,8 +606,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="section-divider"></div>
       </div>
 
-      <div class="trustindex-embed">
-        <script defer async src='https://cdn.trustindex.io/loader.js?439995569c999088dc16f58ec8d'></script>
+      <div class="trustindex-embed" id="trustindex-target">
+        <script>
+          new IntersectionObserver(function(entries, obs) {
+            if (!entries[0].isIntersecting) return;
+            obs.disconnect();
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://cdn.trustindex.io/loader.js?439995569c999088dc16f58ec8d';
+            document.getElementById('trustindex-target').appendChild(s);
+          }, { rootMargin: '200px' }).observe(document.getElementById('trustindex-target'));
+        </script>
       </div>
     </div>
   </section>
@@ -715,7 +724,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           card.className = 'blog-card';
           card.innerHTML =
             '<div class="blog-card-image">' +
-              '<img src="' + post.image + '" alt="' + post.imageAlt + '" width="400" height="250">' +
+              '<img src="' + post.image + '" alt="' + post.imageAlt + '" width="400" height="250" loading="lazy">' +
             '</div>' +
             '<div class="blog-card-content">' +
               '<div style="font-size:0.85rem;color:#6b7280;margin-bottom:0.5rem;">' + post.dateDisplay + ' &nbsp;&bull;&nbsp; ' + post.readTime + '</div>' +
