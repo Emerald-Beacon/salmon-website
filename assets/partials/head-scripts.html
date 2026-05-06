@@ -1,15 +1,10 @@
-<!-- Meta Pixel Code -->
+<!-- Meta Pixel Code - Deferred -->
 <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '681566040187541');
-fbq('track', 'PageView');
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[]}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','681566040187541');fbq('track','PageView');
+function _loadFBQ(){if(window._fbqLoaded)return;window._fbqLoaded=true;var t=document.createElement('script');t.async=true;t.src='https://connect.facebook.net/en_US/fbevents.js';document.head.appendChild(t);}
+var _fbqTimer=setTimeout(_loadFBQ,3500);
+['mousedown','touchstart','keydown','scroll','mousemove'].forEach(function(e){window.addEventListener(e,function(){clearTimeout(_fbqTimer);_loadFBQ();},{once:true,passive:true});});
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=681566040187541&ev=PageView&noscript=1"
