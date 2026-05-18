@@ -16,6 +16,7 @@ const DIST = path.join(ROOT, "dist");
 const PUBLIC_DIRS = [
   "areas",
   "blog",
+  "commercial-portfolio",
   "contact",
   "financing",
   "get-quote",
