@@ -29,7 +29,7 @@ const SKIP_DIRS = new Set([
   "scripts",
   "tmp",
 ]);
-const NOINDEX_PATHS = new Set(["/thank-you/"]);
+const NOINDEX_PATHS = new Set(["/thank-you/", "/commercial-portfolio/"]);
 
 // Priority and changefreq rules based on URL depth/type
 function getMeta(urlPath) {

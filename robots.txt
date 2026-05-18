@@ -3,6 +3,7 @@
 
 User-agent: *
 Allow: /
+Disallow: /commercial-portfolio/
 
 # Sitemap location
 Sitemap: https://salmonhvac.com/sitemap.xml
