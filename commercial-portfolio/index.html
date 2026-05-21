@@ -863,15 +863,18 @@ footer .built{
 }
 .process-step:hover{ background: var(--paper-2); }
 .process-step-num{
-  font-family: var(--display);
-  font-weight: 900;
-  font-size: 13px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   margin-bottom: 16px;
+}
+.process-step-num h3{
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--ink);
+  line-height: 1.2;
+  margin: 0;
 }
 .process-step-num .badge{
   width: 44px;
@@ -889,14 +892,6 @@ footer .built{
 }
 .process-step-num .badge.pink{ background: var(--pink); }
 .process-step-num .badge.teal{ background: var(--teal); }
-.process-step h3{
-  font-family: var(--display);
-  font-weight: 700;
-  font-size: 20px;
-  color: var(--ink);
-  margin-bottom: 12px;
-  line-height: 1.2;
-}
 .process-step ul{
   list-style: none;
   padding: 0;
@@ -1081,9 +1076,8 @@ src="https://www.facebook.com/tr?id=681566040187541&ev=PageView&noscript=1"
       <div class="process-step">
         <div class="process-step-num">
           <div class="badge pink">1</div>
-          Step One
+          <h3>Initial Contact</h3>
         </div>
-        <h3>Initial Contact</h3>
         <p class="step-desc">Every project starts with a conversation. We take time to understand your building, your goals, and your constraints before anything else.</p>
         <ul>
           <li><strong>Client Inquiry</strong> — discuss project scope, system goals, and budget range</li>
@@ -1096,9 +1090,8 @@ src="https://www.facebook.com/tr?id=681566040187541&ev=PageView&noscript=1"
       <div class="process-step">
         <div class="process-step-num">
           <div class="badge teal">2</div>
-          Step Two
+          <h3>Proposal</h3>
         </div>
-        <h3>Proposal</h3>
         <p class="step-desc">No surprises. You'll see exactly what you're getting, what it costs, and why — before anything is signed.</p>
         <ul>
           <li><strong>System Design</strong> — engineer a solution matched to your building's load, layout, and intended use</li>
@@ -1111,9 +1104,8 @@ src="https://www.facebook.com/tr?id=681566040187541&ev=PageView&noscript=1"
       <div class="process-step">
         <div class="process-step-num">
           <div class="badge pink">3</div>
-          Step Three
+          <h3>Project Planning &amp; Scheduling</h3>
         </div>
-        <h3>Project Planning &amp; Scheduling</h3>
         <p class="step-desc">Good installs start with good planning. We coordinate everything upfront so the project fits your schedule — not the other way around.</p>
         <ul>
           <li><strong>Create Timeline</strong> — milestone schedule built around your construction sequence and occupancy date</li>
@@ -1124,9 +1116,8 @@ src="https://www.facebook.com/tr?id=681566040187541&ev=PageView&noscript=1"
       <div class="process-step">
         <div class="process-step-num">
           <div class="badge teal">4</div>
-          Step Four
+          <h3>Execution / Installation</h3>
         </div>
-        <h3>Execution / Installation</h3>
         <p class="step-desc">Factory-trained technicians. Clean jobsite. Work done right the first time.</p>
         <ul>
           <li><strong>System Installation</strong> — equipment installed to manufacturer specs, applicable code, and your approved project drawings, with daily progress communication to your site team</li>
@@ -1136,9 +1127,8 @@ src="https://www.facebook.com/tr?id=681566040187541&ev=PageView&noscript=1"
       <div class="process-step">
         <div class="process-step-num">
           <div class="badge pink">5</div>
-          Step Five
+          <h3>Testing / Handover / Documentation</h3>
         </div>
-        <h3>Testing / Handover / Documentation</h3>
         <p class="step-desc">We don't hand a system over until it's fully commissioned and your team knows how to run it.</p>
         <ul>
           <li><strong>Commissioning</strong> — full system startup, airflow balancing, and performance verification against design specs</li>
@@ -1151,9 +1141,8 @@ src="https://www.facebook.com/tr?id=681566040187541&ev=PageView&noscript=1"
       <div class="process-step">
         <div class="process-step-num">
           <div class="badge teal">6</div>
-          Step Six
+          <h3>Maintenance Plan &amp; Post-Project Evaluation</h3>
         </div>
-        <h3>Maintenance Plan &amp; Post-Project Evaluation</h3>
         <p class="step-desc">The relationship doesn't end at handover. We stay engaged to protect your investment and make sure the system performs the way it was designed to.</p>
         <ul>
           <li><strong>Maintenance Plan</strong> — tailored PM schedule covering seasonal tune-ups, filter service, and priority dispatch to protect your warranty and avoid unplanned downtime</li>
