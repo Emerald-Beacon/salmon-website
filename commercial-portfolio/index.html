@@ -844,6 +844,87 @@ footer .built{
   .project, .member { break-inside: avoid; }
 }
 
+/* ============== PROVEN PROCESS ============== */
+.process{ background: var(--paper-2); }
+.process-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  background: var(--line);
+  border: 2px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+}
+.process-step{
+  background: var(--paper);
+  padding: 36px 32px;
+  position: relative;
+  transition: background 0.2s;
+}
+.process-step:hover{ background: var(--paper-2); }
+.process-step-num{
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.process-step-num .badge{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 900;
+  color: var(--ink);
+  flex-shrink: 0;
+}
+.process-step-num .badge.pink{ background: var(--pink); }
+.process-step-num .badge.teal{ background: var(--teal); }
+.process-step h3{
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--ink);
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+.process-step ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.process-step ul li{
+  font-size: 14px;
+  color: var(--grey);
+  padding: 4px 0;
+  padding-left: 14px;
+  position: relative;
+  line-height: 1.4;
+}
+.process-step ul li::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--grey-2);
+}
+@media(max-width:900px){
+  .process-grid{ grid-template-columns: repeat(2,1fr); }
+}
+@media(max-width:560px){
+  .process-grid{ grid-template-columns: 1fr; }
+}
+
 /* ============== ANIMATION ============== */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(24px); }
@@ -969,6 +1050,96 @@ src="https://www.facebook.com/tr?id=681566040187541&ev=PageView&noscript=1"
         <p class="definition">Leading by serving others first.</p>
         <p>Your project comes before our convenience. Flexible scheduling, responsive communication, and a team that treats your jobsite like it's our own.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== PROVEN PROCESS =================== -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Our Process</div>
+      <h2>Salmon HVAC Commercial Proven Process</h2>
+      <p>A clear, repeatable process from first call to final handover — so you always know where the project stands.</p>
+    </div>
+    <div class="process-grid">
+
+      <div class="process-step">
+        <div class="process-step-num">
+          <div class="badge pink">1</div>
+          Step One
+        </div>
+        <h3>Initial Contact</h3>
+        <ul>
+          <li>Client Inquiry</li>
+          <li>Project Brief</li>
+          <li>On-site Inspection</li>
+          <li>Compliance Check</li>
+        </ul>
+      </div>
+
+      <div class="process-step">
+        <div class="process-step-num">
+          <div class="badge teal">2</div>
+          Step Two
+        </div>
+        <h3>Proposal</h3>
+        <ul>
+          <li>System Design</li>
+          <li>Cost Estimation</li>
+          <li>Present Proposal</li>
+          <li>Client Approval</li>
+        </ul>
+      </div>
+
+      <div class="process-step">
+        <div class="process-step-num">
+          <div class="badge pink">3</div>
+          Step Three
+        </div>
+        <h3>Project Planning &amp; Scheduling</h3>
+        <ul>
+          <li>Create Timeline</li>
+          <li>Coordinate Labor</li>
+        </ul>
+      </div>
+
+      <div class="process-step">
+        <div class="process-step-num">
+          <div class="badge teal">4</div>
+          Step Four
+        </div>
+        <h3>Execution / Installation</h3>
+        <ul>
+          <li>System Installation</li>
+        </ul>
+      </div>
+
+      <div class="process-step">
+        <div class="process-step-num">
+          <div class="badge pink">5</div>
+          Step Five
+        </div>
+        <h3>Testing / Handover / Documentation</h3>
+        <ul>
+          <li>Commissioning</li>
+          <li>Customer Training</li>
+          <li>Documentation</li>
+          <li>Rebates</li>
+        </ul>
+      </div>
+
+      <div class="process-step">
+        <div class="process-step-num">
+          <div class="badge teal">6</div>
+          Step Six
+        </div>
+        <h3>Maintenance Plan &amp; Post-Project Evaluation</h3>
+        <ul>
+          <li>Maintenance Plan</li>
+        </ul>
+      </div>
+
     </div>
   </div>
 </section>
