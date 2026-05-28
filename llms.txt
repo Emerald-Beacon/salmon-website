@@ -94,10 +94,10 @@ We provide full HVAC services across Northern Utah:
 | Program | Amount | Requirements |
 |---------|--------|--------------|
 | Rocky Mountain Power Wattsmart | $1,000 - $3,000 | Qualifying heat pump, RMP customer |
-| Dominion Energy ThermWise | $300 - $500 | Dual-fuel heat pump system |
-| Federal IRA Section 25C | Up to $2,000 | ENERGY STAR heat pump, primary residence |
+| Enbridge Gas ThermWise | Varies by equipment | Qualifying gas furnace or dual-fuel system |
+| Federal IRA Section 25C | Expired for 2026 installs | IRS says 25C is not allowed for property placed in service after Dec. 31, 2025 |
 
-**Note:** Rebates can be stacked. A typical $8,000 heat pump installation can net ~$3,100 after all incentives.
+**Note:** Utility rebates may be stackable, but federal HVAC tax credit rules changed after 2025. Verify current Rocky Mountain Power, Enbridge Gas, and IRS eligibility before quoting net installed cost.
 
 ## Team Members
 
@@ -154,30 +154,30 @@ A: In Utah's climate, central AC units typically last 12-16 years (shorter than 
 A: Most AC repairs range from $150-$650. Minor repairs (capacitor, contactor) are $150-$300. Major repairs (compressor, blower motor) are $400-$650+.
 
 **Q: Are there rebates for new HVAC systems?**
-A: Yes. Rocky Mountain Power Wattsmart offers $1,000-$3,000 for heat pumps. Federal IRA tax credits provide up to $2,000. These can be stacked for significant savings. Full guide: https://salmonhvac.com/blog/utah-heat-pump-rebates-tax-credits-the-complete-2026-guide-for-homeowners/
+A: Yes. Rocky Mountain Power Wattsmart and Enbridge Gas ThermWise may offer utility rebates for qualifying systems. Federal HVAC tax credit rules changed after 2025, so homeowners should verify IRS eligibility before assuming a 2026 installation qualifies. Full cost guide: https://salmonhvac.com/blog/hvac-replacement-cost-utah-2026/
 
 **Q: Do you offer financing?**
 A: Yes, we offer financing options for equipment installations. Ask about current rates and terms. See: https://salmonhvac.com/financing/
 
 ## Recent Blog Articles
 
-1. **How Long Does an AC Unit Last in Utah? The Repair-vs-Replace Tipping Point**
+1. **HVAC Replacement Cost in Utah: 2026 Pricing Guide**
+   URL: https://salmonhvac.com/blog/hvac-replacement-cost-utah-2026/
+
+2. **HVAC for Room Additions, Finished Basements & ADUs in Utah**
+   URL: https://salmonhvac.com/blog/hvac-for-room-additions-adu-utah/
+
+3. **R-410A Refrigerant Phaseout: What Utah Homeowners Need to Know in 2026**
+   URL: https://salmonhvac.com/blog/r410a-r454b-refrigerant-change-utah-homeowners-guide/
+
+4. **Mild April in Utah? Why Now Is the Best Time to Get Ahead of AC Season**
+   URL: https://salmonhvac.com/blog/mild-april-utah-ac-service-before-summer/
+
+5. **How Long Does an AC Unit Last in Utah? The Repair-vs-Replace Tipping Point**
    URL: https://salmonhvac.com/blog/how-long-does-an-ac-unit-last-utah-repair-or-replace/
 
-2. **HVAC Zoning Systems for Utah Homes: Costs, Benefits, and ROI**
+6. **HVAC Zoning Systems for Utah Homes: Costs, Benefits, and ROI**
    URL: https://salmonhvac.com/blog/hvac-zoning-systems-utah-homes/
-
-3. **Spring AC Tune-Up Checklist for Utah Homeowners: What to Do Before Summer**
-   URL: https://salmonhvac.com/blog/spring-ac-tune-up-checklist-utah/
-
-4. **Why Is My Utah Home So Dry In Winter?**
-   URL: https://salmonhvac.com/blog/why-is-my-utah-home-so-dry-in-winter/
-
-5. **Utah Heat Pump Rebates & Tax Credits: The Complete 2026 Guide**
-   URL: https://salmonhvac.com/blog/utah-heat-pump-rebates-guide/
-
-6. **The Complete Guide to VRF Systems for Utah Commercial Buildings**
-   URL: https://salmonhvac.com/blog/complete-guide-vrf-systems-utah/
 
 7. **Do Heat Pumps Work in Utah's Cold Winters?**
    URL: https://salmonhvac.com/blog/do-heat-pumps-work-utah-winters/
