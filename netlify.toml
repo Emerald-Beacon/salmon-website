@@ -96,6 +96,11 @@
   to = "/sitemap.xml"
   status = 301
 
+[[redirects]]
+  from = "/blog/the-real-cost-of-postponing-air-conditioner-repairs-in-utahs-summer-heat-2/"
+  to = "/blog/the-real-cost-of-postponing-air-conditioner-repairs-in-utahs-summer-heat/"
+  status = 301
+
 [[headers]]
   for = "/*"
   [headers.values]
