@@ -47,6 +47,46 @@ var _gtmTimer=setTimeout(_loadGTM,3500);
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css?v=4">
 
+  <style>
+    .quote-trust-bar {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 14px 18px;
+      background: var(--light-muted, #f0f0f0);
+      border-radius: 8px;
+      margin-bottom: 28px;
+    }
+    .quote-trust-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-dark, #1a1a1a);
+      white-space: nowrap;
+    }
+    .quote-trust-stars { color: #f59e0b; letter-spacing: 1px; }
+    .quote-trust-sep {
+      width: 1px;
+      height: 18px;
+      background: #ccc;
+      flex-shrink: 0;
+    }
+    .form-consent {
+      font-size: 0.78rem !important;
+      color: var(--text-light, #888) !important;
+    }
+    .form-consent .form-consent-text {
+      margin-bottom: 10px;
+    }
+    .form-consent .checkbox-row {
+      font-size: 0.78rem;
+      color: var(--text-light, #888);
+    }
+  </style>
+
   <!-- BreadcrumbList Schema -->
   <script type="application/ld+json">
   {
@@ -219,8 +259,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <!-- Quote Form -->
         <div class="quote-form-container">
+          <div class="quote-trust-bar" aria-label="Trust indicators">
+            <div class="quote-trust-item">
+              <span class="quote-trust-stars">★★★★★</span>
+              <span>4.9 &nbsp;·&nbsp; 483 Google reviews</span>
+            </div>
+            <div class="quote-trust-sep" aria-hidden="true"></div>
+            <div class="quote-trust-item">
+              <i class="fas fa-calendar-check" aria-hidden="true"></i>
+              <span>47 Years in Business</span>
+            </div>
+            <div class="quote-trust-sep" aria-hidden="true"></div>
+            <div class="quote-trust-item">
+              <i class="fas fa-shield-alt" aria-hidden="true"></i>
+              <span>Licensed &amp; Insured</span>
+            </div>
+          </div>
+
           <h2 id="quote-form-heading">Request Your Free Estimate</h2>
-          <p>The more detail you share, the more useful our response will be. All fields marked with an asterisk are required.</p>
+          <p>Tell us what you need and how to reach you — we'll take it from there. All fields marked with an asterisk are required.</p>
 
           <form class="quote-form" name="get-quote" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you/">
             <input type="hidden" name="form-name" value="get-quote">
@@ -229,61 +286,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <label>Don't fill this out if you're human: <input name="bot-field"></label>
             </p>
 
-            <!-- Contact Info -->
-            <fieldset class="form-fieldset">
-              <legend>Your Contact Information</legend>
-
-              <div class="form-group">
-                <label for="quote-name">Full Name <span aria-hidden="true">*</span></label>
-                <input
-                  type="text"
-                  id="quote-name"
-                  name="name"
-                  placeholder="Jane Smith"
-                  required
-                  autocomplete="name"
-                >
-              </div>
-
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="quote-email">Email Address <span aria-hidden="true">*</span></label>
-                  <input
-                    type="email"
-                    id="quote-email"
-                    name="email"
-                    placeholder="jane@example.com"
-                    required
-                    autocomplete="email"
-                  >
-                </div>
-                <div class="form-group">
-                  <label for="quote-phone">Phone Number <span aria-hidden="true">*</span></label>
-                  <input
-                    type="tel"
-                    id="quote-phone"
-                    name="phone"
-                    placeholder="(801) 555-0100"
-                    required
-                    autocomplete="tel"
-                  >
-                </div>
-              </div>
-
-              <div class="form-group">
-                <label for="quote-address">Service Address</label>
-                <input
-                  type="text"
-                  id="quote-address"
-                  name="address"
-                  placeholder="123 Main St, Centerville, UT 84014"
-                  autocomplete="street-address"
-                >
-                <p class="form-hint">Helps us confirm we serve your area and tailor pricing to your location.</p>
-              </div>
-            </fieldset>
-
-            <!-- Service Details -->
+            <!-- Service Details — first to reduce friction -->
             <fieldset class="form-fieldset">
               <legend>About Your HVAC Needs</legend>
 
@@ -314,6 +317,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </select>
               </div>
 
+              <div class="form-group">
+                <label for="quote-urgency">How Soon Do You Need Service? <span aria-hidden="true">*</span></label>
+                <select id="quote-urgency" name="urgency" required>
+                  <option value="" disabled selected>Select urgency&hellip;</option>
+                  <option value="emergency">Emergency &mdash; system is down now</option>
+                  <option value="soon">Soon &mdash; within the next week or two</option>
+                  <option value="planning-ahead">Planning ahead &mdash; researching options</option>
+                </select>
+              </div>
+
               <div class="form-row">
                 <div class="form-group">
                   <label for="quote-system-age">Approximate Age of Current System</label>
@@ -329,28 +342,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </select>
                 </div>
                 <div class="form-group">
-                  <label for="quote-urgency">How Soon Do You Need Service? <span aria-hidden="true">*</span></label>
-                  <select id="quote-urgency" name="urgency" required>
-                    <option value="" disabled selected>Select urgency&hellip;</option>
-                    <option value="emergency">Emergency &mdash; system is down now</option>
-                    <option value="soon">Soon &mdash; within the next week or two</option>
-                    <option value="planning-ahead">Planning ahead &mdash; researching options</option>
+                  <label for="quote-home-size">Approximate Square Footage</label>
+                  <select id="quote-home-size" name="home-size">
+                    <option value="" disabled selected>Select size range&hellip;</option>
+                    <option value="under-1000">Under 1,000 sq ft</option>
+                    <option value="1000-1500">1,000&ndash;1,500 sq ft</option>
+                    <option value="1500-2000">1,500&ndash;2,000 sq ft</option>
+                    <option value="2000-2500">2,000&ndash;2,500 sq ft</option>
+                    <option value="2500-3500">2,500&ndash;3,500 sq ft</option>
+                    <option value="over-3500">Over 3,500 sq ft</option>
+                    <option value="commercial">Commercial / Not applicable</option>
                   </select>
                 </div>
-              </div>
-
-              <div class="form-group">
-                <label for="quote-home-size">Approximate Square Footage of Your Home or Building</label>
-                <select id="quote-home-size" name="home-size">
-                  <option value="" disabled selected>Select size range&hellip;</option>
-                  <option value="under-1000">Under 1,000 sq ft</option>
-                  <option value="1000-1500">1,000&ndash;1,500 sq ft</option>
-                  <option value="1500-2000">1,500&ndash;2,000 sq ft</option>
-                  <option value="2000-2500">2,000&ndash;2,500 sq ft</option>
-                  <option value="2500-3500">2,500&ndash;3,500 sq ft</option>
-                  <option value="over-3500">Over 3,500 sq ft</option>
-                  <option value="commercial">Commercial / Not applicable</option>
-                </select>
               </div>
 
               <div class="form-group">
@@ -358,9 +361,63 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <textarea
                   id="quote-message"
                   name="message"
-                  rows="5"
-                  placeholder="Describe what's happening with your system, what symptoms you're noticing, any error codes, or any other details that would help us give you an accurate estimate&hellip;"
+                  rows="4"
+                  placeholder="Describe what's happening, any symptoms or error codes, or anything else that would help us give you an accurate estimate&hellip;"
                 ></textarea>
+              </div>
+            </fieldset>
+
+            <!-- Contact Info -->
+            <fieldset class="form-fieldset">
+              <legend>Your Contact Information</legend>
+
+              <div class="form-group">
+                <label for="quote-name">Full Name <span aria-hidden="true">*</span></label>
+                <input
+                  type="text"
+                  id="quote-name"
+                  name="name"
+                  placeholder="Jane Smith"
+                  required
+                  autocomplete="name"
+                >
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="quote-phone">Phone Number <span aria-hidden="true">*</span></label>
+                  <input
+                    type="tel"
+                    id="quote-phone"
+                    name="phone"
+                    placeholder="(801) 555-0100"
+                    required
+                    autocomplete="tel"
+                  >
+                </div>
+                <div class="form-group">
+                  <label for="quote-email">Email Address <span aria-hidden="true">*</span></label>
+                  <input
+                    type="email"
+                    id="quote-email"
+                    name="email"
+                    placeholder="jane@example.com"
+                    required
+                    autocomplete="email"
+                  >
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="quote-address">Service Address <span class="form-optional">(optional)</span></label>
+                <input
+                  type="text"
+                  id="quote-address"
+                  name="address"
+                  placeholder="123 Main St, Centerville, UT 84014"
+                  autocomplete="street-address"
+                >
+                <p class="form-hint">Helps us confirm we serve your area and tailor pricing to your location.</p>
               </div>
 
               <div class="form-group">
@@ -474,8 +531,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <i class="fas fa-phone" aria-hidden="true"></i>
         Call (801) 397-0030
       </a>
-      <a href="/get-quote/" class="btn btn-outline">
-        Get a Free Quote
+      <a href="/contact/" class="btn btn-outline">
+        Send a Message
       </a>
       <a href="/financing/" class="btn btn-outline">
         <i class="fas fa-dollar-sign" aria-hidden="true"></i>
