@@ -81,6 +81,21 @@
   to = "/"
   status = 301
 
+[[redirects]]
+  from = "/favicon.ico"
+  to = "/assets/images/logo-salmon.png"
+  status = 301
+
+[[redirects]]
+  from = "/category/blog/"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/sitemap_index.xml"
+  to = "/sitemap.xml"
+  status = 301
+
 [[headers]]
   for = "/*"
   [headers.values]
