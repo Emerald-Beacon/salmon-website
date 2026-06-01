@@ -408,17 +408,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
               </div>
 
-              <div class="form-group">
-                <label for="quote-address">Service Address <span class="form-optional">(optional)</span></label>
-                <input
-                  type="text"
-                  id="quote-address"
-                  name="address"
-                  placeholder="123 Main St, Centerville, UT 84014"
-                  autocomplete="street-address"
-                >
-                <p class="form-hint">Helps us confirm we serve your area and tailor pricing to your location.</p>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="quote-address">Street Address <span aria-hidden="true">*</span></label>
+                  <input
+                    type="text"
+                    id="quote-address"
+                    name="address"
+                    placeholder="123 Main St"
+                    required
+                    autocomplete="street-address"
+                  >
+                </div>
+                <div class="form-group">
+                  <label for="quote-city">City <span aria-hidden="true">*</span></label>
+                  <input
+                    type="text"
+                    id="quote-city"
+                    name="city"
+                    placeholder="Centerville"
+                    required
+                    autocomplete="address-level2"
+                  >
+                </div>
               </div>
+              <p class="form-hint">Helps us confirm we serve your area and tailor pricing to your location.</p>
 
               <div class="form-group">
                 <label for="quote-referral-source">How did you hear about us? <span class="form-optional">(optional)</span></label>
