@@ -51,6 +51,54 @@ var _gtmTimer=setTimeout(_loadGTM,3500);
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css?v=4">
 
+  <style>
+    .hero-emergency-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.35);
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      padding: 5px 12px;
+      border-radius: 20px;
+      margin-bottom: 18px;
+      text-transform: uppercase;
+    }
+    .hero-emergency-badge i { color: #f59e0b; }
+    .hero-trust-strip {
+      background: var(--dark-surface, #1a1a1a);
+      border-bottom: 1px solid var(--dark-border, #333);
+      padding: 12px 0;
+    }
+    .hero-trust-strip .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px 28px;
+    }
+    .hero-trust-strip-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.85);
+      white-space: nowrap;
+    }
+    .hero-trust-strip-item .strip-stars { color: #f59e0b; }
+    .hero-trust-strip-sep {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.3);
+      flex-shrink: 0;
+    }
+  </style>
+
   <!-- Schema Graph (HVACBusiness + WebSite + WebPage + BreadcrumbList) -->
   <!-- RATING UPDATE REMINDER: aggregateRating is hardcoded. Last updated: 2026-04-17.
        Review quarterly — update ratingValue + reviewCount here only (area pages no longer duplicate it).
@@ -450,6 +498,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </picture>
     <div class="hero-overlay"></div>
     <div class="hero-content">
+      <div class="hero-emergency-badge">
+        <i class="fas fa-bolt" aria-hidden="true"></i>
+        24/7 Emergency Service Available
+      </div>
       <h1>Northern Utah's Most Trusted HVAC Contractor Since <span class="gradient-text">1979</span></h1>
       <p>Salmon HVAC delivers residential and commercial heating, cooling, and air quality solutions across Davis, Weber, Salt Lake, and Morgan counties. As a <a href="https://daikincomfort.com/" target="_blank" rel="noopener" class="daikin-link">Daikin</a> Comfort Pro Authorized Dealer, we bring the best equipment and 47 years of local expertise to every job.</p>
       <div class="hero-cta-group">
@@ -462,6 +514,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
   </section>
+
+  <!-- Trust strip — quick-scan signals for paid traffic -->
+  <div class="hero-trust-strip" aria-label="Trust indicators">
+    <div class="container">
+      <div class="hero-trust-strip-item">
+        <span class="strip-stars">★★★★★</span>
+        <span>4.9 &nbsp;·&nbsp; 483 Google Reviews</span>
+      </div>
+      <div class="hero-trust-strip-sep" aria-hidden="true"></div>
+      <div class="hero-trust-strip-item">
+        <i class="fas fa-calendar-check" aria-hidden="true"></i>
+        <span>47 Years in Business</span>
+      </div>
+      <div class="hero-trust-strip-sep" aria-hidden="true"></div>
+      <div class="hero-trust-strip-item">
+        <i class="fas fa-shield-alt" aria-hidden="true"></i>
+        <span>Licensed &amp; Insured</span>
+      </div>
+      <div class="hero-trust-strip-sep" aria-hidden="true"></div>
+      <div class="hero-trust-strip-item">
+        <i class="fas fa-dollar-sign" aria-hidden="true"></i>
+        <span>No Overtime Charges on Weekdays</span>
+      </div>
+    </div>
+  </div>
 
   <!-- Services Grid -->
   <section class="services-grid-section" aria-labelledby="services-heading">
@@ -549,37 +626,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </section>
 
-  <!-- Service Areas Section -->
-  <section class="areas-section" aria-labelledby="areas-heading">
-    <div class="container">
-      <div class="section-header">
-        <h2 id="areas-heading">We Serve All of Northern Utah</h2>
-        <div class="section-divider"></div>
-        <p>Headquartered in Centerville, we serve homeowners and businesses across Davis, Weber, Salt Lake, and Morgan counties.</p>
-      </div>
-      <div class="areas-grid">
-        <a href="/areas/centerville-ut/" class="area-link">Centerville</a>
-        <a href="/areas/bountiful-ut/" class="area-link">Bountiful</a>
-        <a href="/areas/layton-ut/" class="area-link">Layton</a>
-        <a href="/areas/kaysville-ut/" class="area-link">Kaysville</a>
-        <a href="/areas/farmington-ut/" class="area-link">Farmington</a>
-        <a href="/areas/ogden-ut/" class="area-link">Ogden</a>
-        <a href="/areas/morgan-ut/" class="area-link">Morgan</a>
-        <a href="/areas/salt-lake-city-ut/" class="area-link">Salt Lake City</a>
-        <a href="/areas/clearfield-ut/" class="area-link">Clearfield</a>
-        <a href="/areas/roy-ut/" class="area-link">Roy</a>
-        <a href="/areas/south-jordan-ut/" class="area-link">South Jordan</a>
-        <a href="/areas/sandy-ut/" class="area-link">Sandy</a>
-        <a href="/areas/west-jordan-ut/" class="area-link">West Jordan</a>
-        <a href="/areas/draper-ut/" class="area-link">Draper</a>
-        <a href="/areas/north-salt-lake-ut/" class="area-link">North Salt Lake</a>
-        <a href="/areas/woods-cross-ut/" class="area-link">Woods Cross</a>
-        <a href="/areas/west-bountiful-ut/" class="area-link">West Bountiful</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Social Proof / Trust Section -->
+  <!-- Social Proof / Trust Section — moved above areas for faster trust building -->
   <section class="trust-section" aria-labelledby="trust-heading">
     <div class="container">
       <div class="trust-badges-row">
@@ -617,6 +664,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             document.getElementById('trustindex-target').appendChild(s);
           }, { rootMargin: '200px' }).observe(document.getElementById('trustindex-target'));
         </script>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Areas Section -->
+  <section class="areas-section" aria-labelledby="areas-heading">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="areas-heading">We Serve All of Northern Utah</h2>
+        <div class="section-divider"></div>
+        <p>Headquartered in Centerville, we serve homeowners and businesses across Davis, Weber, Salt Lake, and Morgan counties.</p>
+      </div>
+      <div class="areas-grid">
+        <a href="/areas/centerville-ut/" class="area-link">Centerville</a>
+        <a href="/areas/bountiful-ut/" class="area-link">Bountiful</a>
+        <a href="/areas/layton-ut/" class="area-link">Layton</a>
+        <a href="/areas/kaysville-ut/" class="area-link">Kaysville</a>
+        <a href="/areas/farmington-ut/" class="area-link">Farmington</a>
+        <a href="/areas/ogden-ut/" class="area-link">Ogden</a>
+        <a href="/areas/morgan-ut/" class="area-link">Morgan</a>
+        <a href="/areas/salt-lake-city-ut/" class="area-link">Salt Lake City</a>
+        <a href="/areas/clearfield-ut/" class="area-link">Clearfield</a>
+        <a href="/areas/roy-ut/" class="area-link">Roy</a>
+        <a href="/areas/south-jordan-ut/" class="area-link">South Jordan</a>
+        <a href="/areas/sandy-ut/" class="area-link">Sandy</a>
+        <a href="/areas/west-jordan-ut/" class="area-link">West Jordan</a>
+        <a href="/areas/draper-ut/" class="area-link">Draper</a>
+        <a href="/areas/north-salt-lake-ut/" class="area-link">North Salt Lake</a>
+        <a href="/areas/woods-cross-ut/" class="area-link">Woods Cross</a>
+        <a href="/areas/west-bountiful-ut/" class="area-link">West Bountiful</a>
       </div>
     </div>
   </section>
