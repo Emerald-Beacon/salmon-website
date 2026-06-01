@@ -55,15 +55,19 @@ var _gtmTimer=setTimeout(_loadGTM,3500);
     .hero-emergency-badge {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      background: rgba(255,255,255,0.15);
-      border: 1px solid rgba(255,255,255,0.35);
+      align-self: flex-start;
+      gap: 8px;
+      width: auto;
+      max-width: 100%;
+      background: rgba(13,13,13,0.56);
+      border: 1px solid rgba(152,242,255,0.4);
+      border-left: 3px solid var(--brand-ice, #98f2ff);
       color: #fff;
-      font-size: 0.8rem;
-      font-weight: 600;
-      letter-spacing: 0.04em;
-      padding: 5px 12px;
-      border-radius: 20px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      padding: 8px 14px;
+      clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
       margin-bottom: 18px;
       text-transform: uppercase;
     }
@@ -500,7 +504,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="hero-content">
       <div class="hero-emergency-badge">
         <i class="fas fa-bolt" aria-hidden="true"></i>
-        24/7 Emergency Service Available
+        Emergency Service Available 24/7
       </div>
       <h1>Northern Utah's Most Trusted HVAC Contractor Since <span class="gradient-text">1979</span></h1>
       <p>Salmon HVAC delivers residential and commercial heating, cooling, and air quality solutions across Davis, Weber, Salt Lake, and Morgan counties. As a <a href="https://daikincomfort.com/" target="_blank" rel="noopener" class="daikin-link">Daikin</a> Comfort Pro Authorized Dealer, we bring the best equipment and 47 years of local expertise to every job.</p>
