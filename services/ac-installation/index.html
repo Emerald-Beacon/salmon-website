@@ -39,6 +39,37 @@ var _gtmTimer=setTimeout(_loadGTM,3500);
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
   <link rel="stylesheet" href="/assets/css/style.css?v=4">
+  <style>
+    .financing-callout {
+      background: linear-gradient(135deg, rgba(229,108,195,0.08) 0%, rgba(152,242,255,0.08) 100%);
+      border: 1px solid rgba(152,242,255,0.3);
+      border-radius: 10px;
+      padding: 22px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 0 0 8px;
+    }
+    .financing-callout-text { flex: 1; min-width: 200px; }
+    .financing-callout-text strong { font-size: 1rem; display: block; margin-bottom: 4px; }
+    .financing-callout-text span { font-size: 0.9rem; color: var(--text-medium, #555); }
+    .financing-callout .btn-financing {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--brand-magenta, #e56cc3);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+  </style>
 
     <script type="application/ld+json">
   {
@@ -288,6 +319,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <main class="page-content">
   <div class="container">
+    <div class="financing-callout" aria-label="Financing available">
+      <div class="financing-callout-text">
+        <strong><i class="fas fa-dollar-sign" aria-hidden="true"></i> &nbsp;Financing Available — Spread the cost over time</strong>
+        <span>New AC system? Flexible payment options with approved credit. Apply in minutes with no obligation.</span>
+      </div>
+      <a href="/financing/" class="btn-financing">See Financing Options <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+    </div>
 
     <section class="content-section">
       <p>Installing a new central air conditioner is one of the most significant home improvement investments you'll make, and in Utah's climate — where summer highs regularly hit 100°F along the Wasatch Front — getting it right matters. Salmon HVAC has been installing cooling systems in Davis, Weber, and Salt Lake County since 1979. As a <a href="https://daikincomfort.com/" target="_blank" rel="noopener" class="daikin-link">Daikin</a> Comfort Pro Authorized Dealer, we install equipment that carries some of the best warranties in the industry, and every installation starts with a proper load calculation to ensure your new system is the right size for your specific home.</p>

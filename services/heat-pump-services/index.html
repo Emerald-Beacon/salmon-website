@@ -34,6 +34,37 @@ var _gtmTimer=setTimeout(_loadGTM,3500);
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
   <link rel="stylesheet" href="/assets/css/style.css?v=4">
+  <style>
+    .financing-callout {
+      background: linear-gradient(135deg, rgba(229,108,195,0.08) 0%, rgba(152,242,255,0.08) 100%);
+      border: 1px solid rgba(152,242,255,0.3);
+      border-radius: 10px;
+      padding: 22px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 0 0 8px;
+    }
+    .financing-callout-text { flex: 1; min-width: 200px; }
+    .financing-callout-text strong { font-size: 1rem; display: block; margin-bottom: 4px; }
+    .financing-callout-text span { font-size: 0.9rem; color: var(--text-medium, #555); }
+    .financing-callout .btn-financing {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--brand-magenta, #e56cc3);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+  </style>
 
     <script type="application/ld+json">
   {
@@ -283,6 +314,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <main class="page-content">
   <div class="container">
+    <div class="financing-callout" aria-label="Financing available">
+      <div class="financing-callout-text">
+        <strong><i class="fas fa-dollar-sign" aria-hidden="true"></i> &nbsp;Financing Available — Plus up to $5,000 in rebates &amp; tax credits</strong>
+        <span>Heat pump systems qualify for significant incentives. Combine rebates with financing to make the switch affordable.</span>
+      </div>
+      <a href="/financing/" class="btn-financing">See Financing Options <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+    </div>
 
     <section class="content-section">
       <p>Heat pumps have undergone a revolution in the past decade. The systems that once struggled in cold weather are now specifically engineered for climates like Utah's — delivering full heating capacity at 17°F and maintaining operation all the way down to -13°F. As a <a href="https://daikincomfort.com/" target="_blank" rel="noopener" class="daikin-link">Daikin</a> Comfort Pro Authorized Dealer, Salmon HVAC installs the <a href="https://daikincomfort.com/" target="_blank" rel="noopener" class="daikin-link">Daikin</a> Fit and <a href="https://daikincomfort.com/" target="_blank" rel="noopener" class="daikin-link">Daikin</a> DX20VC series — some of the most efficient and cold-capable residential heat pumps available. Pair that with Rocky Mountain Power Wattsmart rebates of $1,000–$3,000 and federal IRA tax credits up to $2,000, and a heat pump installation often makes excellent financial sense for Wasatch Front homeowners.</p>

@@ -34,6 +34,37 @@ var _gtmTimer=setTimeout(_loadGTM,3500);
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
   <link rel="stylesheet" href="/assets/css/style.css?v=4">
+  <style>
+    .financing-callout {
+      background: linear-gradient(135deg, rgba(229,108,195,0.08) 0%, rgba(152,242,255,0.08) 100%);
+      border: 1px solid rgba(152,242,255,0.3);
+      border-radius: 10px;
+      padding: 22px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 0 0 8px;
+    }
+    .financing-callout-text { flex: 1; min-width: 200px; }
+    .financing-callout-text strong { font-size: 1rem; display: block; margin-bottom: 4px; }
+    .financing-callout-text span { font-size: 0.9rem; color: var(--text-medium, #555); }
+    .financing-callout .btn-financing {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--brand-magenta, #e56cc3);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+  </style>
 
     <script type="application/ld+json">
   {
@@ -283,6 +314,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <main class="page-content">
   <div class="container">
+    <div class="financing-callout" aria-label="Financing available">
+      <div class="financing-callout-text">
+        <strong><i class="fas fa-dollar-sign" aria-hidden="true"></i> &nbsp;Financing Available — Don't let cost delay your home comfort</strong>
+        <span>New furnace installation? Flexible payment options with approved credit. Apply in minutes with no obligation.</span>
+      </div>
+      <a href="/financing/" class="btn-financing">See Financing Options <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+    </div>
 
     <section class="content-section">
       <p>A new furnace is one of the most important investments you'll make in your Utah home. Get it right — correct sizing, proper installation, right efficiency level for your home — and it will keep your family warm and comfortable for 15 to 20 years while keeping your Dominion Energy or Questar gas bill as low as possible. Get it wrong, and you'll spend years dealing with uneven heating, excessive bills, and premature equipment failure.</p>

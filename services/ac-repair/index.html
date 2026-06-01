@@ -34,6 +34,58 @@ var _gtmTimer=setTimeout(_loadGTM,3500);
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
   <link rel="stylesheet" href="/assets/css/style.css?v=4">
+  <style>
+    .urgency-strip {
+      background: var(--dark-surface, #1a1a1a);
+      border-bottom: 1px solid var(--dark-border, #333);
+      padding: 14px 0;
+    }
+    .urgency-strip .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px 24px;
+    }
+    .urgency-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.85);
+      white-space: nowrap;
+    }
+    .urgency-item i { color: #98f2ff; }
+    .urgency-strip .btn-urgency {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: var(--brand-magenta, #e56cc3);
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 8px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .inline-cta-box {
+      background: var(--brand-ice-soft, rgba(152,242,255,0.1));
+      border: 1px solid var(--brand-ice-dark, #6eeaff);
+      border-radius: 10px;
+      padding: 24px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 32px 0;
+    }
+    .inline-cta-box p { margin: 4px 0 0; font-size: 0.95rem; color: var(--text-medium, #555); }
+    .inline-cta-box h3 { margin: 0; font-size: 1.1rem; }
+    .inline-cta-box .cta-actions { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; flex-shrink: 0; }
+  </style>
 
     <script type="application/ld+json">
   {
@@ -281,6 +333,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
+<div class="urgency-strip" aria-label="Key service promises">
+  <div class="container">
+    <div class="urgency-item"><i class="fas fa-bolt" aria-hidden="true"></i> Same-day service most days</div>
+    <div class="urgency-item"><i class="fas fa-tag" aria-hidden="true"></i> Upfront pricing before work begins</div>
+    <div class="urgency-item"><i class="fas fa-clock" aria-hidden="true"></i> No overtime charges on weekdays</div>
+    <div class="urgency-item"><i class="fas fa-star" aria-hidden="true"></i> 4.9★ · 483 Google reviews</div>
+    <a href="tel:+18013970030" class="btn-urgency"><i class="fas fa-phone" aria-hidden="true"></i> Call (801) 397-0030</a>
+  </div>
+</div>
+
 <main class="page-content">
   <div class="container">
 
@@ -300,6 +362,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><strong>Electricity bills spiking with no change in usage</strong> — An inefficient or struggling AC draws significantly more power than a healthy one. If your Rocky Mountain Power bill jumped $50–$100 without explanation, your system may be at fault.</li>
       </ul>
     </section>
+
+    <div class="inline-cta-box">
+      <div>
+        <h3>AC not keeping up with Utah's summer heat?</h3>
+        <p>Call now for same-day service — most calls booked before noon are seen the same day.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="tel:+18013970030" class="btn btn-primary"><i class="fas fa-phone" aria-hidden="true"></i> Call (801) 397-0030</a>
+        <a href="/get-quote/" class="btn btn-outline">Get a Quote</a>
+      </div>
+    </div>
 
     <section class="content-section">
       <h2>Our AC Repair Process</h2>
