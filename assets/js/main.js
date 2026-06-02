@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initHeader();
     initMobileMenu();
     initNavDropdowns();
+    initAttributionFields();
     initContactForm();
     initQuoteFormTracking();
     initAnimations();
@@ -108,6 +109,77 @@ function initNavDropdowns() {
             countyGroup.classList.toggle('open', willOpen);
             toggle.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
         });
+    });
+}
+
+/* ============================================
+   FORM ATTRIBUTION FIELDS
+============================================ */
+function initAttributionFields() {
+    const forms = document.querySelectorAll('form[data-netlify]');
+    if (!forms.length) return;
+
+    const storageKey = 'salmon_hvac_attribution';
+    const trackedParams = [
+        'utm_source',
+        'utm_medium',
+        'utm_campaign',
+        'utm_content',
+        'utm_term',
+        'gclid',
+        'fbclid'
+    ];
+
+    function readStoredAttribution() {
+        try {
+            return JSON.parse(window.localStorage.getItem(storageKey)) || {};
+        } catch (error) {
+            return {};
+        }
+    }
+
+    function saveStoredAttribution(data) {
+        try {
+            window.localStorage.setItem(storageKey, JSON.stringify(data));
+        } catch (error) {
+            // Ignore storage failures; fields will still receive page-level values.
+        }
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const attribution = readStoredAttribution();
+
+    if (!attribution.landing_page) {
+        attribution.landing_page = window.location.href;
+    }
+
+    if (!attribution.referrer) {
+        attribution.referrer = document.referrer || '';
+    }
+
+    trackedParams.forEach(param => {
+        const value = params.get(param);
+        if (value) {
+            attribution[param] = value;
+        }
+    });
+
+    saveStoredAttribution(attribution);
+
+    forms.forEach(form => {
+        Object.entries(attribution).forEach(([name, value]) => {
+            const field = form.querySelector(`input[name="${name}"]`);
+            if (field) {
+                field.value = value;
+                field.setAttribute('value', value);
+            }
+        });
+
+        const currentPageField = form.querySelector('input[name="current_page"]');
+        if (currentPageField) {
+            currentPageField.value = window.location.href;
+            currentPageField.setAttribute('value', window.location.href);
+        }
     });
 }
 
