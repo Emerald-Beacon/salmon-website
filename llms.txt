@@ -148,6 +148,9 @@ A: Yes. Modern cold-climate heat pumps like the Daikin Aurora operate efficientl
 **Q: How long does an AC or furnace last?**
 A: In Utah's climate, central AC units typically last 12-16 years (shorter than national average due to UV intensity and temperature swings). Furnaces last 15-25 years depending on maintenance. See our full guide: https://salmonhvac.com/blog/how-long-does-an-ac-unit-last-utah-repair-or-replace/
 
+**Q: Should homeowners run AC during Utah wildfire smoke?**
+A: Yes, most central AC and heat pump systems recirculate indoor air and can run during wildfire smoke. Homeowners should close windows and doors, avoid outdoor-air ventilation, use the highest-efficiency filter the system can safely handle (often MERV 13 when airflow allows), and consider a portable air cleaner in a clean room. Full guide: https://salmonhvac.com/blog/utah-wildfire-smoke-hvac-filter-guide/
+
 ### Cost & Rebate Questions
 
 **Q: How much does AC repair cost?**
@@ -161,29 +164,29 @@ A: Yes, we offer financing options for equipment installations. Ask about curren
 
 ## Recent Blog Articles
 
-1. **HVAC Replacement Cost in Utah: 2026 Pricing Guide**
+1. **Wildfire Smoke & Your HVAC System in Utah: Filters, Fan Settings, and Clean Indoor Air**
+   URL: https://salmonhvac.com/blog/utah-wildfire-smoke-hvac-filter-guide/
+
+2. **AC Repair in Salt Lake City, UT: Costs, Common Problems & What to Expect**
+   URL: https://salmonhvac.com/blog/ac-repair-salt-lake-city/
+
+3. **HVAC Replacement Cost in Utah: 2026 Pricing Guide**
    URL: https://salmonhvac.com/blog/hvac-replacement-cost-utah-2026/
 
-2. **HVAC for Room Additions, Finished Basements & ADUs in Utah**
+4. **HVAC for Room Additions, Finished Basements & ADUs in Utah**
    URL: https://salmonhvac.com/blog/hvac-for-room-additions-adu-utah/
 
-3. **R-410A Refrigerant Phaseout: What Utah Homeowners Need to Know in 2026**
+5. **R-410A Refrigerant Phaseout: What Utah Homeowners Need to Know in 2026**
    URL: https://salmonhvac.com/blog/r410a-r454b-refrigerant-change-utah-homeowners-guide/
 
-4. **Mild April in Utah? Why Now Is the Best Time to Get Ahead of AC Season**
+6. **Mild April in Utah? Why Now Is the Best Time to Get Ahead of AC Season**
    URL: https://salmonhvac.com/blog/mild-april-utah-ac-service-before-summer/
 
-5. **How Long Does an AC Unit Last in Utah? The Repair-vs-Replace Tipping Point**
+7. **How Long Does an AC Unit Last in Utah? The Repair-vs-Replace Tipping Point**
    URL: https://salmonhvac.com/blog/how-long-does-an-ac-unit-last-utah-repair-or-replace/
 
-6. **HVAC Zoning Systems for Utah Homes: Costs, Benefits, and ROI**
+8. **HVAC Zoning Systems for Utah Homes: Costs, Benefits, and ROI**
    URL: https://salmonhvac.com/blog/hvac-zoning-systems-utah-homes/
-
-7. **Do Heat Pumps Work in Utah's Cold Winters?**
-   URL: https://salmonhvac.com/blog/do-heat-pumps-work-utah-winters/
-
-8. **Utah Heat Pump Rebates & Tax Credits: The Complete 2026 Guide for Homeowners**
-   URL: https://salmonhvac.com/blog/utah-heat-pump-rebates-tax-credits-the-complete-2026-guide-for-homeowners/
 
 ## Social Media & Online Presence
 
