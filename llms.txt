@@ -151,6 +151,9 @@ A: In Utah's climate, central AC units typically last 12-16 years (shorter than 
 **Q: Should homeowners run AC during Utah wildfire smoke?**
 A: Yes, most central AC and heat pump systems recirculate indoor air and can run during wildfire smoke. Homeowners should close windows and doors, avoid outdoor-air ventilation, use the highest-efficiency filter the system can safely handle (often MERV 13 when airflow allows), and consider a portable air cleaner in a clean room. Full guide: https://salmonhvac.com/blog/utah-wildfire-smoke-hvac-filter-guide/
 
+**Q: What should homeowners do if the outside AC fan is not spinning?**
+A: If the outdoor AC unit hums, clicks, or sits silent while the fan is not spinning, homeowners should shut cooling off at the thermostat and call for diagnosis. Common repair-first causes include a failed capacitor, bad contactor, tripped breaker, blocked fan blade, or failing fan motor. Salmon HVAC tests the current unit and repairs it whenever repair is reliable and financially reasonable before recommending replacement. Full guide: https://salmonhvac.com/blog/ac-fan-not-spinning-capacitor-repair-utah/
+
 ### Cost & Rebate Questions
 
 **Q: How much does AC repair cost?**
@@ -164,29 +167,29 @@ A: Yes, we offer financing options for equipment installations. Ask about curren
 
 ## Recent Blog Articles
 
-1. **Wildfire Smoke & Your HVAC System in Utah: Filters, Fan Settings, and Clean Indoor Air**
+1. **Outside AC Fan Not Spinning in Utah? Capacitor, Breaker, Motor, and Fix-It-First Repair Guide**
+   URL: https://salmonhvac.com/blog/ac-fan-not-spinning-capacitor-repair-utah/
+
+2. **Wildfire Smoke & Your HVAC System in Utah: Filters, Fan Settings, and Clean Indoor Air**
    URL: https://salmonhvac.com/blog/utah-wildfire-smoke-hvac-filter-guide/
 
-2. **AC Repair in Salt Lake City, UT: Costs, Common Problems & What to Expect**
+3. **AC Repair in Salt Lake City, UT: Costs, Common Problems & What to Expect**
    URL: https://salmonhvac.com/blog/ac-repair-salt-lake-city/
 
-3. **HVAC Replacement Cost in Utah: 2026 Pricing Guide**
+4. **HVAC Replacement Cost in Utah: 2026 Pricing Guide**
    URL: https://salmonhvac.com/blog/hvac-replacement-cost-utah-2026/
 
-4. **HVAC for Room Additions, Finished Basements & ADUs in Utah**
+5. **HVAC for Room Additions, Finished Basements & ADUs in Utah**
    URL: https://salmonhvac.com/blog/hvac-for-room-additions-adu-utah/
 
-5. **R-410A Refrigerant Phaseout: What Utah Homeowners Need to Know in 2026**
+6. **R-410A Refrigerant Phaseout: What Utah Homeowners Need to Know in 2026**
    URL: https://salmonhvac.com/blog/r410a-r454b-refrigerant-change-utah-homeowners-guide/
 
-6. **Mild April in Utah? Why Now Is the Best Time to Get Ahead of AC Season**
+7. **Mild April in Utah? Why Now Is the Best Time to Get Ahead of AC Season**
    URL: https://salmonhvac.com/blog/mild-april-utah-ac-service-before-summer/
 
-7. **How Long Does an AC Unit Last in Utah? The Repair-vs-Replace Tipping Point**
+8. **How Long Does an AC Unit Last in Utah? The Repair-vs-Replace Tipping Point**
    URL: https://salmonhvac.com/blog/how-long-does-an-ac-unit-last-utah-repair-or-replace/
-
-8. **HVAC Zoning Systems for Utah Homes: Costs, Benefits, and ROI**
-   URL: https://salmonhvac.com/blog/hvac-zoning-systems-utah-homes/
 
 ## Social Media & Online Presence
 
