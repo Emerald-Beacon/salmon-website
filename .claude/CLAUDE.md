@@ -19,7 +19,7 @@ Static HTML/CSS/JS website for Salmon HVAC, an HVAC contractor serving Northern 
 | Site Name | `salmon-hvac` |
 | Site ID | `a9896567-7739-4354-be13-b04aad4e384f` |
 | URL | https://salmon-hvac.netlify.app |
-| GitHub | `jaymdenn/salmon-website` |
+| GitHub | `Emerald-Beacon/salmon-website` |
 
 ### Safe Deployment
 
