@@ -1,0 +1,15 @@
+{
+  "name": "Salmon HVAC",
+  "url": "https://salmonhvac.com/",
+  "description": "Northern Utah HVAC contractor serving residential and commercial heating, cooling, heat pump, indoor air quality, and VRF needs.",
+  "sameAs": [
+    "https://www.facebook.com/salmonhvac/",
+    "https://www.instagram.com/salmonhvac/"
+  ],
+  "feeds": {
+    "rss": "https://salmonhvac.com/sitemap.rss",
+    "blog": "https://salmonhvac.com/blog/posts.json",
+    "sitemap": "https://salmonhvac.com/sitemap.xml",
+    "llms": "https://salmonhvac.com/llms.txt"
+  }
+}

@@ -14,6 +14,7 @@ const ROOT = path.join(__dirname, "..");
 const DIST = path.join(ROOT, "dist");
 
 const PUBLIC_DIRS = [
+  ".well-known",
   "areas",
   "blog",
   "commercial-portfolio",
@@ -33,7 +34,10 @@ const PUBLIC_FILES = [
   "_redirects",
   "index.html",
   "llms.txt",
+  "meta.json",
   "robots.txt",
+  "rss.xml",
+  "sitemap.rss",
   "sitemap.xml",
 ];
 

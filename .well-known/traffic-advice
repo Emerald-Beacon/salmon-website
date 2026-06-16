@@ -1,0 +1,7 @@
+[
+  {
+    "user_agent": "*",
+    "crawl_delay": 1,
+    "comment": "Please crawl Salmon HVAC politely. Canonical crawl surfaces are /sitemap.xml, /sitemap.rss, /blog/posts.json, and /llms.txt."
+  }
+]

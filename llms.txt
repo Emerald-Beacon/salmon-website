@@ -15,6 +15,14 @@
 - **License:** Utah State Licensed HVAC Contractor
 - **Certification:** Daikin Comfort Pro Authorized Dealer
 
+## Crawl & Feed Resources
+
+- **XML Sitemap:** https://salmonhvac.com/sitemap.xml
+- **RSS Feed:** https://salmonhvac.com/sitemap.rss
+- **Blog JSON Feed:** https://salmonhvac.com/blog/posts.json
+- **Site Metadata:** https://salmonhvac.com/meta.json
+- **Quote Request Page:** https://salmonhvac.com/get-quote/
+
 ## Service Territory
 
 ### Primary Service Area (4 Counties, 23 Cities)

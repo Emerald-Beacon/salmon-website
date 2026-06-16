@@ -74,6 +74,47 @@ var _gtmTimer=setTimeout(_loadGTM,3500);
       background: #ccc;
       flex-shrink: 0;
     }
+    .quote-fast-action {
+      display: grid;
+      gap: 10px;
+      padding: 18px 20px;
+      margin-bottom: 28px;
+      border-left: 4px solid var(--brand-magenta, #d71963);
+      background: #fff7fb;
+    }
+    .quote-fast-action strong {
+      color: var(--text-dark, #1a1a1a);
+      font-family: Rajdhani, sans-serif;
+      font-size: 1.05rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .quote-fast-action p {
+      margin: 0;
+      color: var(--text-medium, #555);
+      line-height: 1.55;
+    }
+    .quote-fast-action a {
+      color: var(--brand-magenta, #d71963);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .quote-response-note {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      margin: 0 0 28px;
+      padding: 14px 16px;
+      background: rgba(152, 242, 255, 0.14);
+      border: 1px solid rgba(152, 242, 255, 0.5);
+      color: var(--text-medium, #555);
+      line-height: 1.6;
+    }
+    .quote-response-note i {
+      color: var(--brand-ice, #009edb);
+      margin-top: 4px;
+      flex-shrink: 0;
+    }
     .form-consent {
       font-size: 0.78rem !important;
       color: var(--text-light, #888) !important;
@@ -191,6 +232,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <a href="/areas/kaysville-ut/">Kaysville</a>
               <a href="/areas/farmington-ut/">Farmington</a>
               <a href="/areas/fruit-heights-ut/">Fruit Heights</a>
+              <a href="/areas/north-salt-lake-ut/">North Salt Lake</a>
+              <a href="/areas/west-bountiful-ut/">West Bountiful</a>
+              <a href="/areas/woods-cross-ut/">Woods Cross</a>
+              <a href="/areas/clinton-ut/">Clinton</a>
+              <a href="/areas/syracuse-ut/">Syracuse</a>
             </div>
           </div>
           <div class="county-group">
@@ -215,6 +261,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <a href="/areas/salt-lake-city-ut/">Salt Lake City</a>
               <a href="/areas/south-jordan-ut/">South Jordan</a>
               <a href="/areas/sandy-ut/">Sandy</a>
+              <a href="/areas/west-jordan-ut/">West Jordan</a>
+              <a href="/areas/draper-ut/">Draper</a>
             </div>
           </div>
           <div class="county-group">
@@ -268,7 +316,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <section class="page-hero" aria-labelledby="quote-hero-heading">
     <div class="container">
       <h1 id="quote-hero-heading">Get Your Free HVAC Quote</h1>
-      <p>Tell us about your system and what you need. We'll review your request and get back to you within 24 hours &mdash; usually much sooner.</p>
+      <p>Tell us what is happening, where the system is located, and how soon you need help. We will route urgent no-heat and no-cooling requests first during business hours.</p>
     </div>
   </section>
 
@@ -297,7 +345,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
 
           <h2 id="quote-form-heading">Request Your Free Estimate</h2>
-          <p>Tell us what you need and how to reach you — we'll take it from there. All fields marked with an asterisk are required.</p>
+          <p>Tell us what you need and how to reach you &mdash; we'll take it from there. All fields marked with an asterisk are required.</p>
+
+          <div class="quote-fast-action">
+            <strong>System down right now?</strong>
+            <p>For no heat, no cooling, burning smells, electrical concerns, or active leaking, call <a href="tel:+18013970030">(801) 397-0030</a> so our team can triage the issue faster.</p>
+          </div>
+
+          <p class="quote-response-note"><i class="fas fa-clock" aria-hidden="true"></i><span>After you submit, we review the details, confirm service area and timing, then follow up by phone or email. Most requests receive a response within a few business hours.</span></p>
 
           <form class="quote-form" name="get-quote" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you/">
             <input type="hidden" name="form-name" value="get-quote">
@@ -352,9 +407,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <label for="quote-urgency">How Soon Do You Need Service? <span aria-hidden="true">*</span></label>
                 <select id="quote-urgency" name="urgency" required>
                   <option value="" disabled selected>Select urgency&hellip;</option>
-                  <option value="emergency">Emergency &mdash; system is down now</option>
-                  <option value="soon">Soon &mdash; within the next week or two</option>
-                  <option value="planning-ahead">Planning ahead &mdash; researching options</option>
+                  <option value="emergency">Emergency &mdash; no heat, no cooling, leak, or safety concern</option>
+                  <option value="today-tomorrow">Today or tomorrow if possible</option>
+                  <option value="this-week">This week</option>
+                  <option value="planning-ahead">Planning ahead &mdash; researching repair or replacement options</option>
                 </select>
               </div>
 
@@ -509,7 +565,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           <div class="quote-sidebar-card">
             <h3>Prefer to Talk?</h3>
-            <p>Skip the form and call us directly. Our team can often give you a ballpark estimate on the spot.</p>
+            <p>Skip the form and call us directly. Our team can often confirm availability, service area, and likely next steps while you are on the phone.</p>
             <a href="tel:+18013970030" class="btn btn-primary btn-full">
               <i class="fas fa-phone" aria-hidden="true"></i>
               Call (801) 397-0030
@@ -523,21 +579,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <span class="step-number">1</span>
                 <div>
                   <strong>We review your request</strong>
-                  <p>A technician or estimator looks over your information to understand your situation.</p>
+                  <p>A technician or estimator checks the service type, urgency, location, and system details.</p>
                 </div>
               </li>
               <li>
                 <span class="step-number">2</span>
                 <div>
                   <strong>We follow up with you</strong>
-                  <p>We'll call or email you to confirm details and answer any questions.</p>
+                  <p>We call or email to confirm timing, ask any needed questions, and schedule the next step.</p>
                 </div>
               </li>
               <li>
                 <span class="step-number">3</span>
                 <div>
                   <strong>You receive your estimate</strong>
-                  <p>We provide a clear, written estimate with no surprise fees or hidden costs.</p>
+                  <p>For replacement and planned work, we provide clear written pricing before work begins.</p>
                 </div>
               </li>
             </ul>
@@ -632,6 +688,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <li><a href="/areas/kaysville-ut/">Kaysville, UT</a></li>
           <li><a href="/areas/farmington-ut/">Farmington, UT</a></li>
           <li><a href="/areas/fruit-heights-ut/">Fruit Heights, UT</a></li>
+          <li><a href="/areas/north-salt-lake-ut/">North Salt Lake, UT</a></li>
+          <li><a href="/areas/west-bountiful-ut/">West Bountiful, UT</a></li>
+          <li><a href="/areas/woods-cross-ut/">Woods Cross, UT</a></li>
+          <li><a href="/areas/clinton-ut/">Clinton, UT</a></li>
+          <li><a href="/areas/syracuse-ut/">Syracuse, UT</a></li>
           <li><a href="/areas/ogden-ut/">Ogden, UT</a></li>
           <li><a href="/areas/clearfield-ut/">Clearfield, UT</a></li>
           <li><a href="/areas/roy-ut/">Roy, UT</a></li>
@@ -640,6 +701,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <li><a href="/areas/salt-lake-city-ut/">Salt Lake City, UT</a></li>
           <li><a href="/areas/south-jordan-ut/">South Jordan, UT</a></li>
           <li><a href="/areas/sandy-ut/">Sandy, UT</a></li>
+          <li><a href="/areas/west-jordan-ut/">West Jordan, UT</a></li>
+          <li><a href="/areas/draper-ut/">Draper, UT</a></li>
           <li><a href="/areas/morgan-ut/">Morgan, UT</a></li>
           <li><a href="/areas/ogden-valley-ut/">Ogden Valley, UT</a></li>
           <li><a href="/areas/">View All Areas</a></li>

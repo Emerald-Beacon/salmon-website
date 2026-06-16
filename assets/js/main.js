@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initNavDropdowns();
     initAttributionFields();
     initContactForm();
+    initConversionClickTracking();
     initQuoteFormTracking();
     initAnimations();
     initSmoothScroll();
@@ -252,20 +253,58 @@ function setActiveNavLink() {
 }
 
 /* ============================================
+   CONVERSION CLICK TRACKING
+============================================ */
+function sendAnalyticsEvent(eventName, params) {
+    const payload = {
+        event_category: 'conversion',
+        page_location: window.location.href,
+        ...params
+    };
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        event: eventName,
+        ...payload
+    });
+
+    if (typeof gtag === 'function') {
+        gtag('event', eventName, payload);
+    }
+}
+
+function initConversionClickTracking() {
+    document.querySelectorAll('a[href^="tel:"]').forEach(link => {
+        link.addEventListener('click', function() {
+            sendAnalyticsEvent('phone_call_click', {
+                event_label: this.getAttribute('href'),
+                link_text: this.textContent.trim()
+            });
+        });
+    });
+
+    document.querySelectorAll('a[href="/get-quote/"], a[href="https://salmonhvac.com/get-quote/"]').forEach(link => {
+        link.addEventListener('click', function() {
+            sendAnalyticsEvent('quote_cta_click', {
+                event_label: this.textContent.trim(),
+                link_url: this.href
+            });
+        });
+    });
+}
+
+/* ============================================
    GA4 QUOTE FORM TRACKING
 ============================================ */
 function initQuoteFormTracking() {
-    const form = document.querySelector('form[data-netlify]');
+    const form = document.querySelector('form[name="get-quote"][data-netlify]');
     if (!form) return;
 
     form.addEventListener('submit', function() {
-        if (typeof gtag === 'function') {
-            gtag('event', 'generate_lead', {
-                event_category: 'form',
-                event_label: 'get_quote_submission',
-                page_location: window.location.href
-            });
-        }
+        sendAnalyticsEvent('generate_lead', {
+            event_category: 'form',
+            event_label: 'get_quote_submission'
+        });
     });
 }
 

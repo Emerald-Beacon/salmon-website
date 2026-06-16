@@ -9,7 +9,7 @@
 
 [build]
   publish = "dist"
-  command = "node scripts/build.mjs && node scripts/generate-related-posts.mjs && node scripts/generate-redirects.mjs && node scripts/generate-sitemap.mjs && node scripts/stage-public.mjs"
+  command = "node scripts/build.mjs && node scripts/generate-related-posts.mjs && node scripts/generate-redirects.mjs && node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs && node scripts/stage-public.mjs"
 
 [[redirects]]
   from = "/about/"
@@ -137,4 +137,28 @@
 [[headers]]
   for = "/blog/posts.json"
   [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/sitemap.rss"
+  [headers.values]
+    Content-Type = "application/rss+xml; charset=UTF-8"
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/rss.xml"
+  [headers.values]
+    Content-Type = "application/rss+xml; charset=UTF-8"
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/meta.json"
+  [headers.values]
+    Content-Type = "application/json; charset=UTF-8"
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[headers]]
+  for = "/.well-known/traffic-advice"
+  [headers.values]
+    Content-Type = "application/json; charset=UTF-8"
     Cache-Control = "public, max-age=3600, must-revalidate"
