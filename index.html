@@ -39,14 +39,14 @@ var _gtmTimer=setTimeout(_loadGTM,3500);
   <link rel="preload" as="image" href="/assets/images/hero-home.webp" type="image/webp" media="(min-width: 768px)">
 
   <!-- Google Fonts - Low-priority async (print trick avoids competing with hero preload) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@700;800;900&family=Rajdhani:wght@500;600;700&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@700;800;900&family=Rajdhani:wght@500;600;700&display=swap"></noscript>
+  <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/rajdhani-700.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/inter-400.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/inter-600.woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/fonts.css">
 
   <!-- Font Awesome - Low-priority async -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
+  <link rel="stylesheet" href="/assets/css/fontawesome-subset.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="/assets/css/fontawesome-subset.css"></noscript>
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="/assets/css/style.css?v=4">
@@ -829,29 +829,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="clients-marquee" aria-label="Commercial client logos">
       <div class="clients-track">
         <!-- Set 1 -->
-        <div class="client-logo-item"><a href="https://www.tomstuart.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="https://images.squarespace-cdn.com/content/v1/64063b4d516c7514387057dc/90fcfbca-f8a7-4ac1-858b-c76ea24e268b/T+O+M+S+T+U+A+R+T+C+O+N+S+T+R+U+C+T+I+O+N+%286%29.png" alt="Tom Stuart Construction" loading="lazy"></a></div>
-        <div class="client-logo-item"><a href="https://www.northwoodgrp.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="https://www.northwoodgrp.com/wp-content/themes/forthgear-kickstart/images/logo-medium.png" alt="The Northwood Group" loading="lazy"></a></div>
-        <div class="client-logo-item"><a href="https://salmg.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="https://salmg.com/wp-content/uploads/2017/06/sal-logo.png" alt="SAL Management Group" loading="lazy"></a></div>
-        <div class="client-logo-item"><a href="https://richdevelopmentinc.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="https://richdevelopmentinc.com/wp-content/uploads/2020/11/RichDevelopment_logo_70height.png" alt="Rich Development" loading="lazy"></a></div>
-        <div class="client-logo-item"><a href="https://www.cookbuilder.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="https://www.cookbuilder.com/wp-content/uploads/2024/02/cook-builder-logo.png" alt="Cook Builders" loading="lazy"></a></div>
-        <div class="client-logo-item"><a href="https://ddme.biz/" class="client-logo-link" target="_blank" rel="noopener"><img src="https://ddme.biz/wp-content/uploads/2017/09/DDME_Logo.png" alt="D&amp;D Management" loading="lazy"></a></div>
-        <div class="client-logo-item"><a href="https://wrightdevelopment.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="https://wrightdevelopment.com/wp-content/uploads/2020/08/wright-development-logo.png" alt="Wright Development" loading="lazy" class="logo-light-bg"></a></div>
-        <div class="client-logo-item"><a href="https://acaciabuilders.us/" class="client-logo-link" target="_blank" rel="noopener"><img src="https://images.squarespace-cdn.com/content/v1/5be4d13e25bf02d1a5f20d23/1579142046564-L71YNTZDMV5P995NTWEO/logo-white.png" alt="Acacia Builders" loading="lazy"></a></div>
-        <div class="client-logo-item"><a href="https://traedmark.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="https://traedmark.com/wp-content/uploads/2022/09/logo.png" alt="Trademark Enterprises" loading="lazy"></a></div>
-        <div class="client-logo-item"><a href="https://www.squiresgc.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="https://lirp.cdn-website.com/62777ced/dms3rep/multi/opt/squires-construction-logo-png-1920w.png" alt="Squires Construction" loading="lazy"></a></div>
-        <div class="client-logo-item"><a href="https://jfisherco.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="https://jfisherco.com/wp-content/uploads/2025/05/Layer_1.png" alt="Jack Fisher Companies" loading="lazy"></a></div>
+        <div class="client-logo-item"><a href="https://www.tomstuart.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="/assets/images/clients/tom-stuart-construction.webp" alt="Tom Stuart Construction" width="211" height="120" loading="lazy" decoding="async"></a></div>
+        <div class="client-logo-item"><a href="https://www.northwoodgrp.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="/assets/images/clients/the-northwood-group.webp" alt="The Northwood Group" width="285" height="90" loading="lazy" decoding="async"></a></div>
+        <div class="client-logo-item"><a href="https://salmg.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="/assets/images/clients/sal-management-group.webp" alt="SAL Management Group" width="105" height="120" loading="lazy" decoding="async"></a></div>
+        <div class="client-logo-item"><a href="https://richdevelopmentinc.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="/assets/images/clients/rich-development.webp" alt="Rich Development" width="176" height="70" loading="lazy" decoding="async"></a></div>
+        <div class="client-logo-item"><a href="https://wrightdevelopment.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="/assets/images/clients/wright-development.webp" alt="Wright Development" width="299" height="120" loading="lazy" decoding="async" class="logo-light-bg"></a></div>
+        <div class="client-logo-item"><a href="https://acaciabuilders.us/" class="client-logo-link" target="_blank" rel="noopener"><img src="/assets/images/clients/acacia-builders.webp" alt="Acacia Builders" width="135" height="120" loading="lazy" decoding="async"></a></div>
+        <div class="client-logo-item"><a href="https://traedmark.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="/assets/images/clients/trademark-enterprises.webp" alt="Trademark Enterprises" width="363" height="61" loading="lazy" decoding="async"></a></div>
+        <div class="client-logo-item"><a href="https://www.squiresgc.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="/assets/images/clients/squires-construction.webp" alt="Squires Construction" width="252" height="99" loading="lazy" decoding="async"></a></div>
+        <div class="client-logo-item"><a href="https://jfisherco.com/" class="client-logo-link" target="_blank" rel="noopener"><img src="/assets/images/clients/jack-fisher-companies.webp" alt="Jack Fisher Companies" width="277" height="67" loading="lazy" decoding="async"></a></div>
         <!-- Set 2 (duplicate for seamless loop) -->
-        <div class="client-logo-item" aria-hidden="true"><a href="https://www.tomstuart.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="https://images.squarespace-cdn.com/content/v1/64063b4d516c7514387057dc/90fcfbca-f8a7-4ac1-858b-c76ea24e268b/T+O+M+S+T+U+A+R+T+C+O+N+S+T+R+U+C+T+I+O+N+%286%29.png" alt="" loading="lazy"></a></div>
-        <div class="client-logo-item" aria-hidden="true"><a href="https://www.northwoodgrp.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="https://www.northwoodgrp.com/wp-content/themes/forthgear-kickstart/images/logo-medium.png" alt="" loading="lazy"></a></div>
-        <div class="client-logo-item" aria-hidden="true"><a href="https://salmg.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="https://salmg.com/wp-content/uploads/2017/06/sal-logo.png" alt="" loading="lazy"></a></div>
-        <div class="client-logo-item" aria-hidden="true"><a href="https://richdevelopmentinc.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="https://richdevelopmentinc.com/wp-content/uploads/2020/11/RichDevelopment_logo_70height.png" alt="" loading="lazy"></a></div>
-        <div class="client-logo-item" aria-hidden="true"><a href="https://www.cookbuilder.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="https://www.cookbuilder.com/wp-content/uploads/2024/02/cook-builder-logo.png" alt="" loading="lazy"></a></div>
-        <div class="client-logo-item" aria-hidden="true"><a href="https://ddme.biz/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="https://ddme.biz/wp-content/uploads/2017/09/DDME_Logo.png" alt="" loading="lazy"></a></div>
-        <div class="client-logo-item" aria-hidden="true"><a href="https://wrightdevelopment.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="https://wrightdevelopment.com/wp-content/uploads/2020/08/wright-development-logo.png" alt="" loading="lazy"></a></div>
-        <div class="client-logo-item" aria-hidden="true"><a href="https://acaciabuilders.us/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="https://images.squarespace-cdn.com/content/v1/5be4d13e25bf02d1a5f20d23/1579142046564-L71YNTZDMV5P995NTWEO/logo-white.png" alt="" loading="lazy"></a></div>
-        <div class="client-logo-item" aria-hidden="true"><a href="https://traedmark.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="https://traedmark.com/wp-content/uploads/2022/09/logo.png" alt="" loading="lazy"></a></div>
-        <div class="client-logo-item" aria-hidden="true"><a href="https://www.squiresgc.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="https://lirp.cdn-website.com/62777ced/dms3rep/multi/opt/squires-construction-logo-png-1920w.png" alt="" loading="lazy"></a></div>
-        <div class="client-logo-item" aria-hidden="true"><a href="https://jfisherco.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="https://jfisherco.com/wp-content/uploads/2025/05/Layer_1.png" alt="" loading="lazy"></a></div>
+        <div class="client-logo-item" aria-hidden="true"><a href="https://www.tomstuart.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/tom-stuart-construction.webp" alt="" width="211" height="120" loading="lazy" decoding="async"></a></div>
+        <div class="client-logo-item" aria-hidden="true"><a href="https://www.northwoodgrp.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/the-northwood-group.webp" alt="" width="285" height="90" loading="lazy" decoding="async"></a></div>
+        <div class="client-logo-item" aria-hidden="true"><a href="https://salmg.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/sal-management-group.webp" alt="" width="105" height="120" loading="lazy" decoding="async"></a></div>
+        <div class="client-logo-item" aria-hidden="true"><a href="https://richdevelopmentinc.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/rich-development.webp" alt="" width="176" height="70" loading="lazy" decoding="async"></a></div>
+        <div class="client-logo-item" aria-hidden="true"><a href="https://wrightdevelopment.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/wright-development.webp" alt="" width="299" height="120" loading="lazy" decoding="async" class="logo-light-bg"></a></div>
+        <div class="client-logo-item" aria-hidden="true"><a href="https://acaciabuilders.us/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/acacia-builders.webp" alt="" width="135" height="120" loading="lazy" decoding="async"></a></div>
+        <div class="client-logo-item" aria-hidden="true"><a href="https://traedmark.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/trademark-enterprises.webp" alt="" width="363" height="61" loading="lazy" decoding="async"></a></div>
+        <div class="client-logo-item" aria-hidden="true"><a href="https://www.squiresgc.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/squires-construction.webp" alt="" width="252" height="99" loading="lazy" decoding="async"></a></div>
+        <div class="client-logo-item" aria-hidden="true"><a href="https://jfisherco.com/" class="client-logo-link" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/jack-fisher-companies.webp" alt="" width="277" height="67" loading="lazy" decoding="async"></a></div>
       </div>
     </div>
   </section>

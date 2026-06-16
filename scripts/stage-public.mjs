@@ -27,7 +27,7 @@ const PUBLIC_DIRS = [
   "thank-you",
 ];
 
-const PUBLIC_ASSET_DIRS = ["assets/css", "assets/images", "assets/js"];
+const PUBLIC_ASSET_DIRS = ["assets/css", "assets/images", "assets/js", "assets/fonts"];
 
 const PUBLIC_FILES = [
   "_redirects",
