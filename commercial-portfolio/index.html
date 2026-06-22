@@ -53,12 +53,19 @@ window.PACKET_CONFIG = {
     shea:  "img/team/shea.jpg"
   },
   projects: [
-    { src: "img/projects/01.jpg", title: "Commercial Office Complex",   meta: "Centerville, UT • VRF Install" },
-    { src: "img/projects/02.jpg", title: "Multi-Tenant Retail Center",  meta: "Bountiful, UT • RTU Replacement" },
-    { src: "img/projects/03.jpg", title: "Medical Office Build-Out",    meta: "Layton, UT • Design-Build" },
-    { src: "img/projects/04.jpg", title: "Industrial Warehouse",        meta: "Clearfield, UT • Makeup Air System" },
-    { src: "img/projects/05.jpg", title: "Restaurant Tenant Improvement", meta: "Salt Lake City, UT • Kitchen MAU" },
-    { src: "img/projects/06.jpg", title: "Professional Suite Renovation", meta: "Farmington, UT • Mini-Split Install" }
+    { src: "img/projects/01.jpg", title: "Centerville Megaplex",          meta: "Centerville, UT • Cinema Complex" },
+    { src: "img/projects/02.jpg", title: "Oracle Office",                 meta: "Lehi, UT • Corporate Office" },
+    { src: "img/projects/03.jpg", title: "Laie Hawaii Temple",            meta: "Laie, HI • Institutional" },
+    { src: "img/projects/04.jpg", title: "Apia Samoa Temple",             meta: "Apia, Samoa • Institutional" },
+    { src: "img/projects/05.jpg", title: "Hawaii Forestry Service Building", meta: "Hawaii • Government Facility" },
+    { src: "img/projects/06.jpg", title: "Country Inn & Suites",          meta: "Kanab, UT • Hospitality" },
+    { src: "img/projects/07.jpg", title: "Peterbilt Dealership",          meta: "Boise, ID • Truck Dealership" },
+    { src: "img/projects/08.jpg", title: "Young Ford",                    meta: "Brigham City, UT • Auto Dealership" },
+    { src: "img/projects/09.jpg", title: "Young Mazda",                   meta: "Idaho Falls, ID • Auto Dealership" },
+    { src: "img/projects/10.jpg", title: "D.R. Horton Office Building",   meta: "Office Building" },
+    { src: "img/projects/11.jpg", title: "Jack Fisher Office Building",   meta: "Office Building" },
+    { src: "img/projects/12.jpg", title: "Beehive Meals",                meta: "Utah • Food Production Facility" },
+    { src: "img/projects/13.jpg", title: "Moda Franklin Apartments",      meta: "Boise, ID • Multifamily", link: "https://www.the-franklin.com/boise/the-franklin/photos/" }
   ]
 };
 </script>
@@ -1231,7 +1238,7 @@ src="https://www.facebook.com/tr?id=681566040187541&ev=PageView&noscript=1"
     <div class="section-head">
       <div class="eyebrow">Featured Projects</div>
       <h2>A sample of our recent commercial work.</h2>
-      <p>Every project is documented with detailed specifications, equipment cut sheets, and commissioning reports. Project photos and full case studies available on request.</p>
+      <p>From cinema complexes and corporate campuses to temples, dealerships, and hospitality — plus thousands of apartment doors across the Intermountain West. Every project is documented with detailed specifications, equipment cut sheets, and commissioning reports. Project photos and full case studies available on request.</p>
     </div>
     <div class="projects-grid" id="projects-grid"></div>
   </div>
@@ -1427,8 +1434,9 @@ src="https://www.facebook.com/tr?id=681566040187541&ev=PageView&noscript=1"
   if(grid && C.projects) {
     C.projects.forEach(function(p, i){
       var num = String(i+1).padStart(2,'0');
-      var card = document.createElement('div');
+      var card = document.createElement(p.link ? 'a' : 'div');
       card.className = 'project';
+      if(p.link){ card.href = p.link; card.target = '_blank'; card.rel = 'noopener'; card.style.display = 'block'; }
       card.innerHTML =
         '<div class="placeholder-bg">Project ' + num + '</div>' +
         '<img src="' + p.src + '" alt="' + p.title + '" onerror="this.style.display=\'none\'">' +
