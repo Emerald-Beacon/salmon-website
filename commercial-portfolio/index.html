@@ -705,32 +705,41 @@ section{ padding: 100px 0; }
 .cred p{ font-size: 14px; color: var(--grey); line-height: 1.4; }
 
 /* ============== PARTNERS ============== */
-.partners{ background: var(--paper); padding: 80px 0; border-top: 1px solid var(--line); }
+.partners{ background: var(--ink); padding: 64px 0; border-top: 1px solid var(--line-dark); border-bottom: 1px solid var(--line-dark); overflow: hidden; }
 .partners .label{
   font-family: var(--display);
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
-  color: var(--grey);
+  color: var(--grey-2);
   text-align: center;
   margin-bottom: 36px;
 }
-.partners-row{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 48px;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.7;
+.partners-marquee{
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 8%, #000 92%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, #000 8%, #000 92%, transparent 100%);
 }
-.partners-row .partner{
-  font-family: var(--display);
-  font-weight: 800;
-  font-size: 18px;
-  color: var(--ink);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+.partners-track{
+  display: flex;
+  align-items: center;
+  width: max-content;
+  animation: partners-scroll 45s linear infinite;
+}
+.partners-track:hover{ animation-play-state: paused; }
+@keyframes partners-scroll{ 0%{ transform: translateX(0); } 100%{ transform: translateX(-50%); } }
+.partner-logo{ display: flex; align-items: center; justify-content: center; padding: 0 44px; flex-shrink: 0; }
+.partner-logo a{ display: flex; align-items: center; justify-content: center; }
+.partner-logo img{
+  height: 40px; width: auto; max-width: 170px; object-fit: contain;
+  filter: brightness(0) invert(1); opacity: 0.55;
+  transition: opacity 0.25s ease;
+}
+.partner-logo img.logo-light-bg{ filter: invert(1) grayscale(1) brightness(1.4); mix-blend-mode: screen; }
+.partner-logo a:hover img{ opacity: 1; }
+@media (prefers-reduced-motion: reduce){
+  .partners-track{ animation: none; }
 }
 
 /* ============== CTA ============== */
@@ -1354,17 +1363,30 @@ src="https://www.facebook.com/tr?id=681566040187541&ev=PageView&noscript=1"
 <section class="partners">
   <div class="container">
     <div class="label">Trusted by Northern Utah's Leading Builders &amp; Developers</div>
-    <div class="partners-row">
-      <div class="partner">Tom Stuart Construction</div>
-      <div class="partner">Northwood Group</div>
-      <div class="partner">SAL Management</div>
-      <div class="partner">Rich Development</div>
-      <div class="partner">Cook Builders</div>
-      <div class="partner">Wright Development</div>
-      <div class="partner">Acacia Builders</div>
-      <div class="partner">Squires Construction</div>
-      <div class="partner">Jack Fisher Companies</div>
-    </div>
+  </div>
+  <div class="partners-marquee" aria-label="Commercial client logos">
+      <div class="partners-track">
+        <!-- Set 1 -->
+        <div class="partner-logo"><a href="https://www.tomstuart.com/" target="_blank" rel="noopener"><img src="/assets/images/clients/tom-stuart-construction.webp" alt="Tom Stuart Construction" width="211" height="120" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo"><a href="https://www.northwoodgrp.com/" target="_blank" rel="noopener"><img src="/assets/images/clients/the-northwood-group.webp" alt="The Northwood Group" width="285" height="90" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo"><a href="https://salmg.com/" target="_blank" rel="noopener"><img src="/assets/images/clients/sal-management-group.webp" alt="SAL Management Group" width="105" height="120" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo"><a href="https://richdevelopmentinc.com/" target="_blank" rel="noopener"><img src="/assets/images/clients/rich-development.webp" alt="Rich Development" width="176" height="70" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo"><a href="https://wrightdevelopment.com/" target="_blank" rel="noopener"><img class="logo-light-bg" src="/assets/images/clients/wright-development.webp" alt="Wright Development" width="299" height="120" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo"><a href="https://acaciabuilders.us/" target="_blank" rel="noopener"><img src="/assets/images/clients/acacia-builders.webp" alt="Acacia Builders" width="135" height="120" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo"><a href="https://traedmark.com/" target="_blank" rel="noopener"><img src="/assets/images/clients/trademark-enterprises.webp" alt="Trademark Enterprises" width="363" height="61" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo"><a href="https://www.squiresgc.com/" target="_blank" rel="noopener"><img src="/assets/images/clients/squires-construction.webp" alt="Squires Construction" width="252" height="99" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo"><a href="https://jfisherco.com/" target="_blank" rel="noopener"><img src="/assets/images/clients/jack-fisher-companies.webp" alt="Jack Fisher Companies" width="277" height="67" loading="lazy" decoding="async"></a></div>
+        <!-- Set 2 (duplicate for seamless loop) -->
+        <div class="partner-logo" aria-hidden="true"><a href="https://www.tomstuart.com/" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/tom-stuart-construction.webp" alt="" width="211" height="120" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo" aria-hidden="true"><a href="https://www.northwoodgrp.com/" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/the-northwood-group.webp" alt="" width="285" height="90" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo" aria-hidden="true"><a href="https://salmg.com/" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/sal-management-group.webp" alt="" width="105" height="120" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo" aria-hidden="true"><a href="https://richdevelopmentinc.com/" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/rich-development.webp" alt="" width="176" height="70" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo" aria-hidden="true"><a href="https://wrightdevelopment.com/" target="_blank" rel="noopener" tabindex="-1"><img class="logo-light-bg" src="/assets/images/clients/wright-development.webp" alt="" width="299" height="120" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo" aria-hidden="true"><a href="https://acaciabuilders.us/" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/acacia-builders.webp" alt="" width="135" height="120" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo" aria-hidden="true"><a href="https://traedmark.com/" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/trademark-enterprises.webp" alt="" width="363" height="61" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo" aria-hidden="true"><a href="https://www.squiresgc.com/" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/squires-construction.webp" alt="" width="252" height="99" loading="lazy" decoding="async"></a></div>
+        <div class="partner-logo" aria-hidden="true"><a href="https://jfisherco.com/" target="_blank" rel="noopener" tabindex="-1"><img src="/assets/images/clients/jack-fisher-companies.webp" alt="" width="277" height="67" loading="lazy" decoding="async"></a></div>
+      </div>
   </div>
 </section>
 
