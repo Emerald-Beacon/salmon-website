@@ -10,6 +10,27 @@ Static HTML/CSS/JS website for Salmon HVAC, an HVAC contractor serving Northern 
 **Phone:** (801) 397-0030
 **Live URL:** https://salmonhvac.com
 
+## Autonomous Blog Routine
+
+A scheduled cloud agent ("Salmon HVAC — Autonomous Blog", runs Tue/Thu) writes and
+publishes blog posts unattended. It does a **fresh `git clone` on every run**, so it
+only sees what is **committed and pushed to GitHub** — never uncommitted local files.
+
+**Driving input:** `content-planning/editorial-calendar-2026-H2.md`
+This file defines, per post: Type / Title / Template / Cluster / Target Keyword, the
+publish ordering, and the Refresh fallback (Freshness Schedule / Content Decay Report).
+Without it the routine has no basis to pick a post and will **refuse to publish** (this
+is the intended safe behavior, not a bug).
+
+**RULE — the calendar and any content-planning/ files MUST be committed and pushed.**
+If you create or edit a calendar locally, run `git add content-planning/ && git commit && git push`
+before the next scheduled run, or the cloud agent won't see it and will fail with a
+"required input file is missing" message. Verify with `git ls-files content-planning/`.
+
+**When the calendar runs out:** once every planned post is published, the routine hits a
+normal, silent "calendar exhausted" state (distinct from the missing-file error). At that
+point, generate the next period's calendar (e.g. H1 2027), commit, and push.
+
 ## CRITICAL: Deployment Configuration
 
 **This project MUST ONLY deploy to:**
