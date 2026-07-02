@@ -10,8 +10,6 @@ const path = require('path');
 const manualDescriptions = {
   'blog/what-should-you-look-for-in-hvac-maintenance-plans-offered-by-salt-lake-city-hvac-companies/index.html':
     "A good HVAC maintenance plan covers tune-ups, inspections, priority service, and repair discounts. Here's what Utah homeowners should look for before signing up.",
-  'blog/why-is-duct-cleaning-essential-for-your-utah-hvac-systems-efficiency/index.html':
-    "Utah's dry climate fills ducts with dust fast. Learn how professional duct cleaning improves airflow, air quality, and HVAC efficiency for Utah homeowners.",
   'blog/why-regular-hvac-maintenance-matters-more-in-utahs-dry-climate/index.html':
     "Utah's dry climate is hard on HVAC systems. Regular maintenance prevents costly breakdowns, improves air quality, and keeps your system running efficiently.",
   'blog/what-are-the-benefits-of-energy-efficient-hvac-system-installation-in-utah/index.html':

@@ -16,6 +16,27 @@
   to = "/our-team/"
   status = 301
 
+# Removed duct cleaning posts (service not offered) -> related IAQ post
+[[redirects]]
+  from = "/blog/the-benefits-of-duct-cleaning-in-utah-improving-indoor-air-quality-for-your-family/"
+  to = "/blog/indoor-air-quality-in-utah-what-every-homeowner-needs-to-know/"
+  status = 301
+
+[[redirects]]
+  from = "/the-benefits-of-duct-cleaning-in-utah-improving-indoor-air-quality-for-your-family/"
+  to = "/blog/indoor-air-quality-in-utah-what-every-homeowner-needs-to-know/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/why-is-duct-cleaning-essential-for-your-utah-hvac-systems-efficiency/"
+  to = "/blog/indoor-air-quality-in-utah-what-every-homeowner-needs-to-know/"
+  status = 301
+
+[[redirects]]
+  from = "/why-is-duct-cleaning-essential-for-your-utah-hvac-systems-efficiency/"
+  to = "/blog/indoor-air-quality-in-utah-what-every-homeowner-needs-to-know/"
+  status = 301
+
 [[redirects]]
   from = "/indoor-air-quality-in-utah-what-every-homeowner-needs-to-know/"
   to = "/blog/indoor-air-quality-in-utah-what-every-homeowner-needs-to-know/"
