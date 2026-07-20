@@ -157,6 +157,16 @@ Single CSS file with sections for:
 
 ## Content Guidelines
 
+### SEO Title Tags (IMPORTANT — applies to every new page/post)
+
+The `<title>` tag (and the matching `og:title` / `twitter:title`) MUST be **≤ 60 characters total, including the ` | Salmon HVAC` suffix**. Google truncates or rewrites longer titles in search results, which previously flagged 100+ pages in the site audit.
+
+Rules:
+- **Front-load the primary keyword** (e.g. "AC Repair in Salt Lake City", "Heat Pump Rebates"), then a short qualifier.
+- Keep the ` | Salmon HVAC` brand suffix on blog/service pages (that suffix is 14 chars, so the headline body must be ≤ 46 chars). Local money-pages (e.g. `/areas/<city>/ac-repair/`) may instead end in a value prop like `| Same-Day Service` when brand won't fit.
+- The `<title>` is for search engines and is intentionally tighter than the on-page `<h1>` and the `blog/posts.json` card title, which may stay longer and more descriptive. Do **not** force those to match the title.
+- After writing a post, verify: `grep -o '<title>.*</title>' <file>` and confirm the length is ≤ 60.
+
 ### Service Areas
 
 Cities are tiered by priority in `site-config.js`:
