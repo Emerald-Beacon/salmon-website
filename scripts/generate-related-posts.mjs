@@ -46,7 +46,17 @@ function getRelated(posts, currentUrl, count = 3) {
   const sameCat  = others.filter(p => categorize(p.url) === cat);
   const diffCat  = others.filter(p => categorize(p.url) !== cat);
 
-  const picks = [...sameCat.slice(0, count)];
+  // Rotate the same-category candidates by this post's position within its
+  // category so inbound links spread across every post instead of piling onto
+  // the first three (which otherwise left most posts with a single internal link).
+  const catMembers = posts.filter(p => categorize(p.url) === cat);
+  const pos = catMembers.findIndex(p => p.url === currentUrl);
+  const offset = pos === -1 ? 0 : pos;
+  const rotated = sameCat.length
+    ? sameCat.map((_, i) => sameCat[(i + offset) % sameCat.length])
+    : [];
+
+  const picks = rotated.slice(0, count);
   if (picks.length < count) picks.push(...diffCat.slice(0, count - picks.length));
   return picks.slice(0, count);
 }

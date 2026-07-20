@@ -29,6 +29,5 @@ Disallow: /commercial-portfolio/
 
 # Sitemaps
 Sitemap: https://salmonhvac.com/sitemap.xml
-Sitemap: https://salmonhvac.com/sitemap.rss
 
 # AI/LLM resource index: https://salmonhvac.com/llms.txt
