@@ -431,6 +431,110 @@
   .areas-section .area-link { flex: none; }
 }
 
+/* Page-specific hero photography keeps service and location pages distinct. */
+.page-hero {
+  background-image:
+    linear-gradient(180deg, rgba(13, 13, 13, .84), rgba(13, 13, 13, .76)),
+    var(--page-hero-image, url('/assets/images/hero-home.webp'));
+  background-position: var(--page-hero-position, center);
+}
+
+.hero-services {
+  --page-hero-image: url('/assets/images/what-to-expect-heating.jpg');
+  --page-hero-position: center 55%;
+}
+
+.hero-ac-installation {
+  --page-hero-image: url('/assets/images/blog/wordpress/2025/06/air-conditioning-system-outside-installation-on-of-the-house-the-air-conditioner-with-freon.webp');
+  --page-hero-position: center 54%;
+}
+
+.hero-ac-repair {
+  --page-hero-image: url('/assets/images/services-ac-repair.webp');
+  --page-hero-position: center 62%;
+}
+
+.hero-ac-maintenance {
+  --page-hero-image: url('/assets/images/services-maintenance.webp');
+  --page-hero-position: center 55%;
+}
+
+.hero-hvac-repair {
+  --page-hero-image: url('/assets/images/blog/wordpress/2026/02/Common-HVAC-Issue.webp');
+  --page-hero-position: center 52%;
+}
+
+.hero-emergency {
+  --page-hero-image: url('/assets/images/blog/wordpress/2025/04/man-using-screwdriver-for-repairing-ventilation-sy-2024-12-13-12-08-22-utc-scaled.webp');
+  --page-hero-position: center 52%;
+}
+
+.hero-furnace {
+  --page-hero-image: url('/assets/images/blog/wordpress/2025/11/Furnace-leak-detection-1-1024x683-1.webp');
+  --page-hero-position: center 48%;
+}
+
+.hero-heat-pump {
+  --page-hero-image: url('/assets/images/services-heat-pump.webp');
+  --page-hero-position: center 58%;
+}
+
+.hero-ductless {
+  --page-hero-image: url('/assets/images/blog/wordpress/2026/07/ductless-mini-split-indoor-unit-utah.webp');
+  --page-hero-position: center 44%;
+}
+
+.hero-commercial {
+  --page-hero-image: url('/assets/images/hvac-tech.webp');
+  --page-hero-position: center 52%;
+}
+
+.hero-vrf {
+  --page-hero-image: url('/assets/images/blog/wordpress/2026/03/1-3333.webp');
+  --page-hero-position: center 48%;
+}
+
+.hero-indoor-air {
+  --page-hero-image: url('/assets/images/blog/wordpress/2025/04/installation-of-ceiling-hvac-ventilation-hole-from-ventilation-skin-cover.webp');
+  --page-hero-position: center 58%;
+}
+
+.hero-water-heater {
+  --page-hero-image: url('/assets/images/blog/wordpress/2025/06/adult-male-with-hand-on-newly-installed-hot-water-heater.webp');
+  --page-hero-position: center 44%;
+}
+
+.hero-area-overview,
+.hero-area-mountain {
+  --page-hero-image: url('/assets/images/blog/wordpress/2025/03/pexels-photo-1054218.jpeg');
+  --page-hero-position: center 52%;
+}
+
+.hero-area-lake {
+  --page-hero-image: url('/assets/images/blog/wordpress/2025/05/great-salt-lake.webp');
+  --page-hero-position: center 52%;
+}
+
+.hero-area-island {
+  --page-hero-image: url('/assets/images/blog/wordpress/2025/04/american-bison-grazing-grass-at-antelope-island-state-park-in-spring.webp');
+  --page-hero-position: center 54%;
+}
+
+.hero-area-salt-lake {
+  --page-hero-image: url('/assets/images/blog/wordpress/2025/05/salt-lake-city-utah-usa-downtown.webp');
+  --page-hero-position: center 48%;
+}
+
+.hero-area-wasatch {
+  --page-hero-image: url('/assets/images/blog/wordpress/2026/06/salt-lake-city-skyline-wasatch.webp');
+  --page-hero-position: center 48%;
+}
+
+.hero-area-canyon {
+  --page-hero-image: url('/assets/images/blog/wordpress/2025/04/mountain-road-in-the-forest-of-big-cottonwood-canyon-in-utah-with-mountains-in-the-background.webp');
+  --page-hero-position: center 44%;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 
