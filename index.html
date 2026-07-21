@@ -51,7 +51,8 @@ var _gtmTimer=setTimeout(_loadGTM,3500);
   <noscript><link rel="stylesheet" href="/assets/css/fontawesome-subset.css"></noscript>
 
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="/assets/css/style.css?v=6">
+  <link rel="stylesheet" href="/assets/css/style.css?v=7">
+  <link rel="stylesheet" href="/assets/css/usability.css?v=1">
 
   <style>
     .hero-emergency-badge {
@@ -391,6 +392,8 @@ src="https://www.facebook.com/tr?id=681566040187541&ev=PageView&noscript=1"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
   <!-- PARTIAL:nav:start -->
 <header class="header">
   <div class="container">
@@ -403,7 +406,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a href="/" class="nav-link">Home</a>
 
       <div class="nav-dropdown">
-        <a href="/services/" class="nav-link nav-dropdown-toggle">Services <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+        <a href="/services/" class="nav-link nav-dropdown-toggle" aria-expanded="false" aria-haspopup="true">Services <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
         <div class="dropdown-menu">
           <a href="/services/emergency-hvac/">Emergency HVAC</a>
           <a href="/services/ac-repair/">AC Repair</a>
@@ -500,7 +503,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </button>
   </div>
 </header>
+
+<nav class="mobile-action-bar" aria-label="Quick contact actions">
+  <a href="tel:+18013970030" class="mobile-action-call">
+    <i class="fas fa-phone" aria-hidden="true"></i>
+    <span>Call Now</span>
+  </a>
+  <a href="/get-quote/" class="mobile-action-quote">
+    <i class="fas fa-calendar-check" aria-hidden="true"></i>
+    <span>Request Quote</span>
+  </a>
+</nav>
 <!-- PARTIAL:nav:end -->
+
+  <main id="main-content">
 
   <!-- Hero Section -->
   <section class="hero" aria-label="Hero">
@@ -548,88 +564,65 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 
-  <!-- Services Grid -->
-  <section class="services-grid-section" aria-labelledby="services-heading">
+  <!-- Service decision section -->
+  <section class="services-grid-section service-paths-section" aria-labelledby="services-heading">
     <div class="container">
       <div class="section-header">
-        <h2 id="services-heading">Our HVAC Services</h2>
+        <p class="section-eyebrow">Choose what you need</p>
+        <h2 id="services-heading">How Can We Help?</h2>
         <div class="section-divider"></div>
-        <p>From emergency repairs to full system installations, Salmon HVAC has Northern Utah covered.</p>
+        <p>Start with the job at hand. We’ll help you find the right service without making you sort through every option.</p>
       </div>
-      <div class="services-grid">
 
-        <a href="/services/ac-repair/" class="service-card">
-          <div class="service-card-icon"><i class="fas fa-snowflake" aria-hidden="true"></i></div>
-          <h3>AC Repair</h3>
-          <p>Fast diagnosis and same-day repairs for all AC brands when Utah's summer heat hits hardest.</p>
-        </a>
+      <div class="service-paths-grid">
+        <div class="service-path-card service-path-repair">
+          <div class="service-path-icon"><i class="fas fa-tools" aria-hidden="true"></i></div>
+          <div>
+            <h3>Something’s Broken</h3>
+            <p>Fast diagnosis for heating, cooling, and urgent HVAC problems.</p>
+          </div>
+          <div class="service-path-links" aria-label="Repair services">
+            <a href="/services/ac-repair/">AC Repair</a>
+            <a href="/services/furnace-repair/">Furnace Repair</a>
+            <a href="/services/emergency-hvac/">24/7 Emergency</a>
+          </div>
+        </div>
 
-        <a href="/services/ac-installation/" class="service-card">
-          <div class="service-card-icon"><i class="fas fa-wind" aria-hidden="true"></i></div>
-          <h3>AC Installation</h3>
-          <p>Energy-efficient central air conditioning systems sized and installed for your home or business.</p>
-        </a>
+        <div class="service-path-card service-path-install">
+          <div class="service-path-icon"><i class="fas fa-home" aria-hidden="true"></i></div>
+          <div>
+            <h3>I Need a New System</h3>
+            <p>Right-sized, energy-efficient equipment backed by expert installation.</p>
+          </div>
+          <div class="service-path-links" aria-label="Installation services">
+            <a href="/services/ac-installation/">AC Installation</a>
+            <a href="/services/furnace-installation/">Furnace Installation</a>
+            <a href="/services/heat-pump-services/">Heat Pumps</a>
+          </div>
+        </div>
 
-        <a href="/services/ac-maintenance/" class="service-card">
-          <div class="service-card-icon"><i class="fas fa-tools" aria-hidden="true"></i></div>
-          <h3>AC Maintenance</h3>
-          <p>Annual tune-ups that extend system life, improve efficiency, and prevent costly summer breakdowns.</p>
-        </a>
+        <div class="service-path-card service-path-maintain">
+          <div class="service-path-icon"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
+          <div>
+            <h3>Keep It Running</h3>
+            <p>Prevent breakdowns, improve comfort, and extend equipment life.</p>
+          </div>
+          <div class="service-path-links" aria-label="Maintenance and comfort services">
+            <a href="/services/ac-maintenance/">AC Maintenance</a>
+            <a href="/services/indoor-air-quality/">Indoor Air Quality</a>
+            <a href="/services/water-heaters/">Water Heaters</a>
+          </div>
+        </div>
+      </div>
 
-        <a href="/services/furnace-repair/" class="service-card">
-          <div class="service-card-icon"><i class="fas fa-fire" aria-hidden="true"></i></div>
-          <h3>Furnace Repair</h3>
-          <p>No heat in a Utah winter is an emergency. We respond fast to furnace failures of all types.</p>
-        </a>
-
-        <a href="/services/furnace-installation/" class="service-card">
-          <div class="service-card-icon"><i class="fas fa-home" aria-hidden="true"></i></div>
-          <h3>Furnace Installation</h3>
-          <p>High-efficiency gas furnace replacements with 10-year parts warranty and expert installation.</p>
-        </a>
-
-        <a href="/services/water-heaters/" class="service-card">
-          <div class="service-card-icon"><i class="fas fa-hot-tub" aria-hidden="true"></i></div>
-          <h3>Water Heaters</h3>
-          <p>Tankless and traditional water heater repair, replacement, and installation tailored to Utah homes.</p>
-        </a>
-
-        <a href="/services/heat-pump-services/" class="service-card">
-          <div class="service-card-icon"><i class="fas fa-thermometer-half" aria-hidden="true"></i></div>
-          <h3>Heat Pump Services</h3>
-          <p>Install, repair, or maintain cold-climate heat pumps that work efficiently in Utah winters.</p>
-        </a>
-
-        <a href="/services/ductless-mini-split/" class="service-card">
-          <div class="service-card-icon"><i class="fas fa-tachometer-alt" aria-hidden="true"></i></div>
-          <h3>Ductless Mini-Split</h3>
-          <p>Zone-controlled comfort for homes without ductwork or room additions needing independent HVAC.</p>
-        </a>
-
-        <a href="/services/vrf-systems/" class="service-card">
-          <div class="service-card-icon"><i class="fas fa-building" aria-hidden="true"></i></div>
-          <h3>VRF Systems</h3>
-          <p>Variable Refrigerant Flow technology for commercial buildings requiring precise multi-zone control.</p>
-        </a>
-
-        <a href="/services/commercial-hvac/" class="service-card">
-          <div class="service-card-icon"><i class="fas fa-industry" aria-hidden="true"></i></div>
-          <h3>Commercial HVAC</h3>
-          <p>Full-service commercial HVAC for offices, retail, industrial, and multi-unit properties in Utah.</p>
-        </a>
-
-        <a href="/services/indoor-air-quality/" class="service-card">
-          <div class="service-card-icon"><i class="fas fa-lungs" aria-hidden="true"></i></div>
-          <h3>Indoor Air Quality</h3>
-          <p>Filtration, humidification, and purification systems to combat Utah's inversion air quality issues.</p>
-        </a>
-
-        <a href="/services/emergency-hvac/" class="service-card">
-          <div class="service-card-icon"><i class="fas fa-bolt" aria-hidden="true"></i></div>
-          <h3>Emergency HVAC</h3>
-          <p>24/7 emergency service when your system fails at the worst possible time.</p>
-        </a>
-
+      <div class="all-services-block">
+        <h3>More HVAC Services</h3>
+        <div class="compact-services-grid">
+          <a href="/services/ductless-mini-split/"><i class="fas fa-wind" aria-hidden="true"></i>Ductless Mini-Splits</a>
+          <a href="/services/vrf-systems/"><i class="fas fa-building" aria-hidden="true"></i>VRF Systems</a>
+          <a href="/services/commercial-hvac/"><i class="fas fa-industry" aria-hidden="true"></i>Commercial HVAC</a>
+          <a href="/services/"><i class="fas fa-th-large" aria-hidden="true"></i>View All Services</a>
+        </div>
       </div>
     </div>
   </section>
@@ -684,7 +677,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="section-divider"></div>
         <p>Headquartered in Centerville, we serve homeowners and businesses across Davis, Weber, Salt Lake, and Morgan counties.</p>
       </div>
-      <div class="areas-grid">
+      <div class="areas-grid areas-grid-primary">
         <a href="/areas/centerville-ut/" class="area-link">Centerville</a>
         <a href="/areas/bountiful-ut/" class="area-link">Bountiful</a>
         <a href="/areas/layton-ut/" class="area-link">Layton</a>
@@ -693,16 +686,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="/areas/ogden-ut/" class="area-link">Ogden</a>
         <a href="/areas/morgan-ut/" class="area-link">Morgan</a>
         <a href="/areas/salt-lake-city-ut/" class="area-link">Salt Lake City</a>
-        <a href="/areas/clearfield-ut/" class="area-link">Clearfield</a>
-        <a href="/areas/roy-ut/" class="area-link">Roy</a>
-        <a href="/areas/south-jordan-ut/" class="area-link">South Jordan</a>
-        <a href="/areas/sandy-ut/" class="area-link">Sandy</a>
-        <a href="/areas/west-jordan-ut/" class="area-link">West Jordan</a>
-        <a href="/areas/draper-ut/" class="area-link">Draper</a>
-        <a href="/areas/north-salt-lake-ut/" class="area-link">North Salt Lake</a>
-        <a href="/areas/woods-cross-ut/" class="area-link">Woods Cross</a>
-        <a href="/areas/west-bountiful-ut/" class="area-link">West Bountiful</a>
       </div>
+      <details class="areas-more" open>
+        <summary>View 9 More Service Areas <i class="fas fa-chevron-down" aria-hidden="true"></i></summary>
+        <div class="areas-grid">
+          <a href="/areas/clearfield-ut/" class="area-link">Clearfield</a>
+          <a href="/areas/roy-ut/" class="area-link">Roy</a>
+          <a href="/areas/south-jordan-ut/" class="area-link">South Jordan</a>
+          <a href="/areas/sandy-ut/" class="area-link">Sandy</a>
+          <a href="/areas/west-jordan-ut/" class="area-link">West Jordan</a>
+          <a href="/areas/draper-ut/" class="area-link">Draper</a>
+          <a href="/areas/north-salt-lake-ut/" class="area-link">North Salt Lake</a>
+          <a href="/areas/woods-cross-ut/" class="area-link">Woods Cross</a>
+          <a href="/areas/west-bountiful-ut/" class="area-link">West Bountiful</a>
+        </div>
+      </details>
     </div>
   </section>
 
@@ -745,42 +743,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </section>
 
-  <!-- Services Photo Section -->
-  <section class="services-photo-section" aria-labelledby="services-photo-heading">
-    <div class="container">
-      <div class="section-header">
-        <h2 id="services-photo-heading">Repairs, Installations &amp; Tune-Ups</h2>
-        <div class="section-divider"></div>
-      </div>
-      <div class="services-photo-grid">
-        <div class="service-photo-card">
-          <img src="/assets/images/services-ac-repair.webp" alt="HVAC technician performing AC repair with pressure gauge" width="900" height="600" loading="lazy">
-          <div class="service-photo-content">
-            <h3>Repairs</h3>
-            <p>Fast, accurate diagnosis and repairs for all furnace and air conditioning brands. Our certified technicians get your system back up and running — often same day.</p>
-            <a href="/get-quote/" class="btn">Schedule Now <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
-          </div>
-        </div>
-        <div class="service-photo-card">
-          <img src="/assets/images/services-heat-pump.webp" alt="Modern heat pump installed outside a Utah home" width="900" height="600" loading="lazy">
-          <div class="service-photo-content">
-            <h3>Installations</h3>
-            <p>Top-quality HVAC system installations with a 1-year labor warranty and 10-year parts warranty. We right-size every system to your home's specific needs.</p>
-            <a href="/get-quote/" class="btn">Schedule Now <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
-          </div>
-        </div>
-        <div class="service-photo-card">
-          <img src="/assets/images/services-maintenance.webp" alt="HVAC technician performing annual tune-up and maintenance" width="900" height="600" loading="lazy">
-          <div class="service-photo-content">
-            <h3>Tune-Ups</h3>
-            <p>Annual maintenance that prevents costly breakdowns, extends equipment life, and keeps your system running at peak efficiency through Utah's extreme seasons.</p>
-            <a href="/get-quote/" class="btn">Schedule Now <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Blog Section -->
   <section class="blog-section" aria-labelledby="blog-heading">
     <div class="container">
@@ -805,7 +767,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         if(!grid) return;
         posts.sort(function(a,b){ return new Date(b.date) - new Date(a.date); });
         posts.slice(0,3).forEach(function(post){
-          var card = document.createElement('article');
+          var card = document.createElement('div');
           card.className = 'blog-card';
           card.innerHTML =
             '<div class="blog-card-image">' +
@@ -887,6 +849,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 <!-- PARTIAL:cta:end -->
+
+  </main>
 
   <!-- PARTIAL:footer:start -->
 <footer class="footer">
@@ -1007,6 +971,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </footer>
 <!-- PARTIAL:footer:end -->
 
-  <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/main.js?v=4" defer></script>
 </body>
 </html>

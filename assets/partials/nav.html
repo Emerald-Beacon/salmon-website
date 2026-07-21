@@ -9,7 +9,7 @@
       <a href="/" class="nav-link">Home</a>
 
       <div class="nav-dropdown">
-        <a href="/services/" class="nav-link nav-dropdown-toggle">Services <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+        <a href="/services/" class="nav-link nav-dropdown-toggle" aria-expanded="false" aria-haspopup="true">Services <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
         <div class="dropdown-menu">
           <a href="/services/emergency-hvac/">Emergency HVAC</a>
           <a href="/services/ac-repair/">AC Repair</a>
@@ -106,3 +106,14 @@
     </button>
   </div>
 </header>
+
+<nav class="mobile-action-bar" aria-label="Quick contact actions">
+  <a href="tel:+18013970030" class="mobile-action-call">
+    <i class="fas fa-phone" aria-hidden="true"></i>
+    <span>Call Now</span>
+  </a>
+  <a href="/get-quote/" class="mobile-action-quote">
+    <i class="fas fa-calendar-check" aria-hidden="true"></i>
+    <span>Request Quote</span>
+  </a>
+</nav>

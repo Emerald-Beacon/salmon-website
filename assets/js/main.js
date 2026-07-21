@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initHeader();
     initMobileMenu();
     initNavDropdowns();
+    initResponsiveAreaList();
     initAttributionFields();
     initContactForm();
     initConversionClickTracking();
@@ -25,6 +26,29 @@ function initHeader() {
     window.addEventListener('scroll', function() {
         header.classList.toggle('scrolled', window.scrollY > 100);
     }, { passive: true });
+}
+
+/* ============================================
+   RESPONSIVE HOMEPAGE AREA LIST
+============================================ */
+function initResponsiveAreaList() {
+    const areaList = document.querySelector('.areas-more');
+    if (!areaList) return;
+
+    const mobileQuery = window.matchMedia('(max-width: 768px)');
+    let wasMobile = null;
+
+    function syncAreaList() {
+        if (mobileQuery.matches && wasMobile !== true) {
+            areaList.open = false;
+        } else if (!mobileQuery.matches) {
+            areaList.open = true;
+        }
+        wasMobile = mobileQuery.matches;
+    }
+
+    syncAreaList();
+    mobileQuery.addEventListener?.('change', syncAreaList);
 }
 
 /* ============================================
@@ -75,7 +99,7 @@ function initNavDropdowns() {
         if (!toggle) return;
 
         toggle.addEventListener('click', function(e) {
-            if (window.innerWidth <= 768) {
+            if (window.innerWidth <= 1100) {
                 e.preventDefault();
                 const willOpen = !dropdown.classList.contains('open');
                 dropdowns.forEach(otherDropdown => {
