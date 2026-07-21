@@ -32,23 +32,17 @@ function initHeader() {
    RESPONSIVE HOMEPAGE AREA LIST
 ============================================ */
 function initResponsiveAreaList() {
-    const areaList = document.querySelector('.areas-more');
-    if (!areaList) return;
+    const areaList = document.querySelector('.homepage-areas-grid');
+    const toggle = document.querySelector('.areas-toggle');
+    if (!areaList || !toggle) return;
 
-    const mobileQuery = window.matchMedia('(max-width: 768px)');
-    let wasMobile = null;
-
-    function syncAreaList() {
-        if (mobileQuery.matches && wasMobile !== true) {
-            areaList.open = false;
-        } else if (!mobileQuery.matches) {
-            areaList.open = true;
-        }
-        wasMobile = mobileQuery.matches;
-    }
-
-    syncAreaList();
-    mobileQuery.addEventListener?.('change', syncAreaList);
+    toggle.addEventListener('click', function() {
+        const isExpanded = areaList.classList.toggle('expanded');
+        toggle.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+        toggle.querySelector('span').textContent = isExpanded
+            ? 'Show Fewer Service Areas'
+            : 'View 9 More Service Areas';
+    });
 }
 
 /* ============================================
