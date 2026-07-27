@@ -94,12 +94,18 @@ function getServicePosts(posts, serviceSlug, count = 3) {
 // ─── HTML generators ─────────────────────────────────────────────────────────
 
 function imageMarkup(post) {
+  // Only emit a <picture> fallback when the .jpg twin actually exists on disk.
+  // Emitting one unconditionally pointed <img src> at files that were never
+  // committed: browsers still rendered the webp, but crawlers fetched the jpg
+  // and logged a 404, flagging every blog post as having a broken image.
   if (post.image.endsWith(".webp")) {
     const imgFallback = post.image.replace(/\.webp$/, ".jpg");
-    return `<picture>
+    if (fs.existsSync(path.join(ROOT, imgFallback.replace(/^\//, "")))) {
+      return `<picture>
           <source srcset="${post.image}" type="image/webp">
           <img src="${imgFallback}" alt="${post.imageAlt}" loading="lazy" width="400" height="225">
         </picture>`;
+    }
   }
 
   return `<img src="${post.image}" alt="${post.imageAlt}" loading="lazy" width="400" height="225">`;
