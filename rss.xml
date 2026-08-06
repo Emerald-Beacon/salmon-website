@@ -6,7 +6,15 @@
   <atom:link href="https://salmonhvac.com/sitemap.rss" rel="self" type="application/rss+xml" />
   <description>HVAC tips, rebate guides, repair advice, and equipment resources for Utah homeowners from Salmon HVAC.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 04 Aug 2026 18:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 06 Aug 2026 18:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Mini-Splits for Utah Winters: Do Ductless Heat Pumps Keep Up in the Cold?</title>
+    <link>https://salmonhvac.com/blog/mini-splits-utah-winters-cold/</link>
+    <guid isPermaLink="true">https://salmonhvac.com/blog/mini-splits-utah-winters-cold/</guid>
+    <description>Can a ductless mini-split heat your Northern Utah home through winter? How cold-climate heat pumps perform below freezing, the specs that matter, and when a backup makes sense.</description>
+    <pubDate>Thu, 06 Aug 2026 18:00:00 GMT</pubDate>
+    <enclosure url="https://salmonhvac.com/assets/images/blog/wordpress/2026/07/ductless-mini-split-indoor-unit-utah.jpg" type="image/jpeg" />
+  </item>
   <item>
     <title>Commercial HVAC Fall Maintenance for Northern Utah Businesses (RTU + VRF)</title>
     <link>https://salmonhvac.com/blog/commercial-hvac-fall-maintenance-utah/</link>
