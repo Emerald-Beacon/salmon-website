@@ -705,13 +705,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- About Snippet -->
   <section class="about-section" aria-labelledby="about-heading">
     <div class="about-video">
-      <iframe
-        src="https://www.youtube.com/embed/lqJRk6CrQyM?rel=0"
-        title="Salmon HVAC — Northern Utah HVAC Contractor"
-        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-        loading="lazy"
-      ></iframe>
+      <!-- Click-to-load facade: the YouTube player (and its cookies) are only
+           fetched once the visitor actually asks for the video. -->
+      <button
+        type="button"
+        class="video-facade"
+        data-video-id="lqJRk6CrQyM"
+        data-video-title="Salmon HVAC — Northern Utah HVAC Contractor"
+        aria-label="Play video: Salmon HVAC — Northern Utah HVAC Contractor"
+      >
+        <img
+          src="/assets/images/about-video-poster.webp"
+          alt=""
+          width="405"
+          height="720"
+          loading="lazy"
+          decoding="async"
+        >
+        <span class="video-facade-play" aria-hidden="true"></span>
+      </button>
     </div>
     <div class="about-content">
       <h2 id="about-heading">47 Years of Northern Utah HVAC Excellence</h2>
