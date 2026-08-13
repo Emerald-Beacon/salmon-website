@@ -6,7 +6,15 @@
   <atom:link href="https://salmonhvac.com/sitemap.rss" rel="self" type="application/rss+xml" />
   <description>HVAC tips, rebate guides, repair advice, and equipment resources for Utah homeowners from Salmon HVAC.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 11 Aug 2026 18:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 18:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Beat the Utah Inversion: How to Protect Indoor Air When the Smog Settles In</title>
+    <link>https://salmonhvac.com/blog/beat-the-utah-inversion-indoor-air-quality/</link>
+    <guid isPermaLink="true">https://salmonhvac.com/blog/beat-the-utah-inversion-indoor-air-quality/</guid>
+    <description>When a winter inversion traps PM2.5 over Northern Utah, your indoor air suffers too. How to keep the smog out — MERV 13 filters, fan settings, air purifiers, and sealing.</description>
+    <pubDate>Thu, 13 Aug 2026 18:00:00 GMT</pubDate>
+    <enclosure url="https://salmonhvac.com/assets/images/blog/wordpress/2026/06/salt-lake-city-skyline-wasatch.webp" type="image/jpeg" />
+  </item>
   <item>
     <title>No Heat? A Utah Homeowner&apos;s First-Hour Furnace Troubleshooting Guide</title>
     <link>https://salmonhvac.com/blog/no-heat-furnace-troubleshooting-utah/</link>
