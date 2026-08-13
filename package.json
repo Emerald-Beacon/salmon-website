@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/Emerald-Beacon/salmon-website#readme",
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.90.0"
+    "@anthropic-ai/sdk": "^0.90.0",
+    "esbuild": "^0.28.2",
+    "html-minifier-terser": "^7.2.0"
   },
   "devDependencies": {
     "sharp": "^0.34.5"
