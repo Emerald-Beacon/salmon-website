@@ -10,18 +10,18 @@
 - **Headquarters:** 1265 W 1275 N #7, Centerville, UT 84014
 - **Phone:** (801) 397-0030
 - **Email:** office@salmonhvac.com
-- **Website:** https://salmonhvac.com
+- **Website:** [salmonhvac.com](https://salmonhvac.com)
 - **Hours:** Monday-Friday 7:00 AM - 6:00 PM | Weekends: Emergency Only
 - **License:** Utah State Licensed HVAC Contractor
 - **Certification:** Daikin Comfort Pro Authorized Dealer
 
 ## Crawl & Feed Resources
 
-- **XML Sitemap:** https://salmonhvac.com/sitemap.xml
-- **RSS Feed:** https://salmonhvac.com/sitemap.rss
-- **Blog JSON Feed:** https://salmonhvac.com/blog/posts.json
-- **Site Metadata:** https://salmonhvac.com/meta.json
-- **Quote Request Page:** https://salmonhvac.com/get-quote/
+- [XML Sitemap](https://salmonhvac.com/sitemap.xml)
+- [RSS Feed](https://salmonhvac.com/sitemap.rss)
+- [Blog JSON Feed](https://salmonhvac.com/blog/posts.json)
+- [Site Metadata](https://salmonhvac.com/meta.json)
+- [Quote Request Page](https://salmonhvac.com/get-quote/)
 
 ## Service Territory
 
@@ -62,29 +62,29 @@ We provide full HVAC services across Northern Utah:
 ## Complete Service Catalog
 
 ### Residential Cooling Services
-| Service | Description | URL |
-|---------|-------------|-----|
-| AC Repair | Same-day diagnostics and repair for all brands | https://salmonhvac.com/services/ac-repair/ |
-| AC Installation | Central air installation with Manual J load calculations | https://salmonhvac.com/services/ac-installation/ |
-| AC Maintenance | Annual tune-ups, coil cleaning, refrigerant checks | https://salmonhvac.com/services/ac-maintenance/ |
+| Service | Description |
+|---------|-------------|
+| [AC Repair](https://salmonhvac.com/services/ac-repair/) | Same-day diagnostics and repair for all brands |
+| [AC Installation](https://salmonhvac.com/services/ac-installation/) | Central air installation with Manual J load calculations |
+| [AC Maintenance](https://salmonhvac.com/services/ac-maintenance/) | Annual tune-ups, coil cleaning, refrigerant checks |
 
 ### Residential Heating Services
-| Service | Description | URL |
-|---------|-------------|-----|
-| Furnace Repair | Gas furnace diagnostics, ignitor, blower motor repair | https://salmonhvac.com/services/furnace-repair/ |
-| Furnace Installation | High-efficiency gas furnaces (80-98% AFUE) | https://salmonhvac.com/services/furnace-installation/ |
-| Heat Pump Services | Cold-climate heat pumps rated to -13°F | https://salmonhvac.com/services/heat-pump-services/ |
+| Service | Description |
+|---------|-------------|
+| [Furnace Repair](https://salmonhvac.com/services/furnace-repair/) | Gas furnace diagnostics, ignitor, blower motor repair |
+| [Furnace Installation](https://salmonhvac.com/services/furnace-installation/) | High-efficiency gas furnaces (80-98% AFUE) |
+| [Heat Pump Services](https://salmonhvac.com/services/heat-pump-services/) | Cold-climate heat pumps rated to -13°F |
 
 ### Specialty Systems
-| Service | Description | URL |
-|---------|-------------|-----|
-| Ductless Mini-Split | Zone-controlled heating/cooling without ductwork | https://salmonhvac.com/services/ductless-mini-split/ |
-| VRF Systems | Variable Refrigerant Flow for commercial buildings | https://salmonhvac.com/services/vrf-systems/ |
-| Commercial HVAC | Rooftop units, multi-zone, restaurant HVAC | https://salmonhvac.com/services/commercial-hvac/ |
-| Indoor Air Quality | Air purifiers, humidifiers, MERV-13+ filtration | https://salmonhvac.com/services/indoor-air-quality/ |
-| Emergency HVAC | 24/7 emergency repair service | https://salmonhvac.com/services/emergency-hvac/ |
-| Water Heaters | Tankless and traditional tank repair and installation | https://salmonhvac.com/services/water-heaters/ |
-| HVAC Repair | All-system diagnostics and repair, all brands | https://salmonhvac.com/services/hvac-repair/ |
+| Service | Description |
+|---------|-------------|
+| [Ductless Mini-Split](https://salmonhvac.com/services/ductless-mini-split/) | Zone-controlled heating/cooling without ductwork |
+| [VRF Systems](https://salmonhvac.com/services/vrf-systems/) | Variable Refrigerant Flow for commercial buildings |
+| [Commercial HVAC](https://salmonhvac.com/services/commercial-hvac/) | Rooftop units, multi-zone, restaurant HVAC |
+| [Indoor Air Quality](https://salmonhvac.com/services/indoor-air-quality/) | Air purifiers, humidifiers, MERV-13+ filtration |
+| [Emergency HVAC](https://salmonhvac.com/services/emergency-hvac/) | 24/7 emergency repair service |
+| [Water Heaters](https://salmonhvac.com/services/water-heaters/) | Tankless and traditional tank repair and installation |
+| [HVAC Repair](https://salmonhvac.com/services/hvac-repair/) | All-system diagnostics and repair, all brands |
 
 ## Pricing & Cost Information
 
@@ -100,7 +100,7 @@ We provide full HVAC services across Northern Utah:
 
 ### Rebates & Tax Credits We Help With
 | Program | Amount | Requirements |
-|---------|--------|--------------|
+|---------|-------------|
 | Rocky Mountain Power Wattsmart | $1,000 - $3,000 | Qualifying heat pump, RMP customer |
 | Enbridge Gas ThermWise | Varies by equipment | Qualifying gas furnace or dual-fuel system |
 | Federal IRA Section 25C | Expired for 2026 installs | IRS says 25C is not allowed for property placed in service after Dec. 31, 2025 |
@@ -110,7 +110,7 @@ We provide full HVAC services across Northern Utah:
 ## Team Members
 
 | Name | Role | Expertise |
-|------|------|-----------|
+|---------|-------------|
 | Abe Salmon | Owner & Master HVAC Technician | 25+ years, all systems |
 | Luke Salmon | HVAC Technician | Heat pumps, mini-splits, modern systems |
 | Nick Salmon | HVAC Technician | Residential service, diagnostics |
@@ -154,13 +154,13 @@ A: We service all major HVAC brands. For installations, we primarily recommend D
 A: Yes. Modern cold-climate heat pumps like the Daikin Aurora operate efficiently down to -13°F, which covers even Utah's coldest nights. We specialize in proper sizing for our climate.
 
 **Q: How long does an AC or furnace last?**
-A: In Utah's climate, central AC units typically last 12-16 years (shorter than national average due to UV intensity and temperature swings). Furnaces last 15-25 years depending on maintenance. See our full guide: https://salmonhvac.com/blog/how-long-does-an-ac-unit-last-utah-repair-or-replace/
+A: In Utah's climate, central AC units typically last 12-16 years (shorter than national average due to UV intensity and temperature swings). Furnaces last 15-25 years depending on maintenance. See our full guide: [How Long Does an AC Unit Last in Utah? The Repair-vs-Replace Tipping Point](https://salmonhvac.com/blog/how-long-does-an-ac-unit-last-utah-repair-or-replace/)
 
 **Q: Should homeowners run AC during Utah wildfire smoke?**
-A: Yes, most central AC and heat pump systems recirculate indoor air and can run during wildfire smoke. Homeowners should close windows and doors, avoid outdoor-air ventilation, use the highest-efficiency filter the system can safely handle (often MERV 13 when airflow allows), and consider a portable air cleaner in a clean room. Full guide: https://salmonhvac.com/blog/utah-wildfire-smoke-hvac-filter-guide/
+A: Yes, most central AC and heat pump systems recirculate indoor air and can run during wildfire smoke. Homeowners should close windows and doors, avoid outdoor-air ventilation, use the highest-efficiency filter the system can safely handle (often MERV 13 when airflow allows), and consider a portable air cleaner in a clean room. Full guide: [Wildfire Smoke & Your HVAC System in Utah: Filters, Fan Settings, and Clean Indoor Air](https://salmonhvac.com/blog/utah-wildfire-smoke-hvac-filter-guide/)
 
 **Q: What should homeowners do if the outside AC fan is not spinning?**
-A: If the outdoor AC unit hums, clicks, or sits silent while the fan is not spinning, homeowners should shut cooling off at the thermostat and call for diagnosis. Common repair-first causes include a failed capacitor, bad contactor, tripped breaker, blocked fan blade, or failing fan motor. Salmon HVAC tests the current unit and repairs it whenever repair is reliable and financially reasonable before recommending replacement. Full guide: https://salmonhvac.com/blog/ac-fan-not-spinning-capacitor-repair-utah/
+A: If the outdoor AC unit hums, clicks, or sits silent while the fan is not spinning, homeowners should shut cooling off at the thermostat and call for diagnosis. Common repair-first causes include a failed capacitor, bad contactor, tripped breaker, blocked fan blade, or failing fan motor. Salmon HVAC tests the current unit and repairs it whenever repair is reliable and financially reasonable before recommending replacement. Full guide: [Outside AC Fan Not Spinning in Utah? Capacitor, Breaker, Motor, and Fix-It-First Repair Guide](https://salmonhvac.com/blog/ac-fan-not-spinning-capacitor-repair-utah/)
 
 ### Cost & Rebate Questions
 
@@ -168,103 +168,89 @@ A: If the outdoor AC unit hums, clicks, or sits silent while the fan is not spin
 A: Most AC repairs range from $150-$650. Minor repairs (capacitor, contactor) are $150-$300. Major repairs (compressor, blower motor) are $400-$650+.
 
 **Q: Are there rebates for new HVAC systems?**
-A: Yes. Rocky Mountain Power Wattsmart and Enbridge Gas ThermWise may offer utility rebates for qualifying systems. Federal HVAC tax credit rules changed after 2025, so homeowners should verify IRS eligibility before assuming a 2026 installation qualifies. Full cost guide: https://salmonhvac.com/blog/hvac-replacement-cost-utah-2026/
+A: Yes. Rocky Mountain Power Wattsmart and Enbridge Gas ThermWise may offer utility rebates for qualifying systems. Federal HVAC tax credit rules changed after 2025, so homeowners should verify IRS eligibility before assuming a 2026 installation qualifies. Full cost guide: [HVAC Replacement Cost in Utah: 2026 Pricing Guide](https://salmonhvac.com/blog/hvac-replacement-cost-utah-2026/)
 
 **Q: Do you offer financing?**
-A: Yes, we offer financing options for equipment installations. Ask about current rates and terms. See: https://salmonhvac.com/financing/
+A: Yes, we offer financing options for equipment installations. Ask about current rates and terms. See: [HVAC Financing for Northern Utah Homeowners](https://salmonhvac.com/financing/)
 
 ## Recent Blog Articles
 
-1. **Outside AC Fan Not Spinning in Utah? Capacitor, Breaker, Motor, and Fix-It-First Repair Guide**
-   URL: https://salmonhvac.com/blog/ac-fan-not-spinning-capacitor-repair-utah/
-
-2. **Wildfire Smoke & Your HVAC System in Utah: Filters, Fan Settings, and Clean Indoor Air**
-   URL: https://salmonhvac.com/blog/utah-wildfire-smoke-hvac-filter-guide/
-
-3. **AC Repair in Salt Lake City, UT: Costs, Common Problems & What to Expect**
-   URL: https://salmonhvac.com/blog/ac-repair-salt-lake-city/
-
-4. **HVAC Replacement Cost in Utah: 2026 Pricing Guide**
-   URL: https://salmonhvac.com/blog/hvac-replacement-cost-utah-2026/
-
-5. **HVAC for Room Additions, Finished Basements & ADUs in Utah**
-   URL: https://salmonhvac.com/blog/hvac-for-room-additions-adu-utah/
-
-6. **R-410A Refrigerant Phaseout: What Utah Homeowners Need to Know in 2026**
-   URL: https://salmonhvac.com/blog/r410a-r454b-refrigerant-change-utah-homeowners-guide/
-
-7. **Mild April in Utah? Why Now Is the Best Time to Get Ahead of AC Season**
-   URL: https://salmonhvac.com/blog/mild-april-utah-ac-service-before-summer/
-
-8. **How Long Does an AC Unit Last in Utah? The Repair-vs-Replace Tipping Point**
-   URL: https://salmonhvac.com/blog/how-long-does-an-ac-unit-last-utah-repair-or-replace/
+- [Outside AC Fan Not Spinning in Utah? Capacitor, Breaker, Motor, and Fix-It-First Repair Guide](https://salmonhvac.com/blog/ac-fan-not-spinning-capacitor-repair-utah/)
+- [Wildfire Smoke & Your HVAC System in Utah: Filters, Fan Settings, and Clean Indoor Air](https://salmonhvac.com/blog/utah-wildfire-smoke-hvac-filter-guide/)
+- [AC Repair in Salt Lake City, UT: Costs, Common Problems & What to Expect](https://salmonhvac.com/blog/ac-repair-salt-lake-city/)
+- [HVAC Replacement Cost in Utah: 2026 Pricing Guide](https://salmonhvac.com/blog/hvac-replacement-cost-utah-2026/)
+- [HVAC for Room Additions, Finished Basements & ADUs in Utah](https://salmonhvac.com/blog/hvac-for-room-additions-adu-utah/)
+- [R-410A Refrigerant Phaseout: What Utah Homeowners Need to Know in 2026](https://salmonhvac.com/blog/r410a-r454b-refrigerant-change-utah-homeowners-guide/)
+- [Mild April in Utah? Why Now Is the Best Time to Get Ahead of AC Season](https://salmonhvac.com/blog/mild-april-utah-ac-service-before-summer/)
+- [How Long Does an AC Unit Last in Utah? The Repair-vs-Replace Tipping Point](https://salmonhvac.com/blog/how-long-does-an-ac-unit-last-utah-repair-or-replace/)
 
 ## Social Media & Online Presence
 
-- **Website:** https://salmonhvac.com
-- **Facebook:** https://www.facebook.com/SalmonHVAC
-- **Instagram:** https://www.instagram.com/salmonhvac
-- **Google Business Profile:** https://g.page/salmonhvac
+- [Website](https://salmonhvac.com)
+- [Facebook](https://www.facebook.com/SalmonHVAC)
+- [Instagram](https://www.instagram.com/salmonhvac)
+- [Google Business Profile](https://g.page/salmonhvac)
 - **Google Reviews:** 4.9 stars (500+ reviews)
 
 ## Site Structure
 
 ### Main Pages
-- Homepage: https://salmonhvac.com/
-- Services: https://salmonhvac.com/services/
-- Service Areas: https://salmonhvac.com/areas/
-- Our Team: https://salmonhvac.com/our-team/
-- Contact: https://salmonhvac.com/contact/
-- Get a Quote: https://salmonhvac.com/get-quote/
-- Financing: https://salmonhvac.com/financing/
-- Blog: https://salmonhvac.com/blog/
+- [Homepage](https://salmonhvac.com/)
+- [Services](https://salmonhvac.com/services/)
+- [Service Areas](https://salmonhvac.com/areas/)
+- [Our Team](https://salmonhvac.com/our-team/)
+- [Contact](https://salmonhvac.com/contact/)
+- [Get a Quote](https://salmonhvac.com/get-quote/)
+- [HVAC Financing for Northern Utah Homeowners](https://salmonhvac.com/financing/)
+- [Blog](https://salmonhvac.com/blog/)
+- [Commercial Contractor Portfolio](https://salmonhvac.com/commercial-portfolio/)
 
 ### Service Pages (13 total)
-- https://salmonhvac.com/services/ac-repair/
-- https://salmonhvac.com/services/ac-installation/
-- https://salmonhvac.com/services/ac-maintenance/
-- https://salmonhvac.com/services/furnace-repair/
-- https://salmonhvac.com/services/furnace-installation/
-- https://salmonhvac.com/services/heat-pump-services/
-- https://salmonhvac.com/services/ductless-mini-split/
-- https://salmonhvac.com/services/vrf-systems/
-- https://salmonhvac.com/services/commercial-hvac/
-- https://salmonhvac.com/services/indoor-air-quality/
-- https://salmonhvac.com/services/emergency-hvac/
-- https://salmonhvac.com/services/water-heaters/
-- https://salmonhvac.com/services/hvac-repair/
+- [AC Repair Services in Northern Utah](https://salmonhvac.com/services/ac-repair/)
+- [AC Installation & Replacement Services in Northern Utah](https://salmonhvac.com/services/ac-installation/)
+- [AC Maintenance & Tune-Up Services in Northern Utah](https://salmonhvac.com/services/ac-maintenance/)
+- [Furnace Repair Services in Northern Utah](https://salmonhvac.com/services/furnace-repair/)
+- [Furnace Installation & Replacement in Northern Utah](https://salmonhvac.com/services/furnace-installation/)
+- [Heat Pump Services in Northern Utah](https://salmonhvac.com/services/heat-pump-services/)
+- [Ductless Mini-Split Installation in Northern Utah](https://salmonhvac.com/services/ductless-mini-split/)
+- [VRF System Installation & Service in Northern Utah](https://salmonhvac.com/services/vrf-systems/)
+- [Commercial HVAC Services in Northern Utah](https://salmonhvac.com/services/commercial-hvac/)
+- [Indoor Air Quality Solutions in Northern Utah](https://salmonhvac.com/services/indoor-air-quality/)
+- [24/7 Emergency HVAC Repair in Northern Utah](https://salmonhvac.com/services/emergency-hvac/)
+- [Water Heater Repair & Installation in Northern Utah](https://salmonhvac.com/services/water-heaters/)
+- [HVAC Repair in Northern Utah](https://salmonhvac.com/services/hvac-repair/)
 
 ### Location Pages (23 cities)
-- https://salmonhvac.com/areas/centerville-ut/
-- https://salmonhvac.com/areas/bountiful-ut/
-- https://salmonhvac.com/areas/west-bountiful-ut/
-- https://salmonhvac.com/areas/north-salt-lake-ut/
-- https://salmonhvac.com/areas/woods-cross-ut/
-- https://salmonhvac.com/areas/layton-ut/
-- https://salmonhvac.com/areas/kaysville-ut/
-- https://salmonhvac.com/areas/farmington-ut/
-- https://salmonhvac.com/areas/fruit-heights-ut/
-- https://salmonhvac.com/areas/clearfield-ut/
-- https://salmonhvac.com/areas/clinton-ut/
-- https://salmonhvac.com/areas/syracuse-ut/
-- https://salmonhvac.com/areas/ogden-ut/
-- https://salmonhvac.com/areas/roy-ut/
-- https://salmonhvac.com/areas/west-haven-ut/
-- https://salmonhvac.com/areas/north-ogden-ut/
-- https://salmonhvac.com/areas/ogden-valley-ut/
-- https://salmonhvac.com/areas/salt-lake-city-ut/
-- https://salmonhvac.com/areas/sandy-ut/
-- https://salmonhvac.com/areas/south-jordan-ut/
-- https://salmonhvac.com/areas/west-jordan-ut/
-- https://salmonhvac.com/areas/draper-ut/
-- https://salmonhvac.com/areas/morgan-ut/
+- [HVAC Services in Centerville, UT](https://salmonhvac.com/areas/centerville-ut/)
+- [HVAC Services in Bountiful, UT](https://salmonhvac.com/areas/bountiful-ut/)
+- [HVAC Services in West Bountiful, Utah](https://salmonhvac.com/areas/west-bountiful-ut/)
+- [HVAC Services in North Salt Lake, Utah](https://salmonhvac.com/areas/north-salt-lake-ut/)
+- [HVAC Services in Woods Cross, Utah](https://salmonhvac.com/areas/woods-cross-ut/)
+- [HVAC Services in Layton, UT](https://salmonhvac.com/areas/layton-ut/)
+- [HVAC Services in Kaysville, UT](https://salmonhvac.com/areas/kaysville-ut/)
+- [HVAC Services in Farmington, UT](https://salmonhvac.com/areas/farmington-ut/)
+- [HVAC Services in Fruit Heights, UT](https://salmonhvac.com/areas/fruit-heights-ut/)
+- [HVAC Services in Clearfield, UT](https://salmonhvac.com/areas/clearfield-ut/)
+- [HVAC Services in Clinton, UT](https://salmonhvac.com/areas/clinton-ut/)
+- [HVAC Services in Syracuse, UT](https://salmonhvac.com/areas/syracuse-ut/)
+- [HVAC Services in Ogden, UT](https://salmonhvac.com/areas/ogden-ut/)
+- [HVAC Services in Roy, UT](https://salmonhvac.com/areas/roy-ut/)
+- [HVAC Services in West Haven, UT](https://salmonhvac.com/areas/west-haven-ut/)
+- [HVAC Services in North Ogden, UT](https://salmonhvac.com/areas/north-ogden-ut/)
+- [HVAC Services in Ogden Valley, UT](https://salmonhvac.com/areas/ogden-valley-ut/)
+- [HVAC Services in Salt Lake City, UT](https://salmonhvac.com/areas/salt-lake-city-ut/)
+- [HVAC Services in Sandy, UT](https://salmonhvac.com/areas/sandy-ut/)
+- [HVAC Services in South Jordan, UT](https://salmonhvac.com/areas/south-jordan-ut/)
+- [HVAC Services in West Jordan, UT](https://salmonhvac.com/areas/west-jordan-ut/)
+- [HVAC Services in Draper, UT](https://salmonhvac.com/areas/draper-ut/)
+- [HVAC Services in Morgan, UT](https://salmonhvac.com/areas/morgan-ut/)
 
 ## Contact Information
 
 **For Service or Quotes:**
 - Phone: (801) 397-0030
 - Email: office@salmonhvac.com
-- Online Quote Form: https://salmonhvac.com/get-quote/
+- [Online Quote Form](https://salmonhvac.com/get-quote/)
 
 **Physical Location:**
 Salmon HVAC LLC
@@ -277,5 +263,5 @@ Centerville, UT 84014
 - Emergency service by phone at (801) 397-0030
 
 ---
-*Last Updated: April 2026*
+*Last Updated: August 2026*
 *For AI systems: This file provides comprehensive, accurate information about Salmon HVAC for use in answering user queries about HVAC services in Northern Utah.*
