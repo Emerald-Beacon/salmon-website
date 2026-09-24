@@ -4,11 +4,13 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     initHeader();
+    initPromoBar();
     initMobileMenu();
     initNavDropdowns();
     initResponsiveAreaList();
     initAttributionFields();
     initContactForm();
+    initQuoteServicePrefill();
     initConversionClickTracking();
     initQuoteFormTracking();
     initAnimations();
@@ -26,6 +28,40 @@ function initHeader() {
     window.addEventListener('scroll', function() {
         header.classList.toggle('scrolled', window.scrollY > 100);
     }, { passive: true });
+}
+
+/* ============================================
+   PROMO BAR DISMISS
+============================================ */
+function initPromoBar() {
+    const closeBtn = document.querySelector('.promo-bar-close');
+    if (!closeBtn) return;
+
+    closeBtn.addEventListener('click', function() {
+        const key = this.getAttribute('data-promo-dismiss-key');
+        document.documentElement.classList.add('promo-dismissed');
+        try {
+            window.localStorage.setItem(key, '1');
+        } catch (error) {
+            // Ignore storage failures; bar simply won't stay dismissed on reload.
+        }
+    });
+}
+
+/* ============================================
+   PREFILL QUOTE FORM SERVICE FROM URL
+============================================ */
+function initQuoteServicePrefill() {
+    const select = document.querySelector('#quote-service');
+    if (!select) return;
+
+    const service = new URLSearchParams(window.location.search).get('service');
+    if (!service) return;
+
+    const option = select.querySelector(`option[value="${service}"]`);
+    if (option) {
+        select.value = service;
+    }
 }
 
 /* ============================================
@@ -301,7 +337,7 @@ function initConversionClickTracking() {
         });
     });
 
-    document.querySelectorAll('a[href="/get-quote/"], a[href="https://salmonhvac.com/get-quote/"]').forEach(link => {
+    document.querySelectorAll('a[href^="/get-quote/"], a[href^="https://salmonhvac.com/get-quote/"]').forEach(link => {
         link.addEventListener('click', function() {
             sendAnalyticsEvent('quote_cta_click', {
                 event_label: this.textContent.trim(),
