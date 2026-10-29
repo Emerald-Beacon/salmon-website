@@ -6,7 +6,7 @@
   <atom:link href="https://salmonhvac.com/sitemap.rss" rel="self" type="application/rss+xml" />
   <description>HVAC tips, rebate guides, repair advice, and equipment resources for Utah homeowners from Salmon HVAC.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 22 Oct 2026 18:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 18:00:00 GMT</lastBuildDate>
   <item>
     <title>Commercial No-Heat Emergencies: A Northern Utah Facility Manager’s Cold-Snap Plan</title>
     <link>https://salmonhvac.com/blog/commercial-no-heat-emergencies-utah/</link>
@@ -1254,6 +1254,14 @@
     <description>The 10 clearest signs your furnace needs repair before a Northern Utah winter — from short cycling and odd noises to a CO alarm — plus when to call a pro.</description>
     <pubDate>Thu, 10 Sep 2026 18:00:00 GMT</pubDate>
     <enclosure url="https://salmonhvac.com/assets/images/blog/wordpress/2025/01/919f3f_e03cc67a6e4546d592d454ca23f81fa0mv2.webp" type="image/jpeg" />
+  </item>
+  <item>
+    <title>Utah HVAC Rebates in 2027: What&apos;s Left After the Federal Tax Credit Ended</title>
+    <link>https://salmonhvac.com/blog/utah-hvac-rebates-2027/</link>
+    <guid isPermaLink="true">https://salmonhvac.com/blog/utah-hvac-rebates-2027/</guid>
+    <description>The federal 25C tax credit ended, but Utah HVAC rebates in 2027 are still live: what Wattsmart and ThermWise pay, and how to claim them before they reset.</description>
+    <pubDate>Thu, 29 Oct 2026 18:00:00 GMT</pubDate>
+    <enclosure url="https://salmonhvac.com/assets/images/blog/wordpress/2026/03/high-efficiency-hvac-outdoor-unit-logos-removed-2026-01-08-22-54-39-utc.webp" type="image/jpeg" />
   </item>
 </channel>
 </rss>
