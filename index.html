@@ -6,7 +6,7 @@
 window.dataLayer=window.dataLayer||[];
 function _loadGTM(){if(window._gtmLoaded)return;window._gtmLoaded=true;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-593W9BPW');}
 function _queueGTM(){if(window._gtmLoaded)return;clearTimeout(_gtmTimer);('requestIdleCallback'in window)?requestIdleCallback(_loadGTM,{timeout:1500}):setTimeout(_loadGTM,1);}
-var _gtmTimer=setTimeout(_loadGTM,3500);
+var _gtmTimer=setTimeout(_loadGTM,10000);
 ['mousedown','touchstart','keydown','scroll','mousemove'].forEach(function(e){window.addEventListener(e,_queueGTM,{once:true,passive:true});});
 </script>
 <!-- End Google Tag Manager -->
@@ -33,12 +33,14 @@ var _gtmTimer=setTimeout(_loadGTM,3500);
   <meta name="twitter:image" content="https://salmonhvac.com/assets/images/logo-salmon.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/assets/images/logo-salmon.png">
+  <link rel="icon" type="image/png" href="/assets/images/logo-salmon-100.png">
   <link rel="apple-touch-icon" href="/assets/images/logo-salmon.png">
 
   <!-- Preload hero image - media attributes must match <picture> source breakpoints -->
   <link rel="preload" as="image" href="/assets/images/hero-home-mobile.webp" type="image/webp" media="(max-width: 767px)">
-  <link rel="preload" as="image" href="/assets/images/hero-home.webp" type="image/webp" media="(min-width: 768px)">
+  <link rel="preload" as="image" type="image/webp" media="(min-width: 768px)"
+        imagesrcset="/assets/images/hero-home-1440.webp 1440w, /assets/images/hero-home.webp 1920w"
+        imagesizes="100vw">
 
   <!-- Google Fonts - Low-priority async (print trick avoids competing with hero preload) -->
   <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/rajdhani-700.woff2" crossorigin>
@@ -377,7 +379,7 @@ var _gtmTimer=setTimeout(_loadGTM,3500);
 fbq('init','681566040187541');fbq('track','PageView');
 function _loadFBQ(){if(window._fbqLoaded)return;window._fbqLoaded=true;var t=document.createElement('script');t.async=true;t.src='https://connect.facebook.net/en_US/fbevents.js';document.head.appendChild(t);}
 function _queueFBQ(){if(window._fbqLoaded)return;clearTimeout(_fbqTimer);('requestIdleCallback'in window)?requestIdleCallback(_loadFBQ,{timeout:1500}):setTimeout(_loadFBQ,1);}
-var _fbqTimer=setTimeout(_loadFBQ,3500);
+var _fbqTimer=setTimeout(_loadFBQ,10000);
 ['mousedown','touchstart','keydown','scroll','mousemove'].forEach(function(e){window.addEventListener(e,_queueFBQ,{once:true,passive:true});});
 </script>
 <noscript><img height="1" width="1" style="display:none"
@@ -427,7 +429,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <header class="header">
   <div class="container">
     <a href="/" class="logo">
-      <img src="/assets/images/logo-salmon.png" alt="Salmon HVAC Logo" width="50" height="50">
+      <img src="/assets/images/logo-salmon-100.png" alt="Salmon HVAC Logo" width="50" height="50">
       <span class="logo-text">Salmon <span>HVAC</span></span>
     </a>
 
@@ -551,7 +553,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <section class="hero" aria-label="Hero">
     <picture class="hero-img-wrapper">
       <source media="(max-width: 767px)" srcset="/assets/images/hero-home-mobile.webp" type="image/webp">
-      <source srcset="/assets/images/hero-home.webp" type="image/webp">
+      <source srcset="/assets/images/hero-home-1440.webp 1440w, /assets/images/hero-home.webp 1920w" sizes="100vw" type="image/webp">
       <img src="/assets/images/hero-home.jpg" alt="Salmon HVAC service van in Northern Utah" width="1920" height="1440" fetchpriority="high" loading="eager" class="hero-img">
     </picture>
     <div class="hero-overlay"></div>
@@ -740,12 +742,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <button
         type="button"
         class="video-facade"
-        data-video-id="lqJRk6CrQyM"
-        data-video-title="Salmon HVAC — Northern Utah HVAC Contractor"
-        aria-label="Play video: Salmon HVAC — Northern Utah HVAC Contractor"
+        data-video-id="ajpkqFLIpKM"
+        data-video-title="The #1 Red Flag When Buying a New HVAC System"
+        aria-label="Play video: The #1 Red Flag When Buying a New HVAC System"
       >
         <img
-          src="/assets/images/about-video-poster.webp"
+          src="/assets/images/about-video-poster-ajpkqFLIpKM.webp"
           alt=""
           width="405"
           height="720"
@@ -814,8 +816,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               '<img src="' + post.image + '" alt="' + post.imageAlt + '" width="400" height="250" loading="lazy">' +
             '</div>' +
             '<div class="blog-card-content">' +
-              '<div style="font-size:0.85rem;color:#6b7280;margin-bottom:0.5rem;">' + post.dateDisplay + ' &nbsp;&bull;&nbsp; ' + post.readTime + '</div>' +
-              '<h2 style="font-size:1.15rem;"><a href="' + post.url + '">' + post.title + '</a></h2>' +
+              '<div class="blog-card-meta">' + post.dateDisplay + ' &nbsp;&bull;&nbsp; ' + post.readTime + '</div>' +
+              '<h3><a href="' + post.url + '">' + post.title + '</a></h3>' +
               '<p>' + post.excerpt + '</p>' +
               '<a href="' + post.url + '" class="read-more">Read the Full Guide <i class="fas fa-arrow-right" aria-hidden="true"></i></a>' +
             '</div>';
@@ -899,14 +901,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <div class="footer-brand">
         <a href="/" class="logo">
-          <img src="/assets/images/logo-salmon.png" alt="Salmon HVAC Logo" width="40" height="40" loading="lazy">
+          <img src="/assets/images/logo-salmon-100.png" alt="Salmon HVAC Logo" width="40" height="40" loading="lazy">
           <span class="logo-text">Salmon <span>HVAC</span></span>
         </a>
         <p>Northern Utah's most trusted HVAC professionals since 1979. Family-owned, community-focused, and committed to your comfort.</p>
       </div>
 
       <div class="footer-links-section">
-        <h4>Services</h4>
+        <h3>Services</h3>
         <ul class="footer-links">
           <li><a href="/services/emergency-hvac/">Emergency HVAC</a></li>
           <li><a href="/services/ac-repair/">AC Repair</a></li>
@@ -924,7 +926,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
 
       <div class="footer-links-section">
-        <h4>Service Areas</h4>
+        <h3>Service Areas</h3>
         <ul class="footer-links">
           <li><a href="/areas/centerville-ut/">Centerville, UT</a></li>
           <li><a href="/areas/bountiful-ut/">Bountiful, UT</a></li>
@@ -954,7 +956,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
 
       <div class="footer-contact">
-        <h4>Contact Us</h4>
+        <h3>Contact Us</h3>
         <div class="footer-contact-item">
           <i class="fas fa-paper-plane" aria-hidden="true"></i>
           <a href="/contact/">Send Us a Message</a>
