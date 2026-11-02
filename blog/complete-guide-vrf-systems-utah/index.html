@@ -6,7 +6,7 @@
 window.dataLayer=window.dataLayer||[];
 function _loadGTM(){if(window._gtmLoaded)return;window._gtmLoaded=true;(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-593W9BPW');}
 function _queueGTM(){if(window._gtmLoaded)return;clearTimeout(_gtmTimer);('requestIdleCallback'in window)?requestIdleCallback(_loadGTM,{timeout:1500}):setTimeout(_loadGTM,1);}
-var _gtmTimer=setTimeout(_loadGTM,3500);
+var _gtmTimer=setTimeout(_loadGTM,10000);
 ['mousedown','touchstart','keydown','scroll','mousemove'].forEach(function(e){window.addEventListener(e,_queueGTM,{once:true,passive:true});});
 </script>
 <!-- End Google Tag Manager -->
@@ -134,7 +134,7 @@ var _gtmTimer=setTimeout(_loadGTM,3500);
 fbq('init','681566040187541');fbq('track','PageView');
 function _loadFBQ(){if(window._fbqLoaded)return;window._fbqLoaded=true;var t=document.createElement('script');t.async=true;t.src='https://connect.facebook.net/en_US/fbevents.js';document.head.appendChild(t);}
 function _queueFBQ(){if(window._fbqLoaded)return;clearTimeout(_fbqTimer);('requestIdleCallback'in window)?requestIdleCallback(_loadFBQ,{timeout:1500}):setTimeout(_loadFBQ,1);}
-var _fbqTimer=setTimeout(_loadFBQ,3500);
+var _fbqTimer=setTimeout(_loadFBQ,10000);
 ['mousedown','touchstart','keydown','scroll','mousemove'].forEach(function(e){window.addEventListener(e,_queueFBQ,{once:true,passive:true});});
 </script>
 <noscript><img height="1" width="1" style="display:none"
@@ -182,7 +182,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <header class="header">
   <div class="container">
     <a href="/" class="logo">
-      <img src="/assets/images/logo-salmon.png" alt="Salmon HVAC Logo" width="50" height="50">
+      <img src="/assets/images/logo-salmon-100.png" alt="Salmon HVAC Logo" width="50" height="50">
       <span class="logo-text">Salmon <span>HVAC</span></span>
     </a>
 
@@ -332,7 +332,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- Byline -->
     <div class="article-byline" style="display:flex;align-items:center;gap:1rem;padding:1rem 0 2rem;border-bottom:1px solid #e5e7eb;margin-bottom:2rem;color:#6b7280;font-size:0.95rem;">
-      <img src="/assets/images/logo-salmon.png" alt="Salmon HVAC" width="40" height="40" style="border-radius:50%;" loading="lazy">
+      <img src="/assets/images/logo-salmon-100.png" alt="Salmon HVAC" width="40" height="40" style="border-radius:50%;" loading="lazy">
       <div>
         <strong style="color:#1a1a1a;">Salmon HVAC</strong><br>
         Published March 25, 2026 &nbsp;&bull;&nbsp; Updated March 26, 2026 &nbsp;&bull;&nbsp; 12 min read
@@ -654,14 +654,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <div class="footer-brand">
         <a href="/" class="logo">
-          <img src="/assets/images/logo-salmon.png" alt="Salmon HVAC Logo" width="40" height="40" loading="lazy">
+          <img src="/assets/images/logo-salmon-100.png" alt="Salmon HVAC Logo" width="40" height="40" loading="lazy">
           <span class="logo-text">Salmon <span>HVAC</span></span>
         </a>
         <p>Northern Utah's most trusted HVAC professionals since 1979. Family-owned, community-focused, and committed to your comfort.</p>
       </div>
 
       <div class="footer-links-section">
-        <h4>Services</h4>
+        <h3>Services</h3>
         <ul class="footer-links">
           <li><a href="/services/emergency-hvac/">Emergency HVAC</a></li>
           <li><a href="/services/ac-repair/">AC Repair</a></li>
@@ -679,7 +679,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
 
       <div class="footer-links-section">
-        <h4>Service Areas</h4>
+        <h3>Service Areas</h3>
         <ul class="footer-links">
           <li><a href="/areas/centerville-ut/">Centerville, UT</a></li>
           <li><a href="/areas/bountiful-ut/">Bountiful, UT</a></li>
@@ -709,7 +709,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
 
       <div class="footer-contact">
-        <h4>Contact Us</h4>
+        <h3>Contact Us</h3>
         <div class="footer-contact-item">
           <i class="fas fa-paper-plane" aria-hidden="true"></i>
           <a href="/contact/">Send Us a Message</a>

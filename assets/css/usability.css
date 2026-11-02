@@ -312,7 +312,7 @@
   }
 
   .mobile-action-call { color: var(--brand-ice); }
-  .mobile-action-quote { background: var(--brand-magenta); color: #fff; }
+  .mobile-action-quote { background: var(--brand-magenta-cta); color: #fff; }
 
   .service-paths-section { padding: 56px 0; }
   .service-paths-section .section-header { margin-bottom: 32px; }
