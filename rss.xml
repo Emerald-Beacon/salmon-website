@@ -6,7 +6,7 @@
   <atom:link href="https://salmonhvac.com/sitemap.rss" rel="self" type="application/rss+xml" />
   <description>HVAC tips, rebate guides, repair advice, and equipment resources for Utah homeowners from Salmon HVAC.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 03 Nov 2026 18:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 05 Nov 2026 18:00:00 GMT</lastBuildDate>
   <item>
     <title>Commercial No-Heat Emergencies: A Northern Utah Facility Manager’s Cold-Snap Plan</title>
     <link>https://salmonhvac.com/blog/commercial-no-heat-emergencies-utah/</link>
@@ -1270,6 +1270,14 @@
     <description>A little frost on your outdoor heat pump is normal in a Utah winter — a block of ice isn&apos;t. Why heat pumps freeze up, safe DIY fixes, and when to call a pro.</description>
     <pubDate>Tue, 03 Nov 2026 18:00:00 GMT</pubDate>
     <enclosure url="https://salmonhvac.com/assets/images/blog/wordpress/2026/03/high-efficiency-hvac-outdoor-unit-logos-removed-2026-01-08-22-54-39-utc.webp" type="image/jpeg" />
+  </item>
+  <item>
+    <title>Dry Winter Air in Utah Homes: Whole-House vs. Portable Humidifiers</title>
+    <link>https://salmonhvac.com/blog/whole-house-vs-portable-humidifier-utah/</link>
+    <guid isPermaLink="true">https://salmonhvac.com/blog/whole-house-vs-portable-humidifier-utah/</guid>
+    <description>Utah winter air is brutally dry. Compare whole-house vs. portable humidifiers on cost, coverage, and upkeep to pick the right fix for your Northern Utah home.</description>
+    <pubDate>Thu, 05 Nov 2026 18:00:00 GMT</pubDate>
+    <enclosure url="https://salmonhvac.com/assets/images/AdobeStock_201003996.jpeg" type="image/jpeg" />
   </item>
 </channel>
 </rss>
