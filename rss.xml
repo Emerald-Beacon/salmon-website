@@ -6,7 +6,7 @@
   <atom:link href="https://salmonhvac.com/sitemap.rss" rel="self" type="application/rss+xml" />
   <description>HVAC tips, rebate guides, repair advice, and equipment resources for Utah homeowners from Salmon HVAC.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 05 Nov 2026 18:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 10 Nov 2026 18:00:00 GMT</lastBuildDate>
   <item>
     <title>Commercial No-Heat Emergencies: A Northern Utah Facility Manager’s Cold-Snap Plan</title>
     <link>https://salmonhvac.com/blog/commercial-no-heat-emergencies-utah/</link>
@@ -1278,6 +1278,14 @@
     <description>Utah winter air is brutally dry. Compare whole-house vs. portable humidifiers on cost, coverage, and upkeep to pick the right fix for your Northern Utah home.</description>
     <pubDate>Thu, 05 Nov 2026 18:00:00 GMT</pubDate>
     <enclosure url="https://salmonhvac.com/assets/images/AdobeStock_201003996.jpeg" type="image/jpeg" />
+  </item>
+  <item>
+    <title>Single-Zone vs. Multi-Zone Mini-Splits: Which Ductless Setup Fits Your Utah Home</title>
+    <link>https://salmonhvac.com/blog/single-zone-vs-multi-zone-mini-split-utah/</link>
+    <guid isPermaLink="true">https://salmonhvac.com/blog/single-zone-vs-multi-zone-mini-split-utah/</guid>
+    <description>Single-zone or multi-zone mini-split? Compare cost, efficiency, and reliability to pick the right ductless setup for your Northern Utah home — room by room.</description>
+    <pubDate>Tue, 10 Nov 2026 18:00:00 GMT</pubDate>
+    <enclosure url="https://salmonhvac.com/assets/images/blog/wordpress/2026/07/ductless-mini-split-indoor-unit-utah.jpg" type="image/jpeg" />
   </item>
 </channel>
 </rss>
