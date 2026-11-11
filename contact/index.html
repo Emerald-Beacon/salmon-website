@@ -381,24 +381,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
             </div>
 
-            <div class="form-group">
-              <label for="contact-service">Service Needed</label>
-              <select id="contact-service" name="service">
-                <option value="" disabled selected>Select a service&hellip;</option>
-                <option value="ac-repair">AC Repair</option>
-                <option value="ac-installation">AC Installation</option>
-                <option value="ac-maintenance">AC Maintenance / Tune-Up</option>
-                <option value="furnace-repair">Furnace Repair</option>
-                <option value="furnace-installation">Furnace Installation</option>
-                <option value="heat-pump">Heat Pump Services</option>
-                <option value="ductless-mini-split">Ductless Mini-Split</option>
-                <option value="vrf-systems">VRF Systems</option>
-                <option value="commercial-hvac">Commercial HVAC</option>
-                <option value="indoor-air-quality">Indoor Air Quality</option>
-                <option value="emergency">Emergency Service</option>
-                <option value="other">Other / Not Sure</option>
-              </select>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-zip">ZIP Code <span aria-hidden="true">*</span></label>
+                <input
+                  type="text"
+                  id="contact-zip"
+                  name="zip"
+                  placeholder="84014"
+                  required
+                  inputmode="numeric"
+                  pattern="[0-9]{5}"
+                  maxlength="5"
+                  autocomplete="postal-code"
+                  title="Enter your 5-digit ZIP code"
+                >
+              </div>
+              <div class="form-group">
+                <label for="contact-service">Service Needed</label>
+                <select id="contact-service" name="service">
+                  <option value="" disabled selected>Select a service&hellip;</option>
+                  <option value="ac-repair">AC Repair</option>
+                  <option value="ac-installation">AC Installation</option>
+                  <option value="ac-maintenance">AC Maintenance / Tune-Up</option>
+                  <option value="furnace-repair">Furnace Repair</option>
+                  <option value="furnace-installation">Furnace Installation</option>
+                  <option value="heat-pump">Heat Pump Services</option>
+                  <option value="ductless-mini-split">Ductless Mini-Split</option>
+                  <option value="vrf-systems">VRF Systems</option>
+                  <option value="commercial-hvac">Commercial HVAC</option>
+                  <option value="indoor-air-quality">Indoor Air Quality</option>
+                  <option value="emergency">Emergency Service</option>
+                  <option value="other">Other / Not Sure</option>
+                </select>
+              </div>
             </div>
+            <p class="form-hint">Your ZIP code lets us confirm we serve your area and route your request to the right crew.</p>
 
             <div class="form-group">
               <label for="contact-message">Message <span aria-hidden="true">*</span></label>
