@@ -30,6 +30,8 @@ const SKIP_DIRS = new Set([
   "tmp",
 ]);
 const NOINDEX_PATHS = new Set(["/thank-you/", "/commercial-portfolio/"]);
+// Private tech bio pages (/tech/<slug>/) are unlisted and noindex: never in the sitemap.
+const NOINDEX_PREFIXES = ["/tech/"];
 
 // Priority and changefreq rules based on URL depth/type
 function getMeta(urlPath) {
@@ -90,7 +92,7 @@ const urls = unique
     const urlPath = rel === "index.html" ? "/" : "/" + rel.replace(/index\.html$/, "");
     return { file, urlPath };
   })
-  .filter(({ urlPath }) => !NOINDEX_PATHS.has(urlPath))
+  .filter(({ urlPath }) => !NOINDEX_PATHS.has(urlPath) && !NOINDEX_PREFIXES.some((p) => urlPath.startsWith(p)))
   .sort((a, b) => a.urlPath.localeCompare(b.urlPath))
   .map(({ file, urlPath }) => {
     const { priority, changefreq } = getMeta(urlPath);

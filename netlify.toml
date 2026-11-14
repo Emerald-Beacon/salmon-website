@@ -137,6 +137,13 @@
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     Cross-Origin-Opener-Policy = "same-origin-allow-popups"
 
+# Private tech bio pages: keep out of search even if a link gets shared publicly.
+# Do NOT block /tech/ in robots.txt, or Google cannot see the noindex.
+[[headers]]
+  for = "/tech/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
 [[headers]]
   for = "/assets/images/*"
   [headers.values]

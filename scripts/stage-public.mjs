@@ -24,6 +24,7 @@ const PUBLIC_DIRS = [
   "our-team",
   "privacy-policy",
   "services",
+  "tech",
   "terms-of-service",
   "thank-you",
 ];

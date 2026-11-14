@@ -1,0 +1,44 @@
+/* Salmon HVAC - private technician bio pages (/tech/<slug>/)
+   Phone-first, single column. Brand tokens copied from style.css. */
+:root{--magenta:#e56cc3;--magenta-cta:#ad428d;--magenta-cta-hover:#96397a;--ice:#98f2ff;--ice-text:#0e6f82;--dark:#0d0d0d;--surface:#ffffff;--bg:#f8f8f8;--muted:#f0f0f0;--text:#1a1a1a;--text-med:#555;--border:#e4e4e4;--grad:linear-gradient(135deg,#e56cc3 0%,#98f2ff 100%)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.6;color:var(--text);background:var(--bg);font-size:16px;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:Rajdhani,Arial,sans-serif;font-weight:700;line-height:1.15}
+img{max-width:100%;display:block}
+a{color:var(--magenta-cta)}
+.wrap{max-width:560px;margin:0 auto;padding:0 18px}
+.top{background:var(--dark);color:#fff}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.top img{height:36px;width:auto}
+.top a.phone{color:#fff;text-decoration:none;font-weight:600;font-size:15px}
+.hero{background:var(--dark);color:#fff;padding:8px 0 28px;text-align:center}
+.photo{width:168px;height:168px;border-radius:50%;margin:12px auto 16px;padding:4px;background:var(--grad)}
+.photo img,.photo .ph{width:100%;height:100%;border-radius:50%;object-fit:cover;background:#242424}
+.photo .ph{display:flex;align-items:center;justify-content:center;font-family:Rajdhani,Arial,sans-serif;font-size:56px;color:var(--ice)}
+.hero h1{font-size:38px}
+.hero .role{color:rgba(255,255,255,.75);font-size:16px;margin-top:2px}
+.facts{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:18px}
+.fact{border:1px solid rgba(152,242,255,.45);color:var(--ice);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600}
+section{background:var(--surface);border-radius:14px;padding:22px 20px;margin:16px 0;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+section h2{font-size:24px;margin-bottom:10px}
+.intro p+p{margin-top:10px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:var(--muted);border-radius:8px;padding:6px 12px;font-size:14px;font-weight:600}
+.certs li{list-style:none;padding:6px 0;border-bottom:1px solid var(--border);font-size:15px}
+.certs li:last-child{border-bottom:0}
+.review{border-left:4px solid var(--magenta);padding:4px 0 4px 14px;margin:14px 0}
+.review .stars{color:#f5a623;letter-spacing:2px;font-size:15px}
+.review blockquote{font-size:15px;margin:4px 0}
+.review .who{color:var(--text-med);font-size:13px}
+.trust{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.trust div{background:var(--muted);border-radius:10px;padding:12px;font-size:13px;color:var(--text-med)}
+.trust strong{display:block;font-family:Rajdhani,Arial,sans-serif;font-size:20px;color:var(--text)}
+.cta{display:grid;gap:10px;margin:20px 0}
+.btn{display:block;text-align:center;text-decoration:none;font-weight:700;border-radius:10px;padding:15px;font-size:17px}
+.btn-primary{background:var(--magenta-cta);color:#fff}
+.btn-primary:hover{background:var(--magenta-cta-hover)}
+.btn-secondary{background:#fff;color:var(--text);border:2px solid var(--text)}
+.book{text-align:center;font-size:14px}
+footer{color:var(--text-med);font-size:13px;text-align:center;padding:10px 0 36px}
+footer p+p{margin-top:6px}
+.todo{background:#fff6d6;border:1px dashed #d9a400;border-radius:4px;padding:0 4px}
